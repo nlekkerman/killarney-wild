@@ -22,7 +22,7 @@ body {
 h1 {
     font-family: 'Acme', sans-serif;
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     /* Add more styles as needed */
 }
 
@@ -56,6 +56,34 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adjust the shadow as needed */
 }
 
+/*nav styles*/
+nav {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #333; /* Set your desired link color */
+ 
+    font-size: 16px;
+    transition: color 0.3s ease; /* Add a smooth color transition on hover */
+
+}
+
+a:hover {
+    color: #3498db; /* Set your desired hover color */
+}
 
 
 
