@@ -194,9 +194,59 @@ main {
     flex: 1;
 
 }
-.main-content-container {
+#main-content-container {
     flex-grow: 1; /* This makes it expand to fill the available space */
     /* Add other styles as needed */
+}
+
+#main-content-container h2{
+    background-color: palevioletred;
+    margin-top: 30px;
+    width: 70%;
+}
+#spotted {
+    height: 100%;
+    width: 100%;
+  margin-top: 30px;
+  background: url('../images/vegetation-img.jpg')no-repeat center center/cover;
+flex-direction: column;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333; /* Set your text color */
+
+}
+#spotted-div{
+  
+  margin-top: 30px;
+flex-direction: column;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+#main-content-container i{
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+#spotted h2 {
+    font-size: 2rem;
+}
+#spotted-text{
+    color: white;
+    padding: 15px;
+    border-bottom: 1px solid wheat;
+    width: 70%; /* Set the width to 70% */
+
+}
+#spotted h5{
+    color: white;
+
 }
 
 /*footer*/
