@@ -310,11 +310,14 @@ main {
     margin-top: 30px;
 }
 #wildlife #wild-life-title{
-    background-color: rgba(107, 199, 241, 0.5);
+    background-color: rgba(48, 116, 3, 0.2);
+    padding: 10px 20px;
+    width: 70%;
 }
-#wildlife-container #wildlife-line-one {
+#wildlife-container #wildlife-line-one div {
     display: flex;
     flex-wrap: wrap;
+    flex: 1;
     width: 100%;
     
 }
@@ -329,7 +332,7 @@ main {
 
 .animal img {
     width: 100%; /* Make sure the image fills the entire width of its parent div */
-    height: auto; /* Maintain the image's aspect ratio */
+    height: 400px; /* Maintain the image's aspect ratio */
 }
 
 /* Optional: Style the text inside the divs */
