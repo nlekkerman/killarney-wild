@@ -432,12 +432,12 @@ main {
 }
 
 #toggleCheckbox:checked~#wild-life-title h2::before {
-    content: 'CLOSE ';
-
+    content: ' X CLOSE ';
+text-decoration: underline;
     display: flex;
-    justify-content: flex-start;
+    justify-content: flex-end;
     /* Align to the left side */
-    padding-right: 20%;
+    padding-right: 5%;
     /* Leave 20% space on the right */
 }
 
