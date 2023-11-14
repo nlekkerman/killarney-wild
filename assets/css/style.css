@@ -212,6 +212,7 @@ main {
     background-color: palevioletred;
     margin-top: 30px;
     width: 70%;
+    padding-left: 5px;
 }
 
 #spotted {
@@ -270,11 +271,13 @@ main {
 
 /*break theme*/
 .image-container {
-    margin-top: 20px;
     display: flex;
     overflow: hidden;
+    margin: 10px;
     border-radius: 15px;
-    border-top-right-radius: 15px;
+   
+    margin-top: 20px;
+
 }
 
 .image-container img {
@@ -328,9 +331,7 @@ main {
 #wildlife-container #wildlife-line-one div {
     color: #ffffff;
     display: flex;
-    background-color: lavender;
-    background-color: rgba(1, 69, 35, 0.2);
-
+    background-color: rgba(1, 69, 35, 0.6);
     font-weight: 600;
     flex-wrap: wrap;
     flex: 1;
@@ -340,18 +341,39 @@ main {
 #wildlife-container #wildlife-line-two div {
     color: #ffffff;
     display: flex;
-    background-color: lavender;
-    background-color: rgba(1, 69, 35, 0.2);
-
+    background-color: rgba(1, 69, 35, 0.6);
     font-weight: 600;
     flex-wrap: wrap;
     flex: 1;
     width: 100%;
 
 }
-#middle-p{
-    padding: 5px;
+#wildlife-container #wildlife-line-one #middle-p{
+  
     font-size: 1rem;
+    background-color: rgba(219, 112, 147, 0.8);
+    border-radius: 15px;
+    border: 1px solid #fbfafa;
+    padding: 15px; /* Adjust the value as needed */
+    width: 90%;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 30px;
+
+
+}
+
+#wildlife-container #wildlife-line-two #middle-p{
+    font-size: 1rem;
+    background-color: rgba(219, 112, 147, 0.8);
+    border-radius: 15px;
+    border: 1px solid #fbfafa;
+    padding: 15px; /* Adjust the value as needed */
+    width: 90%;
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 30px;
+
+}
+#wildlife-line-one #middle-p-text{
 
 }
 #middle-p h2{
@@ -361,14 +383,21 @@ main {
 }
 
 .animal {
+   
 
     box-sizing: border-box;
     width: 100%;
-    /* Set div width to 100% of the container */
     margin-bottom: 80px;
 
 }
-
+#wildlife-line-one #animal-paragraph{
+    padding: 5px;
+    font-size: 1rem;
+}
+#wildlife-line-two #animal-paragraph{
+    padding: 5px;
+    font-size: 1rem;
+}
 .animal img {
     width: 100%;
     /* Make sure the image fills the entire width of its parent div */
