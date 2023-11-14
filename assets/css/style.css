@@ -704,7 +704,28 @@ color: #fff;
   input[type="submit"]:hover {
     background-color: #0056b3;
   }
+
+  /*gallery styling*/
+  /* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    height: 300px;
+}
+
+#photos {
+    line-height: 0;
+    margin-top: auto;
+}
+#gallery-title{
+    background: url('../images/gallery-background-img.jpg') no-repeat center center/cover;
+color: #fff;
+
+ padding: 10px;
+    margin-bottom: 10px;
+}
 /*
+<a href="https://www.freepik.com/free-ai-image/vibrant-daisy-blossom-tranquil-meadow-sunset-generated-by-ai_42735337.htm#fromView=search&term=nature&page=2&position=26&track=ais_ai_generated&regularType=ai">Image By vecstock</a>
 <a href="https://www.freepik.com/free-ai-image/abstract-creative-3d-sphere-with-vegetation_72442070.htm#fromView=search&term=fern&page=1&position=32&track=ais_ai_generated&regularType=ai">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/standing-backpacker-mountain-peak-achieving-success-generated-by-ai_43018009.htm#fromView=search&term=explore&page=1&position=3&track=ais_ai_generated&regularType=ai">Image By stockgiu</a>
 <a href="https://www.freepik.com/free-vector/forest-animals-color-set-with-isolated-images-small-big-wild-animals-with-flowers-leaves-vector-illustration_26762879.htm#page=2&query=animals%20pictograms&position=6&from_view=search&track=ais">Image by macrovector</a> on Freepik
