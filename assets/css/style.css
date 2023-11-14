@@ -267,6 +267,7 @@ main {
     color: white;
 
 }
+
 /*break theme*/
 .image-container {
     margin-top: 20px;
@@ -295,6 +296,7 @@ main {
     color: white;
     z-index: 1;
 }
+
 /*wild life styles */
 
 #wildlife-container {
@@ -303,42 +305,82 @@ main {
     width: 100%;
     margin-top: 10px;
 }
+
 #wildlife {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30px;
+    background-size: 100px; /* Adjust the percentage as needed */
+
+    background: url('../images/wildlife-background-img.jpg') repeat center center/cover;
+
 }
-#wildlife #wild-life-title{
-    background-color: rgba(48, 116, 3, 0.2);
+
+#wildlife #wild-life-title {
     padding: 10px 20px;
+    background-color: rgba(1, 69, 35, 0.2);
     width: 70%;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
+
 #wildlife-container #wildlife-line-one div {
+    color: #ffffff;
     display: flex;
+    background-color: lavender;
+    background-color: rgba(1, 69, 35, 0.2);
+
+    font-weight: 600;
     flex-wrap: wrap;
     flex: 1;
     width: 100%;
-    
+
+}
+#wildlife-container #wildlife-line-two div {
+    color: #ffffff;
+    display: flex;
+    background-color: lavender;
+    background-color: rgba(1, 69, 35, 0.2);
+
+    font-weight: 600;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+
+}
+#middle-p{
+    padding: 5px;
+    font-size: 1rem;
+
+}
+#middle-p h2{
+    padding: 5px;
+    font-size: 1.5rem;
+
 }
 
 .animal {
-   
+
     box-sizing: border-box;
-    width: 100%; /* Set div width to 100% of the container */
-   
-    margin: 10px; /* Add some margin for spacing */
+    width: 100%;
+    /* Set div width to 100% of the container */
+    margin-bottom: 80px;
+
 }
 
 .animal img {
-    width: 100%; /* Make sure the image fills the entire width of its parent div */
-    height: 400px; /* Maintain the image's aspect ratio */
+    width: 100%;
+    /* Make sure the image fills the entire width of its parent div */
+    height: 400px;
+    /* Maintain the image's aspect ratio */
 }
 
 /* Optional: Style the text inside the divs */
 .animal h2 {
-    font-size: 1.2em;
+    font-size: 2rem;
     margin-bottom: 10px;
+    margin-left: 5px;
 }
 
 .animal p {
@@ -351,6 +393,7 @@ main {
 
 /*footer*/
 #footer-links {
+    background-color: rgba(115, 154, 173, 0.2);
     text-align: center;
     padding: 20px 0;
     z-index: 100;
@@ -368,5 +411,7 @@ main {
 
 
 /*
+
+<a href="https://www.freepik.com/free-vector/forest-animals-color-set-with-isolated-images-small-big-wild-animals-with-flowers-leaves-vector-illustration_26762879.htm#page=2&query=animals%20pictograms&position=6&from_view=search&track=ais">Image by macrovector</a> on Freepik
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
 */
