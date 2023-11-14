@@ -325,8 +325,8 @@ main {
 #wildlife #wild-life-title {
     padding: 10px 0px 5px 10px;
     color: #ffffff;
-    background: url('../images/vegetation-img.jpg') no-repeat center center/cover;
-    background-color: rgba(236, 135, 198, 0.2);
+    background: url('../images/wildlife-background-img.jpg') no-repeat center center/cover;
+    background-color: rgba(236, 135, 198, 0.5);
     width: 100%;
     height: 300px;
 
@@ -393,32 +393,26 @@ main {
 }
 
 #toggleCheckbox:checked~#wild-life-title h2::before {
-    font-weight: 300;
-    font-size: 20px;
     content: 'CLOSE ';
-    margin-left: 250px;
-    text-decoration: underline;
-    right: 10px;
-    /* Adjust the right distance as needed */
 
-
+    display: flex;
+    justify-content: flex-start;
+    /* Align to the left side */
+    padding-right: 20%;
+    /* Leave 20% space on the right */
 }
 
 #toggleCheckbox:not(:checked)~#wild-life-title h2::before {
     content: 'WILD LIFE ';
+    background-color: rgba(4, 101, 2, 0.3);
+    display: flex;
+    width: 100%;
+    padding-left: 10px;
+    margin-left: 100px;
 }
 
-#close {
-    display: block; /* Hide the paragraph by default */
-}
 
-#toggleCheckbox:checked ~ #wild-life-title h2 #title-paragrah {
-    display: none; /* Hide the title paragraph when the toggle is checked */
-}
 
-#toggleCheckbox:checked ~ #wild-life-title h2 #close {
-    display: block; /* Display the "close" paragraph when the toggle is checked */
-}
 
 #wildlife-container #wildlife-line-one div {
     color: #ffffff;
@@ -472,7 +466,7 @@ main {
 
 }
 
-#wildlife-line-one #middle-p-text {}
+
 
 #middle-p h2 {
     padding: 5px;
@@ -519,7 +513,50 @@ main {
 }
 
 
+/* Styles for the Ways to Explore Section */
+#ways-to-explore {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    /* Adjusted to a column layout */
+    gap: 0;
+    color: #fbfafa;
+    background: url('../images/explore-background-img.jpg') no-repeat center center/cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Added padding for better spacing */
+}
 
+/* Styles for Each Explore Item */
+.explore-item {
+    flex: 1;
+    margin-top: 10px;
+    background-color: rgba(0, 11, 0, 0.3);
+
+}
+.fa-icon {
+    font-size: 1.5rem;
+  margin-left: 200px;
+  padding: 10 px;
+  }
+/* Styles for Explore Title */
+.explore-title {
+    font-size: 1.5rem;
+    color: #fbfafa;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    padding-left: 5px;
+    background-color: rgba(2, 51, 1, 0.3);
+
+
+}
+
+/* Styles for Explore Text */
+.explore-text {
+    font-size: 1rem;
+    color: #fbfafa;
+    padding: 10px 5px;
+}
 
 /*footer*/
 #footer-links {
@@ -541,7 +578,7 @@ main {
 
 
 /*
-
+<a href="https://www.freepik.com/free-ai-image/standing-backpacker-mountain-peak-achieving-success-generated-by-ai_43018009.htm#fromView=search&term=explore&page=1&position=3&track=ais_ai_generated&regularType=ai">Image By stockgiu</a>
 <a href="https://www.freepik.com/free-vector/forest-animals-color-set-with-isolated-images-small-big-wild-animals-with-flowers-leaves-vector-illustration_26762879.htm#page=2&query=animals%20pictograms&position=6&from_view=search&track=ais">Image by macrovector</a> on Freepik
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
 */
