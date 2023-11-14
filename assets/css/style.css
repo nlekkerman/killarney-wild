@@ -564,6 +564,11 @@ main {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     /* Added padding for better spacing */
 }
+#ways-to-explore h2{
+   
+    color: #333;
+  
+}
 
 /* Styles for Each Explore Item */
 .explore-item {
@@ -624,15 +629,17 @@ main {
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
-        padding: 20px;
+        padding: 5px;
         margin-bottom: 10px;
         overflow: hidden; /* Ensure child elements respect the border-radius */
       }
-  
+      #map-section.zoomed {
+        transform: scale(1.2); /* Adjust the scale factor for the desired zoom level */
+      }
       #map {
         width: 100%;
         max-width: 600px; /* Adjust the max-width as needed */
-        height: 300px; /* Adjust the height as needed */
+        height: 200px; /* Adjust the height as needed */
         border: 1px solid #333;
         border-radius: 10px; /* Rounded border */
 
