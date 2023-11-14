@@ -275,7 +275,7 @@ main {
     overflow: hidden;
     margin: 10px;
     border-radius: 15px;
-   
+
     margin-top: 20px;
 
 }
@@ -307,6 +307,7 @@ main {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 10px;
+    display: none;
 }
 
 #wildlife {
@@ -314,19 +315,76 @@ main {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30px;
-    background-size: 100px; /* Adjust the percentage as needed */
+    background-size: 100px;
+    /* Adjust the percentage as needed */
 
     background: url('../images/wildlife-background-img.jpg') repeat center center/cover;
 
 }
 
 #wildlife #wild-life-title {
-    padding: 10px 20px;
-    background-color: rgba(1, 69, 35, 0.2);
-    width: 70%;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    padding: 10px 0px 5px 10px;
+    color: #ffffff;
+    background: url('../images/vegetation-img.jpg') no-repeat center center/cover;
+    background-color: rgba(236, 135, 198, 0.2);
+    width: 100%;
+    height: 300px;
+   
 }
+#wild-life-title h2 p {
+    font-size: 1rem;
+    color: #ffffff; /* Change the color to your desired color */
+    margin-top: 200px;
+    background-color: rgba(236, 135, 198, 0.4);
+    padding: 10px;
+
+}
+
+#wildlife #wild-life-title label {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#wildlife-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    display: none;
+}
+
+#wildlife #wild-life-title #wild-life-title-text {
+    padding: 10px 5px;
+    color: #ffffff;
+    background-color: rgba(219, 112, 147, 0.3);
+    margin-bottom: 20px;
+    margin-left: 0; /* Align to the far left */
+    
+   
+}
+/*wild life toggle*/
+#toggleCheckbox {
+    display: none;
+}
+
+#toggleCheckbox:checked + #wild-life-title {
+    background-color: rgba(219, 112, 147, 0.3);
+    background-image: none; /* Hide the background image */
+    height: 100px;
+    margin-bottom: 0;
+}
+
+#toggleCheckbox:checked + #wild-life-title + #wildlife-container {
+    display: block;
+    margin-top: 0px; /* Adjust the value as needed */
+
+}
+#toggleCheckbox:checked + #wild-life-title {
+    
+    display: block;
+}
+
 
 #wildlife-container #wildlife-line-one div {
     color: #ffffff;
@@ -338,6 +396,7 @@ main {
     width: 100%;
 
 }
+
 #wildlife-container #wildlife-line-two div {
     color: #ffffff;
     display: flex;
@@ -348,60 +407,68 @@ main {
     width: 100%;
 
 }
-#wildlife-container #wildlife-line-one #middle-p{
-  
+
+#wildlife-container #wildlife-line-one #middle-p {
+
     font-size: 1rem;
     background-color: rgba(219, 112, 147, 0.8);
     border-radius: 15px;
     border: 1px solid #fbfafa;
-    padding: 15px; /* Adjust the value as needed */
+    padding: 15px;
+    /* Adjust the value as needed */
     width: 90%;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
+    /* Center horizontally */
     margin-bottom: 30px;
 
 
 }
 
-#wildlife-container #wildlife-line-two #middle-p{
+#wildlife-container #wildlife-line-two #middle-p {
     font-size: 1rem;
     background-color: rgba(219, 112, 147, 0.8);
     border-radius: 15px;
     border: 1px solid #fbfafa;
-    padding: 15px; /* Adjust the value as needed */
+    padding: 15px;
+    /* Adjust the value as needed */
     width: 90%;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
+    /* Center horizontally */
     margin-bottom: 30px;
 
 }
-#wildlife-line-one #middle-p-text{
 
-}
-#middle-p h2{
+#wildlife-line-one #middle-p-text {}
+
+#middle-p h2 {
     padding: 5px;
     font-size: 1.5rem;
 
 }
 
 .animal {
-   
+
 
     box-sizing: border-box;
     width: 100%;
     margin-bottom: 80px;
 
 }
-#wildlife-line-one #animal-paragraph{
+
+#wildlife-line-one #animal-paragraph {
     padding: 5px;
     font-size: 1rem;
 }
-#wildlife-line-two #animal-paragraph{
+
+#wildlife-line-two #animal-paragraph {
     padding: 5px;
     font-size: 1rem;
 }
+
 .animal img {
     width: 100%;
     /* Make sure the image fills the entire width of its parent div */
-    height: 400px;
+    height: 350px;
     /* Maintain the image's aspect ratio */
 }
 
