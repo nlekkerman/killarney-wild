@@ -615,33 +615,28 @@ main {
     color: #333;
 }
 
- /* Styles for the Leave Impression Section */
- #leave-impression {
-    max-width: 800px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-  }
+ 
+    /* Your existing styles go here */
 
-  /* Styles for the Title */
-  #impression-title {
-    font-size: 24px;
-    color: #333;
-    margin-bottom: 20px;
-  }
+    #map-section {
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px;
+        margin-bottom: 10px;
+        overflow: hidden; /* Ensure child elements respect the border-radius */
+      }
+  
+      #map {
+        width: 100%;
+        max-width: 600px; /* Adjust the max-width as needed */
+        height: 300px; /* Adjust the height as needed */
+        border: 1px solid #333;
+        border-radius: 10px; /* Rounded border */
 
-  /* Styles for the Link to the Form */
-  #form-link {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-  }
+      }
 
   /* Styles for the Impression Form */
 #impression-form {
