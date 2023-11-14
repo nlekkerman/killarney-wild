@@ -329,11 +329,13 @@ main {
     background-color: rgba(236, 135, 198, 0.2);
     width: 100%;
     height: 300px;
-   
+
 }
+
 #wild-life-title h2 p {
     font-size: 1rem;
-    color: #ffffff; /* Change the color to your desired color */
+    color: #ffffff;
+    /* Change the color to your desired color */
     margin-top: 200px;
     background-color: rgba(236, 135, 198, 0.4);
     padding: 10px;
@@ -359,32 +361,64 @@ main {
     color: #ffffff;
     background-color: rgba(219, 112, 147, 0.3);
     margin-bottom: 20px;
-    margin-left: 0; /* Align to the far left */
-    
-   
+    margin-left: 0;
+    /* Align to the far left */
+
+
 }
+
 /*wild life toggle*/
 #toggleCheckbox {
     display: none;
 }
 
-#toggleCheckbox:checked + #wild-life-title {
+#toggleCheckbox:checked+#wild-life-title {
     background-color: rgba(219, 112, 147, 0.3);
-    background-image: none; /* Hide the background image */
-    height: 100px;
+    background-image: none;
+    /* Hide the background image */
+    height: 50px;
     margin-bottom: 0;
 }
 
-#toggleCheckbox:checked + #wild-life-title + #wildlife-container {
+#toggleCheckbox:checked+#wild-life-title+#wildlife-container {
     display: block;
-    margin-top: 0px; /* Adjust the value as needed */
+    margin-top: 0px;
+    /* Adjust the value as needed */
 
 }
-#toggleCheckbox:checked + #wild-life-title {
-    
+
+#toggleCheckbox:checked+#wild-life-title {
+
     display: block;
 }
 
+#toggleCheckbox:checked~#wild-life-title h2::before {
+    font-weight: 300;
+    font-size: 20px;
+    content: 'CLOSE ';
+    margin-left: 250px;
+    text-decoration: underline;
+    right: 10px;
+    /* Adjust the right distance as needed */
+
+
+}
+
+#toggleCheckbox:not(:checked)~#wild-life-title h2::before {
+    content: 'WILD LIFE ';
+}
+
+#close {
+    display: block; /* Hide the paragraph by default */
+}
+
+#toggleCheckbox:checked ~ #wild-life-title h2 #title-paragrah {
+    display: none; /* Hide the title paragraph when the toggle is checked */
+}
+
+#toggleCheckbox:checked ~ #wild-life-title h2 #close {
+    display: block; /* Display the "close" paragraph when the toggle is checked */
+}
 
 #wildlife-container #wildlife-line-one div {
     color: #ffffff;
