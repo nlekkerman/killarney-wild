@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impression Form</title>
+  <link rel="stylesheet" href="assets\css\style.css">
+
+</head>
+<body >
+
+
+    <header>
+
+        <a href="index.html">
+            <h1 id="logo">KILLARNEY WILD</h1>
+        </a>
+
+        <input type="checkbox" id="nav-toggle-form" name="nav-toggle-form">
+        <label for="nav-toggle-form" class="nav-toggle-label-form">
+        
+
+            </i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#impressions">Impressions</a></li>
+                <li><a href="#signup">Sign Up</a></li>
+
+            </ul>
+        </nav>
+    </header>
+<main>
+  <!-- Impression Form Section -->
+  <section id="impression-form">
+    <h2>Leave Impression</h2>
+    <form action="#" method="post"> <!-- Replace "#" with your form submission URL -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="impression">Your Impression:</label>
+      <textarea id="impression" name="impression" rows="4" required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+        <!-- Hidden radio button for redirection -->
+        <input type="radio" id="redirectRadio" name="redirectRadio">
+        <label for="redirectRadio" id="redirectLabel"></label>
+  </section>
+
+
+ 
+</main>
+<footer>
+    <ul id="footer-links">
+        <li>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)">
+                <i class="fa-brands fa-facebook"></i></a>
+        </li>
+        <li>
+            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)">
+                <i class="fa-brands fa-twitter-square"></i></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                aria-label="Visit our YouTube page (opens in a new tab)">
+                <i class="fa-brands fa-youtube-square"></i></a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)">
+                <i class="fa-brands fa-instagram"></i></a>
+        </li>
+    </ul>
+</footer>
+
+<script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-Kz5KGHYu+CXpFnP3J2FdiErMYtdq11yvqP5+ya6rSgJJ5Vp9w4gFA6VBl8wvXyzE2d6qgYh/2AA4JSrLsGvh+YA=="
+    crossorigin="anonymous" />
+</body>
+</html>

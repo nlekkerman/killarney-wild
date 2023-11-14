@@ -166,7 +166,46 @@ a:hover {
     content: 'X';
     /* Font Awesome 'Check' icon */
 }
+/*toggle for form*/
 
+#nav-toggle-form:checked~nav {
+    display: block;
+}
+
+#nav-toggle-form {
+    display: none;
+}
+
+.nav-toggle-label-form {
+    cursor: pointer;
+    position: relative;
+}
+.nav-toggle-label-form::before {
+    content: '\f0c9';
+    /* Font Awesome 'Hamburger' icon */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 1.5rem;
+    color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: transform 0.3s ease;
+    /* Add a smooth transition effect */
+}
+
+/* Change icon when toggle is checked */
+#nav-toggle-form:checked+.nav-toggle-label-form::before {
+    content: 'X';
+    /* Font Awesome 'Check' icon */
+}
+
+/*form background*/
+#form-background-img{
+    width: 100%;
+    height: 100%;
+}
 /*her0*/
 
 #hero {
@@ -576,8 +615,86 @@ main {
     color: #333;
 }
 
+ /* Styles for the Leave Impression Section */
+ #leave-impression {
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
 
+  /* Styles for the Title */
+  #impression-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  /* Styles for the Link to the Form */
+  #form-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+
+  /* Styles for the Impression Form */
+#impression-form {
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    max-width: 400px;
+    background: url('../images/form-background-img.jpg') no-repeat center center/cover;
+color: #fff;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+  }
+  
+  /* Styles for Form Inputs */
+  input, textarea {
+    
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  /* Styles for Submit Button */
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+/* Styles for Redirect Label */
+#redirectLabel {
+    display: none;
+  }
+  
+  /* Redirect logic when the radio button is checked */
+  #redirectRadio:checked + #redirectLabel {
+    content: url("../index.html"); /* Replace "index.html" with your actual redirection URL */
+  }
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
 /*
+<a href="https://www.freepik.com/free-ai-image/abstract-creative-3d-sphere-with-vegetation_72442070.htm#fromView=search&term=fern&page=1&position=32&track=ais_ai_generated&regularType=ai">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/standing-backpacker-mountain-peak-achieving-success-generated-by-ai_43018009.htm#fromView=search&term=explore&page=1&position=3&track=ais_ai_generated&regularType=ai">Image By stockgiu</a>
 <a href="https://www.freepik.com/free-vector/forest-animals-color-set-with-isolated-images-small-big-wild-animals-with-flowers-leaves-vector-illustration_26762879.htm#page=2&query=animals%20pictograms&position=6&from_view=search&track=ais">Image by macrovector</a> on Freepik
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
