@@ -154,11 +154,12 @@ a:hover {
     font-size: 24px;
     color: #333;
     position: absolute;
-    top: calc(50% - 7px); /* Move 5px up */
+    top: calc(50% - 7px);
+    /* Move 5px up */
     left: 50%;
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease;
-    
+
     /* Add a smooth transition effect */
 }
 
@@ -167,6 +168,7 @@ a:hover {
     content: 'X';
     /* Font Awesome 'Check' icon */
 }
+
 /*toggle for form*/
 
 #nav-toggle-form:checked~nav {
@@ -181,6 +183,7 @@ a:hover {
     cursor: pointer;
     position: relative;
 }
+
 .nav-toggle-label-form::before {
     content: '\f0c9';
     /* Font Awesome 'Hamburger' icon */
@@ -203,10 +206,11 @@ a:hover {
 }
 
 /*form background*/
-#form-background-img{
+#form-background-img {
     width: 100%;
     height: 100%;
 }
+
 /*her0*/
 
 #hero {
@@ -248,7 +252,7 @@ main {
     /* Add other styles as needed */
 }
 
-#main-content-container h2 {
+#spotted-title h2 {
     background-color: palevioletred;
     margin-top: 30px;
     width: 70%;
@@ -258,7 +262,9 @@ main {
 #spotted {
     height: 100%;
     width: 100%;
+    border-radius: 15px;
     margin-top: 30px;
+    padding-bottom: 30px;
     background: url('../images/vegetation-img.jpg')no-repeat center center/cover;
     flex-direction: column;
     background-position: center;
@@ -279,7 +285,8 @@ main {
     align-items: center;
     justify-content: center;
     color: white;
-    width: 100%;;
+    width: 100%;
+    ;
     border-bottom: 5px solid white;
 }
 
@@ -439,7 +446,7 @@ main {
 
 #toggleCheckbox:checked~#wild-life-title h2::before {
     content: ' X CLOSE ';
-text-decoration: underline;
+    text-decoration: underline;
     display: flex;
     justify-content: flex-end;
     /* Align to the left side */
@@ -451,7 +458,7 @@ text-decoration: underline;
     content: 'WILD LIFE ';
     background-color: rgba(4, 101, 2, 0.3);
     display: flex;
-    max-width:  100%;
+    max-width: 100%;
     padding-left: 10px;
     margin-left: 100px;
 }
@@ -563,18 +570,19 @@ text-decoration: underline;
     max-width: 800px;
     display: flex;
     flex-direction: column;
-  margin-top: 30px;
+    margin-top: 30px;
     gap: 0;
     color: white;
     background: url('../images/explore-background-img.jpg') no-repeat center center/cover;
-  
+
 }
-#ways-to-explore h2{
-   
-margin-bottom: 10px;
+
+#ways-to-explore h2 {
+
+    margin-bottom: 10px;
     color: #333;
 
-  
+
 }
 
 /* Styles for Each Explore Item */
@@ -585,11 +593,13 @@ margin-bottom: 10px;
     background-color: rgba(0, 11, 0, 0.3);
 
 }
+
 .fa-icon {
     font-size: 1.5rem;
-  margin-left: 200px;
-  padding: 10 px;
-  }
+    margin-left: 200px;
+    padding: 10 px;
+}
+
 /* Styles for Explore Title */
 .explore-title {
     font-size: 1.5rem;
@@ -628,97 +638,111 @@ margin-bottom: 10px;
     color: #333;
 }
 
- 
-    /* Your existing styles go here */
-    #map-section {
-        position: relative;
-        flex: 1;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-        flex-direction: row;
-        padding: 5px;
-        margin-bottom: 30px;
-        margin-top: 20px;
-        max-width: 100% ;
-        padding-top: 20px;
-        overflow: hidden; /* Ensure child elements respect the border-radius */
-    }
-    
-    #map-section h2 {
-        font-family: 'Lato', sans-serif;
-        font-weight: 400;
-        font-size: 1rem;
-        position: absolute;
-        left: 10px; /* Adjust this value as needed */
-        top: 0; /* Adjust this value as needed */
-    }
-      #map-section.zoomed {
-        transform: scale(1.2); /* Adjust the scale factor for the desired zoom level */
-      }
-      #map {
-        width: 100%;
-        max-width: 100%; /* Adjust the max-width as needed */
-        height: 200px; /* Adjust the height as needed */
-        border: 1px solid #333;
-        border-radius: 10px; /* Rounded border */
 
-      }
+/* Your existing styles go here */
+#map-section {
+    position: relative;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    padding: 5px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    max-width: 100%;
+    padding-top: 20px;
+    overflow: hidden;
+    /* Ensure child elements respect the border-radius */
+}
 
-  /* Styles for the Impression Form */
+#map-section h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    position: absolute;
+    left: 10px;
+    /* Adjust this value as needed */
+    top: 0;
+    /* Adjust this value as needed */
+}
+
+#map-section.zoomed {
+    transform: scale(1.2);
+    /* Adjust the scale factor for the desired zoom level */
+}
+
+#map {
+    width: 100%;
+    max-width: 100%;
+    /* Adjust the max-width as needed */
+    height: 200px;
+    /* Adjust the height as needed */
+    border: 1px solid #333;
+    border-radius: 10px;
+    /* Rounded border */
+
+}
+
+/* Styles for the Impression Form */
 #impression-form {
     margin-top: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Center vertically */
-    height: 100vh; /* Set the height to 100% of the viewport height */
+    justify-content: center;
+    /* Center vertically */
+    height: 100vh;
+    /* Set the height to 100% of the viewport height */
     max-width: 400px;
     background: url('../images/form-background-img.jpg') no-repeat center center/cover;
-color: #fff;
+    color: #fff;
 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     flex: 1;
-  }
-  
-  /* Styles for Form Inputs */
-  input, textarea {
-    
+}
+
+/* Styles for Form Inputs */
+input,
+textarea {
+
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
     box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
-  }
-  
-  /* Styles for Submit Button */
-  input[type="submit"] {
+}
+
+/* Styles for Submit Button */
+input[type="submit"] {
     background-color: #007bff;
     color: #fff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     cursor: pointer;
-  }
-  
+}
+
 /* Styles for Redirect Label */
 #redirectLabel {
     display: none;
-  }
-  
-  /* Redirect logic when the radio button is checked */
-  #redirectRadio:checked + #redirectLabel {
-    content: url("../index.html"); /* Replace "index.html" with your actual redirection URL */
-  }
-  input[type="submit"]:hover {
-    background-color: #0056b3;
-  }
+}
 
-  /*gallery styling*/
-  /* Gallery page */
+/* Redirect logic when the radio button is checked */
+#redirectRadio:checked+#redirectLabel {
+    content: url("../index.html");
+    /* Replace "index.html" with your actual redirection URL */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/*gallery styling*/
+/* Gallery page */
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -729,13 +753,15 @@ color: #fff;
     line-height: 0;
     margin-top: auto;
 }
-#gallery-title{
-    background: url('../images/gallery-background-img.jpg') no-repeat center center/cover;
-color: #fff;
 
- padding: 10px;
+#gallery-title {
+    background: url('../images/gallery-background-img.jpg') no-repeat center center/cover;
+    color: #fff;
+
+    padding: 10px;
     margin-bottom: 10px;
 }
+
 /*
 <a href="https://www.freepik.com/free-ai-image/wild-elk-nature-with-wilderness-landscape_78536455.htm#fromView=search&term=deer+fight&page=1&position=11&track=ais_ai_generated&regularType=ai">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/vibrant-daisy-blossom-tranquil-meadow-sunset-generated-by-ai_42735337.htm#fromView=search&term=nature&page=2&position=26&track=ais_ai_generated&regularType=ai">Image By vecstock</a>
@@ -748,15 +774,16 @@ color: #fff;
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #wildlife {
-       
-    
+
+
         background: url('../images/explore-background-img.jpg') repeat center center/cover;
-    
+
     }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -770,30 +797,87 @@ color: #fff;
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
     .nav-toggle-label {
         display: none;
     }
-#spotted {
-    height: 120%;
-   display: flex;
-   width: 100%;
- 
-}
-#spotted-text {
-    color: white;
-    display: flex;
-    padding: 15px;
-    border-bottom: 1px solid wheat;
-    background-color: rgba(236, 135, 198, 0.4);
-    width: 100%;
-    font-weight: 600;
 
-    /* Set the width to 70% */
+    #spotted {
+        height: 120%;
+        display: flex;
+        width: 100%;
+
+    }
+
+    #spotted-text {
+        color: white;
+        display: flex;
+        padding: 15px;
+        border-bottom: 1px solid wheat;
+        background-color: rgba(236, 135, 198, 0.4);
+        width: 100%;
+        font-weight: 600;
+
+        /* Set the width to 70% */
+
+    }
 
 }
-   
+
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    
+
+    #main-content-container {
+        display: flex;
+    
+        align-items: stretch;
+        padding: 20px;
+       
+    } 
+    #main-content-container h2 {
+    position: absolute;
+    }
+
+    #spotted {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #spotted-div {
+        margin-bottom: 20px; /* Adjust as needed for spacing between spotted-divs */
+    }
+
+    #autumn-in-the-park {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+       margin-top: 30px;
+        border-radius: 15px;
+        margin-bottom: 0px;
+      
+    }
+
+    .image {
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+  
 }
+
