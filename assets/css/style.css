@@ -154,10 +154,11 @@ a:hover {
     font-size: 24px;
     color: #333;
     position: absolute;
-    top: 50%;
+    top: calc(50% - 7px); /* Move 5px up */
     left: 50%;
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease;
+    
     /* Add a smooth transition effect */
 }
 
@@ -278,7 +279,8 @@ main {
     align-items: center;
     justify-content: center;
     color: white;
-    border-bottom: 3px solid white;
+    width: 100%;;
+    border-bottom: 5px solid white;
 }
 
 #main-content-container i {
@@ -289,22 +291,26 @@ main {
 }
 
 #spotted h2 {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 #spotted-text {
     color: white;
+    display: flex;
     padding: 15px;
     border-bottom: 1px solid wheat;
-    width: 70%;
-    /* Set the width to 70% */
-
+    background-color: rgba(236, 135, 198, 0.4);
+    width: 100%;
+    font-weight: 600;
 }
 
 
 
 #spotted h5 {
     color: white;
+    font-size: 1rem;
+    font-weight: 600;
+
 
 }
 
@@ -624,30 +630,36 @@ margin-bottom: 10px;
 
  
     /* Your existing styles go here */
-
     #map-section {
+        position: relative;
         flex: 1;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
+        flex-direction: row;
         padding: 5px;
         margin-bottom: 30px;
         margin-top: 20px;
+        max-width: 100% ;
+        padding-top: 20px;
         overflow: hidden; /* Ensure child elements respect the border-radius */
-      }
-      #map-section h2 {
+    }
+    
+    #map-section h2 {
         font-family: 'Lato', sans-serif;
         font-weight: 400;
         font-size: 1rem;
-       margin-right: 210px;
+        position: absolute;
+        left: 10px; /* Adjust this value as needed */
+        top: 0; /* Adjust this value as needed */
     }
       #map-section.zoomed {
         transform: scale(1.2); /* Adjust the scale factor for the desired zoom level */
       }
       #map {
         width: 100%;
-        max-width: 600px; /* Adjust the max-width as needed */
+        max-width: 100%; /* Adjust the max-width as needed */
         height: 200px; /* Adjust the height as needed */
         border: 1px solid #333;
         border-radius: 10px; /* Rounded border */
@@ -735,8 +747,53 @@ color: #fff;
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
+    #wildlife {
+       
+    
+        background: url('../images/explore-background-img.jpg') repeat center center/cover;
+    
     }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+#spotted {
+    height: 120%;
+   display: flex;
+   width: 100%;
+ 
+}
+#spotted-text {
+    color: white;
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid wheat;
+    background-color: rgba(236, 135, 198, 0.4);
+    width: 100%;
+    font-weight: 600;
+
+    /* Set the width to 70% */
+
+}
+   
 }
