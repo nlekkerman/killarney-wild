@@ -240,8 +240,9 @@ main {
     flex: 1;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    max-width: 100%;
     margin: 0px;
+    padding: 5px;
     flex: 1;
 
 }
@@ -359,17 +360,20 @@ main {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 10px;
+    
     display: none;
+
 }
 
 #wildlife {
+   
+    background-color: rgba(0, 48, 1, 0.4);
+
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30px;
     background-size: 100px;
-    /* Adjust the percentage as needed */
-
     background: url('../images/wildlife-background-img.jpg') repeat center center/cover;
 
 }
@@ -567,7 +571,7 @@ main {
 
 /* Styles for the Ways to Explore Section */
 #ways-to-explore {
-    max-width: 800px;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     margin-top: 30px;
@@ -596,8 +600,11 @@ main {
 
 .fa-icon {
     font-size: 1.5rem;
-    margin-left: 200px;
-    padding: 10 px;
+    position: absolute;
+    right: 10px; /* Adjust the margin as needed */
+   
+    transform: translateY(-20%); /* Adjust for vertical centering */
+    padding: 10px;
 }
 
 /* Styles for Explore Title */
@@ -775,6 +782,7 @@ input[type="submit"]:hover {
 @media screen and (min-width: 576px) {
     #wildlife {
 
+        background-color: rgba(0, 48, 1, 0.4);
 
         background: url('../images/explore-background-img.jpg') repeat center center/cover;
 
@@ -867,17 +875,139 @@ input[type="submit"]:hover {
        margin-top: 30px;
         border-radius: 15px;
         margin-bottom: 0px;
+        
       
     }
 
-    .image {
-    }
 
     img {
         max-width: 100%;
         height: auto;
     }
 
+   /* Styles for Wildlife Section */
+#wildlife {
+    background-color: rgba(0, 48, 1, 0.4);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+    background: url('../images/wildlife-background-img.jpg') repeat center center/cover;
+}
+
+#wild-life-title {
+    padding: 10px 0 5px 10px;
+    color: #ffffff;
+    background: url('../images/deer-fight-background-img.jpg') no-repeat center center/cover;
+    background-color: rgba(236, 135, 198, 0.5);
+    width: 100%;
+    max-height: 300px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#wild-life-title h2 p {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-top: 0;
+    background-color: rgba(236, 135, 198, 0.4);
+    padding: 10px;
+    display: none;
+}
+
+#wildlife-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 30px;
+    background-color: rgba(0, 48, 1, 0.4);
+
+}
+
+#wildlife-container #wildlife-line-one,
+#wildlife-container #wildlife-line-two {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+#wildlife-container .animal {
+    box-sizing: border-box;
+    width: 80%;
+    margin-bottom: 20px;
+    margin: 10px 10px;
+}
+
+#wildlife-container .animal img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom; /* Align the image to the bottom */
+
+}
+
+#wildlife-container .animal h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+#wildlife-container .animal p {
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0 5px;
+}
+
+#wildlife-container #middle-p {
+    font-size: 1rem;
+    background-color: rgba(219, 112, 147, 0.8);
+    border-radius: 15px;
+    border: 1px solid #fbfafa;
+    height: 70%;
+    width: 100%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+#wildlife-container #middle-p h2 {
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+#wildlife-container #wildlife-line-one #animal-paragraph,
+#wildlife-container #wildlife-line-two #animal-paragraph {
+    padding: 5px;
+    font-size: 1rem;
+}
+#toggleCheckbox:checked+#wild-life-title {
+    background-color: rgba(219, 112, 147, 0.7);
+    background-image: none;
+    height: 150px;
+    margin-bottom: 0;
+}
+#toggleCheckbox:checked~#wild-life-title h2::before {
+    content: 'WILD LIFE ';
+  font-size: 180%;
+    display: block;
+    justify-content: flex-start;
+    padding: 0px 0 0px 0px; /* Added padding */
+  text-decoration: none;
+    padding-left: 5%;
+    
   
+}
+
+#toggleCheckbox:checked+#wild-life-title+#wildlife-container {
+    display: block;
+    margin-top: 70px;
+    /* Adjust the value as needed */
+
+}
 }
 
