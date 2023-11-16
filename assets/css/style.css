@@ -66,11 +66,11 @@ header {
     /* Increase the z-index to ensure the h1 is above the navigation */
     width: 100%;
     position: relative;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 1px px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
     /* Adjust the shadow as needed */
 }
 
@@ -722,6 +722,13 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
+#input-for-forms{
+    width: 100%;
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgba(41, 40, 40, 0.6);
+
+}
 
 /* Styles for Submit Button */
 input[type="submit"] {
@@ -828,320 +835,402 @@ input[type="submit"]:hover {
 
     }
 
-}
-
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-
-
-    #main-content-container {
-        display: flex;
-
-        align-items: stretch;
-        padding: 20px;
-
-    }
-
-    #main-content-container h2 {
-        position: absolute;
-    }
-
-    #spotted {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-    }
-
-    #spotted-div {
-        margin-bottom: 20px;
-        /* Adjust as needed for spacing between spotted-divs */
-    }
-
-    #autumn-in-the-park {
-        flex: 1;
-        display: flex;
-        flex-direction: row;
-
-    }
-
-    .image-container {
-        display: flex;
-        flex-direction: column;
-        overflow: hidden;
-        margin-top: 30px;
-        border-radius: 15px;
-        margin-bottom: 0px;
-
-
-    }
-
-
-    img {
-        max-width: 100%;
-        height: auto;
-    }
-
-    /* Styles for Wildlife Section */
-    #wildlife {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-        margin-top: 30px;
-    }
-
-    #wild-life-title {
-        padding: 10px 0 5px 10px;
-        color: #ffffff;
-        background: url('../images/deer-fight-background-img.jpg') no-repeat center center/cover;
-
-        width: 100%;
-        max-height: 70px;
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    #wild-life-title h2 p {
-        font-size: 1rem;
-        color: #ffffff;
-        margin-top: 0;
-        background-color: rgba(236, 135, 198, 0.4);
-        padding: 10px;
+    /* Hide the icon on larger screens */
+    .nav-toggle-label::before,
+    .nav-toggle-label-form::before {
         display: none;
     }
 
-    #wildlife-container {
+    /* Show the navigation menu on larger screens */
+    nav {
         display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        margin-top: 30px;
-
-
     }
-
-    #wildlife-container #wildlife-line-one,
-    #wildlife-container #wildlife-line-two {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin-bottom: 30px;
-    }
-
-    #wildlife-container .animal {
-        box-sizing: border-box;
-        width: 80%;
-        margin-bottom: 20px;
-        margin: 10px 10px;
-    }
-
-    #wildlife-container .animal img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-
-    }
-
-    #wildlife-container .animal h2 {
-        font-size: 1.5rem;
-        margin-bottom: 10px;
-        margin-left: 5px;
-    }
-
-    #wildlife-container .animal p {
-        font-size: 1rem;
-        line-height: 1.4;
-        padding: 0 5px;
-    }
-
-    #wildlife-container #middle-p {
-        font-size: 1rem;
-        background-color: rgba(219, 112, 147, 0.8);
-        border-radius: 15px;
-        border: 1px solid #fbfafa;
-        height: 70%;
-        width: 100%;
-        align-self: center;
-        margin-bottom: 10px;
-    }
-
-    #wildlife-container #middle-p h2 {
-        padding: 5px;
-        font-size: 1.5rem;
-    }
-
-    #wildlife-container #wildlife-line-one #animal-paragraph,
-    #wildlife-container #wildlife-line-two #animal-paragraph {
-        padding: 5px;
-        font-size: 1rem;
-    }
-
-    #toggleCheckbox:checked+#wild-life-title {
-        background-color: rgba(219, 112, 147, 0.7);
-        background-image: none;
-        height: 150px;
-        margin-bottom: 0;
-    }
-
-    #toggleCheckbox:checked~#wild-life-title h2::before {
-        content: 'WILD LIFE ';
-        font-size: 180%;
-        display: block;
-        justify-content: flex-start;
-        padding: 0px 0 0px 0px;
-        /* Added padding */
-        text-decoration: none;
-        padding-left: 5%;
-
-
-    }
-
-
-
-    #toggleCheckbox:checked+#wild-life-title+#wildlife-container {
-        display: block;
-        margin-top: 70px;
-
-    }
-
-    #bottom-section {
-        display: flex;
-        align-items: stretch;
+    #input-for-forms{
+        width: 40%;
+        border: 1px solid white;
         padding: 20px;
-        flex-direction: row;
-
-        justify-content: center;
-        /* Center horizontally */
+     
+    }
+    /* Form background */
+    #form-background-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Added to make the image cover the entire container */
 
     }
 
-    #ways-to-explore {
+    #impression-form {
+        margin-top: 2px;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        max-width: 100vw;
+        background: url(../images/form-background-img.jpg) no-repeat center center/cover;
+        color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
         flex: 1;
+        background-size: cover; /* Ensure the background covers the entire container */
+
+
+
+    }
+}
+
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+
+       /*form styles*/
+       #input-for-forms{
+        width: 50%;
+        border: 1px solid white;
+        padding: 20px;
+        
+
+       
+       
+    }
+    /* Form background */
+    #form-background-img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Added to make the image cover the entire container */
+
+    }
+
+    #impression-form {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
         display: flex;
         flex-direction: column;
-        box-shadow: none;
-
-    }
-
-    #map-section {
-        position: relative;
-        flex: 1;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        flex-direction: row;
-        padding: 5px;
-        margin-bottom: 0px;
-        margin-top: 20px;
-        max-width: 100%;
-
-        overflow: hidden;
-    }
-
-    #map {
-
-        max-width: 100%;
-        height: 450px;
-        border: 1px solid #333;
-        border-radius: 0px;
-        margin-top: 7px;
-    }
-
-    header {
-        background-color: #ffffff;
-        padding: 0 1rem;
-        z-index: 100;
-        width: 100%;
-        margin-top: 50px;
-        position: relative;
-        box-shadow: 0 0px 0px #3a3a3a;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
+        background: url(../images/form-background-img.jpg) no-repeat center center/cover;
+        background-size: cover; /* Ensure the background covers the entire container */
+        color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
 
     }
 
-    #map-section h2 {
-        font-family: 'Lato', sans-serif;
-        font-weight: 600;
-        font-size: 1rem;
-        position: absolute;
-        left: 330px;
-        text-align: center;
-        background-color: #ddd;
-        padding: 3px;
-        top: 20px;
-        width: 30%;
-        display: inline-block;
-        /* Make the background wrap around the text */
+        #main-content-container {
+            display: flex;
+
+            align-items: stretch;
+            padding: 20px;
+
+        }
+
+        #main-content-container h2 {
+            position: absolute;
+        }
+
+        #spotted {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #spotted-div {
+            margin-bottom: 20px;
+            /* Adjust as needed for spacing between spotted-divs */
+        }
+
+        #autumn-in-the-park {
+            flex: 1;
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .image-container {
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            margin-top: 30px;
+            border-radius: 15px;
+            margin-bottom: 0px;
+
+
+        }
+
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Styles for Wildlife Section */
+        #wildlife {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        #wild-life-title {
+            padding: 10px 0 5px 10px;
+            color: #ffffff;
+            background: url('../images/deer-fight-background-img.jpg') no-repeat center center/cover;
+
+            width: 100%;
+            max-height: 70px;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #wild-life-title h2 p {
+            font-size: 1rem;
+            color: #ffffff;
+            margin-top: 0;
+            background-color: rgba(236, 135, 198, 0.4);
+            padding: 10px;
+            display: none;
+        }
+
+        #wildlife-container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            margin-top: 30px;
+
+
+        }
+
+        #wildlife-container #wildlife-line-one,
+        #wildlife-container #wildlife-line-two {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-bottom: 30px;
+        }
+
+        #wildlife-container .animal {
+            box-sizing: border-box;
+            width: 80%;
+            margin-bottom: 20px;
+            margin: 10px 10px;
+        }
+
+        #wildlife-container .animal img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+
+        }
+
+        #wildlife-container .animal h2 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            margin-left: 5px;
+        }
+
+        #wildlife-container .animal p {
+            font-size: 1rem;
+            line-height: 1.4;
+            padding: 0 5px;
+        }
+
+        #wildlife-container #middle-p {
+            font-size: 1rem;
+            background-color: rgba(219, 112, 147, 0.8);
+            border-radius: 15px;
+            border: 1px solid #fbfafa;
+            height: 70%;
+            width: 100%;
+            align-self: center;
+            margin-bottom: 10px;
+        }
+
+        #wildlife-container #middle-p h2 {
+            padding: 5px;
+            font-size: 1.5rem;
+        }
+
+        #wildlife-container #wildlife-line-one #animal-paragraph,
+        #wildlife-container #wildlife-line-two #animal-paragraph {
+            padding: 5px;
+            font-size: 1rem;
+        }
+
+        #toggleCheckbox:checked+#wild-life-title {
+            background-color: rgba(219, 112, 147, 0.7);
+            background-image: none;
+            height: 150px;
+            margin-bottom: 0;
+        }
+
+        #toggleCheckbox:checked~#wild-life-title h2::before {
+            content: 'WILD LIFE ';
+            font-size: 180%;
+            display: block;
+            justify-content: flex-start;
+            padding: 0px 0 0px 0px;
+            /* Added padding */
+            text-decoration: none;
+            padding-left: 5%;
+
+
+        }
+
+
+
+        #toggleCheckbox:checked+#wild-life-title+#wildlife-container {
+            display: block;
+            margin-top: 70px;
+
+        }
+
+        #bottom-section {
+            display: flex;
+            align-items: stretch;
+            padding: 20px;
+            flex-direction: row;
+
+            justify-content: center;
+            /* Center horizontally */
+
+        }
+
+        #ways-to-explore {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            box-shadow: none;
+
+        }
+
+        #map-section {
+            position: relative;
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: row;
+            padding: 5px;
+            margin-bottom: 0px;
+            margin-top: 20px;
+            max-width: 100%;
+
+            overflow: hidden;
+        }
+
+        #map {
+
+            max-width: 100%;
+            height: 450px;
+            border: 1px solid #333;
+            border-radius: 0px;
+            margin-top: 7px;
+        }
+
+        header {
+            background-color: #ffffff;
+            padding: 0 1rem;
+            z-index: 100;
+            width: 100%;
+          
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+
+        }
+
+        #map-section h2 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 600;
+            font-size: 1rem;
+            position: absolute;
+            left: 330px;
+            text-align: center;
+            background-color: #ddd;
+            padding: 3px;
+            top: 20px;
+            width: 30%;
+            display: inline-block;
+            /* Make the background wrap around the text */
+
+        }
+
+
+        #photos {
+            column-count: 3;
+            column-gap: 0;
+            /* Set the gap between columns to 0 */
+            z-index: 12;
+        }
+
+        #photos img {
+            transition: transform 0.3s ease-in-out;
+            z-index: 1;
+            /* Set a base z-index */
+
+        }
+
+        #photos img:hover {
+
+            transform: scale(1.2);
+            z-index: 2;
+            /* Increase the z-index on hover */
+            box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
+            border: 1px solid wheat;
+        }
 
     }
 
+    /* Media query: larger screens (1200px and up) */
+    @media screen and (min-width: 1200px) {
 
-    #photos {
-        column-count: 3;
-        column-gap: 0;
-        /* Set the gap between columns to 0 */
-        z-index: 12;
+        /* Add or modify styles for even bigger screens here */
+        #spotted {
+            /* Example styles for even bigger screens */
+            height: 150%;
+            background-color: lightblue;
+        }
+
+        #spotted-text {
+            /* Example styles for even bigger screens */
+            font-size: 1.2rem;
+        }
+
+        #photos {
+
+            align-self: center;
+            column-count: 5;
+            column-gap: 0;
+            width: 100%;
+            /* Set a maximum width if needed */
+            margin: 0 auto;
+            /* Center the gallery horizontally */
+            /* Set the gap between columns to 0 */
+        }
+
+        #photos img {
+            transition: transform 0.3s ease-in-out;
+        }
+
+        #photos img:hover {
+
+            transform: scale(1.2);
+            z-index: 2;
+            /* Increase the z-index on hover */
+            box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
+            border: 1px solid wheat;
+        }
+
+
     }
-
-    #photos img {
-        transition: transform 0.3s ease-in-out;
-        z-index: 1; /* Set a base z-index */
-
-    }
-
-    #photos img:hover {
-        
-        transform: scale(1.2);
-        z-index: 2; /* Increase the z-index on hover */
-        box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
-        border: 1px solid wheat;
-    }
-  
-}
-
-/* Media query: larger screens (1200px and up) */
-@media screen and (min-width: 1200px) {
-
-    /* Add or modify styles for even bigger screens here */
-    #spotted {
-        /* Example styles for even bigger screens */
-        height: 150%;
-        background-color: lightblue;
-    }
-
-    #spotted-text {
-        /* Example styles for even bigger screens */
-        font-size: 1.2rem;
-    }
-  
-    #photos {
-       
-       align-self: center;
-        column-count: 5;
-        column-gap: 0;
-       width: 100%; /* Set a maximum width if needed */
-        margin: 0 auto; /* Center the gallery horizontally */
-        /* Set the gap between columns to 0 */
-    }
-
-    #photos img {
-        transition: transform 0.3s ease-in-out;
-    }
-
-    #photos img:hover {
-        
-        transform: scale(1.2);
-        z-index: 2; /* Increase the z-index on hover */
-        box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
-        border: 1px solid wheat;
-    }
-
-   
-}
