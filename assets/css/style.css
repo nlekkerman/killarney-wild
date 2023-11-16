@@ -366,7 +366,7 @@ main {
 }
 
 #wildlife {
-    background-color:rgba(243, 238, 218, 0.2);
+    background-color: rgba(243, 238, 218, 0.2);
 
     display: flex;
     flex-wrap: wrap;
@@ -482,7 +482,7 @@ main {
 #wildlife-container #wildlife-line-two div {
     color: #333;
     display: flex;
-   
+
     font-weight: 600;
     flex-wrap: wrap;
     flex: 1;
@@ -884,7 +884,7 @@ input[type="submit"]:hover {
 
     /* Styles for Wildlife Section */
     #wildlife {
-       
+
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -999,22 +999,8 @@ input[type="submit"]:hover {
 
 
     }
- /* Gallery */
-#photos {
-    column-count: 3;
-    column-gap: 0; /* Set the gap between columns to 0 */
-}
 
-#photos img {
-    transition: transform 0.3s ease-in-out;
-}
 
-#photos img:hover {
-    transform: scale(1.2); /* Increase the scale factor for a larger zoom effect */
-}
-#photos img:not(:hover) {
-    transform: scale(1); /* Return to the original size when not hovered */
-}
 
     #toggleCheckbox:checked+#wild-life-title+#wildlife-container {
         display: block;
@@ -1027,8 +1013,9 @@ input[type="submit"]:hover {
         align-items: stretch;
         padding: 20px;
         flex-direction: row;
-        
-        justify-content: center; /* Center horizontally */
+
+        justify-content: center;
+        /* Center horizontally */
 
     }
 
@@ -1037,7 +1024,7 @@ input[type="submit"]:hover {
         display: flex;
         flex-direction: column;
         box-shadow: none;
-        
+
     }
 
     #map-section {
@@ -1050,9 +1037,9 @@ input[type="submit"]:hover {
         flex-direction: row;
         padding: 5px;
         margin-bottom: 0px;
-      margin-top: 20px;
+        margin-top: 20px;
         max-width: 100%;
-       
+
         overflow: hidden;
     }
 
@@ -1064,6 +1051,7 @@ input[type="submit"]:hover {
         border-radius: 0px;
         margin-top: 7px;
     }
+
     header {
         background-color: #ffffff;
         padding: 0 1rem;
@@ -1075,8 +1063,9 @@ input[type="submit"]:hover {
         display: flex;
         justify-content: space-between;
         align-items: baseline;
-      
+
     }
+
     #map-section h2 {
         font-family: 'Lato', sans-serif;
         font-weight: 600;
@@ -1084,12 +1073,75 @@ input[type="submit"]:hover {
         position: absolute;
         left: 330px;
         text-align: center;
-      background-color: #ddd;
+        background-color: #ddd;
         padding: 3px;
         top: 20px;
         width: 30%;
-        display: inline-block; /* Make the background wrap around the text */
+        display: inline-block;
+        /* Make the background wrap around the text */
 
     }
 
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+        /* Set the gap between columns to 0 */
+        z-index: 12;
+    }
+
+    #photos img {
+        transition: transform 0.3s ease-in-out;
+        z-index: 1; /* Set a base z-index */
+
+    }
+
+    #photos img:hover {
+        
+        transform: scale(1.2);
+        z-index: 2; /* Increase the z-index on hover */
+        box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
+        border: 1px solid wheat;
+    }
+  
+}
+
+/* Media query: larger screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /* Add or modify styles for even bigger screens here */
+    #spotted {
+        /* Example styles for even bigger screens */
+        height: 150%;
+        background-color: lightblue;
+    }
+
+    #spotted-text {
+        /* Example styles for even bigger screens */
+        font-size: 1.2rem;
+    }
+  
+    #photos {
+       
+       align-self: center;
+        column-count: 5;
+        column-gap: 0;
+       width: 100%; /* Set a maximum width if needed */
+        margin: 0 auto; /* Center the gallery horizontally */
+        /* Set the gap between columns to 0 */
+    }
+
+    #photos img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #photos img:hover {
+        
+        transform: scale(1.2);
+        z-index: 2; /* Increase the z-index on hover */
+        box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
+        border: 1px solid wheat;
+    }
+
+   
 }
