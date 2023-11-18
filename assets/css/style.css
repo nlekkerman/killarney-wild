@@ -70,7 +70,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-  
+
     /* Adjust the shadow as needed */
 }
 
@@ -235,6 +235,7 @@ a:hover {
 
 
 }
+
 /*about NP Killarney*/
 
 .about-np-section {
@@ -258,13 +259,33 @@ a:hover {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-}#about-np-circle-bottom {
-    max-width:100%;
+}
+
+#about-np-circle-bottom {
+    max-width: 100%;
     height: 250px;
-   
+
     overflow: hidden;
     margin: 20px;
     float: right;
+}
+
+.ilustration-bottom-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.ilustration-bottom-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: flex;
+    align-self: center;
 }
 
 .about-np-image-bottom {
@@ -277,8 +298,8 @@ a:hover {
 .about-np-text {
     text-align: justify;
     margin: 5px;
-   
- 
+
+
 }
 
 .about-np-title {
@@ -296,7 +317,7 @@ a:hover {
     font-size: 1rem;
     color: #333;
     padding: 5px;
-   
+
 
 }
 
@@ -314,7 +335,7 @@ main {
 #main-content-container {
     flex-grow: 1;
     border-bottom: 1px solid gold;
-margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 #spotted-title h2 {
@@ -390,10 +411,10 @@ margin-bottom: 15px;
 .image-container {
     display: flex;
     overflow: hidden;
-    margin: 10px;
+  
     border-radius: 15px;
     margin-bottom: 30px;
-
+border-left: 2px solid white;
     margin-top: 20px;
 
 }
@@ -555,44 +576,6 @@ margin-bottom: 15px;
 
 }
 
-#wildlife-container #wildlife-line-one #middle-p {
-
-    font-size: 1rem;
-    background-color: rgba(219, 112, 147, 0.8);
-    border-radius: 15px;
-    border: 1px solid #fbfafa;
-    padding: 15px;
-    /* Adjust the value as needed */
-    width: 90%;
-    margin: 0 auto;
-    /* Center horizontally */
-    margin-bottom: 30px;
-
-
-}
-
-#wildlife-container #wildlife-line-two #middle-p {
-    font-size: 1rem;
-    background-color: rgba(219, 112, 147, 0.8);
-    border-radius: 15px;
-    border: 1px solid #fbfafa;
-    padding: 15px;
-    /* Adjust the value as needed */
-    width: 90%;
-    margin: 0 auto;
-    /* Center horizontally */
-    margin-bottom: 30px;
-
-}
-
-
-
-#middle-p h2 {
-    padding: 5px;
-    font-size: 1.5rem;
-
-}
-
 .animal {
 
 
@@ -639,6 +622,7 @@ margin-bottom: 15px;
     flex-direction: column;
     margin-top: 30px;
     gap: 0;
+
     color: white;
     background: url('../images/explore-background-img.jpg') no-repeat center center/cover;
 
@@ -686,13 +670,14 @@ margin-bottom: 15px;
 }
 
 #ways-to-explore-title {
-padding: 5px;
+    padding: 5px;
     margin-top: 50px;
     background-color: rgba(2, 51, 1, 0.3);
     left: 0;
     width: 80%;
- 
-   
+    font-size: 1.5rem;
+
+
 }
 
 /* Styles for Explore Text */
@@ -797,7 +782,8 @@ textarea {
     border: 1px solid #ddd;
     border-radius: 5px;
 }
-#input-for-forms{
+
+#input-for-forms {
     width: 100%;
     border: 1px solid white;
     padding: 20px;
@@ -851,7 +837,65 @@ input[type="submit"]:hover {
     margin-bottom: 10px;
 }
 
+/*sponsors*/
+.sponsors-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 20px 0;
+    max-width: 100%;
+}
+
+#sponsor-container {
+    width: 100%;
+    border: 0.2px solid rgba(210, 198, 198,1);
+
+    display: flex;
+    justify-content: space-between;
+    /* or 'space-between' based on your preference */
+}
+
+.sponsor {
+    border-right: 0.2px solid rgba(210, 198, 198,0.5);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* Distribute available space equally among all .sponsor divs */
+}
+#sponsor-title{
+    background-color: rgba(198, 210, 204, 0.5);
+    font-weight: 300;
+    padding-left: 5px;
+    border: 1px solid rgba(210, 198, 198,0.5);
+  
+}
+.sponsor img {
+    width: 50px;
+    /* Adjust the width as needed */
+    height: 50px;
+    /* Adjust the height as needed */
+    border-radius: 50%;
+    align-self: center;
+    margin-top: 10px;
+
+}
+
+.sponsor h3 {
+    margin-top: 10px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #333;
+}
+
 /*
+<a href="https://www.freepik.com/free-vector/letter-q-logo-concept_1224584.htm#query=logo%20for%20companies%20fake%20names&position=20&from_view=search&track=ais&uuid=20c0fcac-6652-40dd-a084-062a423df1bb">Image by starline</a> on Freepik
+<a href="https://www.freepik.com/free-vector/letter-q-logo-concept_1224584.htm#query=logo%20for%20companies%20fake%20names&position=20&from_view=search&
+track=ais&uuid=20c0fcac-6652-40dd-a084-062a423df1bb">Image by starline</a> on Freepik
+<a href="https://www.freepik.com/free-vector/boycott-text-white-background-vector-illustration_27884043.htm#query=logo%20for%20companies%20fake%20names&position=4&from_view=search&track=ais&uuid=b345e39b-7015-45e2-9e1e-45d09e82d941">Image by Rochak Shukla</a> on Freepik
+Image by <a href="https://www.freepik.com/free-vector/creative-nerd-logo-template_21250386.htm#query=logo%20for%20companies%20fake%20names&position=3&from_view=search&track=ais&uuid=a2215576-ed22-4081-b5cf-8947f63de1c0">Freepik</a>
+Image by <a href="https://www.freepik.com/free-vector/logo-template_33601695.htm#fromView=search&term=logo+for+companies+fake+names&page=1&position=2&track=ais&regularType=vector">Freepik</a>
 <a href="https://www.freepik.com/free-ai-image/flat-vector-forest-river-illustration_72868175.htm#fromView=search&term=ilustration+nature&page=1&position=0&track=ais_ai_generated&regularType=ai">Image By vector_corp</a>
 <a href="https://www.freepik.com/free-ai-image/tranquil-scene-flowing-water-forest-generated-by-ai_42178126.htm#fromView=search&term=FOrest+ireland&page=1&position=4&track=ais_ai_generated&regularType=ai">Image By vecstock</a>
 <a href="https://www.freepik.com/free-ai-image/view-wild-bird_65693658.htm#fromView=search&term=heron&page=1&position=0&track=ais_ai_generated&regularType=ai">Image By freepik</a>
@@ -870,28 +914,29 @@ input[type="submit"]:hover {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-/*gallery styles*/
-#photos {
-    column-count: 3;
-    column-gap: 0;
-    /* Set the gap between columns to 0 */
-    z-index: 12;
-}
 
-#photos img {
-    transition: transform 0.3s ease-in-out;
-    z-index: 1;
-    /* Set a base z-index */
+    /*gallery styles*/
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+        /* Set the gap between columns to 0 */
+        z-index: 12;
+    }
 
-}
+    #photos img {
+        transition: transform 0.3s ease-in-out;
+        z-index: 1;
+        /* Set a base z-index */
 
-#photos img:hover {
+    }
 
-    transform: scale(1.2);
-    z-index: 2;
-    /* Increase the z-index on hover */
-    box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
-}
+    #photos img:hover {
+
+        transform: scale(1.2);
+        z-index: 2;
+        /* Increase the z-index on hover */
+        box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
+    }
 
     /* Header */
     nav {
@@ -944,12 +989,14 @@ input[type="submit"]:hover {
     nav {
         display: flex;
     }
-    #input-for-forms{
+
+    #input-for-forms {
         width: 40%;
         border: 1px solid white;
         padding: 20px;
-     
+
     }
+
     /* Form background */
     #form-background-img {
         width: 100%;
@@ -972,26 +1019,28 @@ input[type="submit"]:hover {
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 20px;
         flex: 1;
-        background-size: cover; /* Ensure the background covers the entire container */
+        background-size: cover;
+        /* Ensure the background covers the entire container */
 
 
 
     }
 }
 
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
 
-       /*form styles*/
-       #input-for-forms{
+    /*form styles*/
+    #input-for-forms {
         width: 50%;
         border: 1px solid white;
         padding: 20px;
-        
 
-       
-       
+
+
+
     }
+
     /* Form background */
     #form-background-img {
         width: 100%;
@@ -1012,363 +1061,363 @@ input[type="submit"]:hover {
         justify-content: center;
         align-items: center;
         background: url(../images/form-background-img.jpg) no-repeat center center/cover;
-        background-size: cover; /* Ensure the background covers the entire container */
+        background-size: cover;
+        /* Ensure the background covers the entire container */
         color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 20px;
 
     }
 
-        #main-content-container {
-            display: flex;
+    #main-content-container {
+        display: flex;
 
-            align-items: stretch;
-            padding: 20px;
-
-        }
-
-        #main-content-container h2 {
-            position: absolute;
-        }
-
-        #spotted {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
-
-        #spotted-div {
-            margin-bottom: 20px;
-            /* Adjust as needed for spacing between spotted-divs */
-        }
-
-        #autumn-in-the-park {
-            flex: 1;
-            display: flex;
-            flex-direction: row;
-
-        }
-
-        .image-container {
-            display: flex;
-            flex-direction: column;
-            overflow: hidden;
-            margin-top: 30px;
-            border-radius: 15px;
-            margin-bottom: 0px;
-
-
-        }
-
-
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        /* Styles for Wildlife Section */
-        #wildlife {
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%;
-            margin-top: 30px;
-        }
-
-        #wild-life-title {
-            padding: 10px 0 5px 10px;
-            color: #ffffff;
-            background: url('../images/deer-fight-background-img.jpg') no-repeat center center/cover;
-
-            width: 100%;
-            max-height: 70px;
-
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #wild-life-title h2 p {
-            font-size: 1rem;
-            color: #ffffff;
-            margin-top: 0;
-            background-color: rgba(236, 135, 198, 0.4);
-            padding: 10px;
-            display: none;
-        }
-
-        #wildlife-container {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            margin-top: 30px;
-
-
-        }
-
-        #wildlife-container #wildlife-line-one,
-        #wildlife-container #wildlife-line-two {
-            width: 100%;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            margin-bottom: 30px;
-        }
-
-        #wildlife-container .animal {
-            box-sizing: border-box;
-            width: 80%;
-            margin-bottom: 20px;
-            margin: 10px 10px;
-        }
-
-        #wildlife-container .animal img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-
-        }
-
-        #wildlife-container .animal h2 {
-            font-size: 1.5rem;
-            margin-bottom: 10px;
-            margin-left: 5px;
-        }
-
-        #wildlife-container .animal p {
-            font-size: 1rem;
-            line-height: 1.4;
-            padding: 0 5px;
-        }
-
-        #wildlife-container #middle-p {
-            font-size: 1rem;
-            background-color: rgba(219, 112, 147, 0.8);
-            border-radius: 15px;
-            border: 1px solid #fbfafa;
-            height: 70%;
-            width: 100%;
-            align-self: center;
-            margin-bottom: 10px;
-        }
-
-        #wildlife-container #middle-p h2 {
-            padding: 5px;
-            font-size: 1.5rem;
-        }
-
-        #wildlife-container #wildlife-line-one #animal-paragraph,
-        #wildlife-container #wildlife-line-two #animal-paragraph {
-            padding: 5px;
-            font-size: 1rem;
-        }
-
-        #toggleCheckbox:checked+#wild-life-title {
-            background-color: rgba(219, 112, 147, 0.7);
-            background-image: none;
-            height: 150px;
-            margin-bottom: 0;
-        }
-
-        #toggleCheckbox:checked~#wild-life-title h2::before {
-            content: 'WILD LIFE ';
-            font-size: 180%;
-            display: block;
-            justify-content: flex-start;
-            padding: 0px 0 0px 0px;
-            /* Added padding */
-            text-decoration: none;
-            padding-left: 5%;
-
-
-        }
-
-
-
-        #toggleCheckbox:checked+#wild-life-title+#wildlife-container {
-            display: block;
-            margin-top: 70px;
-
-        }
-
-        #bottom-section {
-            display: flex;
-            align-items: stretch;
-            padding: 20px;
-            flex-direction: row;
-
-            justify-content: center;
-            /* Center horizontally */
-
-        }
-
-        #ways-to-explore {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            box-shadow: none;
-
-        }
-
-        #map-section {
-            position: relative;
-            flex: 1;
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            flex-direction: row;
-            padding: 5px;
-            margin-bottom: 0px;
-            margin-top: 20px;
-            max-width: 100%;
-
-            overflow: hidden;
-        }
-
-        #map {
-
-            max-width: 100%;
-            height: 450px;
-            border: 1px solid #333;
-            border-radius: 0px;
-            margin-top: 7px;
-        }
-
-        header {
-            background-color: #ffffff;
-            padding: 0 1rem;
-            z-index: 100;
-            width: 100%;
-          
-            position: relative;
-            display: flex;
-            justify-content: space-between;
-            align-items: baseline;
-
-        }
-
-        #map-section h2 {
-            font-family: 'Lato', sans-serif;
-            font-weight: 600;
-            font-size: 1rem;
-            position: absolute;
-            left: 330px;
-            text-align: center;
-            background-color: #ddd;
-            padding: 3px;
-            top: 20px;
-            width: 30%;
-            display: inline-block;
-            /* Make the background wrap around the text */
-
-        }
-
-
-        #photos {
-            column-count: 3;
-            column-gap: 0;
-            /* Set the gap between columns to 0 */
-            z-index: 12;
-        }
-
-        #photos img {
-            transition: transform 0.3s ease-in-out;
-            z-index: 1;
-            /* Set a base z-index */
-
-        }
-
-        #photos img:hover {
-
-            transform: scale(1.2);
-            z-index: 2;
-            /* Increase the z-index on hover */
-            box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
-        }
+        align-items: stretch;
+        padding: 20px;
 
     }
 
-    /* Media query: larger screens (1200px and up) */
-    @media screen and (min-width: 1200px) {
+    #main-content-container h2 {
+        position: absolute;
+    }
 
-      /*about NP Killarney*/
+    #spotted {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+    }
 
-.about-np-section {
-    background-color: white;
-    overflow: hidden;
-}
+    #spotted-div {
+        margin-bottom: 20px;
+        /* Adjust as needed for spacing between spotted-divs */
+    }
 
-.about-np-circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 0%;
-    overflow: hidden;
-    margin: 20px;
-    float: left;
-}
+    #autumn-in-the-park {
+        flex: 1;
+        display: flex;
+        flex-direction: row;
 
-.about-np-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 0%;
-}
+    }
 
-.about-np-text {
-    text-align: justify;
-    margin: 20px;
-}
-
-.about-np-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.about-np-description {
-    font-size: 16px;
-    color: #555;
-    shape-outside: circle(50%);
-    margin-right: 20px;
-}
-        /* Add or modify styles for even bigger screens here */
-        #spotted {
-            /* Example styles for even bigger screens */
-            height: 150%;
-            background-color: lightblue;
-        }
-
-        #spotted-text {
-            /* Example styles for even bigger screens */
-            font-size: 1.2rem;
-        }
-
-        #photos {
-
-            align-self: center;
-            column-count: 5;
-            column-gap: 0;
-            width: 100%;
-            /* Set a maximum width if needed */
-            margin: 0 auto;
-            /* Center the gallery horizontally */
-            /* Set the gap between columns to 0 */
-        }
-
-        #photos img {
-            transition: transform 0.3s ease-in-out;
-        }
-
-        #photos img:hover {
-
-            transform: scale(1.2);
-            z-index: 2;
-            /* Increase the z-index on hover */
-            box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
-            border: 1px solid wheat;
-        }
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-top: 30px;
+        border-radius: 15px;
+        margin-bottom: 0px;
 
 
     }
+
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Styles for Wildlife Section */
+    #wildlife {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #wild-life-title {
+        padding: 10px 0 5px 10px;
+        color: #ffffff;
+        background: url('../images/deer-fight-background-img.jpg') no-repeat center center/cover;
+
+        width: 100%;
+        max-height: 70px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #wild-life-title h2 p {
+        font-size: 1rem;
+        color: #ffffff;
+        margin-top: 0;
+        background-color: rgba(236, 135, 198, 0.4);
+        padding: 10px;
+        display: none;
+    }
+
+    #wildlife-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 30px;
+
+
+    }
+
+    #wildlife-container #wildlife-line-one,
+    #wildlife-container #wildlife-line-two {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+
+    #wildlife-container .animal {
+        box-sizing: border-box;
+        width: 80%;
+        margin-bottom: 20px;
+        margin: 10px 10px;
+    }
+
+    #wildlife-container .animal img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+
+    }
+
+    #wildlife-container .animal h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        margin-left: 5px;
+    }
+
+    #wildlife-container .animal p {
+        font-size: 1rem;
+        line-height: 1.4;
+        padding: 0 5px;
+    }
+
+    #wildlife-container #middle-p {
+        font-size: 1rem;
+        background-color: rgba(219, 112, 147, 0.8);
+        border-radius: 15px;
+        border: 1px solid #fbfafa;
+        height: 70%;
+        width: 100%;
+        align-self: center;
+        margin-bottom: 10px;
+    }
+
+    #wildlife-container #middle-p h2 {
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+
+    #wildlife-container #wildlife-line-one #animal-paragraph,
+    #wildlife-container #wildlife-line-two #animal-paragraph {
+        padding: 5px;
+        font-size: 1rem;
+    }
+
+    #toggleCheckbox:checked+#wild-life-title {
+        background-color: rgba(219, 112, 147, 0.7);
+        background-image: none;
+        height: 150px;
+        margin-bottom: 0;
+    }
+
+    #toggleCheckbox:checked~#wild-life-title h2::before {
+        content: 'WILD LIFE ';
+        font-size: 180%;
+        display: block;
+        justify-content: flex-start;
+        padding: 0px 0 0px 0px;
+        /* Added padding */
+        text-decoration: none;
+        padding-left: 5%;
+
+
+    }
+
+
+
+    #toggleCheckbox:checked+#wild-life-title+#wildlife-container {
+        display: block;
+        margin-top: 70px;
+
+    }
+
+    #bottom-section {
+        display: flex;
+        align-items: stretch;
+        padding: 20px;
+        flex-direction: row;
+        justify-content: center;
+     
+
+    }
+
+    #ways-to-explore {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        box-shadow: none;
+
+    }
+
+    #map-section {
+        position: relative;
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+   
+        align-items: center;
+        flex-direction: row;
+        padding: 0;
+        margin-bottom: 0;
+        max-width: 100%;
+        overflow: hidden;
+        padding-top: 11px;
+       
+    }
+    
+    #map {
+        max-width: 100%;
+        width: 450px;
+        height: 450px;
+       
+        border: 1px solid #333;
+        border-radius: 0%; 
+
+       
+    }
+    
+
+    header {
+        background-color: #ffffff;
+        padding: 0 1rem;
+        z-index: 100;
+        width: 100%;
+
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+
+    }
+    #map-section h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+        text-align: center;
+       top: 430px;
+        padding: 3px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      
+    }
+    
+
+    #photos {
+        column-count: 3;
+        column-gap: 0;
+        /* Set the gap between columns to 0 */
+        z-index: 12;
+    }
+
+    #photos img {
+        transition: transform 0.3s ease-in-out;
+        z-index: 1;
+        /* Set a base z-index */
+
+    }
+
+    #photos img:hover {
+
+        transform: scale(1.2);
+        z-index: 2;
+        /* Increase the z-index on hover */
+        box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
+    }
+
+}
+
+/* Media query: larger screens (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+    /*about NP Killarney*/
+
+    .about-np-section {
+        background-color: white;
+        overflow: hidden;
+    }
+
+    .about-np-circle {
+        width: 150px;
+        height: 150px;
+        border-radius: 0%;
+        overflow: hidden;
+        margin: 20px;
+        float: left;
+    }
+
+    .about-np-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0%;
+    }
+
+    .about-np-text {
+        text-align: justify;
+        margin: 20px;
+    }
+
+    .about-np-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .about-np-description {
+        font-size: 16px;
+        color: #555;
+        shape-outside: circle(50%);
+        margin-right: 20px;
+    }
+
+    /* Add or modify styles for even bigger screens here */
+    #spotted {
+        /* Example styles for even bigger screens */
+        height: 150%;
+        background-color: lightblue;
+    }
+
+    #spotted-text {
+        /* Example styles for even bigger screens */
+        font-size: 1.2rem;
+    }
+
+    #photos {
+
+        align-self: center;
+        column-count: 5;
+        column-gap: 0;
+        width: 100%;
+        /* Set a maximum width if needed */
+        margin: 0 auto;
+        /* Center the gallery horizontally */
+        /* Set the gap between columns to 0 */
+    }
+
+    #photos img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    #photos img:hover {
+
+        transform: scale(1.2);
+        z-index: 2;
+        /* Increase the z-index on hover */
+        box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
+        border: 1px solid wheat;
+    }
+
+
+}
