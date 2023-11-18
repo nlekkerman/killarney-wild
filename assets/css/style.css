@@ -235,6 +235,70 @@ a:hover {
 
 
 }
+/*about NP Killarney*/
+
+.about-np-section {
+    background-color: white;
+    overflow: hidden;
+    padding-top: 70PX;
+    border-bottom: 1px solid gold;
+}
+
+.about-np-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+    float: left;
+}
+
+.about-np-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}#about-np-circle-bottom {
+    max-width:100%;
+    height: 250px;
+   
+    overflow: hidden;
+    margin: 20px;
+    float: right;
+}
+
+.about-np-image-bottom {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.about-np-text {
+    text-align: justify;
+    margin: 5px;
+   
+ 
+}
+
+.about-np-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 20px 5px;
+    background-color: rgba(2, 51, 1, 0.3);
+
+    width: 100%;
+
+}
+
+.about-np-description {
+    font-size: 1rem;
+    color: #333;
+    padding: 5px;
+   
+
+}
 
 main {
     flex: 1;
@@ -249,8 +313,8 @@ main {
 
 #main-content-container {
     flex-grow: 1;
-    /* This makes it expand to fill the available space */
-    /* Add other styles as needed */
+    border-bottom: 1px solid gold;
+margin-bottom: 15px;
 }
 
 #spotted-title h2 {
@@ -328,6 +392,7 @@ main {
     overflow: hidden;
     margin: 10px;
     border-radius: 15px;
+    margin-bottom: 30px;
 
     margin-top: 20px;
 
@@ -620,6 +685,16 @@ main {
 
 }
 
+#ways-to-explore-title {
+padding: 5px;
+    margin-top: 50px;
+    background-color: rgba(2, 51, 1, 0.3);
+    left: 0;
+    width: 80%;
+ 
+   
+}
+
 /* Styles for Explore Text */
 .explore-text {
     font-size: 1rem;
@@ -777,6 +852,8 @@ input[type="submit"]:hover {
 }
 
 /*
+<a href="https://www.freepik.com/free-ai-image/flat-vector-forest-river-illustration_72868175.htm#fromView=search&term=ilustration+nature&page=1&position=0&track=ais_ai_generated&regularType=ai">Image By vector_corp</a>
+<a href="https://www.freepik.com/free-ai-image/tranquil-scene-flowing-water-forest-generated-by-ai_42178126.htm#fromView=search&term=FOrest+ireland&page=1&position=4&track=ais_ai_generated&regularType=ai">Image By vecstock</a>
 <a href="https://www.freepik.com/free-ai-image/view-wild-bird_65693658.htm#fromView=search&term=heron&page=1&position=0&track=ais_ai_generated&regularType=ai">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/wild-elk-nature-with-wilderness-landscape_78536455.htm#fromView=search&term=deer+fight&page=1&position=11&track=ais_ai_generated&regularType=ai">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/vibrant-daisy-blossom-tranquil-meadow-sunset-generated-by-ai_42735337.htm#fromView=search&term=nature&page=2&position=26&track=ais_ai_generated&regularType=ai">Image By vecstock</a>
@@ -793,6 +870,28 @@ input[type="submit"]:hover {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+/*gallery styles*/
+#photos {
+    column-count: 3;
+    column-gap: 0;
+    /* Set the gap between columns to 0 */
+    z-index: 12;
+}
+
+#photos img {
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+    /* Set a base z-index */
+
+}
+
+#photos img:hover {
+
+    transform: scale(1.2);
+    z-index: 2;
+    /* Increase the z-index on hover */
+    box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
+}
 
     /* Header */
     nav {
@@ -1187,7 +1286,6 @@ input[type="submit"]:hover {
             z-index: 2;
             /* Increase the z-index on hover */
             box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
-            border: 1px solid wheat;
         }
 
     }
@@ -1195,6 +1293,46 @@ input[type="submit"]:hover {
     /* Media query: larger screens (1200px and up) */
     @media screen and (min-width: 1200px) {
 
+      /*about NP Killarney*/
+
+.about-np-section {
+    background-color: white;
+    overflow: hidden;
+}
+
+.about-np-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 0%;
+    overflow: hidden;
+    margin: 20px;
+    float: left;
+}
+
+.about-np-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0%;
+}
+
+.about-np-text {
+    text-align: justify;
+    margin: 20px;
+}
+
+.about-np-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.about-np-description {
+    font-size: 16px;
+    color: #555;
+    shape-outside: circle(50%);
+    margin-right: 20px;
+}
         /* Add or modify styles for even bigger screens here */
         #spotted {
             /* Example styles for even bigger screens */
