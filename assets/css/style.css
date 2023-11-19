@@ -302,9 +302,22 @@ a:hover {
 
     display: flex;
     align-self: center;
+  
+        position: relative;
+  
+    }
 
+    #proverb {
+        position: absolute;
+        bottom: -30px; /* Adjust the bottom spacing as needed */
+        left: 50%;
+        transform: translateX(-50%);
+        color: #333; /* Text color */
+        font-weight: 600; /* Font weight */
+        text-align: center; /* Center the text */
+        width: 100%; /* Make sure it spans the entire width */
+    }
 
-}
 
 .about-np-image-bottom {
     width: 100%;
@@ -601,6 +614,12 @@ main {
 
 }
 
+/*proverb*/
+
+#proverb{
+    position: absolute;
+   
+}
 #wildlife {
     background-color: rgba(243, 238, 218, 0.2);
 
@@ -1336,7 +1355,28 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
+iframe{
+    width: 100%;
+   
+}
+    .ilustration-bottom-img {
+        box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
+        width: 30%;
+        height: 30%;
+        object-fit: cover;
+        border-radius: 50%;
+        display: flex;
+        align-self: center;
+        overflow: hidden;
+        margin: 20px;
+    }
+    .fa-icon {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 30px;
+        transform: translateY(-20%);
+        padding: 10px;
+    }
     /*form styles*/
     #input-for-forms {
         width: 50%;
@@ -1408,6 +1448,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     .image-container {
         display: flex;
+    
         flex-direction: column;
         overflow: hidden;
         margin-top: 30px;
@@ -1615,9 +1656,8 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         font-weight: 600;
         font-size: 1rem;
         text-align: center;
-        top: 50px;
+        top: 30px;
         padding: 3px;
-      
        margin-right: 110px;
       
     }
