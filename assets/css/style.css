@@ -747,9 +747,10 @@ main {
 
 .animal img {
     width: 100%;
-    /* Make sure the image fills the entire width of its parent div */
-    height: 350px;
-    /* Maintain the image's aspect ratio */
+    height: 250px;
+    border-left: 3px solid white;
+
+    
 }
 
 /* Optional: Style the text inside the divs */
@@ -973,7 +974,7 @@ input[type="submit"]:hover {
 #photos img {
     width: 100%;
     line-height: 1em;
-    height: 300px;
+    height: 250px;
 }
 
 #photos {
@@ -1044,6 +1045,8 @@ input[type="submit"]:hover {
 }
 
 /*
+<a href="https://www.freepik.com/free-ai-image/vibrant-flowers-bloom-tranquil-meadow-generated-by-ai_42129911.htm#fromView=search&term=wild+flowers&page=1&position=6&track=ais_ai_generated&regularType=ai&uuid=86e2cd12-1144-4486-bbd6-144e5fdf10cc">Image By vecstock</a>
+<a href="https://www.freepik.com/free-ai-image/view-wild-antilope_65693886.htm#fromView=search&term=eild+park&page=1&position=40&track=ais_ai_generated&regularType=ai&uuid=926833bb-f033-472a-b653-8107580111fc">Image By freepik</a>
 <a href="https://www.freepik.com/free-photo/lake-fog-sunrise-with-autumn-foliage-mountains-new-england-stowe_30071761.htm#query=autumn&position=43&from_view=search&track=sph&uuid=3f2a173e-227d-4d37-81c3-d646701271e4">Image by TravelScape</a> on Freepik
 <a href="https://www.freepik.com/free-photo/selective-focus-shot-oak-leaf-illuminated-by-golden-light-autumn-sunset-forest_19538511.htm#page=2&query=autumn&position=2&from_view=search&track=sph&uuid=f30418b3-15a1-4b35-90b4-f716a04edec8">Image by wirestock</a> on Freepik
 <a href="https://www.freepik.com/free-photo/vibrant-autumn-leaves-illuminate-tranquil-forest-dusk-generated-by-ai_41205925.htm#query=autumn&position=35&from_view=search&track=sph&uuid=3f2a173e-227d-4d37-81c3-d646701271e4">Image by vecstock</a> on Freepik
@@ -1067,12 +1070,34 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 */
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    #wildlife {}
+@media screen and (min-width: 425px) {
+  /* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+    height: 350px;
+}
+
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
+    #wildlife-line-one{
+     
+        display: flex;
+        flex-direction: row;
+    }
+    #wildlife-line-two{
+       
+        display: flex;
+        flex-direction: row;
+    }
+    #toggleCheckbox:checked+#wild-life-title+#wildlife-container {
+        
+     
+        margin-top: 0px;
+    }
     .about-np-section {
 
         margin-bottom: 100px;
@@ -1080,7 +1105,11 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         padding-top: 70px;
         border-bottom: 1px solid gold;
     }
-
+    #photos img {
+        width: 100%;
+        line-height: 1em;
+        height: 250px;
+    }
     .about-np-circle {
 
         display: flex;
@@ -1130,8 +1159,8 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     }
 
     .about-np-circle {
-        width: 400px;
-        height: 200px;
+        width: 750px;
+        height: 300px;
         display: flex;
 
         border-radius: 0%;
@@ -1182,7 +1211,17 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         /* Rounded border */
 
     }
-
+    #map-section h2 {
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        position: absolute;
+        right: 10px;
+        padding: 5px;
+        color: white;
+        background-color: #0056b3;
+        top: 40px;
+    }
     /*gallery styles*/
     #photos {
         column-count: 3;
