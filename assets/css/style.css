@@ -438,6 +438,117 @@ border-left: 2px solid white;
     z-index: 1;
 }
 
+/* USERS GALLERY STYLES*/
+.users-gallery-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    margin: 0;
+    z-index: 2;
+}
+
+/* Style for the "(click to see)" text */
+.click-to-see-users-gallery {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    text-align: center;
+    margin: 0;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#users-gallery-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#user-image {
+    text-align: center;
+}
+
+#user-image img {
+    max-width: 100%;
+ 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#user-name {
+   
+    font-size: 18px;
+    color: #333;
+}
+#user-description {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 100;
+    color: #333;
+}
+#autumn-gallery-header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns content to the bottom */
+    align-items: center; /* Centers content horizontally */
+   
+    margin-top: auto; /* Aligns to the bottom */
+    background-color: rgba(236, 135, 198, 0.7);
+width:100%;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 5px 5px;
+    color: white;
+    padding-right: 0px;
+  
+}
+#gallery-frame-container{
+    border: 1px solid #333;
+    padding: 5px;
+}
+#autumn-gallery-header-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Aligns content to the bottom */
+    align-items: center; /* Centers content horizontally */
+    height: 150px; /* Adjust the height as needed */
+    margin-top: auto; /* Aligns to the bottom */
+    background: url('../images/autumn-gallery-title-background-img.jpg') no-repeat center center/cover;
+    font-weight: 400;
+    font-size: 24px;
+
+  
+    padding-right: 0px;
+}
+#autumn-gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+    display: block;
+}
+
+
+#users-gallery-image-container {
+    display: block;
+    display: flex;
+}
+
+
+
+
+
+
+
+
 /*wild life styles */
 
 #wildlife-container {
@@ -849,7 +960,7 @@ input[type="submit"]:hover {
 #sponsor-container {
     width: 100%;
     border: 0.2px solid rgba(210, 198, 198,1);
-
+background-color: #333;
     display: flex;
     justify-content: space-between;
     /* or 'space-between' based on your preference */
@@ -885,10 +996,13 @@ input[type="submit"]:hover {
     margin-top: 10px;
     font-size: 0.7rem;
     text-align: center;
-    color: #333;
+    color: white
 }
 
 /*
+<a href="https://www.freepik.com/free-photo/lake-fog-sunrise-with-autumn-foliage-mountains-new-england-stowe_30071761.htm#query=autumn&position=43&from_view=search&track=sph&uuid=3f2a173e-227d-4d37-81c3-d646701271e4">Image by TravelScape</a> on Freepik
+<a href="https://www.freepik.com/free-photo/selective-focus-shot-oak-leaf-illuminated-by-golden-light-autumn-sunset-forest_19538511.htm#page=2&query=autumn&position=2&from_view=search&track=sph&uuid=f30418b3-15a1-4b35-90b4-f716a04edec8">Image by wirestock</a> on Freepik
+<a href="https://www.freepik.com/free-photo/vibrant-autumn-leaves-illuminate-tranquil-forest-dusk-generated-by-ai_41205925.htm#query=autumn&position=35&from_view=search&track=sph&uuid=3f2a173e-227d-4d37-81c3-d646701271e4">Image by vecstock</a> on Freepik
 <a href="https://www.freepik.com/free-vector/letter-q-logo-concept_1224584.htm#query=logo%20for%20companies%20fake%20names&position=20&from_view=search&track=ais&uuid=20c0fcac-6652-40dd-a084-062a423df1bb">Image by starline</a> on Freepik
 <a href="https://www.freepik.com/free-vector/letter-q-logo-concept_1224584.htm#query=logo%20for%20companies%20fake%20names&position=20&from_view=search&
 track=ais&uuid=20c0fcac-6652-40dd-a084-062a423df1bb">Image by starline</a> on Freepik
@@ -904,6 +1018,8 @@ Image by <a href="https://www.freepik.com/free-vector/logo-template_33601695.htm
 <a href="https://www.freepik.com/free-ai-image/standing-backpacker-mountain-peak-achieving-success-generated-by-ai_43018009.htm#fromView=search&term=explore&page=1&position=3&track=ais_ai_generated&regularType=ai">Image By stockgiu</a>
 <a href="https://www.freepik.com/free-vector/forest-animals-color-set-with-isolated-images-small-big-wild-animals-with-flowers-leaves-vector-illustration_26762879.htm#page=2&query=animals%20pictograms&position=6&from_view=search&track=ais">Image by macrovector</a> on Freepik
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
+Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-background_18999571.htm#page=2&query=autumn&position=26&from_view=search&track=sph&uuid=f30418b3-15a1-4b35-90b4-f716a04edec8#position=26&page=2&query=autumn">Freepik</a>
+
 */
 
 /* Media query: large or landscape phones (576px and up) */
