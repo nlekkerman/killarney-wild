@@ -229,6 +229,8 @@ a:hover {
     position: absolute;
     top: 370px;
     width: 70%;
+    box-shadow: 0 4px 8px rgba(250, 250, 248, 0.3);
+
     right: 0;
     padding: 40px 10px;
     /* 0 for top and bottom, 10px for left and right */
@@ -246,6 +248,9 @@ a:hover {
 }
 
 .about-np-circle {
+    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.5);
+    /* Adjust the values as needed */
+
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -279,6 +284,9 @@ a:hover {
 }
 
 .ilustration-bottom-img {
+    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
+    /* Adjust the values as needed */
+
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -286,14 +294,15 @@ a:hover {
     display: flex;
     align-self: center;
 }
-#ilustration-bottom-container{
+
+#ilustration-bottom-container {
     width: 100%;
     height: 100%;
-   margin:40px 0px;
+    margin: 40px 0px;
 
     display: flex;
     align-self: center;
-   
+
 
 }
 
@@ -312,12 +321,16 @@ a:hover {
 }
 
 .about-np-title {
+    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
+    /* Adjust the values as needed */
+
     font-size: 2rem;
     font-weight: bold;
-    margin-left: 10px;
-    padding: 20px 5px;
-    background-color: rgba(2, 51, 1, 0.3);
 
+    padding: 20px 55px;
+    background-color: rgba(2, 51, 1, 0.3);
+    background: url(../images/ilustration-background.jpg) no-repeat center center/cover;
+    text-align: end;
     width: 100%;
 
 }
@@ -437,9 +450,11 @@ main {
 .image {
     position: relative;
     flex: 1;
+
 }
 
 .title {
+
     position: absolute;
     top: 10px;
     left: 10px;
@@ -483,12 +498,15 @@ main {
 
 #user-image {
     text-align: center;
+
 }
 
 #user-image img {
     max-width: 100%;
 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.4);
+    /* Adjust the values as needed */
+
 }
 
 #user-name {
@@ -864,7 +882,7 @@ main {
     right: 10px;
     padding: 5px;
     color: white;
-   background-color: #0056b3;
+    background-color: #0056b3;
     top: 30px;
     /* Adjust this value as needed */
 }
@@ -1055,26 +1073,87 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    .about-np-section {
+
+        margin-bottom: 100px;
+        overflow: hidden;
+        padding-top: 70px;
+        border-bottom: 1px solid gold;
+    }
+
+    .about-np-circle {
+
+        display: flex;
+        width: 150px;
+        height: 150px;
+        border-radius: 0%;
+        overflow: hidden;
+        margin: 20px;
+        float: left;
+    }
+
+    .about-np-image {
+
+        display: flex;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 0%;
+
+    }
+
+    #about-np-circle-bottom {
+        width: 100%;
+        height: 250px;
+
+
+    }
+
     .ilustration-bottom-img {
+        box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
+        /* Adjust the values as needed */
         width: 50%;
         height: 50%;
         object-fit: cover;
         border-radius: 50%;
         display: flex;
         align-self: center;
-      overflow: hidden;
-    margin: 20px;
-   
+        overflow: hidden;
+        margin: 20px;
+
     }
+
+    .about-np-description {
+        font-size: 1.2rem;
+        color: #333;
+        padding: 5px;
+    }
+
+    .about-np-circle {
+        width: 400px;
+        height: 200px;
+        display: flex;
+
+        border-radius: 0%;
+        overflow: hidden;
+
+        margin: 4px;
+        margin-top: 20px;
+        float: left;
+    }
+
     #ilustration-bottom-container {
         width: 100%;
         height: 100%;
         margin: 40px 0px;
         display: flex;
-    
-        justify-content: center; /* Center horizontally */
-        align-items: center; /* Center vertically */
+
+        justify-content: center;
+        /* Center horizontally */
+        align-items: center;
+        /* Center vertically */
     }
+
     #map-section {
         position: relative;
         flex: 1;
@@ -1090,7 +1169,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         overflow: hidden;
     }
 
-   
+
 
     #map {
         width: 100%;
@@ -1432,7 +1511,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     }
 
     #bottom-section {
-        display: flex;
+       
         align-items: stretch;
         padding: 20px;
         flex-direction: row;
@@ -1452,7 +1531,8 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     #map-section {
         position: relative;
         flex: 1;
-        display: flex;
+        margin-top: 30px;
+        border-top: 2px solid gold;
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
@@ -1469,6 +1549,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         max-width: 100%;
         width: 450px;
         height: 450px;
+        margin-top: 30px;
 
         border: 1px solid #333;
         border-radius: 0%;
@@ -1495,12 +1576,11 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         font-weight: 600;
         font-size: 1rem;
         text-align: center;
-        top: 430px;
+        top: 50px;
         padding: 3px;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-
+      
+       margin-right: 110px;
+      
     }
 
 
