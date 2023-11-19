@@ -259,14 +259,14 @@ a:hover {
     height: 100%;
     object-fit: cover;
     border-radius: 50%;
-    
+
 }
 
 #about-np-circle-bottom {
     max-width: 100%;
     height: 250px;
 
-   
+
 }
 
 .ilustration-bottom-img {
@@ -285,6 +285,16 @@ a:hover {
     border-radius: 50%;
     display: flex;
     align-self: center;
+}
+#ilustration-bottom-container{
+    width: 100%;
+    height: 100%;
+   margin:40px 0px;
+
+    display: flex;
+    align-self: center;
+   
+
 }
 
 .about-np-image-bottom {
@@ -410,10 +420,10 @@ main {
 .image-container {
     display: flex;
     overflow: hidden;
-  
+
     border-radius: 15px;
     margin-bottom: 30px;
-border-left: 2px solid white;
+    border-left: 2px solid white;
     margin-top: 20px;
 
 }
@@ -477,15 +487,16 @@ border-left: 2px solid white;
 
 #user-image img {
     max-width: 100%;
- 
+
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #user-name {
-   
+
     font-size: 18px;
     color: #333;
 }
+
 #user-description {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -494,41 +505,52 @@ border-left: 2px solid white;
     font-weight: 100;
     color: #333;
 }
+
 #autumn-gallery-header-title {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Aligns content to the bottom */
-    align-items: center; /* Centers content horizontally */
-   
-    margin-top: auto; /* Aligns to the bottom */
+    justify-content: flex-end;
+    /* Aligns content to the bottom */
+    align-items: center;
+    /* Centers content horizontally */
+
+    margin-top: auto;
+    /* Aligns to the bottom */
     background-color: rgba(236, 135, 198, 0.7);
-width:100%;
+    width: 100%;
     font-weight: 400;
     font-size: 20px;
     padding: 5px 5px;
     color: white;
     padding-right: 0px;
-  
+
 }
-#gallery-frame-container{
+
+#gallery-frame-container {
     border: 1px solid #333;
     padding: 5px;
 }
-#autumn-gallery-header-title-container{
+
+#autumn-gallery-header-title-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end; /* Aligns content to the bottom */
-    align-items: center; /* Centers content horizontally */
-    height: 150px; /* Adjust the height as needed */
-    margin-top: auto; /* Aligns to the bottom */
+    justify-content: flex-end;
+    /* Aligns content to the bottom */
+    align-items: center;
+    /* Centers content horizontally */
+    height: 150px;
+    /* Adjust the height as needed */
+    margin-top: auto;
+    /* Aligns to the bottom */
     background: url('../images/autumn-gallery-title-background-img.jpg') no-repeat center center/cover;
     font-weight: 400;
     font-size: 24px;
 
-  
+
     padding-right: 0px;
 }
-#autumn-gallery-container{
+
+#autumn-gallery-container {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
@@ -839,9 +861,11 @@ width:100%;
     font-weight: 400;
     font-size: 1rem;
     position: absolute;
-    left: 10px;
-    /* Adjust this value as needed */
-    top: 0;
+    right: 10px;
+    padding: 5px;
+    color: white;
+   background-color: #0056b3;
+    top: 30px;
     /* Adjust this value as needed */
 }
 
@@ -959,28 +983,30 @@ input[type="submit"]:hover {
 
 #sponsor-container {
     width: 100%;
-    border: 0.2px solid rgba(210, 198, 198,1);
-background-color: #333;
+    border: 0.2px solid rgba(210, 198, 198, 1);
+    background-color: #333;
     display: flex;
     justify-content: space-between;
     /* or 'space-between' based on your preference */
 }
 
 .sponsor {
-    border-right: 0.2px solid rgba(210, 198, 198,0.5);
+    border-right: 0.2px solid rgba(210, 198, 198, 0.5);
     text-align: center;
     display: flex;
     flex-direction: column;
     flex: 1;
     /* Distribute available space equally among all .sponsor divs */
 }
-#sponsor-title{
+
+#sponsor-title {
     background-color: rgba(198, 210, 204, 0.5);
     font-weight: 300;
     padding-left: 5px;
-    border: 1px solid rgba(210, 198, 198,0.5);
-  
+    border: 1px solid rgba(210, 198, 198, 0.5);
+
 }
+
 .sponsor img {
     width: 50px;
     /* Adjust the width as needed */
@@ -1029,6 +1055,54 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    .ilustration-bottom-img {
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+        border-radius: 50%;
+        display: flex;
+        align-self: center;
+      overflow: hidden;
+    margin: 20px;
+   
+    }
+    #ilustration-bottom-container {
+        width: 100%;
+        height: 100%;
+        margin: 40px 0px;
+        display: flex;
+    
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+    }
+    #map-section {
+        position: relative;
+        flex: 1;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: center;
+        flex-direction: row;
+        margin-bottom: 30px;
+        margin-top: 0px;
+        max-width: 100%;
+        padding-top: 0px;
+        overflow: hidden;
+    }
+
+   
+
+    #map {
+        width: 100%;
+        max-width: 100%;
+        /* Adjust the max-width as needed */
+        height: 200px;
+        /* Adjust the height as needed */
+        border: 1px solid #333;
+        border-radius: 10px;
+        /* Rounded border */
+
+    }
 
     /*gallery styles*/
     #photos {
@@ -1363,7 +1437,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         padding: 20px;
         flex-direction: row;
         justify-content: center;
-     
+
 
     }
 
@@ -1388,20 +1462,20 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         max-width: 100%;
         overflow: hidden;
         padding-top: 11px;
-       
+
     }
-    
+
     #map {
         max-width: 100%;
         width: 450px;
         height: 450px;
-       
-        border: 1px solid #333;
-        border-radius: 0%; 
 
-       
+        border: 1px solid #333;
+        border-radius: 0%;
+
+
     }
-    
+
 
     header {
         background-color: #ffffff;
@@ -1415,19 +1489,20 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         align-items: baseline;
 
     }
+
     #map-section h2 {
         font-family: 'Lato', sans-serif;
         font-weight: 600;
         font-size: 1rem;
         text-align: center;
-       top: 430px;
+        top: 430px;
         padding: 3px;
         position: absolute;
         bottom: 0;
         left: 0;
-      
+
     }
-    
+
 
     #photos {
         column-count: 3;
