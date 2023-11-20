@@ -639,7 +639,7 @@ main {
     width: 100%;
     margin-top: 30px;
     background-size: 100px;
-    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
+   
 
 
 }
@@ -1545,7 +1545,12 @@ margin-bottom: 10px;
         margin-top: 10px;
     
     }
-
+    .animal img {
+        width: 100%;
+        height: 250px;
+        border-left: 0px solid white;
+        box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
+    }
     /* Styles for Wildlife Section */
     #wildlife {
 
@@ -1817,7 +1822,7 @@ margin-bottom: 10px;
 
     .animal img {
 
-        border-left: 3px solid white;
+        border-left: 0px solid white;
     }
 
     #wildlife-container .animal img {
@@ -1895,5 +1900,56 @@ margin-bottom: 10px;
         border-radius: 50%;
         align-self: center;
         margin-top: 10px;
+    }
+}
+@media screen and (min-width: 1600px) {
+
+    /* Add or modify styles for screens larger than 1600px here */
+
+    .about-np-title {
+        font-size: 4rem; /* Example: Increase font size for even larger screens */
+    }
+
+    #spotted {
+        height: 200%; /* Example: Adjust height for even larger screens */
+        background-color: lightcoral;
+    }
+
+    #photos {
+    
+        column-count: 5; /* Example: Increase the number of columns for even larger screens */
+    }
+
+    .sponsor img {
+        width: 200px; /* Example: Increase sponsor image size for even larger screens */
+        height: 200px;
+    }
+    .about-np-circle {
+        width: 750px;
+        height: 646px;
+        border-radius: 0%;
+        overflow: hidden;
+        margin: 20px;
+        float: left;
+    }
+    #about-np-circle-bottom {
+        width: 62%;
+        height: 375px;
+        box-shadow: rgba(164, 155, 155, 0.2) 0px 4px 8px;
+        float: right;
+        margin-bottom: 10px;
+    }
+    #spotted {
+        height: 750px;
+       
+    }
+    #spotted-text {
+        font-size: 2.2rem;
+        width: 80%;
+    }
+    #spotted h5 {
+       
+        font-size: 2.5rem;
+      
     }
 }
