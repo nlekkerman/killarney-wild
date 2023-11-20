@@ -214,6 +214,7 @@ a:hover {
 /*her0*/
 
 #hero {
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
     margin-top: 2px;
     background-color: #3498db;
     background: url('../images/hero-img.jpg')no-repeat center center/cover;
@@ -244,7 +245,8 @@ a:hover {
     background-color: white;
     overflow: hidden;
     padding-top: 70PX;
-    border-bottom: 1px solid gold;
+  
+
 }
 
 .about-np-circle {
@@ -253,7 +255,7 @@ a:hover {
 
     width: 150px;
     height: 150px;
-    border-radius: 50%;
+
     overflow: hidden;
     margin: 20px;
     float: left;
@@ -263,13 +265,15 @@ a:hover {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 50%;
+
 
 }
 
 #about-np-circle-bottom {
+    box-shadow: 0 4px 8px rgba(188, 183, 183, 0.2);
     max-width: 100%;
     height: 250px;
+    margin-bottom: 5px;
 
 
 }
@@ -302,27 +306,34 @@ a:hover {
 
     display: flex;
     align-self: center;
-  
-        position: relative;
-  
-    }
 
-    #proverb {
-        position: absolute;
-        bottom: -30px; /* Adjust the bottom spacing as needed */
-        left: 50%;
-        transform: translateX(-50%);
-        color: #333; /* Text color */
-        font-weight: 600; /* Font weight */
-        text-align: center; /* Center the text */
-        width: 100%; /* Make sure it spans the entire width */
-    }
+    position: relative;
+
+}
+
+#proverb {
+    position: absolute;
+    bottom: -30px;
+    /* Adjust the bottom spacing as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #333;
+    /* Text color */
+    font-weight: 600;
+    /* Font weight */
+    text-align: center;
+    /* Center the text */
+    width: 100%;
+    /* Make sure it spans the entire width */
+}
 
 
 .about-np-image-bottom {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
+
 
 }
 
@@ -369,7 +380,7 @@ main {
 
 #main-content-container {
     flex-grow: 1;
-    border-bottom: 1px solid gold;
+  
     margin-bottom: 15px;
 }
 
@@ -382,6 +393,7 @@ main {
 
 #spotted {
     height: 100%;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
     width: 100%;
     border-radius: 15px;
     margin-top: 30px;
@@ -446,6 +458,7 @@ main {
 .image-container {
     display: flex;
     overflow: hidden;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
 
     border-radius: 15px;
     margin-bottom: 30px;
@@ -507,6 +520,7 @@ main {
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
+    
 }
 
 #user-image {
@@ -558,7 +572,7 @@ main {
 }
 
 #gallery-frame-container {
-    border: 1px solid #333;
+   
     padding: 5px;
 }
 
@@ -590,10 +604,7 @@ main {
 }
 
 
-#users-gallery-image-container {
-    display: block;
-    display: flex;
-}
+
 
 
 
@@ -616,18 +627,19 @@ main {
 
 /*proverb*/
 
-#proverb{
+#proverb {
     position: absolute;
-   
+
 }
+
 #wildlife {
-    background-color: rgba(243, 238, 218, 0.2);
 
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     margin-top: 30px;
     background-size: 100px;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
 
 
 }
@@ -664,6 +676,8 @@ main {
     width: 100%;
     margin-top: 10px;
     display: none;
+   
+
 }
 
 #wildlife #wild-life-title #wild-life-title-text {
@@ -768,8 +782,10 @@ main {
     width: 100%;
     height: 250px;
     border-left: 3px solid white;
+    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
 
-    
+
+
 }
 
 /* Optional: Style the text inside the divs */
@@ -792,7 +808,7 @@ main {
     flex-direction: column;
     margin-top: 30px;
     gap: 0;
-
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
     color: white;
     background: url('../images/explore-background-img.jpg') no-repeat center center/cover;
 
@@ -878,6 +894,7 @@ main {
 
 /* Your existing styles go here */
 #map-section {
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
     position: relative;
     flex: 1;
     display: flex;
@@ -1015,8 +1032,12 @@ input[type="submit"]:hover {
     justify-content: space-around;
     align-items: center;
     background-color: white;
-    padding: 20px 0;
+    padding: 10px 0;
+    margin: 20px 0;
     max-width: 100%;
+  
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
+  
 }
 
 #sponsor-container {
@@ -1038,9 +1059,11 @@ input[type="submit"]:hover {
 }
 
 #sponsor-title {
-    background-color: rgba(198, 210, 204, 0.5);
+    background-color: rgba(1, 9, 5, 0.5);
     font-weight: 300;
     padding-left: 5px;
+    color: white;
+    margin-top: 20px;
     border: 1px solid rgba(210, 198, 198, 0.5);
 
 }
@@ -1064,6 +1087,7 @@ input[type="submit"]:hover {
 }
 
 /*
+<a href="https://www.freepik.com/free-ai-image/animal-portrait-close-up_48012443.htm#fromView=search&term=wild+animal+black+and+white&page=1&position=48&track=ais_ai_generated&regularType=ai">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/vibrant-flowers-bloom-tranquil-meadow-generated-by-ai_42129911.htm#fromView=search&term=wild+flowers&page=1&position=6&track=ais_ai_generated&regularType=ai&uuid=86e2cd12-1144-4486-bbd6-144e5fdf10cc">Image By vecstock</a>
 <a href="https://www.freepik.com/free-ai-image/view-wild-antilope_65693886.htm#fromView=search&term=eild+park&page=1&position=40&track=ais_ai_generated&regularType=ai&uuid=926833bb-f033-472a-b653-8107580111fc">Image By freepik</a>
 <a href="https://www.freepik.com/free-photo/lake-fog-sunrise-with-autumn-foliage-mountains-new-england-stowe_30071761.htm#query=autumn&position=43&from_view=search&track=sph&uuid=3f2a173e-227d-4d37-81c3-d646701271e4">Image by TravelScape</a> on Freepik
@@ -1090,45 +1114,62 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 425px) {
-  /* Gallery page */
-#photos img {
-    width: 100%;
-    line-height: 1em;
-    height: 350px;
-}
+
+    /* Gallery page */
+    #photos img {
+        width: 100%;
+        line-height: 1em;
+        height: 350px;
+    }
 
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    .sponsor img {
+        width: 70px;
+        /* Adjust the width as needed */
+        height: 70px;
+        /* Adjust the height as needed */
+        border-radius: 50%;
+        align-self: center;
+        margin-top: 10px;
+    
+    }
 
-    #wildlife-line-one{
-     
+    #wildlife-line-one {
+
         display: flex;
         flex-direction: row;
     }
-    #wildlife-line-two{
-       
+
+    #wildlife-line-two {
+
         display: flex;
         flex-direction: row;
     }
+
     #toggleCheckbox:checked+#wild-life-title+#wildlife-container {
-        
-     
+
+
         margin-top: 0px;
     }
+
     .about-np-section {
 
         margin-bottom: 100px;
         overflow: hidden;
         padding-top: 70px;
-        border-bottom: 1px solid gold;
+     
+
     }
+
     #photos img {
         width: 100%;
         line-height: 1em;
         height: 250px;
     }
+
     .about-np-circle {
 
         display: flex;
@@ -1153,7 +1194,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     #about-np-circle-bottom {
         width: 100%;
         height: 250px;
-
+margin-bottom: 10px;
 
     }
 
@@ -1230,6 +1271,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         /* Rounded border */
 
     }
+
     #map-section h2 {
         font-family: 'Lato', sans-serif;
         font-weight: 400;
@@ -1241,6 +1283,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         background-color: #0056b3;
         top: 40px;
     }
+
     /*gallery styles*/
     #photos {
         column-count: 3;
@@ -1355,10 +1398,11 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-iframe{
-    width: 100%;
-   
-}
+    iframe {
+        width: 100%;
+
+    }
+
     .ilustration-bottom-img {
         box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
         width: 30%;
@@ -1370,6 +1414,7 @@ iframe{
         overflow: hidden;
         margin: 20px;
     }
+
     .fa-icon {
         font-size: 1.5rem;
         position: absolute;
@@ -1377,6 +1422,7 @@ iframe{
         transform: translateY(-20%);
         padding: 10px;
     }
+
     /*form styles*/
     #input-for-forms {
         width: 50%;
@@ -1418,7 +1464,9 @@ iframe{
 
     #main-content-container {
         display: flex;
-
+        flex-grow: 1;
+        
+        margin-bottom: 66px;
         align-items: stretch;
         padding: 20px;
 
@@ -1431,15 +1479,16 @@ iframe{
     #spotted {
         flex: 1;
         display: flex;
-       
-     
+
+
     }
 
     #spotted-div {
         margin-bottom: 20px;
-     
+
         /* Adjust as needed for spacing between spotted-divs */
     }
+
     #user-description {
         margin-top: 5px;
         margin-bottom: 5px;
@@ -1448,18 +1497,20 @@ iframe{
         font-weight: 100;
         color: #333;
     }
+
     #autumn-gallery-header-title-container {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        height: 200px;
+        height: 250px;
         margin-top: auto;
         background: url(../images/autumn-gallery-title-background-img.jpg) no-repeat center center/cover;
         font-weight: 400;
         font-size: 35px;
         padding-right: 0px;
     }
+
     #autumn-in-the-park {
         flex: 1;
         display: flex;
@@ -1469,7 +1520,7 @@ iframe{
 
     .image-container {
         display: flex;
-    
+
         flex-direction: column;
         overflow: hidden;
         margin-top: 30px;
@@ -1483,6 +1534,16 @@ iframe{
     img {
         max-width: 100%;
         height: auto;
+    }
+    .sponsor img {
+        width: 100px;
+        /* Adjust the width as needed */
+        height: 100px;
+        /* Adjust the height as needed */
+        border-radius: 50%;
+        align-self: center;
+        margin-top: 10px;
+    
     }
 
     /* Styles for Wildlife Section */
@@ -1612,7 +1673,7 @@ iframe{
     }
 
     #bottom-section {
-       
+
         align-items: stretch;
         padding: 20px;
         flex-direction: row;
@@ -1633,7 +1694,7 @@ iframe{
         position: relative;
         flex: 1;
         margin-top: 30px;
-        border-top: 2px solid gold;
+
         flex-wrap: wrap;
         justify-content: space-around;
         align-items: center;
@@ -1642,7 +1703,8 @@ iframe{
         margin-bottom: 0;
         max-width: 100%;
         overflow: hidden;
-        padding-top: 11px;
+
+        box-shadow: 0 4px 8px rgba(101, 64, 64, 0.3);
 
     }
 
@@ -1679,8 +1741,8 @@ iframe{
         text-align: center;
         top: 30px;
         padding: 3px;
-       margin-right: 110px;
-      
+        margin-right: 110px;
+
     }
 
 
@@ -1719,8 +1781,8 @@ iframe{
     }
 
     .about-np-circle {
-        width: 150px;
-        height: 150px;
+        width: 650px;
+        height: 300px;
         border-radius: 0%;
         overflow: hidden;
         margin: 20px;
@@ -1734,19 +1796,55 @@ iframe{
         border-radius: 0%;
     }
 
+    #about-np-circle-bottom {
+        width: 100%;
+
+        height: 350px;
+        box-shadow: 0 4px 8px rgba(164, 155, 155, 0.2);
+        float: right;
+       margin-bottom: 10px;
+
+    }
+
     .about-np-text {
         text-align: justify;
         margin: 20px;
+
+        font-size: 200%;
+    }
+
+    /*Animal container*/
+
+    .animal img {
+
+        border-left: 3px solid white;
+    }
+
+    #wildlife-container .animal img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+
+    #wildlife-container #wildlife-line-one #animal-paragraph,
+    #wildlife-container #wildlife-line-two #animal-paragraph {
+        padding: 5px;
+        font-size: 1.3rem;
     }
 
     .about-np-title {
-        font-size: 24px;
+        box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
+        font-size: 2.5rem;
         font-weight: bold;
-        margin-bottom: 10px;
+        padding: 20px 55px;
+        background-color: rgba(2, 51, 1, 0.3);
+        background: url(../images/ilustration-background.jpg) no-repeat center center/cover;
+        text-align: end;
+        width: 100%;
     }
 
     .about-np-description {
-        font-size: 16px;
+        font-size: 26px;
         color: #555;
         shape-outside: circle(50%);
         margin-right: 20px;
@@ -1790,4 +1888,12 @@ iframe{
     }
 
 
+    /*SPONSORS*/
+    .sponsor img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        align-self: center;
+        margin-top: 10px;
+    }
 }
