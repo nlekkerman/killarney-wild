@@ -1440,6 +1440,14 @@ iframe{
      
         /* Adjust as needed for spacing between spotted-divs */
     }
+    #user-description {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 100;
+        color: #333;
+    }
     #autumn-gallery-header-title-container {
         display: flex;
         flex-direction: column;
