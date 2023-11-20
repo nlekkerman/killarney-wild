@@ -1431,14 +1431,27 @@ iframe{
     #spotted {
         flex: 1;
         display: flex;
-        flex-direction: column;
+       
+     
     }
 
     #spotted-div {
         margin-bottom: 20px;
+     
         /* Adjust as needed for spacing between spotted-divs */
     }
-
+    #autumn-gallery-header-title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 200px;
+        margin-top: auto;
+        background: url(../images/autumn-gallery-title-background-img.jpg) no-repeat center center/cover;
+        font-weight: 400;
+        font-size: 35px;
+        padding-right: 0px;
+    }
     #autumn-in-the-park {
         flex: 1;
         display: flex;
