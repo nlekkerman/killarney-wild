@@ -555,18 +555,14 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    /* Aligns content to the bottom */
     align-items: center;
-    /* Centers content horizontally */
-
     margin-top: auto;
-    /* Aligns to the bottom */
-    background-color: rgba(236, 135, 198, 0.7);
+    background-color: rgba(252, 240, 25, 0.7);
     width: 100%;
     font-weight: 400;
     font-size: 20px;
     padding: 5px 5px;
-    color: white;
+    color: rgb(2, 0, 0);
     padding-right: 0px;
 
 }
@@ -1402,7 +1398,21 @@ margin-bottom: 10px;
         width: 100%;
 
     }
-
+  
+    #autumn-gallery-header-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: auto;
+        background-color: rgba(252, 240, 25, 0.7);
+        width: 100%;
+        font-weight: 400;
+        font-size: 3rem;
+        padding: 5px 5px;
+        color: rgb(2, 0, 0);
+        padding-right: 0px;
+    }
     .ilustration-bottom-img {
         box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
         width: 30%;
@@ -1777,7 +1787,20 @@ margin-bottom: 10px;
 
 /* Media query: larger screens (1200px and up) */
 @media screen and (min-width: 1200px) {
-
+    #autumn-gallery-header-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: auto;
+        background-color: rgba(252, 240, 25, 0.7);
+        width: 100%;
+        font-weight: 400;
+        font-size: 3rem;
+        padding: 5px 5px;
+        color: rgb(2, 0, 0);
+        padding-right: 0px;
+    }
     /*about NP Killarney*/
 
     .about-np-section {
@@ -1904,6 +1927,110 @@ margin-bottom: 10px;
 }
 @media screen and (min-width: 1600px) {
 
+    #users-gallery-image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .user-one {
+        width: 100%;
+    }
+#user-two-thre-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+    .user-two,
+    .user-three {
+        width: 50%; /* Adjust the width as needed */
+    
+        box-sizing: border-box;
+    }
+
+    #user-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px; /* Add border-radius for rounded corners if desired */
+    }
+    #ways-to-explore-title {
+        padding: 5px;
+        margin-top: 50px;
+        background-color: rgba(2, 51, 1, 0.3);
+        left: 0;
+        width: 80%;
+        font-size: 3.5rem;
+    }
+    .explore-text {
+      
+        color: #fbfafa;
+        padding: 10px 5px;
+    }
+    #bottom-section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    #map-section {
+      
+    }
+
+    #ways-to-explore {
+     height: 650px;
+    }
+
+    #iframe {
+      
+        height: 650px;
+        border: 0;
+    }
+
+    .explore-item {
+        margin-bottom: 20px; /* Add some spacing between explore items */
+    }
+
+    .explore-title {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .fa-icon {
+        margin-right: 5px;
+    }
+    #user-name,
+    #user-description {
+        margin: 10px 0;
+        font-size: 3rem;
+    }
+    #autumn-gallery-header-title-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        height: 550px;
+        margin-top: auto;
+        background: url(../images/autumn-gallery-title-background-img.jpg) no-repeat center center/cover;
+        font-weight: 400;
+        font-size: 35px;
+        padding-right: 0px;
+    }
+    #autumn-gallery-header-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: auto;
+        background-color: rgba(252, 240, 25, 0.7);
+        width: 100%;
+        font-weight: 400;
+        font-size: 5rem;
+        padding: 5px 5px;
+        color: rgb(2, 0, 0);
+        padding-right: 0px;
+    }
     /* Add or modify styles for screens larger than 1600px here */
 
     .about-np-title {
@@ -1932,6 +2059,13 @@ margin-bottom: 10px;
         margin: 20px;
         float: left;
     }
+    #spotted-title h2 {
+        background-color: palevioletred;
+        margin-top: 30px;
+        width: 80%;
+        font-size: 5rem;
+        padding-left: 5px;
+    }
     #about-np-circle-bottom {
         width: 62%;
         height: 375px;
@@ -1941,7 +2075,6 @@ margin-bottom: 10px;
     }
     #spotted {
         height: 750px;
-       
     }
     #spotted-text {
         font-size: 2.2rem;
