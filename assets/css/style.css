@@ -10,11 +10,16 @@
 
 /* General styles */
 body {
+
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+    overflow-y: scroll;
+    /* Show vertical scrollbar when needed */
+    margin: 0;
 }
 
 /* Title styles*/
@@ -91,19 +96,22 @@ header a {
 }
 
 
-  /* Additional CSS for styling the image and header */
-  #header-image {
-    width: 150px; /* Adjust the width as needed */
+/* Additional CSS for styling the image and header */
+#header-image {
+    width: 150px;
+    /* Adjust the width as needed */
     display: block;
-    margin: 0 auto; /* Center the image */
-   
- 
+    margin: 0 auto;
+    border-bottom: 2px solid gold;
+
+
 
 }
 
 #logo {
     text-align: center;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px;
+    /* Adjust the margin as needed */
 }
 
 
@@ -135,8 +143,8 @@ li {
 
 a {
     text-decoration: none;
-    color: #333;
-    font-size: 16px;
+    color: blue;
+    font-size: 19px;
     transition: color 0.3s ease;
 }
 
@@ -259,7 +267,7 @@ a:hover {
     background-color: white;
     overflow: hidden;
     padding-top: 70PX;
-  
+
 
 }
 
@@ -394,7 +402,7 @@ main {
 
 #main-content-container {
     flex-grow: 1;
-  
+
     margin-bottom: 15px;
 }
 
@@ -402,6 +410,14 @@ main {
     background-color: palevioletred;
     margin-top: 30px;
     width: 70%;
+    padding-left: 5px;
+}
+
+#spotted-title p {
+    background-color: rgba(122, 234, 323, 0.3);
+    margin-top: 10px;
+
+    width: 100%;
     padding-left: 5px;
 }
 
@@ -534,7 +550,7 @@ main {
     align-items: center;
     flex-direction: column;
     margin-top: 20px;
-    
+
 }
 
 #user-image {
@@ -582,7 +598,7 @@ main {
 }
 
 #gallery-frame-container {
-   
+
     padding: 5px;
 }
 
@@ -643,7 +659,7 @@ main {
     width: 100%;
     margin-top: 30px;
     background-size: 100px;
-   
+
 
 
 }
@@ -679,7 +695,7 @@ main {
     width: 100%;
     margin-top: 10px;
     display: none;
-   
+
 
 }
 
@@ -808,6 +824,7 @@ main {
 #ways-to-explore {
     max-width: 100%;
     display: flex;
+    margin-bottom: 20px;
     flex-direction: column;
     margin-top: 30px;
     gap: 0;
@@ -944,11 +961,12 @@ main {
 
 }
 
-#impression-page-container{
+#impression-page-container {
     background: url('../images/form-background-img.jpg') no-repeat center center/cover;
 
 
 }
+
 /* Styles for the Impression Form */
 #impression-form {
     margin-top: 2px;
@@ -966,9 +984,11 @@ main {
     padding: 20px;
     flex: 1;
 }
+
 #redirectRadio {
     display: none;
 }
+
 /* Styles for Form Inputs */
 input,
 textarea {
@@ -999,20 +1019,24 @@ input[type="submit"] {
     padding: 10px 20px;
     cursor: pointer;
 }
+
 #impressions-section {
-   color: white;
+    color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+    background-color: rgba(214, 69, 69, 0.2);
 
 }
 
 .impression {
-    background-color: rgba(93, 168, 121, 0.4);
+    background-color: rgba(93, 168, 121, 0.7);
     margin-bottom: 20px;
     border-left: 1px solid white;
-   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+
+
 }
 
 #impressions-title {
@@ -1023,12 +1047,14 @@ input[type="submit"] {
     background-color: rgba(1, 9, 5, 0.5);
 
 }
+
 .impression h3 {
     color: wheat;
     padding-left: 5px;
     max-width: 100%;
     background-color: rgba(1, 9, 5, 0.5);
 }
+
 .impression h5 {
     padding-left: 5px;
     color: white;
@@ -1044,6 +1070,7 @@ input[type="submit"] {
     margin-top: 20px;
     text-align: center;
 }
+
 /* Styles for Redirect Label */
 #redirectLabel {
     display: none;
@@ -1090,8 +1117,8 @@ input[type="submit"]:hover {
     padding: 10px 0;
     margin: 20px 0;
     max-width: 100%;
-        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
-  
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
+
 }
 
 #sponsor-container {
@@ -1140,7 +1167,98 @@ input[type="submit"]:hover {
     color: white
 }
 
+/*SOPTTED FORM STYLES*/
+
+#spoted-form-title {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+#spotted-form-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: url('../images/spotted-form-background.jpg') no-repeat center center/cover;
+
+}
+
+#spotted-form {
+    background-color: rgba(187, 154, 127, 0.5);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#input-for-spotted-forms {
+    width: 100%;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.spotted-form {
+    margin-top: 20px;
+
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    background-color: rgba(188, 92, 14, 0.3);
+
+    box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
+}
+
+.spotted-form p {
+    padding: 10px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.spotted-form h3,
+.spotted-form h5 {
+    background-color: rgba(187, 154, 127, 0.3);
+    width: 100%;
+    padding-left: 10px;
+    margin-bottom: 5px;
+    color: white;
+    margin: 0;
+}
+
 /*
+<a href="https://www.freepik.com/free-ai-image/driving-through-mountains-summer-adventure-awaits-ahead-generated-by-ai_42180452.htm#fromView=search&term=spy+nature&page=1&position=27&track=ais_ai_generated&regularType=ai&uuid=6150836d-846b-44f4-bb1b-7eb3a559ac8e">Image By vecstock</a>
+<a href="https://www.freepik.com/free-vector/binoculars-telescopes-flat-vector-illustrations-set_45256116.htm#query=binoculars&from_query=binocle&position=2&from_view=search&track=sph&uuid=f2961282-c299-4275-bcae-f59af513953a">Image by Verazinha</a> on Freepik
 <a href="https://www.freepik.com/free-ai-image/black-white-mountain-background_47997122.htm#fromView=search&term=national+parks+logo&page=1&position=0&track=ais_ai_generated&regularType=ai&uuid=bc801c06-5ab9-45b3-9ad0-265c945954e6">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/view-3d-paper-style-trees_82899292.htm#fromView=search&term=national+parks+logo&page=1&position=13&track=ais_ai_generated&regularType=ai&uuid=a8626d98-7648-4426-a6a5-fc6280a07551">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/animal-portrait-close-up_48012443.htm#fromView=search&term=wild+animal+black+and+white&page=1&position=48&track=ais_ai_generated&regularType=ai">Image By freepik</a>
@@ -1170,13 +1288,17 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 425px) {
- /* Additional CSS for styling the image and header */
- #header-image {
-    width: 170px; /* Adjust the width as needed */
-    display: block;
-    margin: 0 auto; /* Center the image */
 
-}
+    /* Additional CSS for styling the image and header */
+    #header-image {
+        width: 170px;
+        /* Adjust the width as needed */
+        display: block;
+        margin: 0 auto;
+        /* Center the image */
+
+    }
+
     /* Gallery page */
     #photos img {
         width: 100%;
@@ -1189,15 +1311,105 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
+    /*SOPTTED FORM STYLES*/
 
-     /* Additional CSS for styling the image and header */
-  #header-image {
-   
-    width: 190px; /* Adjust the width as needed */
-    display: block;
-    margin: 0 auto; /* Center the image */
+    #spoted-form-title {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2.5rem;
+        color: #333;
+    }
 
-}
+    #spotted-form-page-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        background: url('../images/spotted-form-background.jpg') no-repeat center center/cover;
+
+    }
+
+    #spotted-form {
+        background-color: rgba(187, 154, 127, 0.5);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 600px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    #input-for-spotted-forms {
+        width: 100%;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    .spotted-form {
+        margin-top: 20pxd;
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        background-color: rgba(188, 92, 14, 0.3);
+        padding: 5px;
+        box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
+    }
+
+    .spotted-form p {
+        padding: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .spotted-form h3,
+    .spotted-form h5 {
+        background-color: rgba(187, 154, 127, 0.3);
+        width: 100%;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        color: white;
+        margin: 0;
+    }
+
+    /* Additional CSS for styling the image and header */
+    #header-image {
+
+        width: 190px;
+        /* Adjust the width as needed */
+        display: block;
+        margin: 0 auto;
+        /* Center the image */
+
+    }
+
     #autumn-gallery-header-title-container {
         display: flex;
         flex-direction: column;
@@ -1210,6 +1422,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         font-size: 24px;
         padding-right: 0px;
     }
+
     .sponsor img {
         width: 70px;
         /* Adjust the width as needed */
@@ -1218,7 +1431,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         border-radius: 50%;
         align-self: center;
         margin-top: 10px;
-    
+
     }
 
     #wildlife-line-one {
@@ -1244,7 +1457,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         margin-bottom: 100px;
         overflow: hidden;
         padding-top: 70px;
-     
+
 
     }
 
@@ -1278,7 +1491,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     #about-np-circle-bottom {
         width: 100%;
         height: 250px;
-margin-bottom: 10px;
+        margin-bottom: 10px;
 
     }
 
@@ -1458,18 +1671,21 @@ margin-bottom: 10px;
         /* Added to make the image cover the entire container */
 
     }
+
     #impressions-section {
         color: white;
         padding: 20px;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         margin-top: 20px;
-        background-color: rgba(115, 154, 173, 0.4);
+        background-color: rgba(214, 69, 69, 0.2);
+
     }
+
     #impression-form {
         margin-top: 2px;
         display: flex;
-      
+
         height: 100vh;
         max-width: 100vw;
         color: #fff;
@@ -1482,12 +1698,124 @@ margin-bottom: 10px;
 
 
     }
+
+    #hero-text {
+        background-color: rgba(107, 199, 241, 0.5);
+        position: absolute;
+        top: 370px;
+        width: 40%;
+        box-shadow: 0 4px 8px rgba(250, 250, 248, 0.3);
+        right: 0;
+        padding: 40px 10px;
+    }
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /*SOPTTED FORM STYLES*/
+
+    #spoted-form-title {
+        text-align: center;
+        margin-top: 50px;
+        font-size: 2.5rem;
+        color: #333;
+    }
+
+    #spotted-form-page-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        background: url('../images/spotted-form-background.jpg') no-repeat center center/cover;
+
+    }
+
+    .spotted-form {
+        flex: 0 0 calc(50% - 10px);
+        /* Adjust the width and margin as needed */
+        margin-bottom: 20px;
+        box-sizing: border-box;
+        padding: 20px;
+        border-bottom: 1px solid #ddd;
+      
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    #spotted-form-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between; /* Adjust as needed */
+        align-items: flex-start; /* Adjust as needed */
+        margin: 5px;
+    }
+
+
+    #input-for-spotted-forms {
+        width: 100%;
+        color: #ffffff;
+        font-weight: 600;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        margin-bottom: 5px;
+    }
+
+    input,
+    textarea {
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        cursor: pointer;
+    }
+
+    .spotted-form {
+        margin-top: 20pxd;
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        background-color: rgba(188, 92, 14, 0.3);
+        padding: 5px;
+        box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
+    }
+
+    .spotted-form p {
+        padding: 10px;
+        margin-bottom: 10px;
+        color: white;
+    }
+
+    .spotted-form h3,
+    .spotted-form h5 {
+        background-color: rgba(187, 154, 127, 0.3);
+        width: 100%;
+        padding-left: 10px;
+        margin-bottom: 5px;
+        color: white;
+        margin: 0;
+    }
+
+    #hero-text {
+        background-color: rgba(107, 199, 241, 0.5);
+        position: absolute;
+        top: 370px;
+        width: 40%;
+        box-shadow: 0 4px 8px rgba(250, 250, 248, 0.3);
+        right: 0;
+        padding: 40px 10px;
+    }
+
     #impression-form {
-       
+
         top: 0;
         left: 0;
         width: 100vw;
@@ -1496,7 +1824,7 @@ margin-bottom: 10px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      
+
         background-size: cover;
         /* Ensure the background covers the entire container */
         color: #fff;
@@ -1506,39 +1834,47 @@ margin-bottom: 10px;
     }
 
     #header-image {
-   
-        width: 250px; /* Adjust the width as needed */
+
+        width: 250px;
+        /* Adjust the width as needed */
         display: block;
-        margin: 0 auto; /* Center the image */
-    
+        margin: 0 auto;
+        /* Center the image */
+
     }
+
     .about-np-image {
         width: 100%;
         height: 100%;
         object-fit: cover;
-      
+
     }
+
     .about-np-text {
         text-align: justify;
         padding: 5px;
         padding-right: 10px;
-      
-      
+
+
     }
+
     #user-two-thre-container {
         display: flex;
         flex-direction: row;
         gap: 5px;
     }
-    .user-two, .user-three {
+
+    .user-two,
+    .user-three {
         width: 50%;
         box-sizing: border-box;
     }
+
     iframe {
         width: 100%;
 
     }
-  
+
     #autumn-gallery-header-title {
         display: flex;
         flex-direction: column;
@@ -1553,6 +1889,7 @@ margin-bottom: 10px;
         color: rgb(2, 0, 0);
         padding-right: 0px;
     }
+
     .ilustration-bottom-img {
         box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
         width: 30%;
@@ -1583,22 +1920,28 @@ margin-bottom: 10px;
 
 
     }
+
     .impression {
-     
-        width: calc(50% - 20px); /* Set the width to 50% with a bit of space between elements */
-        margin: 10px; /* Adjust margin as needed */
+
+        width: calc(50% - 20px);
+        /* Set the width to 50% with a bit of space between elements */
+        margin: 10px;
+        /* Adjust margin as needed */
         border-bottom: 1px solid white;
     }
+
     #impressions-section {
         color: white;
         padding: 20px;
         border-radius: 8px;
         display: flex;
         flex-wrap: wrap;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         margin-top: 20px;
-        background-color: rgba(115, 154, 173, 0.4);
+        background-color: rgba(214, 69, 69, 0.2);
+
     }
+
     /* Form background */
     #form-background-img {
         width: 100%;
@@ -1607,6 +1950,7 @@ margin-bottom: 10px;
         /* Added to make the image cover the entire container */
 
     }
+
     #impression-page-container {
         display: flex;
         flex-direction: column;
@@ -1614,7 +1958,7 @@ margin-bottom: 10px;
     }
 
     #impression-form {
-       
+
         top: 0;
         left: 0;
         width: 100vw;
@@ -1623,7 +1967,7 @@ margin-bottom: 10px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      
+
         background-size: cover;
         /* Ensure the background covers the entire container */
         color: #fff;
@@ -1635,7 +1979,7 @@ margin-bottom: 10px;
     #main-content-container {
         display: flex;
         flex-grow: 1;
-        
+
         margin-bottom: 66px;
         align-items: stretch;
         padding: 20px;
@@ -1705,6 +2049,7 @@ margin-bottom: 10px;
         max-width: 100%;
         height: auto;
     }
+
     .sponsor img {
         width: 100px;
         /* Adjust the width as needed */
@@ -1713,14 +2058,16 @@ margin-bottom: 10px;
         border-radius: 50%;
         align-self: center;
         margin-top: 10px;
-    
+
     }
+
     .animal img {
         width: 100%;
         height: 250px;
         border-left: 0px solid white;
         box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
     }
+
     /* Styles for Wildlife Section */
     #wildlife {
 
@@ -1848,20 +2195,18 @@ margin-bottom: 10px;
     }
 
     #bottom-section {
-
-        align-items: stretch;
-        padding: 20px;
-        flex-direction: row;
-        justify-content: center;
-
-
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        gap: 5px;
     }
 
     #ways-to-explore {
+        height: 450px;
         flex: 1;
         display: flex;
         flex-direction: column;
-        box-shadow: none;
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
 
     }
 
@@ -1947,13 +2292,27 @@ margin-bottom: 10px;
 
 /* Media query: larger screens (1200px and up) */
 @media screen and (min-width: 1200px) {
-    #header-image {
-   
-        width: 290px; /* Adjust the width as needed */
-        display: block;
-        margin: 0 auto; /* Center the image */
-    
+
+    #hero {
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
+        margin-top: 2px;
+        background-color: #3498db;
+        background: url(../images/hero-img.jpg)no-repeat center center/cover;
+        height: 700px;
+        width: 100%;
+        position: relative;
     }
+
+    #header-image {
+
+        width: 290px;
+        /* Adjust the width as needed */
+        display: block;
+        margin: 0 auto;
+        /* Center the image */
+
+    }
+
     #autumn-gallery-header-title {
         display: flex;
         flex-direction: column;
@@ -1968,6 +2327,7 @@ margin-bottom: 10px;
         color: rgb(2, 0, 0);
         padding-right: 0px;
     }
+
     /*about NP Killarney*/
 
     .about-np-section {
@@ -1988,7 +2348,7 @@ margin-bottom: 10px;
         width: 100%;
         height: 100%;
         object-fit: cover;
-      
+
     }
 
     #about-np-circle-bottom {
@@ -1997,7 +2357,7 @@ margin-bottom: 10px;
         height: 350px;
         box-shadow: 0 4px 8px rgba(164, 155, 155, 0.2);
         float: right;
-       margin-bottom: 10px;
+        margin-bottom: 10px;
 
     }
 
@@ -2090,23 +2450,39 @@ margin-bottom: 10px;
         align-self: center;
         margin-top: 10px;
     }
+
     header a {
         text-decoration: none;
         color: inherit;
         font-size: 1.3rem;
     }
-    header h1{
+
+    header h1 {
         font-size: 3rem;
     }
 }
+
 @media screen and (min-width: 1600px) {
-    #header-image {
-        width: 380px; /* Adjust the width as needed */
-       
-        display: block;
-        margin: 0 auto; /* Center the image */
-    
+    #hero {
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
+        margin-top: 2px;
+        background-color: #3498db;
+        background: url(../images/hero-img.jpg)no-repeat center center/cover;
+        height: 1200px;
+        width: 100%;
+        position: relative;
     }
+
+    #header-image {
+        width: 380px;
+        /* Adjust the width as needed */
+
+        display: block;
+        margin: 0 auto;
+        /* Center the image */
+
+    }
+
     #users-gallery-image-container {
         display: flex;
         flex-wrap: wrap;
@@ -2117,18 +2493,21 @@ margin-bottom: 10px;
     .user-one {
         width: 100%;
     }
-#user-two-thre-container{
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
-}
+
+    #user-two-thre-container {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+    }
 
 
     #user-image img {
         width: 100%;
         height: auto;
-        border-radius: 8px; /* Add border-radius for rounded corners if desired */
+        border-radius: 8px;
+        /* Add border-radius for rounded corners if desired */
     }
+
     #ways-to-explore-title {
         padding: 5px;
         margin-top: 50px;
@@ -2137,11 +2516,13 @@ margin-bottom: 10px;
         width: 80%;
         font-size: 3.5rem;
     }
+
     .explore-text {
-      
+
         color: #fbfafa;
         padding: 10px 5px;
     }
+
     #bottom-section {
         display: flex;
         justify-content: space-between;
@@ -2149,22 +2530,21 @@ margin-bottom: 10px;
         gap: 10px;
     }
 
-    #map-section {
-      
-    }
+    #map-section {}
 
     #ways-to-explore {
-     height: 650px;
+        height: 650px;
     }
 
     #iframe {
-      
+
         height: 650px;
         border: 0;
     }
 
     .explore-item {
-        margin-bottom: 20px; /* Add some spacing between explore items */
+        margin-bottom: 20px;
+        /* Add some spacing between explore items */
     }
 
     .explore-title {
@@ -2176,11 +2556,13 @@ margin-bottom: 10px;
     .fa-icon {
         margin-right: 5px;
     }
+
     #user-name,
     #user-description {
         margin: 10px 0;
         font-size: 3rem;
     }
+
     #autumn-gallery-header-title-container {
         display: flex;
         flex-direction: column;
@@ -2193,6 +2575,7 @@ margin-bottom: 10px;
         font-size: 35px;
         padding-right: 0px;
     }
+
     #autumn-gallery-header-title {
         display: flex;
         flex-direction: column;
@@ -2207,26 +2590,32 @@ margin-bottom: 10px;
         color: rgb(2, 0, 0);
         padding-right: 0px;
     }
+
     /* Add or modify styles for screens larger than 1600px here */
 
     .about-np-title {
-        font-size: 4rem; /* Example: Increase font size for even larger screens */
+        font-size: 4rem;
+        /* Example: Increase font size for even larger screens */
     }
 
     #spotted {
-        height: 200%; /* Example: Adjust height for even larger screens */
+        height: 200%;
+        /* Example: Adjust height for even larger screens */
         background-color: lightcoral;
     }
 
     #photos {
-    
-        column-count: 5; /* Example: Increase the number of columns for even larger screens */
+
+        column-count: 5;
+        /* Example: Increase the number of columns for even larger screens */
     }
 
     .sponsor img {
-        width: 200px; /* Example: Increase sponsor image size for even larger screens */
+        width: 200px;
+        /* Example: Increase sponsor image size for even larger screens */
         height: 200px;
     }
+
     .about-np-circle {
         width: 750px;
         height: 646px;
@@ -2235,6 +2624,7 @@ margin-bottom: 10px;
         margin: 20px;
         float: left;
     }
+
     #spotted-title h2 {
         background-color: palevioletred;
         margin-top: 30px;
@@ -2242,6 +2632,7 @@ margin-bottom: 10px;
         font-size: 5rem;
         padding-left: 5px;
     }
+
     #about-np-circle-bottom {
         width: 62%;
         height: 375px;
@@ -2249,55 +2640,63 @@ margin-bottom: 10px;
         float: right;
         margin-bottom: 10px;
     }
+
     #spotted {
         height: 750px;
     }
+
     #spotted-text {
         font-size: 2.2rem;
         width: 80%;
     }
+
     #spotted h5 {
-       
+
         font-size: 2.5rem;
-      
+
     }
-   
+
     header a {
         text-decoration: none;
         color: inherit;
         font-size: 2rem;
     }
-    header h1{
+
+    header h1 {
         font-size: 4rem;
     }
+
     #impression-page-container {
         display: flex;
         flex-direction: row;
         background: url(../images/form-background-img.jpg) center center / cover no-repeat;
     }
-    
+
     #input-for-forms {
         width: 80%;
         height: 800px;
         border: 1px solid white;
         padding: 50px;
     }
+
     #impressions-title {
         color: whitesmoke;
         padding-left: 15px;
         margin-top: 80px;
         margin-bottom: 50px;
-padding-bottom: 20px;
-padding-top: 20px;
-font-size: 50px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        font-size: 50px;
         background-color: rgba(1, 9, 5, 0.5);
     }
+
     .impression {
         width: 100%;
         margin: 10px;
         flex-grow: 1;
         border-bottom: 1px solid white;
     }
+
     #impressions-section {
         color: white;
         padding: 20px;
@@ -2306,10 +2705,12 @@ font-size: 50px;
         flex-direction: column;
         flex: 1;
         flex-wrap: nowrap;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         margin-top: 20px;
-        background-color: rgba(115, 154, 173, 0.4);
+        background-color: rgba(214, 69, 69, 0.2);
+
     }
+
     .impression p {
         padding-left: 5px;
         padding-top: 20px;
@@ -2317,6 +2718,7 @@ font-size: 50px;
         font-weight: 600;
         font-size: 2rem;
     }
+
     .impression h5 {
         margin-top: 20px;
         font-size: 2rem;
@@ -2324,12 +2726,23 @@ font-size: 50px;
         text-align: end;
         color: white;
     }
+
     .impression h3 {
-    color: wheat;
-    margin-top: 20px;
-    font-size: 3rem;
-    padding-left: 0px;
-    max-width: 100%;
-    background-color: rgba(1, 9, 5, 0.5);}
+        color: wheat;
+        margin-top: 20px;
+        font-size: 3rem;
+        padding-left: 0px;
+        max-width: 100%;
+        background-color: rgba(1, 9, 5, 0.5);
+    }
+
+    #hero-text {
+        background-color: rgba(107, 199, 241, 0.5);
+        position: absolute;
+        top: 370px;
+        width: 40%;
+        box-shadow: 0 4px 8px rgba(250, 250, 248, 0.3);
+        right: 0;
+        padding: 40px 10px;
+    }
 }
-    
