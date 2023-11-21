@@ -87,14 +87,17 @@ header h1 {
 header a {
     text-decoration: none;
     color: inherit;
+    font-size: 1rem;
 }
 
 
   /* Additional CSS for styling the image and header */
   #header-image {
-    width: 100px; /* Adjust the width as needed */
+    width: 150px; /* Adjust the width as needed */
     display: block;
     margin: 0 auto; /* Center the image */
+   
+ 
 
 }
 
@@ -1015,6 +1018,8 @@ input[type="submit"] {
 #impressions-title {
     color: whitesmoke;
     padding-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: rgba(1, 9, 5, 0.5);
 
 }
@@ -1085,7 +1090,6 @@ input[type="submit"]:hover {
     padding: 10px 0;
     margin: 20px 0;
     max-width: 100%;
-  
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
   
 }
@@ -1137,6 +1141,7 @@ input[type="submit"]:hover {
 }
 
 /*
+<a href="https://www.freepik.com/free-ai-image/black-white-mountain-background_47997122.htm#fromView=search&term=national+parks+logo&page=1&position=0&track=ais_ai_generated&regularType=ai&uuid=bc801c06-5ab9-45b3-9ad0-265c945954e6">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/view-3d-paper-style-trees_82899292.htm#fromView=search&term=national+parks+logo&page=1&position=13&track=ais_ai_generated&regularType=ai&uuid=a8626d98-7648-4426-a6a5-fc6280a07551">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/animal-portrait-close-up_48012443.htm#fromView=search&term=wild+animal+black+and+white&page=1&position=48&track=ais_ai_generated&regularType=ai">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/vibrant-flowers-bloom-tranquil-meadow-generated-by-ai_42129911.htm#fromView=search&term=wild+flowers&page=1&position=6&track=ais_ai_generated&regularType=ai&uuid=86e2cd12-1144-4486-bbd6-144e5fdf10cc">Image By vecstock</a>
@@ -1167,7 +1172,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 @media screen and (min-width: 425px) {
  /* Additional CSS for styling the image and header */
  #header-image {
-    width: 110px; /* Adjust the width as needed */
+    width: 170px; /* Adjust the width as needed */
     display: block;
     margin: 0 auto; /* Center the image */
 
@@ -1187,8 +1192,8 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
      /* Additional CSS for styling the image and header */
   #header-image {
-    height: 100px;
-    width: 150px; /* Adjust the width as needed */
+   
+    width: 190px; /* Adjust the width as needed */
     display: block;
     margin: 0 auto; /* Center the image */
 
@@ -1481,6 +1486,32 @@ margin-bottom: 10px;
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    #impression-form {
+       
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+        background-size: cover;
+        /* Ensure the background covers the entire container */
+        color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+
+    }
+
+    #header-image {
+   
+        width: 250px; /* Adjust the width as needed */
+        display: block;
+        margin: 0 auto; /* Center the image */
+    
+    }
     .about-np-image {
         width: 100%;
         height: 100%;
@@ -1544,7 +1575,7 @@ margin-bottom: 10px;
 
     /*form styles*/
     #input-for-forms {
-        width: 50%;
+        width: 40%;
         border: 1px solid white;
         padding: 20px;
 
@@ -1916,7 +1947,13 @@ margin-bottom: 10px;
 
 /* Media query: larger screens (1200px and up) */
 @media screen and (min-width: 1200px) {
-  
+    #header-image {
+   
+        width: 290px; /* Adjust the width as needed */
+        display: block;
+        margin: 0 auto; /* Center the image */
+    
+    }
     #autumn-gallery-header-title {
         display: flex;
         flex-direction: column;
@@ -2053,11 +2090,19 @@ margin-bottom: 10px;
         align-self: center;
         margin-top: 10px;
     }
+    header a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 1.3rem;
+    }
+    header h1{
+        font-size: 3rem;
+    }
 }
 @media screen and (min-width: 1600px) {
     #header-image {
-        width: 220px; /* Adjust the width as needed */
-        height: 175px;
+        width: 380px; /* Adjust the width as needed */
+       
         display: block;
         margin: 0 auto; /* Center the image */
     
@@ -2216,4 +2261,75 @@ margin-bottom: 10px;
         font-size: 2.5rem;
       
     }
+   
+    header a {
+        text-decoration: none;
+        color: inherit;
+        font-size: 2rem;
+    }
+    header h1{
+        font-size: 4rem;
+    }
+    #impression-page-container {
+        display: flex;
+        flex-direction: row;
+        background: url(../images/form-background-img.jpg) center center / cover no-repeat;
+    }
+    
+    #input-for-forms {
+        width: 80%;
+        height: 800px;
+        border: 1px solid white;
+        padding: 50px;
+    }
+    #impressions-title {
+        color: whitesmoke;
+        padding-left: 15px;
+        margin-top: 80px;
+        margin-bottom: 50px;
+padding-bottom: 20px;
+padding-top: 20px;
+font-size: 50px;
+        background-color: rgba(1, 9, 5, 0.5);
+    }
+    .impression {
+        width: 100%;
+        margin: 10px;
+        flex-grow: 1;
+        border-bottom: 1px solid white;
+    }
+    #impressions-section {
+        color: white;
+        padding: 20px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        flex-wrap: nowrap;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-top: 20px;
+        background-color: rgba(115, 154, 173, 0.4);
+    }
+    .impression p {
+        padding-left: 5px;
+        padding-top: 20px;
+        margin: 10px 0;
+        font-weight: 600;
+        font-size: 2rem;
+    }
+    .impression h5 {
+        margin-top: 20px;
+        font-size: 2rem;
+        padding-left: 5px;
+        text-align: end;
+        color: white;
+    }
+    .impression h3 {
+    color: wheat;
+    margin-top: 20px;
+    font-size: 3rem;
+    padding-left: 0px;
+    max-width: 100%;
+    background-color: rgba(1, 9, 5, 0.5);}
 }
+    
