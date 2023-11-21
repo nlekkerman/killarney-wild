@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impression Form</title>
-  <link rel="stylesheet" href="assets\css\style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impression Form</title>
+    <link rel="stylesheet" href="assets\css\style.css">
 
 </head>
-<body >
+
+<body>
 
 
     <header>
@@ -18,78 +20,131 @@
 
         <input type="checkbox" id="nav-toggle-form" name="nav-toggle-form">
         <label for="nav-toggle-form" class="nav-toggle-label-form">
-        
+
 
             </i>
         </label>
         <nav>
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html" >Gallery</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="imp-form.html" class="active">Impressions</a></li>
-               
+
 
             </ul>
         </nav>
     </header>
-<main>
-  <!-- Impression Form Section -->
-  <section id="impression-form">
-    <div id="input-for-forms">
-        <h2>Leave Impression</h2>
+    <main>
 
-        <form action="#" method="post"> <!-- Replace "#" with your form submission URL -->
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-      
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-      
-            <label for="impression">Your Impression:</label>
-            <textarea id="impression" name="impression" rows="4" required></textarea>
-      
-            <input type="submit" value="Submit">
-          </form>
-    </div>
-    
-        <!-- Hidden radio button for redirection -->
-        <input type="radio" id="redirectRadio" name="redirectRadio">
-        <label for="redirectRadio" id="redirectLabel"></label>
-  </section>
+        <section id = "impression-page-container">
+        <!-- Impression Form Section -->
+        <section id="impression-form">
+            <div id="input-for-forms">
+                <h2>Leave Impression</h2>
 
+                <form action="#" method="post"> <!-- Replace "#" with your form submission URL -->
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
 
- 
-</main>
-<footer>
-    <ul id="footer-links">
-        <li>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in a new tab)">
-                <i class="fa-brands fa-facebook"></i></a>
-        </li>
-        <li>
-            <a href="https://www.twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in a new tab)">
-                <i class="fa-brands fa-twitter-square"></i></a>
-        </li>
-        <li>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener"
-                aria-label="Visit our YouTube page (opens in a new tab)">
-                <i class="fa-brands fa-youtube-square"></i></a>
-        </li>
-        <li>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in a new tab)">
-                <i class="fa-brands fa-instagram"></i></a>
-        </li>
-    </ul>
-</footer>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country" required>
 
-<script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+                    <label for="city">City:</label>
+                    <input type="text" id="city" name="city" required>
 
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
-    integrity="sha512-Kz5KGHYu+CXpFnP3J2FdiErMYtdq11yvqP5+ya6rSgJJ5Vp9w4gFA6VBl8wvXyzE2d6qgYh/2AA4JSrLsGvh+YA=="
-    crossorigin="anonymous" />
+                    <label for="impression">Your Impression:</label>
+                    <textarea id="impression" name="impression" rows="4" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <!-- Hidden radio button for redirection -->
+            <input type="radio" id="redirectRadio" name="redirectRadio">
+            <label for="redirectRadio" id="redirectLabel"></label>
+        </section>
+        <h2 id = "impressions-title">Impressions</h2>
+
+        <div id="impressions-section">
+        
+            <div class="impression">
+                <!-- More text describing the impression -->
+                <p>"Spellbound by the captivating emerald landscapes of Killarney National Park, John Doe reflects on the beauty that feels almost surreal."</p>
+                <h3>Shauna Dolgren</h3>
+                <h5>New York, United States</h5>
+            </div>
+        
+            <div class="impression">
+                <!-- More text describing the impression -->
+                <p>"Immersed in the tranquility of Killarney's lakes, Maria Smith finds serenity amidst nature's masterpiece, lost in the beauty of the national park."</p>
+                <h3>Maria Smith</h3>
+                <h5>Toronto, Canada</h5>
+            </div>
+        
+            <div class="impression">
+                <!-- More text describing the impression -->
+                <p>"Alexander Lee explores the ancient woodlands of Killarney National Park, enchanted by the timeless beauty that whispers tales of nature's resilience."</p>
+                <h3>Alexander Lee</h3>
+                <h5>Sydney, Australia</h5>
+            </div>
+        
+            <div class="impression">
+                <!-- More text describing the impression -->
+                <p>"Captivated by the scenic wonders of Killarney, Sophie Kim becomes part of the landscape, feeling the heartbeat of nature in Seoul's urban rhythm."</p>
+                <h3>Sophie Kim</h3>
+                <h5>Seoul, South Korea</h5>
+            </div>
+        
+            <div class="impression">
+                <!-- More text describing the impression -->
+                <p>"Luca Rossi, immersed in the natural splendor of Killarney National Park, discovers the timeless beauty that echoes through the ancient streets of Rome."</p>
+                <h3>Luca Rossi</h3>
+                <h5>Rome, Italy</h5>
+            </div>
+        </div>
+        
+        <div id="bottom-section">
+            <p>Killarney, Ireland</p>
+            <p>November 21, 2023</p>
+        </div>
+        
+        </body>
+    </section>
+    </main>
+    <footer>
+        <ul id="footer-links">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-Kz5KGHYu+CXpFnP3J2FdiErMYtdq11yvqP5+ya6rSgJJ5Vp9w4gFA6VBl8wvXyzE2d6qgYh/2AA4JSrLsGvh+YA=="
+        crossorigin="anonymous" />
 </body>
+
 </html>
