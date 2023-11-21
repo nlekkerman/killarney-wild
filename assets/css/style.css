@@ -595,6 +595,11 @@ main {
     padding-right: 0px;
 
 }
+.fa-binoculars:before {
+    content: "\f1e5";
+    padding: 15px;
+    background-color: lightgreen;
+}
 
 #gallery-frame-container {
 
@@ -894,7 +899,7 @@ main {
 
 /*footer*/
 #footer-links {
-    background-color: rgba(115, 154, 173, 0.2);
+    background-color: rgba(14, 147, 213, 0.5);
     text-align: center;
     padding: 20px 0;
     z-index: 100;
@@ -1309,8 +1314,13 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
-    /*SOPTTED FORM STYLES*/
+    .fa-binoculars:before {
+        content: "\f1e5";
+        padding: 15px;
+        margin: 0px 10px;
+        background-color: lightgreen;
+    }
+    /*SPOTTED FORM STYLES*/
 
     #spoted-form-title {
         text-align: center;
@@ -1711,6 +1721,13 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    .fa-binoculars:before {
+        content: "\f1e5";
+        padding: 15px;
+        margin: 0px 10px;
+        background-color: lightgreen;
+    }
     /*SOPTTED FORM STYLES*/
 
     #spoted-form-title {
@@ -1782,7 +1799,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     }
 
     .spotted-form {
-        margin-top: 20pxd;
+        margin-top: 20px;
         border-bottom: 1px solid #ddd;
         width: 100%;
         background-color: rgba(188, 92, 14, 0.3);
