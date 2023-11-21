@@ -428,7 +428,7 @@ main {
     border-radius: 15px;
     margin-top: 30px;
     padding-bottom: 30px;
-    background: url('../images/vegetation-img.jpg')no-repeat center center/cover;
+    background: url('../images/spotted-form-background.jpg')no-repeat center center/cover;
     flex-direction: column;
     background-position: center;
     display: flex;
@@ -440,17 +440,13 @@ main {
 }
 
 #spotted-div {
-
-    margin-top: 30px;
-    flex-direction: column;
-    background-position: center;
-    display: flex;
     align-items: center;
-    justify-content: center;
-    color: white;
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
     width: 100%;
-    ;
-    border-bottom: 5px solid white;
+    background-color: rgba(188, 92, 14, 0.3);
+    padding: 0px;
+    box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
 }
 
 #main-content-container i {
@@ -467,19 +463,22 @@ main {
 #spotted-text {
     color: white;
     display: flex;
-    padding: 15px;
+   padding: 5px;
     border-bottom: 1px solid wheat;
-    background-color: rgba(236, 135, 198, 0.4);
     width: 100%;
     font-weight: 600;
+    margin-top: 20px;
 }
 
 
 
 #spotted h5 {
+    margin-top: 5px;
     color: white;
     font-size: 1rem;
     font-weight: 600;
+    text-align: center;
+    background-color: rgba(187, 154, 127, 0.3);
 
 
 }
@@ -742,7 +741,7 @@ main {
     justify-content: flex-end;
     /* Align to the left side */
     padding-right: 5%;
-    /* Leave 20% space on the right */
+    background: url(../images/deer-fight-background-img.jpg) no-repeat center center/cover;
 }
 
 #toggleCheckbox:not(:checked)~#wild-life-title h2::before {
@@ -1637,7 +1636,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         display: flex;
         padding: 15px;
         border-bottom: 1px solid wheat;
-        background-color: rgba(236, 135, 198, 0.4);
+        background-color: rgba(188, 92, 14, 0.3);
         width: 100%;
         font-weight: 600;
 
@@ -1738,14 +1737,17 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         box-sizing: border-box;
         padding: 20px;
         border-bottom: 1px solid #ddd;
-      
+
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
+
     #spotted-form-section {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between; /* Adjust as needed */
-        align-items: flex-start; /* Adjust as needed */
+        justify-content: space-between;
+        /* Adjust as needed */
+        align-items: flex-start;
+        /* Adjust as needed */
         margin: 5px;
     }
 

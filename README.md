@@ -60,6 +60,10 @@ Killarney Wild is a web page dedicated to showcasing the rich and diverse wildli
 
 ## Project Credits
 
+
+- **GPT (ChatGPT):** AI language model developed by OpenAI.
+- **Love Run App:** Inspiration for header, meta data, footer, and hero section.
+
 The following images were used in this project and are credited to their respective authors:
 
 - [Image by vecstock](https://www.freepik.com/free-ai-image/driving-through-mountains-summer-adventure-awaits-ahead-generated-by-ai_42180452.htm#fromView=search&term=spy+nature&page=1&position=27&track=ais_ai_generated&regularType=ai&uuid=6150836d-846b-44f4-bb1b-7eb3a559ac8e) on Freepik
