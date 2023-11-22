@@ -165,7 +165,10 @@ Your feedback on the responsive design is valuable, and any suggestions for impr
 
 ## Header Section
 - **Logo and Navigation:** Distinctive "Killarney Wild" logo and easy-to-navigate menu.
+## Weather Section
+- **Icon and Weather Info:** Clear representation of weather conditions, including a distinctive "Killarney Wild" logo and easy-to-understand weather information.
 
+ 
 ## Hero Section
 - **Engaging Text:** Captivating tagline highlighting the beauty of Killarney National Park.
 
@@ -204,7 +207,7 @@ Your feedback on the responsive design is valuable, and any suggestions for impr
 
 # Future Features
 
-1. **Weather Forecast Display:** Enhance user experience with real-time weather info. Show temperature, wind speed, and humidity. Include icons for easy interpretation. Fetch data from a reliable weather API.
+1. **Weather Forecast Display:** Expand user experience with real-time weather info. Show temperature, wind speed, and humidity. Include icons for easy interpretation. Fetch data from a reliable weather API.
 
 2. **User-Generated Content:** Foster community engagement. Allow users to share photos, wildlife sightings, and impressions. Showcase user-submitted photos in a gallery.
 

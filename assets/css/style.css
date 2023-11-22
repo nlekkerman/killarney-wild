@@ -1030,6 +1030,8 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+
+
 #impressions-section {
     color: white;
     padding: 20px;
@@ -1041,7 +1043,7 @@ input[type="submit"] {
 }
 
 .impression {
-    background-color: rgba(93, 168, 121, 0.7);
+    background-color: rgba(198, 80, 80, 0.2);
     margin-bottom: 20px;
     border-left: 1px solid white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
