@@ -84,8 +84,10 @@ Killarney Wild is a web page dedicated to showcasing the rich and diverse wildli
 
 ## Project Credits
 
+Special thanks to my mentor, [Brian O'Hara](#), for valuable guidance and support throughout the development of this project.
 
-- **GPT (ChatGPT):** AI language model developed by OpenAI.
+A big shoutout to [ChatGPT](https://www.openai.com/gpt), the language model developed by OpenAI, for providing invaluable assistance in generating content for this README and comments. The natural language capabilities of ChatGPT have been instrumental in enhancing the quality of this project's documentation.
+
 - **Love Run App:** Inspiration for header, meta data, footer, and hero section.
 
 The following images were used in this project and are credited to their respective authors:

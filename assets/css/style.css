@@ -874,13 +874,16 @@ main {
 /*weather section*/
 #weather-section {
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     width: 30%;
     background-color: rgba(12, 11, 11, 0.6);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    position: absolute;
     top: 0;
+    right: 0;
+    margin-right: 5px;
     z-index: 100;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 #weather-icon {
@@ -1313,8 +1316,37 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 @media screen and (min-width: 768px) {
 
 
+/*weather section*/
+#weather-section {
+    text-align: center;
+    padding: 5px;
+    width: 20%;
+    background-color: rgba(12, 11, 11, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    top: 0;
+    z-index: 100;
+    margin-top: 30px;
+}
 
 
+#weather-icon {
+
+    color: #f39c12;
+    /* FontAwesome sun color */
+}
+
+#weather-title {
+    font-weight: 300;
+    color: white;
+    font-size: 1rem;
+}
+
+#weather-temperature {
+    color: white;
+
+    font-size: 0.7rem;
+   
+}
     /*SPOTTED FORM STYLES*/
 
     #spoted-form-title {
@@ -1715,7 +1747,36 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+/*weather section*/
+#weather-section {
+    text-align: center;
+    padding: 5px;
+    width: 15%;
+    background-color: rgba(12, 11, 11, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    top: 0;
+    z-index: 100;
+    margin-top: 20px;
+}
 
+#weather-icon {
+
+    color: #f39c12;
+    /* FontAwesome sun color */
+}
+
+#weather-title {
+    font-weight: 300;
+    color: white;
+    font-size: 1rem;
+}
+
+#weather-temperature {
+    color: white;
+
+    font-size: 0.7rem;
+   
+}
     /*SOPTTED FORM STYLES*/
 
     .fa-binoculars:before {
