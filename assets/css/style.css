@@ -871,9 +871,39 @@ main {
     padding: 10px 5px;
 }
 
+/*weather section*/
+#weather-section {
+    text-align: center;
+    padding: 5px;
+    width: 30%;
+    background-color: rgba(12, 11, 11, 0.6);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    top: 0;
+    z-index: 100;
+    margin-top: 10px;
+}
+
+#weather-icon {
+
+    color: #f39c12;
+    /* FontAwesome sun color */
+}
+
+#weather-title {
+    font-weight: 300;
+    color: white;
+    font-size: 1rem;
+}
+
+#weather-temperature {
+    color: white;
+
+    font-size: 0.7rem;
+   
+}
+
 /*footer*/
 #footer-links {
-    background-color: rgba(14, 147, 213, 0.5);
     text-align: center;
     padding: 20px 0;
     z-index: 100;
