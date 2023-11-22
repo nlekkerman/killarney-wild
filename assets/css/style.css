@@ -2355,7 +2355,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
         margin-top: 2px;
         background-color: #3498db;
-        background: url(../images/hero-img.jpg)no-repeat center center/cover;
+        background: url("../images/hero-img-laptop.jpg")no-repeat center center/cover;
         height: 700px;
         width: 100%;
         position: relative;
