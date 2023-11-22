@@ -1,4 +1,4 @@
-/* Google fonts import */
+/* Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Oswald:wght@200;300;400;500;600;700&family=Roboto&family=Rowdies:wght@300;400;700&family=Vina+Sans&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
@@ -14,11 +14,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     overflow-x: hidden;
-    /* Hide horizontal scrollbar */
     overflow-y: scroll;
-    /* Show vertical scrollbar when needed */
     margin: 0;
 }
 
@@ -29,7 +26,6 @@ h1 {
     font-weight: 700;
     font-size: 1.5rem;
     margin: 0;
-    /* Reset margin to ensure no extra space around h1 */
 }
 
 /* Heading 2 */
@@ -37,7 +33,7 @@ h2 {
     font-family: 'Acme', sans-serif;
     font-weight: 600;
     font-size: 2rem;
-    /* Add more styles as needed */
+
 }
 
 /* Heading 3 */
@@ -45,7 +41,7 @@ h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 600;
     font-size: 1.5rem;
-    /* Add more styles as needed */
+
 }
 
 /* Heading 4 */
@@ -54,21 +50,22 @@ h4 {
     font-family: 'Lato', sans-serif;
     font-weight: 500;
     font-size: 1.5rem;
-    /* Add more styles as needed */
+
 }
 
+/* Paragraph*/
 p {
     font-family: 'Lato', sans-serif;
     font-size: 1rem;
 
-    /* Add more styles as needed */
 }
+
+/*Header*/
 
 header {
     background-color: #ffffff;
     padding: 0 1rem;
     z-index: 100;
-    /* Increase the z-index to ensure the h1 is above the navigation */
     width: 100%;
     position: relative;
     box-shadow: 0 1px px #3a3a3a;
@@ -76,7 +73,6 @@ header {
     justify-content: space-between;
     align-items: baseline;
 
-    /* Adjust the shadow as needed */
 }
 
 header h1 {
@@ -99,7 +95,6 @@ header a {
 /* Additional CSS for styling the image and header */
 #header-image {
     width: 150px;
-    /* Adjust the width as needed */
     display: block;
     margin: 0 auto;
     border-bottom: 2px solid gold;
@@ -111,7 +106,7 @@ header a {
 #logo {
     text-align: center;
     margin-top: 10px;
-    /* Adjust the margin as needed */
+
 }
 
 
@@ -133,7 +128,7 @@ ul {
     text-decoration: none;
     display: flex;
     justify-content: center;
-    /* Center the list items horizontally */
+
 }
 
 li {
@@ -170,19 +165,15 @@ a:hover {
 /* Default icon */
 .nav-toggle-label::before {
     content: '\f0c9';
-    /* Font Awesome 'Hamburger' icon */
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 24px;
     color: #333;
     position: absolute;
     top: calc(50% - 7px);
-    /* Move 5px up */
     left: 50%;
     transform: translate(-50%, -50%);
     transition: transform 0.3s ease;
-
-    /* Add a smooth transition effect */
 }
 
 /* Change icon when toggle is checked */
@@ -208,7 +199,6 @@ a:hover {
 
 .nav-toggle-label-form::before {
     content: '\f0c9';
-    /* Font Awesome 'Hamburger' icon */
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     font-size: 1.5rem;
@@ -217,15 +207,15 @@ a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    transition: transform 0.3s ease;
-    /* Add a smooth transition effect */
+
 }
 
 /* Change icon when toggle is checked */
 #nav-toggle-form:checked+.nav-toggle-label-form::before {
     content: 'X';
-    /* Font Awesome 'Check' icon */
+
 }
+
 
 /*form background*/
 #form-background-img {
@@ -253,10 +243,9 @@ a:hover {
     top: 370px;
     width: 70%;
     box-shadow: 0 4px 8px rgba(250, 250, 248, 0.3);
-
     right: 0;
     padding: 40px 10px;
-    /* 0 for top and bottom, 10px for left and right */
+
 
 
 }
@@ -266,18 +255,13 @@ a:hover {
 .about-np-section {
     background-color: white;
     overflow: hidden;
-    padding-top: 70PX;
-
-
+    padding-top: 70px;
 }
 
 .about-np-circle {
     box-shadow: 0 4px 8px rgba(101, 64, 64, 0.5);
-    /* Adjust the values as needed */
-
     width: 150px;
     height: 150px;
-
     overflow: hidden;
     margin: 20px;
     float: left;
@@ -291,6 +275,7 @@ a:hover {
 
 }
 
+/*Ilustration Bottom*/
 #about-np-circle-bottom {
     box-shadow: 0 4px 8px rgba(188, 183, 183, 0.2);
     max-width: 100%;
@@ -311,8 +296,6 @@ a:hover {
 
 .ilustration-bottom-img {
     box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
-    /* Adjust the values as needed */
-
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -333,20 +316,16 @@ a:hover {
 
 }
 
+/*Proverb*/
 #proverb {
     position: absolute;
     bottom: -30px;
-    /* Adjust the bottom spacing as needed */
     left: 50%;
     transform: translateX(-50%);
     color: #333;
-    /* Text color */
     font-weight: 600;
-    /* Font weight */
     text-align: center;
-    /* Center the text */
     width: 100%;
-    /* Make sure it spans the entire width */
 }
 
 
@@ -368,11 +347,8 @@ a:hover {
 
 .about-np-title {
     box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
-    /* Adjust the values as needed */
-
     font-size: 2rem;
     font-weight: bold;
-
     padding: 20px 55px;
     background-color: rgba(2, 51, 1, 0.3);
     background: url(../images/ilustration-background.jpg) no-repeat center center/cover;
@@ -400,6 +376,9 @@ main {
 
 }
 
+/*Spotted*/
+
+
 #main-content-container {
     flex-grow: 1;
 
@@ -416,10 +395,10 @@ main {
 #spotted-title p {
     background-color: rgba(122, 234, 323, 0.3);
     margin-top: 10px;
-
     width: 100%;
     padding-left: 5px;
 }
+
 
 #spotted {
     height: 100%;
@@ -435,7 +414,6 @@ main {
     align-items: center;
     justify-content: center;
     color: #333;
-    /* Set your text color */
 
 }
 
@@ -463,7 +441,7 @@ main {
 #spotted-text {
     color: white;
     display: flex;
-   padding: 5px;
+    padding: 5px;
     border-bottom: 1px solid wheat;
     width: 100%;
     font-weight: 600;
@@ -483,12 +461,24 @@ main {
 
 }
 
+/*Icons styling*/
+.fa-glasses:before {
+    content: "\f530";
+    padding: 15px;
+
+}
+
+.fa-binoculars:before {
+    content: "\f1e5";
+    padding: 15px;
+    background-color: lightgreen;
+}
+
 /*break theme*/
 .image-container {
     display: flex;
     overflow: hidden;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
-
     border-radius: 15px;
     margin-bottom: 30px;
     border-left: 2px solid white;
@@ -559,9 +549,7 @@ main {
 
 #user-image img {
     max-width: 100%;
-
     box-shadow: 0 4px 8px rgba(101, 64, 64, 0.4);
-    /* Adjust the values as needed */
 
 }
 
@@ -595,16 +583,9 @@ main {
     padding-right: 0px;
 
 }
-.fa-glasses:before {
-    content: "\f530";
-    padding: 15px;
-  
-}
-.fa-binoculars:before {
-    content: "\f1e5";
-    padding: 15px;
-    background-color: lightgreen;
-}
+
+
+
 #gallery-frame-container {
 
     padding: 5px;
@@ -653,12 +634,7 @@ main {
 
 }
 
-/*proverb*/
 
-#proverb {
-    position: absolute;
-
-}
 
 #wildlife {
 
@@ -713,7 +689,7 @@ main {
     background-color: rgba(219, 112, 147, 0.3);
     margin-bottom: 20px;
     margin-left: 0;
-    /* Align to the far left */
+
 
 
 }
@@ -726,7 +702,6 @@ main {
 #toggleCheckbox:checked+#wild-life-title {
     background-color: rgba(219, 112, 147, 0.3);
     background-image: none;
-    /* Hide the background image */
     height: 50px;
     margin-bottom: 0;
 }
@@ -734,7 +709,7 @@ main {
 #toggleCheckbox:checked+#wild-life-title+#wildlife-container {
     display: block;
     margin-top: 0px;
-    /* Adjust the value as needed */
+
 
 }
 
@@ -748,7 +723,6 @@ main {
     text-decoration: underline;
     display: flex;
     justify-content: flex-end;
-    /* Align to the left side */
     padding-right: 5%;
     background: url(../images/deer-fight-background-img.jpg) no-repeat center center/cover;
 }
@@ -778,7 +752,6 @@ main {
 #wildlife-container #wildlife-line-two div {
     color: #333;
     display: flex;
-
     font-weight: 600;
     flex-wrap: wrap;
     flex: 1;
@@ -815,7 +788,7 @@ main {
 
 }
 
-/* Optional: Style the text inside the divs */
+
 .animal h2 {
     font-size: 2rem;
     margin-bottom: 10px;
@@ -863,10 +836,7 @@ main {
     font-size: 1.5rem;
     position: absolute;
     right: 10px;
-    /* Adjust the margin as needed */
-
     transform: translateY(-20%);
-    /* Adjust for vertical centering */
     padding: 10px;
 }
 
@@ -894,7 +864,7 @@ main {
 
 }
 
-/* Styles for Explore Text */
+/* Explore Text */
 .explore-text {
     font-size: 1rem;
     color: #fbfafa;
@@ -920,7 +890,8 @@ main {
 }
 
 
-/* Your existing styles go here */
+/*Map section*/
+
 #map-section {
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
     position: relative;
@@ -936,7 +907,7 @@ main {
     max-width: 100%;
     padding-top: 20px;
     overflow: hidden;
-    /* Ensure child elements respect the border-radius */
+
 }
 
 #map-section h2 {
@@ -949,25 +920,26 @@ main {
     color: white;
     background-color: #0056b3;
     top: 30px;
-    /* Adjust this value as needed */
+
 }
 
 #map-section.zoomed {
     transform: scale(1.2);
-    /* Adjust the scale factor for the desired zoom level */
 }
 
 #map {
     width: 100%;
     max-width: 100%;
-    /* Adjust the max-width as needed */
+
     height: 200px;
-    /* Adjust the height as needed */
     border: 1px solid #333;
     border-radius: 10px;
-    /* Rounded border */
+
 
 }
+
+/* Styles for the Impression Form */
+
 
 #impression-page-container {
     background: url('../images/form-background-img.jpg') no-repeat center center/cover;
@@ -975,16 +947,13 @@ main {
 
 }
 
-/* Styles for the Impression Form */
 #impression-form {
     margin-top: 2px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* Center vertically */
     height: 100vh;
-    /* Set the height to 100% of the viewport height */
     max-width: 400px;
     color: #fff;
 
@@ -1074,6 +1043,7 @@ input[type="submit"] {
     font-weight: 600;
 }
 
+/*Bottom*/
 #bottom-section {
     margin-top: 20px;
     text-align: center;
@@ -1087,15 +1057,15 @@ input[type="submit"] {
 /* Redirect logic when the radio button is checked */
 #redirectRadio:checked+#redirectLabel {
     content: url("../index.html");
-    /* Replace "index.html" with your actual redirection URL */
+
 }
 
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
 
-/*gallery styling*/
-/* Gallery page */
+
+/* Gallery Page Styles*/
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -1110,13 +1080,13 @@ input[type="submit"]:hover {
 #gallery-title {
     color: #333;
     background-color: rgba(120, 247, 228, 0.2);
-
     padding: 10px;
     margin-bottom: 10px;
     margin-top: 30px;
 }
 
-/*sponsors*/
+/*sponsors styles*/
+
 .sponsors-section {
     display: flex;
     justify-content: space-around;
@@ -1135,7 +1105,7 @@ input[type="submit"]:hover {
     background-color: #333;
     display: flex;
     justify-content: space-between;
-    /* or 'space-between' based on your preference */
+
 }
 
 .sponsor {
@@ -1144,7 +1114,6 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     flex: 1;
-    /* Distribute available space equally among all .sponsor divs */
 }
 
 #sponsor-title {
@@ -1159,9 +1128,7 @@ input[type="submit"]:hover {
 
 .sponsor img {
     width: 50px;
-    /* Adjust the width as needed */
     height: 50px;
-    /* Adjust the height as needed */
     border-radius: 50%;
     align-self: center;
     margin-top: 10px;
@@ -1175,7 +1142,7 @@ input[type="submit"]:hover {
     color: white
 }
 
-/*SOPTTED FORM STYLES*/
+/*Spotted Form Styles*/
 
 #spoted-form-title {
     text-align: center;
@@ -1196,7 +1163,6 @@ input[type="submit"]:hover {
 
 #spotted-form {
     background-color: rgba(187, 154, 127, 0.5);
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1240,11 +1206,9 @@ input[type="submit"] {
 
 .spotted-form {
     margin-top: 20px;
-
     border-bottom: 1px solid #ddd;
     width: 100%;
     background-color: rgba(188, 92, 14, 0.3);
-
     box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
 }
 
@@ -1300,10 +1264,9 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     /* Additional CSS for styling the image and header */
     #header-image {
         width: 170px;
-        /* Adjust the width as needed */
         display: block;
         margin: 0 auto;
-        /* Center the image */
+
 
     }
 
@@ -1318,12 +1281,10 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-    .fa-binoculars:before {
-        content: "\f1e5";
-        padding: 15px;
-        margin: 0px 10px;
-        background-color: lightgreen;
-    }
+
+
+
+
     /*SPOTTED FORM STYLES*/
 
     #spoted-form-title {
@@ -1412,14 +1373,23 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         margin: 0;
     }
 
-    /* Additional CSS for styling the image and header */
+    .fa-binoculars:before {
+        content: "\f1e5";
+        padding: 15px;
+        margin: 0px 10px;
+        background-color: lightgreen;
+    }
+
+
+    /*Logo Img*/
+
+
     #header-image {
 
         width: 190px;
-        /* Adjust the width as needed */
         display: block;
         margin: 0 auto;
-        /* Center the image */
+
 
     }
 
@@ -1438,9 +1408,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     .sponsor img {
         width: 70px;
-        /* Adjust the width as needed */
         height: 70px;
-        /* Adjust the height as needed */
         border-radius: 50%;
         align-self: center;
         margin-top: 10px;
@@ -1465,6 +1433,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         margin-top: 0px;
     }
 
+    /*about NP Killarney*/
     .about-np-section {
 
         margin-bottom: 100px;
@@ -1508,9 +1477,27 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     }
 
+    .about-np-description {
+        font-size: 1.2rem;
+        color: #333;
+        padding: 5px;
+    }
+
+    .about-np-circle {
+        width: 750px;
+        height: 300px;
+        display: flex;
+        border-radius: 0%;
+        overflow: hidden;
+        margin: 4px;
+        margin-top: 20px;
+        float: left;
+    }
+
+    /*Ilustration Bottom section*/
+
     .ilustration-bottom-img {
         box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
-        /* Adjust the values as needed */
         width: 50%;
         height: 50%;
         object-fit: cover;
@@ -1522,25 +1509,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     }
 
-    .about-np-description {
-        font-size: 1.2rem;
-        color: #333;
-        padding: 5px;
-    }
-
-    .about-np-circle {
-        width: 750px;
-        height: 300px;
-        display: flex;
-
-        border-radius: 0%;
-        overflow: hidden;
-
-        margin: 4px;
-        margin-top: 20px;
-        float: left;
-    }
-
     #ilustration-bottom-container {
         width: 100%;
         height: 100%;
@@ -1548,17 +1516,16 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         display: flex;
 
         justify-content: center;
-        /* Center horizontally */
         align-items: center;
-        /* Center vertically */
     }
+
+    /*Map section*/
 
     #map-section {
         position: relative;
         flex: 1;
         display: flex;
         flex-wrap: wrap;
-
         align-items: center;
         flex-direction: row;
         margin-bottom: 30px;
@@ -1573,12 +1540,9 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     #map {
         width: 100%;
         max-width: 100%;
-        /* Adjust the max-width as needed */
         height: 200px;
-        /* Adjust the height as needed */
         border: 1px solid #333;
         border-radius: 10px;
-        /* Rounded border */
 
     }
 
@@ -1594,18 +1558,17 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         top: 40px;
     }
 
-    /*gallery styles*/
+    /*Gallery styles*/
+
     #photos {
         column-count: 3;
         column-gap: 0;
-        /* Set the gap between columns to 0 */
         z-index: 12;
     }
 
     #photos img {
         transition: transform 0.3s ease-in-out;
         z-index: 1;
-        /* Set a base z-index */
 
     }
 
@@ -1613,12 +1576,12 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
         transform: scale(1.2);
         z-index: 2;
-        /* Increase the z-index on hover */
         box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
     }
 
     /* Header */
     nav {
+        display: flex;
         display: block;
         position: relative;
         box-shadow: none;
@@ -1638,6 +1601,18 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         display: none;
     }
 
+
+    /*navigation*/
+
+    .nav-toggle-label::before,
+    .nav-toggle-label-form::before {
+        display: none;
+    }
+
+
+
+    /*Spotted*/
+
     #spotted {
         height: 120%;
         display: flex;
@@ -1654,19 +1629,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         width: 100%;
         font-weight: 600;
 
-        /* Set the width to 70% */
-
-    }
-
-    /* Hide the icon on larger screens */
-    .nav-toggle-label::before,
-    .nav-toggle-label-form::before {
-        display: none;
-    }
-
-    /* Show the navigation menu on larger screens */
-    nav {
-        display: flex;
     }
 
     #input-for-forms {
@@ -1681,7 +1643,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* Added to make the image cover the entire container */
 
     }
 
@@ -1706,7 +1667,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         padding: 20px;
         flex: 1;
         background-size: cover;
-        /* Ensure the background covers the entire container */
 
 
 
@@ -1726,13 +1686,14 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
+    /*SOPTTED FORM STYLES*/
+
     .fa-binoculars:before {
         content: "\f1e5";
         padding: 15px;
         margin: 0px 10px;
         background-color: lightgreen;
     }
-    /*SOPTTED FORM STYLES*/
 
     #spoted-form-title {
         text-align: center;
@@ -1753,7 +1714,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     .spotted-form {
         flex: 0 0 calc(50% - 10px);
-        /* Adjust the width and margin as needed */
         margin-bottom: 20px;
         box-sizing: border-box;
         padding: 20px;
@@ -1766,9 +1726,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        /* Adjust as needed */
         align-items: flex-start;
-        /* Adjust as needed */
         margin: 5px;
     }
 
@@ -1847,9 +1805,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
         background-size: cover;
-        /* Ensure the background covers the entire container */
         color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 20px;
@@ -1857,12 +1813,9 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     }
 
     #header-image {
-
         width: 250px;
-        /* Adjust the width as needed */
         display: block;
         margin: 0 auto;
-        /* Center the image */
 
     }
 
@@ -1947,9 +1900,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     .impression {
 
         width: calc(50% - 20px);
-        /* Set the width to 50% with a bit of space between elements */
         margin: 10px;
-        /* Adjust margin as needed */
         border-bottom: 1px solid white;
     }
 
@@ -1970,7 +1921,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* Added to make the image cover the entire container */
 
     }
 
@@ -1990,9 +1940,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         flex-direction: column;
         justify-content: center;
         align-items: center;
-
         background-size: cover;
-        /* Ensure the background covers the entire container */
         color: #fff;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 20px;
@@ -2022,8 +1970,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     #spotted-div {
         margin-bottom: 20px;
-
-        /* Adjust as needed for spacing between spotted-divs */
     }
 
     #user-description {
@@ -2075,9 +2021,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     .sponsor img {
         width: 100px;
-        /* Adjust the width as needed */
         height: 100px;
-        /* Adjust the height as needed */
         border-radius: 50%;
         align-self: center;
         margin-top: 10px;
@@ -2202,7 +2146,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         display: block;
         justify-content: flex-start;
         padding: 0px 0 0px 0px;
-        /* Added padding */
         text-decoration: none;
         padding-left: 5%;
 
@@ -2256,13 +2199,13 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         width: 450px;
         height: 450px;
         margin-top: 30px;
-
         border: 1px solid #333;
         border-radius: 0%;
 
 
     }
 
+    /* Header */
 
     header {
         background-color: #ffffff;
@@ -2292,14 +2235,12 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     #photos {
         column-count: 3;
         column-gap: 0;
-        /* Set the gap between columns to 0 */
         z-index: 12;
     }
 
     #photos img {
         transition: transform 0.3s ease-in-out;
         z-index: 1;
-        /* Set a base z-index */
 
     }
 
@@ -2307,7 +2248,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
         transform: scale(1.2);
         z-index: 2;
-        /* Increase the z-index on hover */
         box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
     }
 
@@ -2316,6 +2256,8 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 /* Media query: larger screens (1200px and up) */
 @media screen and (min-width: 1200px) {
 
+
+    /*Hero Section*/
     #hero {
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
         margin-top: 2px;
@@ -2329,10 +2271,9 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     #header-image {
 
         width: 290px;
-        /* Adjust the width as needed */
         display: block;
         margin: 0 auto;
-        /* Center the image */
+
 
     }
 
@@ -2352,6 +2293,24 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     }
 
     /*about NP Killarney*/
+
+    .about-np-title {
+        box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
+        font-size: 2.5rem;
+        font-weight: bold;
+        padding: 20px 55px;
+        background-color: rgba(2, 51, 1, 0.3);
+        background: url(../images/ilustration-background.jpg) no-repeat center center/cover;
+        text-align: end;
+        width: 100%;
+    }
+
+    .about-np-description {
+        font-size: 26px;
+        color: #555;
+        shape-outside: circle(50%);
+        margin-right: 20px;
+    }
 
     .about-np-section {
         background-color: white;
@@ -2410,33 +2369,18 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         font-size: 1.3rem;
     }
 
-    .about-np-title {
-        box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
-        font-size: 2.5rem;
-        font-weight: bold;
-        padding: 20px 55px;
-        background-color: rgba(2, 51, 1, 0.3);
-        background: url(../images/ilustration-background.jpg) no-repeat center center/cover;
-        text-align: end;
-        width: 100%;
-    }
+    /*Spoted*/
 
-    .about-np-description {
-        font-size: 26px;
-        color: #555;
-        shape-outside: circle(50%);
-        margin-right: 20px;
-    }
 
-    /* Add or modify styles for even bigger screens here */
+
     #spotted {
-        /* Example styles for even bigger screens */
+
         height: 150%;
         background-color: lightblue;
     }
 
     #spotted-text {
-        /* Example styles for even bigger screens */
+
         font-size: 1.2rem;
     }
 
@@ -2446,10 +2390,8 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         column-count: 5;
         column-gap: 0;
         width: 100%;
-        /* Set a maximum width if needed */
         margin: 0 auto;
-        /* Center the gallery horizontally */
-        /* Set the gap between columns to 0 */
+
     }
 
     #photos img {
@@ -2460,7 +2402,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
         transform: scale(1.2);
         z-index: 2;
-        /* Increase the z-index on hover */
         box-shadow: 0 0 10px rgba(221, 11, 11, 0.3);
     }
 
@@ -2474,6 +2415,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         margin-top: 10px;
     }
 
+    /* Header Title */
     header a {
         text-decoration: none;
         color: inherit;
@@ -2486,6 +2428,9 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 }
 
 @media screen and (min-width: 1600px) {
+
+
+    /*Hero*/
     #hero {
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
         margin-top: 2px;
@@ -2496,15 +2441,26 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         position: relative;
     }
 
+    #hero-text {
+        background-color: rgba(107, 199, 241, 0.5);
+        position: absolute;
+        top: 370px;
+        width: 40%;
+        box-shadow: 0 4px 8px rgba(250, 250, 248, 0.3);
+        right: 0;
+        padding: 40px 10px;
+    }
+
+
+    /*Logo*/
+
     #header-image {
         width: 380px;
-        /* Adjust the width as needed */
-
         display: block;
         margin: 0 auto;
-        /* Center the image */
-
     }
+
+    /*Users gallery contest styles*/
 
     #users-gallery-image-container {
         display: flex;
@@ -2528,8 +2484,10 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         width: 100%;
         height: auto;
         border-radius: 8px;
-        /* Add border-radius for rounded corners if desired */
+
     }
+
+    /*Ways to explore*/
 
     #ways-to-explore-title {
         padding: 5px;
@@ -2553,7 +2511,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         gap: 10px;
     }
 
-    #map-section {}
+
 
     #ways-to-explore {
         height: 650px;
@@ -2567,7 +2525,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     .explore-item {
         margin-bottom: 20px;
-        /* Add some spacing between explore items */
+
     }
 
     .explore-title {
@@ -2614,28 +2572,23 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         padding-right: 0px;
     }
 
-    /* Add or modify styles for screens larger than 1600px here */
 
     .about-np-title {
         font-size: 4rem;
-        /* Example: Increase font size for even larger screens */
     }
 
     #spotted {
         height: 200%;
-        /* Example: Adjust height for even larger screens */
         background-color: lightcoral;
     }
 
     #photos {
 
         column-count: 5;
-        /* Example: Increase the number of columns for even larger screens */
     }
 
     .sponsor img {
         width: 200px;
-        /* Example: Increase sponsor image size for even larger screens */
         height: 200px;
     }
 
@@ -2759,13 +2712,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         background-color: rgba(1, 9, 5, 0.5);
     }
 
-    #hero-text {
-        background-color: rgba(107, 199, 241, 0.5);
-        position: absolute;
-        top: 370px;
-        width: 40%;
-        box-shadow: 0 4px 8px rgba(250, 250, 248, 0.3);
-        right: 0;
-        padding: 40px 10px;
-    }
+
+
 }
