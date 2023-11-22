@@ -595,12 +595,16 @@ main {
     padding-right: 0px;
 
 }
+.fa-glasses:before {
+    content: "\f530";
+    padding: 15px;
+  
+}
 .fa-binoculars:before {
     content: "\f1e5";
     padding: 15px;
     background-color: lightgreen;
 }
-
 #gallery-frame-container {
 
     padding: 5px;
@@ -2666,7 +2670,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
     #spotted-text {
         font-size: 2.2rem;
-        width: 80%;
+        width: 100%;
     }
 
     #spotted h5 {
