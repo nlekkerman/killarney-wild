@@ -732,7 +732,7 @@ main {
 }
 
 #toggleCheckbox:checked+#wild-life-title {
-    background-color: rgba(219, 112, 147, 0.3);
+
     background-image: none;
     height: 50px;
     margin-bottom: 0;
@@ -2259,7 +2259,6 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
     }
 
     #toggleCheckbox:checked+#wild-life-title {
-        background-color: rgba(219, 112, 147, 0.7);
         background-image: none;
         height: 150px;
         margin-bottom: 0;
