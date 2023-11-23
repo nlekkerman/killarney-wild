@@ -357,6 +357,7 @@ background-color: white;
 }
 
 .half-screen-container>div {
+    
     gap: 1px;
     flex: 1;
     min-width: 50%;
@@ -370,7 +371,23 @@ background-color: white;
 
 
 }
+#weather-temperature a {
+    color: white; /* Link color */
+    background-color: rgba(2, 51, 1, 0.7);
+    padding: 3px;
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold font */
+    font-size: 0.7rem;
+}
 
+#weather-temperature a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+#weather-temperature a::before {
+    content: "\1F4DE"; /* Unicode telephone icon */
+    margin-right: 5px; /* Add space between the icon and the phone number */
+}
 .weather,
 .np-rangers,
 .mounting-rescue,
@@ -380,11 +397,20 @@ background-color: white;
 }
 
 /* Add specific styles for each div if needed */
-.weather {}
+.weather {
+    background: url('../images/resue-background.jpg')no-repeat center center/cover;
 
-.np-rangers {}
+}
 
-.mounting-rescue {}
+.np-rangers {
+    background: url('../images/resue-background.jpg')no-repeat center center/cover;
+
+}
+
+.mounting-rescue {
+    background: url('../images/resue-background.jpg')no-repeat center center/cover;
+
+}
 
 #map-section{
     gap: 1px;
@@ -907,7 +933,7 @@ flex-direction: column;
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: white;
+    background-color: rgba(2, 51, 1, 0.4);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     top: 0;
     right: 0;
@@ -915,6 +941,39 @@ flex-direction: column;
     z-index: 100;
 
 }
+#ranger-section {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(2, 51, 1, 0.4);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+    right: 0;
+    height: 95px;
+    z-index: 100;
+
+}
+#rescue-section {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(2, 30, 1, 0.4);
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    top: 0;
+    right: 0;
+    height: 95px;
+    z-index: 100;
+
+}
+
 
 #weather-icon {
     font-size: 2rem;
@@ -933,12 +992,12 @@ flex-direction: column;
 #weather-title {
     margin-bottom: 5px;
     font-weight: 300;
-   
+   color: white;
     font-size: 1rem;
 }
 
 #weather-temperature {
-   
+   color: white;
 margin-top: 5px;
     font-size: 0.7rem;
 
@@ -1284,6 +1343,8 @@ Image by <a href="https://www.freepik.com/free-vector/logo-template_33601695.htm
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
 Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-background_18999571.htm#page=2&query=autumn&position=26&from_view=search&track=sph&uuid=f30418b3-15a1-4b35-90b4-f716a04edec8#position=26&page=2&query=autumn">Freepik</a>
 
+
+<a href="https://www.freepik.com/free-photo/helicopter-flying-among-clouds-snow-capped-mountains_10809728.htm#query=Rescue%20helicopter&position=0&from_view=search&track=ais&uuid=0955b4f8-63f6-45f7-b150-19cd24d10d93">Image by wirestock</a> on Freepik
 <a href="https://www.freepik.com/icon/rappel_5958043#fromView=search&term=Mountain+Rescue&page=2&position=10&track=ais">Icon by pongsakornRed</a>
 <a href="https://www.freepik.com/icon/sheriff_2930274#fromView=search&term=ranger&page=2&position=7&track=ais">Icon by Freepik</a>
 <a href="https://www.freepik.com/free-vector/instruction-manual-smart-man-with-laptop-studying-handbook-reading-guidebook-cartoon-character-use-terms-tutorial-guide-digital-documentation_11667037.htm#query=information&position=3&from_view=search&track=sph&uuid=086d1baa-cb61-4e03-ad1a-f3273377adae">Image by vectorjuice</a> on Freepik
