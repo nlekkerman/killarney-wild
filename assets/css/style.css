@@ -271,7 +271,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     display: flex;
-   
+
 }
 
 .about-np-image {
@@ -300,17 +300,6 @@ a:hover {
 
 }
 
-.about-np-title {
-    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 20px 55px;
-    background-color: rgba(2, 51, 1, 0.3);
-    background: url("../images/ilustration-background.jpg") no-repeat center center/cover;
-    text-align: end;
-    width: 100%;
-
-}
 
 .about-np-description {
     font-size: 1rem;
@@ -330,12 +319,18 @@ main {
     flex: 1;
 
 }
+
 /* GOOD TO KNOW SECTION */
 
 #good-to-know-section {
     display: flex;
     flex-wrap: wrap;
+    border: 3px solid #e9e6e6;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.3);
+
+    margin-top: 20px;
     flex-direction: column;
+    background: url("../images/explore-background-img.jpg") no-repeat center center/cover;
 
 }
 
@@ -347,43 +342,39 @@ main {
     flex-wrap: wrap;
 }
 
-.half-screen-container > div {
+.half-screen-container>div {
+    
     flex: 1;
     min-width: 50%;
     box-sizing: border-box;
     padding: 5px;
-    display: flex; /* Enable flex properties for child elements */
-    flex-direction: column; /* Stack child elements vertically */
-    justify-content: center; /* Center vertically */
-    align-items: center; /* Center horizontally */
-  
-    
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+ align-items: center;
+   
+
+
 }
+
 .weather,
 .np-rangers,
 .mounting-rescue,
 .map-your-location {
     flex: 1;
-   height:95px;
-   width: 100%;
-  
+    height: 95px;
+    width: 100%;
+
 }
+
 /* Add specific styles for each div if needed */
-.weather {
-    background-color: #a31a1a;
-}
+.weather {}
 
-.np-rangers {
-    background-color: #778822;
-}
+.np-rangers {}
 
-.mounting-rescue {
-    background-color: #344433;
-}
+.mounting-rescue {}
 
-.map-your-location {
-    background-color: #c0c0c0;
-}
+.map-your-location {}
 
 
 /*Spotted*/
@@ -501,19 +492,22 @@ main {
     height: 100%;
     object-fit: cover;
 }
+
 #about-np-title {
     position: relative;
     width: 100%;
     height: 100px;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
 
-    margin: 0 auto; 
+    margin: 0 auto;
     display: flex;
     justify-content: start;
     align-items: center;
-    color: #390101; /* Set text color to contrast with the background */
+    color: #390101;
+    /* Set text color to contrast with the background */
 }
-#about-np-title h3{
+
+#about-np-title h3 {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -542,30 +536,27 @@ main {
     z-index: 2;
 }
 
-/* Style for the "(click to see)" text */
-.click-to-see-users-gallery {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    color: white;
-    text-align: center;
-    margin: 0;
-    z-index: 2;
-    cursor: pointer;
-}
+
+#user-two-thre-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;}
 
 #users-gallery-image-container {
     display: flex;
+    background-color: azure;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 5px;
+    flex-wrap: wrap;
+    
 
 }
 
 #user-image {
     text-align: center;
+    width: 100%;
 
 }
 
@@ -592,18 +583,19 @@ main {
 
 #autumn-gallery-header-title {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+   
+    justify-content: center;
     align-items: center;
-    margin-top: auto;
+    text-align: center;
+    right: 0px;
+    height: 50px;
     background-color: rgba(252, 240, 25, 0.7);
     width: 100%;
     font-weight: 400;
-    font-size: 20px;
-    padding: 5px 5px;
+    font-size: 16px;
     color: rgb(2, 0, 0);
-    padding-right: 0px;
-
+    padding-right: 10px; /* Adjust padding as needed */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
 }
 
 
@@ -613,18 +605,7 @@ main {
     padding: 5px;
 }
 
-#autumn-gallery-header-title-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    height: 80px;
-    margin-top: auto;
-    background: url('../images/autumn-gallery-title-background-img.jpg') no-repeat center center/cover;
-    font-weight: 400;
-    font-size: 24px;
-    padding-right: 0px;
-}
+
 
 #autumn-gallery-container {
     display: flex;
@@ -888,22 +869,31 @@ main {
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: rgba(12, 11, 11, 0.6);
+    background-color: rgba(134, 45, 45, 0.6);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     top: 0;
     right: 0;
-   height: 95px;
+    height: 95px;
     z-index: 100;
-   
+
 }
 
 #weather-icon {
-font-size: 2rem;
+    font-size: 2rem;
     color: #f39c12;
     /* FontAwesome sun color */
 }
 
+#weather-section #rangers-icon {
+ 
+    width: 2rem;
+    display: flex;
+    align-self: center;
+    /* FontAwesome sun color */
+}
+
 #weather-title {
+    margin-bottom: 5px;
     font-weight: 300;
     color: white;
     font-size: 1rem;
@@ -911,9 +901,9 @@ font-size: 2rem;
 
 #weather-temperature {
     color: white;
-
+margin-top: 5px;
     font-size: 0.7rem;
-   
+
 }
 
 /*footer*/
@@ -1303,6 +1293,9 @@ Image by <a href="https://www.freepik.com/free-vector/logo-template_33601695.htm
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
 Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-background_18999571.htm#page=2&query=autumn&position=26&from_view=search&track=sph&uuid=f30418b3-15a1-4b35-90b4-f716a04edec8#position=26&page=2&query=autumn">Freepik</a>
 
+<a href="https://www.freepik.com/icon/rappel_5958043#fromView=search&term=Mountain+Rescue&page=2&position=10&track=ais">Icon by pongsakornRed</a>
+<a href="https://www.freepik.com/icon/sheriff_2930274#fromView=search&term=ranger&page=2&position=7&track=ais">Icon by Freepik</a>
+<a href="https://www.freepik.com/free-vector/instruction-manual-smart-man-with-laptop-studying-handbook-reading-guidebook-cartoon-character-use-terms-tutorial-guide-digital-documentation_11667037.htm#query=information&position=3&from_view=search&track=sph&uuid=086d1baa-cb61-4e03-ad1a-f3273377adae">Image by vectorjuice</a> on Freepik
 */
 
 /* Media query: large or landscape phones (576px and up) */
@@ -1330,37 +1323,38 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 @media screen and (min-width: 768px) {
 
 
-/*weather section*/
-#weather-section {
-    text-align: center;
-    padding: 5px;
-    width: 20%;
-    background-color: rgba(12, 11, 11, 0.6);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    top: 0;
-    z-index: 100;
-    margin-top: 30px;
-}
+    /*weather section*/
+    #weather-section {
+        text-align: center;
+        padding: 5px;
+        width: 20%;
+        background-color: rgba(12, 11, 11, 0.6);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        top: 0;
+        z-index: 100;
+        margin-top: 30px;
+    }
 
 
-#weather-icon {
+    #weather-icon {
 
-    color: #f39c12;
-    /* FontAwesome sun color */
-}
+        color: #f39c12;
+        /* FontAwesome sun color */
+    }
 
-#weather-title {
-    font-weight: 300;
-    color: white;
-    font-size: 1rem;
-}
+    #weather-title {
+        font-weight: 300;
+        color: white;
+        font-size: 1rem;
+    }
 
-#weather-temperature {
-    color: white;
+    #weather-temperature {
+        color: white;
 
-    font-size: 0.7rem;
-   
-}
+        font-size: 0.7rem;
+
+    }
+
     /*SPOTTED FORM STYLES*/
 
     #spoted-form-title {
@@ -1761,36 +1755,38 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-/*weather section*/
-#weather-section {
-    text-align: center;
-    padding: 5px;
-    width: 15%;
-    background-color: rgba(12, 11, 11, 0.6);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    top: 0;
-    z-index: 100;
-    margin-top: 20px;
-}
 
-#weather-icon {
+    /*weather section*/
+    #weather-section {
+        text-align: center;
+        padding: 5px;
+        width: 15%;
+        background-color: rgba(12, 11, 11, 0.6);
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        top: 0;
+        z-index: 100;
+        margin-top: 20px;
+    }
 
-    color: #f39c12;
-    /* FontAwesome sun color */
-}
+    #weather-icon {
 
-#weather-title {
-    font-weight: 300;
-    color: white;
-    font-size: 1rem;
-}
+        color: #f39c12;
+        /* FontAwesome sun color */
+    }
 
-#weather-temperature {
-    color: white;
+    #weather-title {
+        font-weight: 300;
+        color: white;
+        font-size: 1rem;
+    }
 
-    font-size: 0.7rem;
-   
-}
+    #weather-temperature {
+        color: white;
+
+        font-size: 0.7rem;
+
+    }
+
     /*SOPTTED FORM STYLES*/
 
     .fa-binoculars:before {
@@ -2366,7 +2362,7 @@ Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-bac
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
         margin-top: 2px;
         background-color: #3498db;
-      
+
         height: 700px;
         width: 100%;
         position: relative;
