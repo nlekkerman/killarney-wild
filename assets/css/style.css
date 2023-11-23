@@ -325,12 +325,11 @@ main {
 #good-to-know-section {
     display: flex;
     flex-wrap: wrap;
-    border: 3px solid #e9e6e6;
-    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.3);
-
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
+background-color: white;
     margin-top: 20px;
     flex-direction: column;
-    background: url("../images/explore-background-img.jpg") no-repeat center center/cover;
+   
 
 }
 
@@ -343,7 +342,7 @@ main {
 }
 
 .half-screen-container>div {
-    
+    gap: 1px;
     flex: 1;
     min-width: 50%;
     box-sizing: border-box;
@@ -361,9 +360,7 @@ main {
 .np-rangers,
 .mounting-rescue,
 .map-your-location {
-    flex: 1;
-    height: 95px;
-    width: 100%;
+  
 
 }
 
@@ -374,7 +371,18 @@ main {
 
 .mounting-rescue {}
 
-.map-your-location {}
+#map-section{
+    gap: 1px;
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+    padding: -20px 0px;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+ align-items: center;
+   
+}
 
 
 /*Spotted*/
@@ -869,8 +877,8 @@ main {
     justify-content: center;
     text-align: center;
     width: 100%;
-    background-color: rgba(134, 45, 45, 0.6);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     top: 0;
     right: 0;
     height: 95px;
@@ -895,12 +903,12 @@ main {
 #weather-title {
     margin-bottom: 5px;
     font-weight: 300;
-    color: white;
+   
     font-size: 1rem;
 }
 
 #weather-temperature {
-    color: white;
+   
 margin-top: 5px;
     font-size: 0.7rem;
 
@@ -924,53 +932,6 @@ margin-top: 5px;
 }
 
 
-/*Map section*/
-
-#map-section {
-    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
-    position: relative;
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: row;
-    padding: 5px;
-    margin-bottom: 30px;
-    margin-top: 20px;
-    max-width: 100%;
-    padding-top: 20px;
-    overflow: hidden;
-
-}
-
-#map-section h2 {
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    position: absolute;
-    right: 10px;
-    padding: 5px;
-    color: white;
-    background-color: #0056b3;
-    top: 30px;
-
-}
-
-#map-section.zoomed {
-    transform: scale(1.2);
-}
-
-#map {
-    width: 100%;
-    max-width: 100%;
-
-    height: 200px;
-    border: 1px solid #333;
-    border-radius: 10px;
-
-
-}
 
 /* Styles for the Impression Form */
 
