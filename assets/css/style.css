@@ -250,36 +250,9 @@ a:hover {
 
 }
 
-/*weather section*/
-#weather-section {
-    text-align: center;
-    padding: 5px;
-    width: 30%;
-    background-color: rgba(12, 11, 11, 0.6);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    top: 0;
-    z-index: 100;
-    margin-top: 10px;
-}
 
-#weather-icon {
 
-    color: #f39c12;
-    /* FontAwesome sun color */
-}
 
-#weather-title {
-    font-weight: 300;
-    color: white;
-    font-size: 1rem;
-}
-
-#weather-temperature {
-    color: white;
-
-    font-size: 0.7rem;
-
-}
 
 
 /*about NP Killarney*/
@@ -287,7 +260,7 @@ a:hover {
 .about-np-section {
     background-color: white;
     overflow: hidden;
-    padding-top: 70px;
+    padding-top: 20px;
 }
 
 .about-np-circle {
@@ -309,58 +282,6 @@ a:hover {
 
 }
 
-/*Ilustration Bottom*/
-#about-np-circle-bottom {
-    box-shadow: 0 4px 8px rgba(188, 183, 183, 0.2);
-    max-width: 100%;
-    height: 250px;
-    margin-bottom: 5px;
-
-
-}
-
-.ilustration-bottom-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 20px;
-
-}
-
-.ilustration-bottom-img {
-    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.7);
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 50%;
-    display: flex;
-    align-self: center;
-}
-
-#ilustration-bottom-container {
-    width: 100%;
-    height: 100%;
-    margin: 40px 0px;
-
-    display: flex;
-    align-self: center;
-
-    position: relative;
-
-}
-
-/*Proverb*/
-#proverb {
-    position: absolute;
-    bottom: -30px;
-    left: 50%;
-    transform: translateX(-50%);
-    color: #333;
-    font-weight: 600;
-    text-align: center;
-    width: 100%;
-}
 
 
 .about-np-image-bottom {
@@ -409,6 +330,61 @@ main {
     flex: 1;
 
 }
+/* GOOD TO KNOW SECTION */
+
+#good-to-know-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.half-screen-container {
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.half-screen-container > div {
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+    padding: 5px;
+    display: flex; /* Enable flex properties for child elements */
+    flex-direction: column; /* Stack child elements vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+  
+    
+}
+.weather,
+.np-rangers,
+.mounting-rescue,
+.map-your-location {
+    flex: 1;
+   height:95px;
+   width: 100%;
+  
+}
+/* Add specific styles for each div if needed */
+.weather {
+    background-color: #a31a1a;
+}
+
+.np-rangers {
+    background-color: #778822;
+}
+
+.mounting-rescue {
+    background-color: #344433;
+}
+
+.map-your-location {
+    background-color: #c0c0c0;
+}
+
 
 /*Spotted*/
 
@@ -525,19 +501,24 @@ main {
     height: 100%;
     object-fit: cover;
 }
-.about-logo-image {
+#about-np-title {
     position: relative;
-    width: 100px;
+    width: 100%;
     height: 100px;
-    background: url('../images/np-logo-image.jpg') no-repeat center center/cover;
-    background-size: 100px 100px;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
+
     margin: 0 auto; 
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     color: #390101; /* Set text color to contrast with the background */
 }
+#about-np-title h3{
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
 
+}
 
 .title {
 
@@ -664,18 +645,6 @@ main {
 
 
 /*wild life styles */
-
-#wildlife-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 10px;
-
-    display: none;
-
-}
-
-
 
 #wildlife {
 
@@ -914,21 +883,22 @@ main {
 
 /*weather section*/
 #weather-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    padding: 10px;
-    width: 30%;
+    width: 100%;
     background-color: rgba(12, 11, 11, 0.6);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    position: absolute;
     top: 0;
     right: 0;
-    margin-right: 5px;
+   height: 95px;
     z-index: 100;
-    margin-top: 30px;
+   
 }
 
 #weather-icon {
-
+font-size: 2rem;
     color: #f39c12;
     /* FontAwesome sun color */
 }
