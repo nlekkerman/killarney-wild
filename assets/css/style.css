@@ -271,6 +271,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     display: flex;
+    margin:10px 0px;
 
 }
 
@@ -282,7 +283,21 @@ a:hover {
 
 }
 
+.about-np-circle-left {
+    float: left;
+    width: 50%;
+    margin-top: 5px;
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-right: 10px; /* Add margin as needed to separate the images */
+}
+.about-np-circle-right {
+    float: right;
+    width: 60%;
+    box-sizing: border-box; /* Include padding and border in the total width */
+    margin-left: 10px; /* Add margin as needed to separate the images */
+    margin-top: 5px; /* Add margin as needed to separate the images */
 
+}
 
 .about-np-image-bottom {
     width: 100%;
@@ -296,7 +311,7 @@ a:hover {
 .about-np-text {
     text-align: justify;
     margin: 5px;
-
+margin-top: 20px;
 
 }
 
@@ -395,8 +410,9 @@ background-color: white;
 }
 
 #spotted-title h2 {
-    background-color: palevioletred;
-    margin-top: 30px;
+    background-color: rgba(122, 234, 323, 0.3);
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 70%;
     padding-left: 5px;
 }
@@ -405,7 +421,8 @@ background-color: white;
     background-color: rgba(122, 234, 323, 0.3);
     margin-top: 10px;
     width: 100%;
-    padding-left: 5px;
+    color:yellow;
+    padding: 5px;
 }
 
 
@@ -422,7 +439,7 @@ background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #333;
+    color: white;
 
 }
 
@@ -443,9 +460,8 @@ background-color: white;
     margin-left: 20px;
 }
 
-#spotted h2 {
-    font-size: 3rem;
-}
+
+
 
 #spotted-text {
     color: white;
@@ -453,17 +469,17 @@ background-color: white;
     padding: 5px;
     border-bottom: 1px solid wheat;
     width: 100%;
-    font-weight: 600;
+    font-weight: 300;
     margin-top: 20px;
 }
-
 
 
 #spotted h5 {
     margin-top: 5px;
     color: white;
     font-size: 1rem;
-    font-weight: 600;
+    padding: 5;
+    font-weight: 700;
     text-align: center;
     background-color: rgba(187, 154, 127, 0.3);
 
@@ -506,7 +522,7 @@ background-color: white;
     width: 100%;
     height: 100px;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
-
+flex-direction: column;
     margin: 0 auto;
     display: flex;
     justify-content: start;
@@ -519,6 +535,16 @@ background-color: white;
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
+
+}
+#about-np-title p {
+    display: flex;
+    font-size: 1rem;
+    color: #333;
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-style: italic;
 
 }
 
@@ -588,7 +614,11 @@ background-color: white;
     font-weight: 100;
     color: #333;
 }
-
+#autumn-title-icon{
+    padding-left: 10px;
+   font-size: 2rem;
+   color: gold;
+}
 #autumn-gallery-header-title {
     display: flex;
    
@@ -597,11 +627,11 @@ background-color: white;
     text-align: center;
     right: 0px;
     height: 50px;
-    background-color: rgba(252, 240, 25, 0.7);
+    background-color: rgba(120, 47, 29, 0.9);
     width: 100%;
     font-weight: 400;
     font-size: 16px;
-    color: rgb(2, 0, 0);
+    color: white;
     padding-right: 10px; /* Adjust padding as needed */
     box-sizing: border-box; /* Include padding and border in the total width/height */
 }
