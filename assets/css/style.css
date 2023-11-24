@@ -258,11 +258,11 @@ a:hover {
 /*about NP Killarney*/
 
 .about-np-section {
-    background: url('../images/vegetation-img.jpg')no-repeat center center/cover;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.2);
     overflow: hidden;
     padding-top: 20px;
-    margin-top:20px;
+    margin-top: 20px;
+    width: 100%;
 }
 
 .about-np-circle {
@@ -301,7 +301,7 @@ a:hover {
     box-sizing: border-box;
     margin-left: 10px;
     margin-top: 5px;
-   
+
 
 }
 
@@ -326,6 +326,7 @@ a:hover {
     font-size: 1rem;
     color: #333;
     padding: 5px;
+
 
 
 }
@@ -450,18 +451,19 @@ main {
 
 #spotted-title h2 {
     background-color: rgba(122, 234, 323, 0.3);
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5rem;
     width: 70%;
     padding-left: 5px;
 }
 
 #spotted-title p {
     background-color: rgba(122, 234, 323, 0.3);
-    margin-top: 10px;
+   
     width: 100%;
     color: yellow;
-    padding: 5px;
+   padding-left: 5px;
 }
 
 
@@ -485,9 +487,7 @@ main {
 #spotted-div {
     align-items: center;
     margin-top: 20px;
-    border-bottom: 1px solid #ddd;
     width: 100%;
-    background-color: rgba(188, 92, 14, 0.3);
     padding: 0px;
     box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
 }
@@ -506,7 +506,7 @@ main {
     color: white;
     display: flex;
     padding: 5px;
-    border-bottom: 1px solid wheat;
+   
     width: 100%;
     font-weight: 300;
     margin-top: 20px;
@@ -520,7 +520,7 @@ main {
     padding: 5;
     font-weight: 700;
     text-align: center;
-    background-color: rgba(187, 154, 127, 0.3);
+   
 
 
 }
@@ -559,14 +559,14 @@ main {
 #about-np-title {
     position: relative;
     width: 100%;
-    height: 100px;
+    height: 100%;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
     flex-direction: column;
     margin: 0 auto;
     display: flex;
     justify-content: start;
     align-items: center;
-    color: #390101;
+    color: white;
     /* Set text color to contrast with the background */
 }
 
@@ -577,29 +577,61 @@ main {
 
 #toggle-label {
     display: flex;
+    background: url(../images/vegetation-img.jpg)no-repeat center center/cover;
 }
 
 #about-np-text {
+    background-color: white;
     display: none;
     /* Initially hide the div */
 }
 
 #toggle-checkbox:checked~#about-np-text {
     display: block;
-    /* Show the div when checkbox is checked */
+}
+
+
+#toggle-checkbox:checked~#toggle-label #about-np-title h2::before {
+    content: "Close";
+    /* Change the content of h2 to "CLOSE" when checkbox is checked */
+    display: inline-block;
+
+}
+
+#toggle-checkbox:checked ~  #toggle-label #about-np-title h3 {
+   display: none;
+}
+#toggle-checkbox:not(:checked)~#toggle-label #about-np-title h2::before {
+
+
+    content: "About";
+    /* Change the content of h2 to "CLOSE" when checkbox is checked */
+
 }
 
 #about-np-title h3 {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
+    color: whitesmoke;
+
+}
+
+#about-np-title h2 {
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    bottom: 0;
+    align-self: flex-end;
+    padding-left: 5px;
+    color: whitesmoke;
 
 }
 
 #about-np-title p {
     display: flex;
     font-size: 1rem;
-    color: #333;
+    color: whitesmoke;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
