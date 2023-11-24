@@ -258,9 +258,11 @@ a:hover {
 /*about NP Killarney*/
 
 .about-np-section {
-    background-color: white;
+    background: url('../images/vegetation-img.jpg')no-repeat center center/cover;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.2);
     overflow: hidden;
     padding-top: 20px;
+    margin-top:20px;
 }
 
 .about-np-circle {
@@ -271,7 +273,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     display: flex;
-    margin:10px 0px;
+    margin: 10px 0px;
 
 }
 
@@ -287,15 +289,19 @@ a:hover {
     float: left;
     width: 50%;
     margin-top: 5px;
-    box-sizing: border-box; /* Include padding and border in the total width */
-    margin-right: 10px; /* Add margin as needed to separate the images */
+    box-sizing: border-box;
+    /* Include padding and border in the total width */
+    margin-right: 10px;
+    /* Add margin as needed to separate the images */
 }
+
 .about-np-circle-right {
     float: right;
     width: 60%;
-    box-sizing: border-box; /* Include padding and border in the total width */
-    margin-left: 10px; /* Add margin as needed to separate the images */
-    margin-top: 5px; /* Add margin as needed to separate the images */
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-top: 5px;
+   
 
 }
 
@@ -311,7 +317,7 @@ a:hover {
 .about-np-text {
     text-align: justify;
     margin: 5px;
-margin-top: 20px;
+    margin-top: 20px;
 
 }
 
@@ -341,10 +347,10 @@ main {
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
-background-color: white;
+    background-color: white;
     margin-top: 20px;
     flex-direction: column;
-   
+
 
 }
 
@@ -357,44 +363,49 @@ background-color: white;
 }
 
 .half-screen-container>div {
-    
+
     gap: 1px;
     flex: 1;
     min-width: 50%;
     box-sizing: border-box;
     padding: 5px;
     display: flex;
-   flex-direction: column;
-   justify-content: center;
- align-items: center;
-   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 
 
 }
+
 #weather-temperature a {
-    color: white; /* Link color */
+    color: white;
+    /* Link color */
     background-color: rgba(2, 51, 1, 0.7);
     padding: 3px;
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Bold font */
+    text-decoration: none;
+    /* Remove underline */
+    font-weight: bold;
+    /* Bold font */
     font-size: 0.7rem;
 }
 
 #weather-temperature a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
+    /* Underline on hover */
 }
 
 #weather-temperature a::before {
-    content: "\1F4DE"; /* Unicode telephone icon */
-    margin-right: 5px; /* Add space between the icon and the phone number */
+    content: "\1F4DE";
+    /* Unicode telephone icon */
+    margin-right: 5px;
+    /* Add space between the icon and the phone number */
 }
+
 .weather,
 .np-rangers,
 .mounting-rescue,
-.map-your-location {
-  
-
-}
+.map-your-location {}
 
 /* Add specific styles for each div if needed */
 .weather {
@@ -409,20 +420,22 @@ background-color: white;
 
 .mounting-rescue {
     background: url('../images/resue-background.jpg')no-repeat center center/cover;
+    ;
+
 
 }
 
-#map-section{
+#map-section {
     gap: 1px;
     flex: 1;
     min-width: 50%;
     box-sizing: border-box;
     padding: -20px 0px;
     display: flex;
-   flex-direction: column;
-   justify-content: center;
- align-items: center;
-   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 
@@ -447,7 +460,7 @@ background-color: white;
     background-color: rgba(122, 234, 323, 0.3);
     margin-top: 10px;
     width: 100%;
-    color:yellow;
+    color: yellow;
     padding: 5px;
 }
 
@@ -548,7 +561,7 @@ background-color: white;
     width: 100%;
     height: 100px;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
-flex-direction: column;
+    flex-direction: column;
     margin: 0 auto;
     display: flex;
     justify-content: start;
@@ -557,12 +570,32 @@ flex-direction: column;
     /* Set text color to contrast with the background */
 }
 
+#toggle-checkbox {
+    display: none;
+    /* Hide the checkbox */
+}
+
+#toggle-label {
+    display: flex;
+}
+
+#about-np-text {
+    display: none;
+    /* Initially hide the div */
+}
+
+#toggle-checkbox:checked~#about-np-text {
+    display: block;
+    /* Show the div when checkbox is checked */
+}
+
 #about-np-title h3 {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
 
 }
+
 #about-np-title p {
     display: flex;
     font-size: 1rem;
@@ -600,7 +633,8 @@ flex-direction: column;
 #user-two-thre-container {
     display: flex;
     flex-direction: row;
-    gap: 5px;}
+    gap: 5px;
+}
 
 #users-gallery-image-container {
     display: flex;
@@ -610,7 +644,7 @@ flex-direction: column;
     flex-direction: column;
     margin-top: 5px;
     flex-wrap: wrap;
-    
+
 
 }
 
@@ -640,14 +674,16 @@ flex-direction: column;
     font-weight: 100;
     color: #333;
 }
-#autumn-title-icon{
+
+#autumn-title-icon {
     padding-left: 10px;
-   font-size: 2rem;
-   color: gold;
+    font-size: 2rem;
+    color: gold;
 }
+
 #autumn-gallery-header-title {
     display: flex;
-   
+
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -658,8 +694,10 @@ flex-direction: column;
     font-weight: 400;
     font-size: 16px;
     color: white;
-    padding-right: 10px; /* Adjust padding as needed */
-    box-sizing: border-box; /* Include padding and border in the total width/height */
+    padding-right: 10px;
+    /* Adjust padding as needed */
+    box-sizing: border-box;
+    /* Include padding and border in the total width/height */
 }
 
 
@@ -931,9 +969,12 @@ flex-direction: column;
     border-radius: 15px;
     margin-top: 20px;
     position: relative;
-    background: url('../images/heron-bird.jpg') center/cover no-repeat; /* Replace with your image path */
-    height: 300px; /* Adjust the height as needed */
-    color: #fff; /* Text color */
+    background: url('../images/heron-bird.jpg') center/cover no-repeat;
+    /* Replace with your image path */
+    height: 300px;
+    /* Adjust the height as needed */
+    color: #fff;
+    /* Text color */
     text-align: center;
 
     align-items: center;
@@ -941,7 +982,8 @@ flex-direction: column;
 }
 
 .spotlight-content {
-    max-width: 600px; /* Adjust the maximum width of the content */
+    max-width: 600px;
+    /* Adjust the maximum width of the content */
     color: #333;
 }
 
@@ -963,25 +1005,28 @@ flex-direction: column;
 
     opacity: 1;
 }
+
 .spotlight:hover .spotlight-title {
     opacity: 0;
 }
+
 .spotlight-title {
-   
+
     background-color: rgba(239, 244, 239, 0.6);
-    font-size: 2.5em; 
+    font-size: 2.5em;
     color: #333;
     width: 90%;
     margin-top: 100px;
     position: absolute;
     right: 0;
-    
+
     border-top-left-radius: 15px;
     border-top: 2px solid rgba(0, 5, 0, 0.6);
     border-left: 1px solid rgba(0, 5, 0, 0.7);
-  
-   
+
+
 }
+
 .spotlight-subtitle {
     font-size: 2rem;
     border-bottom-right-radius: 15px;
@@ -990,17 +1035,20 @@ flex-direction: column;
     width: 70%;
     padding: 5px;
     margin-top: 50px;
-    bottom: 0; /* Move 50px down */
+    bottom: 0;
+    /* Move 50px down */
 }
+
 .spotlight-paragraph {
     padding: 5px 10px;
     width: 80%;
-     border-top-left-radius: 15px;
-     border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     border-top: 2px solid rgba(0, 5, 0, 0.6);
     border-bottom: 2px solid rgba(0, 5, 0, 0.6);
     border-left: 1px solid rgba(0, 5, 0, 0.6);
-    font-size: 1rem; /* Adjust the paragraph font size */
+    font-size: 1rem;
+    /* Adjust the paragraph font size */
     margin-top: 50px;
     position: absolute;
     right: 0;
@@ -1023,8 +1071,9 @@ flex-direction: column;
     z-index: 100;
 
 }
+
 #ranger-section {
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1039,8 +1088,9 @@ flex-direction: column;
     z-index: 100;
 
 }
+
 #rescue-section {
-  
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1064,7 +1114,7 @@ flex-direction: column;
 }
 
 #weather-section #rangers-icon {
- 
+
     width: 2rem;
     display: flex;
     align-self: center;
@@ -1074,13 +1124,13 @@ flex-direction: column;
 #weather-title {
     margin-bottom: 5px;
     font-weight: 300;
-   color: white;
+    color: white;
     font-size: 1rem;
 }
 
 #weather-temperature {
-   color: white;
-margin-top: 5px;
+    color: white;
+    margin-top: 5px;
     font-size: 0.7rem;
 
 }
