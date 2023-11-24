@@ -398,7 +398,7 @@ background-color: white;
 
 /* Add specific styles for each div if needed */
 .weather {
-    background: url('../images/resue-background.jpg')no-repeat center center/cover;
+    background: url('../images/weather-background.jpg')no-repeat center center/cover;
 
 }
 
@@ -910,7 +910,7 @@ flex-direction: column;
 
 #ways-to-explore-title {
     padding: 5px;
-    margin-top: 50px;
+    margin-top: 20px;
     background-color: rgba(2, 51, 1, 0.3);
     left: 0;
     width: 80%;
@@ -925,6 +925,88 @@ flex-direction: column;
     color: #fbfafa;
     padding: 10px 5px;
 }
+
+/*spotlighted*/
+.spotlight {
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    background: url('../images/heron-bird.jpg') center/cover no-repeat; /* Replace with your image path */
+    height: 300px; /* Adjust the height as needed */
+    color: #fff; /* Text color */
+    text-align: center;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.spotlight-content {
+    max-width: 600px; /* Adjust the maximum width of the content */
+    color: #333;
+}
+
+.spotlight-content {
+    max-width: 600px;
+    position: relative;
+
+}
+
+.spotlight-subtitle,
+.spotlight-paragraph {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.spotlight:hover .spotlight-subtitle,
+.spotlight:hover .spotlight-paragraph {
+    background-color: rgba(239, 244, 239, 0.6);
+
+    opacity: 1;
+}
+.spotlight:hover .spotlight-title {
+    opacity: 0;
+}
+.spotlight-title {
+   
+    background-color: rgba(239, 244, 239, 0.6);
+    font-size: 2.5em; 
+    color: #333;
+    width: 90%;
+    margin-top: 100px;
+    position: absolute;
+    right: 0;
+    
+    border-top-left-radius: 15px;
+    border-top: 2px solid rgba(0, 5, 0, 0.6);
+    border-left: 1px solid rgba(0, 5, 0, 0.9);
+  
+   
+}
+.spotlight-subtitle {
+    font-size: 2rem;
+    border-bottom-right-radius: 15px;
+    border-right: 1px solid rgba(0, 5, 0, 0.6);
+    border-bottom: 2px solid rgba(0, 5, 0, 0.6);
+    width: 70%;
+    padding: 5px;
+    margin-top: 50px;
+    bottom: 0; /* Move 50px down */
+}
+.spotlight-paragraph {
+    padding: 5px 10px;
+    width: 80%;
+     border-top-left-radius: 15px;
+     border-bottom-left-radius: 15px;
+    border-top: 2px solid rgba(0, 5, 0, 0.6);
+    border-bottom: 2px solid rgba(0, 5, 0, 0.6);
+    border-left: 1px solid rgba(0, 5, 0, 0.6);
+    font-size: 1rem; /* Adjust the paragraph font size */
+    margin-top: 50px;
+    position: absolute;
+    right: 0;
+}
+
+
 
 /*weather section*/
 #weather-section {
