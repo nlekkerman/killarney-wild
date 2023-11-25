@@ -138,8 +138,9 @@ li {
 
 a {
     text-decoration: none;
-    color: blue;
+    color: white;
     font-size: 19px;
+    text-decoration: underline;
     transition: color 0.3s ease;
 }
 
@@ -460,10 +461,10 @@ main {
 
 #spotted-title p {
     background-color: rgba(122, 234, 323, 0.3);
-   
+
     width: 100%;
     color: yellow;
-   padding-left: 5px;
+    padding-left: 5px;
 }
 
 
@@ -506,7 +507,7 @@ main {
     color: white;
     display: flex;
     padding: 5px;
-   
+
     width: 100%;
     font-weight: 300;
     margin-top: 20px;
@@ -520,7 +521,7 @@ main {
     padding: 5;
     font-weight: 700;
     text-align: center;
-   
+
 
 
 }
@@ -577,7 +578,7 @@ main {
 
 #toggle-label {
     display: flex;
-    background: url(../images/vegetation-img.jpg)no-repeat center center/cover;
+    background: url("../images/vegetation-img.jpg")no-repeat center center/cover;
 }
 
 #about-np-text {
@@ -585,7 +586,11 @@ main {
     display: none;
     /* Initially hide the div */
 }
-
+#about-np-text h5 {
+   color: #333;
+   text-align: end;
+   padding-right: 6px;
+}
 #toggle-checkbox:checked~#about-np-text {
     display: block;
 }
@@ -593,21 +598,43 @@ main {
 
 #toggle-checkbox:checked~#toggle-label #about-np-title h2::before {
     content: "Close";
-    /* Change the content of h2 to "CLOSE" when checkbox is checked */
+    color: #333;
+text-decoration: underline;
+
+
+}
+
+#toggle-checkbox:checked~#about-np-title::before {
+
+    background: white;
     display: inline-block;
 
 }
 
-#toggle-checkbox:checked ~  #toggle-label #about-np-title h3 {
-   display: none;
+#toggle-checkbox:checked~#toggle-label #about-np-title h3 {
+    color: #333;
+    background: white;
 }
+
+#toggle-checkbox:checked~#toggle-label #about-np-title p {
+    color: #333;
+    background: white;
+}
+
+#toggle-checkbox:checked~#toggle-label #about-np-title {
+    color: #333;
+    background: white;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
+
+}
+
 #toggle-checkbox:not(:checked)~#toggle-label #about-np-title h2::before {
 
-
-    content: "About";
+    content: "Read more..";
     /* Change the content of h2 to "CLOSE" when checkbox is checked */
 
 }
+
 
 #about-np-title h3 {
     font-size: 2rem;
@@ -618,13 +645,14 @@ main {
 }
 
 #about-np-title h2 {
-    font-size: 2rem;
+    font-size: 0.7rem;
     font-family: 'Oswald', sans-serif;
-    font-weight: 700;
+    font-weight: 400;
     bottom: 0;
     align-self: flex-end;
     padding-left: 5px;
     color: whitesmoke;
+    padding-right: 10px;
 
 }
 
@@ -1002,28 +1030,13 @@ main {
     margin-top: 20px;
     position: relative;
     background: url('../images/heron-bird.jpg') center/cover no-repeat;
-    /* Replace with your image path */
     height: 300px;
-    /* Adjust the height as needed */
-    color: #fff;
-    /* Text color */
     text-align: center;
-
     align-items: center;
     justify-content: center;
 }
 
-.spotlight-content {
-    max-width: 600px;
-    /* Adjust the maximum width of the content */
-    color: #333;
-}
 
-.spotlight-content {
-    max-width: 600px;
-    position: relative;
-
-}
 
 .spotlight-subtitle,
 .spotlight-paragraph {
@@ -1048,10 +1061,9 @@ main {
     font-size: 2.5em;
     color: #333;
     width: 90%;
-    margin-top: 100px;
+    bottom: 20%;
     position: absolute;
     right: 0;
-
     border-top-left-radius: 15px;
     border-top: 2px solid rgba(0, 5, 0, 0.6);
     border-left: 1px solid rgba(0, 5, 0, 0.7);
@@ -1066,9 +1078,9 @@ main {
     border-bottom: 2px solid rgba(0, 5, 0, 0.6);
     width: 70%;
     padding: 5px;
-    margin-top: 50px;
-    bottom: 0;
-    /* Move 50px down */
+    top: 20%;
+    position: absolute;
+  
 }
 
 .spotlight-paragraph {
@@ -1080,8 +1092,8 @@ main {
     border-bottom: 2px solid rgba(0, 5, 0, 0.6);
     border-left: 1px solid rgba(0, 5, 0, 0.6);
     font-size: 1rem;
-    /* Adjust the paragraph font size */
-    margin-top: 50px;
+    bottom: 10%;
+    position: absolute;
     position: absolute;
     right: 0;
 }
