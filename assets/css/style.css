@@ -2983,7 +2983,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         width: 100%;
     }
 #upper-part-container{
-  
+  width: 50%;
   gap: 30px;
 }
 #good-to-know-section {
@@ -2996,9 +2996,21 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     flex-direction: column;
    
 }
+#big-screen-container{
+
+}
+#ways-to-explore-title {
+    padding: 5px;
+    margin-top: 20px;
+    background-color: rgba(2, 51, 1, 0.3);
+    left: 0;
+    width: 20%;
+    font-size: 1.5rem;
+}
 #lower-part-container{
    display: flex;
-   flex-direction: row;
+   width: 50%;
+   flex-direction: column;
    gap: 5;
 
   }
