@@ -346,6 +346,7 @@ main {
 }
 
 #good-to-know-section {
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
@@ -360,8 +361,7 @@ main {
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    background-color: #0056b3;
-    border-radius: 15px;
+   
 
 
 }
@@ -1041,82 +1041,94 @@ justify-content: center;
     padding: 10px 5px;
 }
 
-/*spotlighted*/
-.spotlight {
-    border-radius: 15px;
-    margin-top: 20px;
-    position: relative;
-    background: url('../images/heron-bird.jpg') center/cover no-repeat;
-    height: 300px;
+
+/*Tours */
+.tours-info-container {
+    margin-top: 10px;
+    display: flex;
+  }
+  .schedule p {
+    font-size: 14px;
+    color:white;
+    text-align: center;
+    line-height: 1.6;
+  margin-left: 5px;
  
+    
+
+  }
+  .red-bus-schedule i {
+    color:white;
+   
+   
+    
+}
+.red-bus-schedule  {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+   
+   
+   
+}
+.boat-tours-schedule  {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+   
+}
+
+.boat-tours-schedule i{
+    color: white;
+   
+}
+.red-bus-schedule div{
+    background-color: rgba(2, 51, 1, 0.4);
+width: 100%;
+margin: 0px;
+
+}
+.boat-tours-schedule div{
+    background-color: rgba(2, 51, 1, 0.4);
+width: 100%;
+margin: 0px;
+
+}
+  .schedule h2 {
     justify-content: center;
     display: flex;
-
-}
-
-.spotlight-subtitle,
-.spotlight-paragraph {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
-
-.spotlight:hover .spotlight-subtitle,
-.spotlight:hover .spotlight-paragraph {
-    background-color: rgba(239, 244, 239, 0.6);
-
-    opacity: 1;
-}
-
-.spotlight:hover .spotlight-title {
-    opacity: 0;
-}
-
-.spotlight-title {
-
-    background-color: rgba(239, 244, 239, 0.6);
-    font-size: 2.5em;
-    color: #333;
-    width: 90%;
-    bottom: 20%;
-    position: absolute;
-    right: 0;
-    border-top-left-radius: 15px;
-    border-top: 2px solid rgba(0, 5, 0, 0.6);
-    border-left: 1px solid rgba(0, 5, 0, 0.7);
-
-
-}
-
-.spotlight-subtitle {
-    font-size: 2rem;
-    border-bottom-right-radius: 15px;
-    border-right: 1px solid rgba(0, 5, 0, 0.6);
-    border-bottom: 2px solid rgba(0, 5, 0, 0.6);
+    align-items: center;
+    font-size:1rem;
+    color:white;
+    text-align: center;
+    line-height: 1.6;
+    width: 100%;
+    min-height: 100px;
    
+
+  }
+  .schedule {
+    flex: 1;
     padding: 5px;
-    top: 20%;
-    left: 0;
-    position: absolute;
-  
-}
+    border: 1px solid #ccc;
+    
+  }
 
-.spotlight-paragraph {
-    padding: 5px 10px;
-    width: 80%;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    border-top: 2px solid rgba(0, 5, 0, 0.6);
-    border-bottom: 2px solid rgba(0, 5, 0, 0.6);
-    border-left: 1px solid rgba(0, 5, 0, 0.6);
-    font-size: 1rem;
-    bottom: 10%;
-    position: absolute;
-    position: absolute;
-    right: 0;
-}
+  .red-bus-schedule {
+    background: url('../images/bus-background.jpg') no-repeat center center/cover;
 
+  }
 
+  .boat-tours-schedule {
+    background: url('../images/boat-background.jpg') no-repeat center center/cover;
+
+  }
 
 /*weather section*/
 #weather-section {
@@ -1549,6 +1561,8 @@ Image by <a href="https://www.freepik.com/free-vector/logo-template_33601695.htm
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
 Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-background_18999571.htm#page=2&query=autumn&position=26&from_view=search&track=sph&uuid=f30418b3-15a1-4b35-90b4-f716a04edec8#position=26&page=2&query=autumn">Freepik</a>
 
+Image by <a href="https://www.freepik.com/free-photo/wanderlust-nature-concept-with-beautiful-female-traveler_13605841.htm#page=2&query=view%20from%20bus%20window%20nature&position=33&from_view=search&track=ais&uuid=6eb7ab6e-b4e1-4eaf-aef1-3d5ad370dbd6">Freepik</a>
+<a href="https://www.freepik.com/free-ai-image/dock-lake-with-cloudy-sky-background_42130360.htm#fromView=search&term=deck+on+the+lake&page=1&position=1&track=ais_ai_generated&regularType=ai">Image By vecstock</a>
 Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_23441409.htm#query=rangers&position=4&from_view=search&track=sph&uuid=b86efef6-086a-457e-92bc-262554c2a8a6">Freepik</a>
 <a href="https://www.freepik.com/free-photo/helicopter-flying-among-clouds-snow-capped-mountains_10809728.htm#query=Rescue%20helicopter&position=0&from_view=search&track=ais&uuid=0955b4f8-63f6-45f7-b150-19cd24d10d93">Image by wirestock</a> on Freepik
 <a href="https://www.freepik.com/icon/rappel_5958043#fromView=search&term=Mountain+Rescue&page=2&position=10&track=ais">Icon by pongsakornRed</a>
@@ -2086,6 +2100,25 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+
+    #lover-part-inner-container{
+        width: 50%;
+        display: flex;
+        flex: 1;
+        margin-left: 5px;
+    }
+
+    #lower-part-container {
+        display: flex;
+        flex-direction: row;
+        gap: 5;
+    }
+    /*Tours */
+.tours-info-container {
+    width: 50%;
+    margin-top: 10px;
+    display: flex;
+  }
    
  .about-np-section {
 
@@ -2902,20 +2935,24 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     background-color: white;
     margin-top: 20px;
     flex-direction: column;
+   
 }
 #lower-part-container{
    display: flex;
    flex-direction: row;
+   gap: 5;
+
   }
 #lover-part-inner-container{
  display: flex;
  flex: 1;
+ margin-left: 5px;
  
    
 }
 .spotlight {
     flex: 1;
-    border-radius: 15px;
+    border-radius: 0px;
     margin-top: 20px;
     position: relative;
     background: url(../images/heron-bird.jpg) center/cover no-repeat;
@@ -3020,10 +3057,10 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 
    #spotted {
-        height: 310px;
+       
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
         width: 100%;
-        border-radius: 15px;
+        border-radius: 0px;
         padding-top: 0px;
         background: url("../images/spotted-form-background.jpg")no-repeat center center/cover;
         flex-direction: column;
@@ -3031,6 +3068,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         display: flex;
         align-items: center;
         justify-content: center;
+        margin-left: 5px;
         padding-bottom: 0px;
         color: white;
    }
