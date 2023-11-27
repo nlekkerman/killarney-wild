@@ -1225,7 +1225,24 @@ iframe {
     font-size: 0.7rem;
 
 }
-
+.highlighted-column img {
+    height: auto;
+ 
+  margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid gray;
+    object-fit: fill;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    margin-top: 10px;
+}
+    .highlighted-column {
+        margin-top: 50px;
+        background-color: white;
+        border-radius: 8px;
+        text-align: start;
+        flex: 1;
+    }
 /* Footer */
 footer {
     margin-top: auto;
@@ -2133,10 +2150,19 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
+    #users-gallery-image-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5px;
+        flex: 1;
+        flex-wrap: wrap;
+    }
     #upper-part-container {
         width: 100%;
         gap: 30px;
+        border: 1px solid #0056b3;
     }
 
     #spotted-title p {
@@ -2183,7 +2209,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     #big-screen-container {
-        display: flex;
+     
     }
 
     #big-scren-both-part-container {
@@ -2315,40 +2341,9 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100%; /* Assuming you want it to take the full height of its parent */
-        /* Add any additional styling as needed */
+        height: 100%; 
     }
-    .wildlife-dashboard-link {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        box-shadow: 0 4px 8px rgba(253, 252, 252, 0.5);
 
-        width: 200px;
-        height: 200px;
-        margin: 20px;
-        border: 2px solid white;
-        background: url('../images/form-background-img.jpg') no-repeat center center/cover;
-
-        clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-    }
-    
-    .wildlife-dashboard-link h3 {
-color: white;
-        font-size: 2rem;
-        text-align: center;
-        position: absolute;
-        margin: 0; /* Remove default margin to ensure text is centered properly */
-    }
-    .wildlife-dashboard-bck {
-        width: 100%;
-        height: 200px;
-        margin-bottom: 10px;
-        float: left;
-        box-sizing: border-box;
-        margin-top: 5px;
-    }
 
     #toggle-checkbox:checked~#about-np-title::before {
 
@@ -2619,6 +2614,40 @@ color: white;
 
     }
 
+    /*highlight*/
+    .highlighted-column {
+        background-color: white; /* Set your desired background color */
+        
+        border-radius: 8px;
+        text-align: center;
+        flex: 1;
+    }
+    
+    .highlighted-column h2 {
+        color: #333; /* Set your desired text color */
+        margin-top: 10px;
+    }
+    
+    .highlighted-column img {
+        height: auto;
+        margin: 10px;
+        margin-left: 5px;
+        width: 100%;
+        border: 4px solid gray;
+        object-fit: fill; /* Maintain aspect ratio and cover the container */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Adjust the values as needed */
+
+        border-radius: 8px;
+        margin-top: 10px;
+    
+    }
+    
+    .highlighted-column p {
+        color: #666; /* Set your desired text color */
+        text-align: start;
+        padding-left: 5px;
+    }
+
     #user-two-thre-container {
         display: flex;
         flex-direction: row;
@@ -2635,6 +2664,10 @@ color: white;
     iframe {
         width: 100%;
 
+    }
+
+    #upper-part-container{
+        display: flex;
     }
 
     #autumn-gallery-header-title {
@@ -2716,7 +2749,7 @@ color: white;
     #impression-page-container {
         display: flex;
         flex-direction: column;
-        background: url(../images/form-background-img.jpg) no-repeat center center/cover;
+        background: url("../images/form-background-img.jpg") no-repeat center center/cover;
     }
 
     #impression-form {
@@ -2777,7 +2810,7 @@ color: white;
 
         align-items: center;
 
-        margin-top: 10;
+        margin-top: 10px;
         font-weight: 400;
         font-size: 35px;
         padding-right: 0px;
@@ -3111,7 +3144,7 @@ color: white;
         font-weight: bold;
         padding: 20px 55px;
         background-color: rgba(2, 51, 1, 0.3);
-        background: url(../images/ilustration-background.jpg) no-repeat center center/cover;
+        background: url('../images/ilustration-background.jpg') no-repeat center center/cover;
         text-align: end;
         width: 100%;
     }
@@ -3164,7 +3197,7 @@ color: white;
         border-radius: 0px;
         margin-top: 20px;
         position: relative;
-        background: url(../images/heron-bird.jpg) center/cover no-repeat;
+        background: url('../images/heron-bird.jpg') center/cover no-repeat;
         height: 300px;
         align-items: center;
         justify-content: center;
@@ -3190,7 +3223,7 @@ color: white;
     }
 
     .about-np-description {
-        font-size: 26px;
+        font-size: 2.5rem;
         color: #555;
         shape-outside: circle(50%);
         margin-right: 20px;
@@ -3376,9 +3409,12 @@ color: white;
 
     #users-gallery-image-container {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5px;
+        flex: 1;
         flex-wrap: wrap;
-        justify-content: flex-start;
-        align-items: flex-start;
     }
 
     .user-one {
@@ -3431,7 +3467,7 @@ color: white;
 
     #iframe {
 
-        height: 650px;
+       
         border: 0;
     }
 
@@ -3458,30 +3494,45 @@ color: white;
 
     #autumn-gallery-header-title-container {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+        flex-direction: row;
+      
         align-items: center;
-        height: 550px;
-        margin-top: auto;
-        background: url(../images/autumn-gallery-title-background-img.jpg) no-repeat center center/cover;
+      
+        margin-top: 100px;
         font-weight: 400;
         font-size: 35px;
         padding-right: 0px;
     }
-
+    #about-np-title p {
+        display: flex;
+        font-size: 2rem;
+        color: #333;
+        padding: 10px;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        font-style: italic;
+    }
+    #about-np-title h3 {
+        font-size: 4rem;
+        font-family: 'Oswald', sans-serif;
+        font-weight: 700;
+        color: #333;
+        margin-top: 24px;
+    }
     #autumn-gallery-header-title {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         align-items: center;
-        margin-top: auto;
-        background-color: rgba(252, 240, 25, 0.7);
+        margin-top: 0px;
+       align-self: flex-start;
         width: 100%;
         font-weight: 400;
         font-size: 5rem;
         padding: 5px 5px;
         color: rgb(2, 0, 0);
         padding-right: 0px;
+    
     }
 
 
@@ -3505,14 +3556,49 @@ color: white;
     }
 
     .about-np-circle {
-        width: 750px;
+        width: 100%;
         height: 646px;
         border-radius: 0%;
         overflow: hidden;
-        margin: 20px;
-        float: left;
+       border-bottom: 2px solid #333;
+       padding-bottom: 20px;
     }
-
+    #lover-part-inner-container {
+        display: flex;
+        flex: 1;
+        width: 100%;
+        margin-left: 5px;
+    }
+  
+    #spotted {
+    box-shadow: rgba(193, 166, 166, 0.5) 0px 4px 8px;
+    width: 100%;
+    max-height: 100%;
+    border-radius: 0px;
+    padding-top: 0px;
+    background: url(../images/spotted-form-background.jpg) center center / cover no-repeat;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    padding-bottom: 0px;
+    color: white;
+}
+    .tours-info-container {
+        width: 100%;
+        min-height: 250px;
+        margin-top: 10px;
+        display: flex;
+        flex: 1;
+    }
+    #lower-part-container {
+        display: flex;
+        width: 100%;
+        flex: 1;
+        flex-direction: column;
+      
+    }
     #spotted-title h2 {
         background-color: palevioletred;
         margin-top: 30px;
