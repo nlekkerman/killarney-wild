@@ -143,6 +143,21 @@ a {
     text-decoration: underline;
     transition: color 0.3s ease;
 }
+#spotted-form-section {
+    background: url(../images/spotted-form-background.jpg) no-repeat center center/cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 5px;
+}
+.spotted-link {
+    text-decoration: none;
+   color: #0056b3;
+    font-size: 19px;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
 
 a:hover {
     color: #3498db;
@@ -462,7 +477,7 @@ iframe {
 }
 
 #spotted-title h2 {
-    background-color: rgba(122, 234, 323, 0.3);
+    background-color: rgba(122, 234, 323, 0.7);
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 1.5rem;
@@ -475,7 +490,7 @@ iframe {
     background-color: rgba(122, 234, 323, 0.3);
 
     width: 100%;
-    color: yellow;
+
     padding-left: 5px;
 }
 
@@ -858,7 +873,7 @@ iframe {
     flex-wrap: wrap;
     width: 100%;
     margin-top: 10px;
-    display: none;
+
 
 
 }
@@ -874,47 +889,6 @@ iframe {
 
 }
 
-/*wild life toggle*/
-#toggleCheckbox {
-    display: none;
-}
-
-#toggleCheckbox:checked+#wild-life-title {
-
-    background-image: none;
-    height: 50px;
-    margin-bottom: 0;
-}
-
-#toggleCheckbox:checked+#wild-life-title+#wildlife-container {
-    display: block;
-    margin-top: 0px;
-
-
-}
-
-#toggleCheckbox:checked+#wild-life-title {
-
-    display: block;
-}
-
-#toggleCheckbox:checked~#wild-life-title h2::before {
-    content: ' X CLOSE ';
-    text-decoration: underline;
-    display: flex;
-    justify-content: flex-end;
-    padding-right: 5%;
-    background: url(../images/deer-fight-background-img.jpg) no-repeat center center/cover;
-}
-
-#toggleCheckbox:not(:checked)~#wild-life-title h2::before {
-    content: 'WILD LIFE ';
-    background-color: rgba(4, 101, 2, 0.3);
-    display: flex;
-    max-width: 100%;
-    padding-left: 10px;
-    margin-left: 100px;
-}
 
 
 
@@ -1665,7 +1639,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 <a href="https://www.freepik.com/icon/rappel_5958043#fromView=search&term=Mountain+Rescue&page=2&position=10&track=ais">Icon by pongsakornRed</a>
 <a href="https://www.freepik.com/icon/sheriff_2930274#fromView=search&term=ranger&page=2&position=7&track=ais">Icon by Freepik</a>
 <a href="https://www.freepik.com/free-vector/instruction-manual-smart-man-with-laptop-studying-handbook-reading-guidebook-cartoon-character-use-terms-tutorial-guide-digital-documentation_11667037.htm#query=information&position=3&from_view=search&track=sph&uuid=086d1baa-cb61-4e03-ad1a-f3273377adae">Image by vectorjuice</a> on Freepik
-*/
+<a href="https://www.freepik.com/free-ai-image/mushrooms-growing-forest_59765499.htm#fromView=search&term=fungi&page=1&position=3&track=ais_ai_generated&regularType=ai">Image By freepik</a>*/
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 425px) {
