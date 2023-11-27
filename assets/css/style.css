@@ -721,7 +721,7 @@ iframe {
 
 #users-gallery-image-container {
     display: flex;
-
+    background-color: rgba(2, 51, 1, 0.3);
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -730,7 +730,10 @@ iframe {
 
 
 }
+#lower-part-container {
+    background-color: rgba(169, 181, 4, 0.6);
 
+}
 #user-image {
     text-align: center;
     width: 100%;
@@ -1273,7 +1276,7 @@ iframe {
 
 .highlighted-column {
     margin-top: 50px;
-    background-color: white;
+    background-color: rgba(246, 194, 169, 0.3);
 
     text-align: start;
     flex: 1;
@@ -1666,7 +1669,18 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 425px) {
-
+    .highlighted-column img {
+        height: 250px;
+        width: 60%;
+        float: left;
+        margin-bottom: 5px;
+        border: 1px solid gray;
+        object-fit: fill;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+    }
     /* Additional CSS for styling the image and header */
     #header-image {
         width: 170px;
@@ -1715,7 +1729,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     .highlighted-column img {
-        height: 270px;
+        height: 300px;
         width: 60%;
         float: left;
         margin-bottom: 5px;
@@ -2298,8 +2312,38 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         margin-top: 10px;
 
     }
+    
+    #big-screen-container {
+        
+     
+    }
+    #layers1{
+      
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
 
-    #big-screen-container {}
+      padding: 10px;
+
+    }
+    #layers2{
+        margin: 22px;
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
+        padding: 10px;
+
+
+        
+    }
+    #layers3{
+      
+      margin: 30px;
+      padding: 10px;
+
+
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
+        
+    }
+    #big-screen-container {
+
+    }
 
     #big-scren-both-part-container {
         display: flex;
@@ -2323,7 +2367,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     .about-np-section {
         flex: 1;
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
-        margin-top: 90px;
+        margin-top: 0px;
 
 
     }
@@ -2726,10 +2770,9 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
     /*highlight*/
     .highlighted-column {
-        background-color: white;
-        /* Set your desired background color */
+      
         margin-top: 5px;
-        border-radius: 8px;
+     
         text-align: center;
         flex: 1;
     }
@@ -3247,7 +3290,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     .highlighted-column img {
-        height: 250px;
+        height: 300px;
         margin: 10px;
         margin-left: 5px;
         width: 60%;
@@ -3329,7 +3372,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         padding: 5px;
         margin-top: 50px;
         background-color: rgba(2, 51, 1, 0.3);
-        left: 0;
+        left: 5px;
         width: 20%;
         position: absolute;
         font-size: 1.5rem;
@@ -3339,7 +3382,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #lower-part-container {
         display: flex;
         width: 100%;
-        margin-top: 200px;
+        margin-top: 70px;
         flex-direction: row;
         gap: 5;
 
@@ -3532,7 +3575,13 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 @media screen and (min-width: 1600px) {
 
-
+    #lower-part-container {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        flex-direction: row;
+        gap: 5;
+    }
     /*Hero*/
     #hero {
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
@@ -3926,7 +3975,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     .highlighted-column img {
-        height: 500px;
+        height: 400px;
         margin: 10px;
         margin-left: 5px;
         width: 60%;
@@ -3955,19 +4004,151 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 @media only screen and (min-width: 1801px) {
 
+    .highlighted-column h2 {
+        color: #333;
+        margin-top: 10px;
+        font-size: 3rem;
+        border-right: 1px solid gold;
+        border-top: 1px solid gold;
+
+    }
+    #title-credits-container {
+        display: flex;
+        flex-direction: row;
+        /* margin-top: 5px; */
+        text-align: start;
+        padding-left: 10px;
+        border-bottom: 1px solid gold;
+        border-right: 1px solid gold;
+    }
+    #big-scren-both-part-container {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+        flex: 1;
+    }
+    #user-description {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.4rem;
+        font-style: italic;
+        font-weight: 100;
+        color: #333;
+    }
+    iframe {
+        height: 414.75px;
+        max-width: 100%;
+    }
+    #lover-part-inner-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    #lower-part-container {
+        display: flex;
+        width: 100%;
+        padding-top: 200px;
+        margin-top: 5px;
+        flex-direction: column;
+        gap: 2px;
+    }
+    .highlighted-column {
+        margin-right: 10px;
+        background-color: rgba(246, 194, 169, 0.3);
+        margin-top: 5px;
+        border-radius: 8px;
+        text-align: center;
+        flex: 1;
+    }
+    #users-gallery-image-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 210px;
+        flex: 1;
+        flex-wrap: wrap;
+        margin-right: 10px;
+        background-color: rgba(2, 51, 1, 0.3);
+
+    }
+    #autumn-gallery-header-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        align-self: flex-start;
+        width: 100%;
+        font-weight: 400;
+        font-size: 3rem;
+        padding: 5px 5px;
+        color: rgb(2, 0, 0);
+        padding-right: 0px;
+    }
+
+    #autumn-gallery-header-title-container {
+        display: flex;
+        
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0px;
+        font-weight: 400;
+        font-size: 35px;
+        padding-right: 0px;
+        background-color: rgba(2, 51, 1, 0.3);
+
+    }
+    .about-np-section {
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.2);
+        overflow: hidden;
+         padding-top: 0px; 
+        margin-top: 0px;
+        width: 100%;
+    }
+    .about-np-circle {
+        width: 100%;
+        height: 625px;
+        border-radius: 0%;
+        overflow: hidden;
+        border-bottom: 2px solid #333;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    .about-np-circle img {
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
+
+    }
+    .about-np-description {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #555;
+        shape-outside: circle(50%);
+        margin-right: 20px;
+        margin: 20px;
+    }
     #hero {
         flex: 1;
-        border-radius: 50%;
+        margin: 20px;
+        height: 1213px;
+        box-shadow: 0 4px 8px rgba(7, 44, 4, 0.2);
+
     }
 
     #large-screen-upper-part {
-       display: flex;
+     display: flex;
+     background-color: rgba(12, 246, 8, 0.3);
+
     }
 
     #ways-to-explore-title {
         padding: 5px;
         margin-top: 50px;
-        background-color: rgba(2, 51, 1, 0.3);
+        background-color: rgba(12, 246, 8, 0.3);
         left: 1279px;
         width: 20%;
         position: absolute;
@@ -3977,7 +4158,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
     #upper-part-container {
         width: 50%;
-        gap: 30px;
+        gap: 0px;
     }
 
     #lower-part-container {
@@ -3993,15 +4174,42 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         margin-top: 100px;
         flex: 1;
     }
+    #toggle-label {
+        display: flex;
+        background-color: rgba(12, 246, 8, 0.0);
 
+    }
     .about-np-section {
-        box-shadow: rgba(193, 166, 166, 0.2) 0px 4px 8px;
+        box-shadow: rgba(193, 166, 166, 0.2) 0px 0px 0px;
         overflow: hidden;
         padding-top: 20px;
-        margin-top: 20px;
+        margin: 20px;
         width: 50%;
-    }
+        background-color: rgba(12, 246, 8, 0.0);
 
+    }
+    #toggle-checkbox:checked~#toggle-label #about-np-title p {
+        color: #333;
+        background-color: rgba(12, 246, 8, 0.0);
+        margin-top: 20px;
+    }
+    #toggle-checkbox:checked~#toggle-label #about-np-title h3 {
+        color: #333;
+        background-color: rgba(12, 246, 8, 0.0);
+    }
+    
+    
+
+    #toggle-checkbox:checked~#toggle-label #about-np-title {
+        color: #333;
+        background-color: rgba(12, 246, 8, 0.0);
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
+    }
+    #about-np-text {
+        background-color: rgba(12, 246, 8, 0.0);
+font-weight: 600;
+        display: block;
+    }
     h1 {
         font-size: 3em;
     }
