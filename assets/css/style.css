@@ -478,12 +478,17 @@ iframe {
 }
 
 #spotted-title h2 {
-    background-color: rgba(122, 234, 323, 0.7);
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-size: 1.5rem;
-    width: 70%;
-    padding-left: 5px;
+   
+        border-bottom: 0.2rem solid gold;
+        border-top: 0.2rem solid gold;
+        padding: 10px 0 5px 10px;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+        max-height: 70px;
+        display: flex;
+        justify-content: start;
+    
 
 }
 
@@ -597,6 +602,10 @@ iframe {
     align-items: center;
     color: white;
     /* Set text color to contrast with the background */
+}
+#spotted-title{
+    width: 100%;
+   
 }
 
 #toggle-checkbox {
@@ -1055,10 +1064,13 @@ iframe {
 #ways-to-explore-title {
     padding: 5px;
     margin-top: 20px;
-    background-color: rgba(2, 51, 1, 0.3);
+    background-color: rgba(0, 0, 0, 0.9);
+    border-bottom: 0.3rem solid gold;
+    border-top: 0.3rem solid gold;
     left: 0;
     width: 80%;
     font-size: 1.5rem;
+    color: white;
 
 
 }
@@ -1368,12 +1380,16 @@ iframe {
 
 
 
-
+#big-screen-container {
+    margin-bottom: 20px;
+}
 /* Footer */
 
 footer{
-   background-color: rgba(122, 234, 323, 0.1);
-   border-top: 1px solid rgba(102, 234, 323, 0.3); ;
+    background-color: rgba(0, 0, 0, 0.9);
+   border-bottom: 0.3rem solid gold;
+   border-top: 0.3rem solid gold;
+
 }
 #footer-links {
     text-align: center;
@@ -1392,7 +1408,7 @@ footer{
 #footer-links i {
     font-size: 160%;
    
-    color: #333;
+    color: #ffffff;
 }
 
 
