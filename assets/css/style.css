@@ -143,6 +143,7 @@ a {
     text-decoration: underline;
     transition: color 0.3s ease;
 }
+
 #spotted-form-section {
     background: url(../images/spotted-form-background.jpg) no-repeat center center/cover;
     display: flex;
@@ -151,9 +152,10 @@ a {
     align-items: flex-start;
     margin: 5px;
 }
+
 .spotted-link {
     text-decoration: none;
-   color: #0056b3;
+    color: #0056b3;
     font-size: 19px;
     text-decoration: underline;
     transition: color 0.3s ease;
@@ -745,10 +747,9 @@ iframe {
 
 
 }
-#lower-part-container {
 
+#lower-part-container {}
 
-}
 #user-image {
     text-align: center;
     width: 100%;
@@ -843,9 +844,7 @@ iframe {
 
 }
 
-#wildlife h2 {
-
-}
+#wildlife h2 {}
 
 #wild-life-title h2 p {
     font-size: 1rem;
@@ -1230,53 +1229,69 @@ iframe {
 }
 
 .highlighted-column img {
-    max-height: 200px; /* Set a maximum height for the image */
+    height: 200px;
+    /* Set a maximum height for the image */
     width: 100%;
-    margin-bottom: 10px; /* Increase the margin to provide space */
+    margin-bottom: 10px;
+    /* Increase the margin to provide space */
     border: 1px solid gray;
-    object-fit: cover; /* Use 'cover' to maintain aspect ratio and cover the container */
+    object-fit: cover;
+    /* Use 'cover' to maintain aspect ratio and cover the container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-right: 5px;
     margin-top: 10px;
-  }
+}
 
-  .highlighted-column {
-    margin-top: 20px; /* Reduce the top margin for better spacing */
+.highlighted-column {
+    margin-top: 20px;
+    /* Reduce the top margin for better spacing */
     background-color: rgba(246, 194, 169, 0.3);
     text-align: start;
     flex: 1;
-    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2); /* Add a slight shadow for depth */
-    padding: 20px; /* Add padding for better spacing inside the container */
-  }
-  
+    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2);
+    /* Add a slight shadow for depth */
+    padding: 20px;
+    /* Add padding for better spacing inside the container */
+}
 
-  #highlight-over-title {
-    width: 100%; /* Utilize the full width for better responsiveness */
-    text-align: left; /* Align to the left for consistency with other text */
-    color: rgba(0, 0, 0, 0.8); /* Adjust the text color for better visibility */
-    background-color: rgba(0, 0, 0, 0.1); /* Adjust the background color for a subtle effect */
+
+#highlight-over-title {
+    width: 100%;
+    /* Utilize the full width for better responsiveness */
+    text-align: left;
+    /* Align to the left for consistency with other text */
+    color: rgba(0, 0, 0, 0.8);
+    /* Adjust the text color for better visibility */
+    background-color: rgba(0, 0, 0, 0.1);
+    /* Adjust the background color for a subtle effect */
     margin: 0;
-    padding: 10px; /* Add padding for better spacing */
-    border-top-left-radius: 5px; /* Add border-radius for a rounded top-left corner */
-  }
-  
+    padding: 10px;
+    /* Add padding for better spacing */
+    border-top-left-radius: 5px;
+    /* Add border-radius for a rounded top-left corner */
+}
 
-  .highlighted-column p {
-    color: #333; /* Darken the text color for better readability */
-    text-align: justify; /* Justify the text for a cleaner appearance */
-    margin-bottom: 10px; /* Add margin-bottom for better spacing between paragraphs */
-  }
 
-  #read-more-checkbox {
+.highlighted-column p {
+    color: #333;
+    /* Darken the text color for better readability */
+    text-align: justify;
+    /* Justify the text for a cleaner appearance */
+    margin-bottom: 10px;
+    /* Add margin-bottom for better spacing between paragraphs */
+}
+
+#read-more-checkbox {
     display: none;
     visibility: hidden;
 }
+
 #read-more-text {
     display: none;
 }
 
-#read-more-checkbox:checked + #read-more-text {
+#read-more-checkbox:checked+#read-more-text {
     display: block;
 }
 
@@ -1289,9 +1304,11 @@ iframe {
 #toggleButton:hover {
     color: darkblue;
 }
+
 #toggleButton::after {
     content: "Read More..";
 }
+
 #toggle-checkbox:checked~#toggle-label #about-np-title h2::before {
     content: "Close";
     color: #333;
@@ -1299,38 +1316,40 @@ iframe {
 
 
 }
-#read-more-checkbox:checked ~ #toggleButton::after {
+
+#read-more-checkbox:checked~#toggleButton::after {
     content: "Close";
-   
+
 }
+
+
 
 /* Footer */
-footer {
-    margin-top: auto;
-    /* Push the footer to the bottom */
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    /* Center items vertically */
-    background-color: #f2f2f2;
-    height: 60px;
-}
 
+footer{
+   background-color: rgba(122, 234, 323, 0.1);
+   border-top: 1px solid rgba(102, 234, 323, 0.3); ;
+}
 #footer-links {
     text-align: center;
-    padding: 20px 0;
+   
+    width: 100%;
+    padding-top: 10px;
     z-index: 100;
+    width: 80%;
     flex-shrink: 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between; /* Change to space-between */
     list-style-type: none;
+    margin: 0 auto; /* Center horizontally */
 }
 
 #footer-links i {
     font-size: 160%;
-    padding: 5%;
+   
     color: #333;
 }
+
 
 
 /* Styles for the Impression Form */
@@ -1671,7 +1690,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 425px) {
     .highlighted-column img {
-        height: 250px;
+        height: 200px;
         width: 60%;
         float: left;
         margin-bottom: 5px;
@@ -1682,6 +1701,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         margin-right: 5px;
         margin-top: 10px;
     }
+
     /* Additional CSS for styling the image and header */
     #header-image {
         width: 170px;
@@ -1730,16 +1750,17 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     .highlighted-column img {
-        height: 300px;
-        width: 60%;
+        height: 150px;
+        width: 35%;
         float: left;
+        margin-bottom: 5px;
         margin-bottom: 5px;
         border: 1px solid gray;
         object-fit: fill;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         border-radius: 5px;
         margin-right: 5px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     /*weather section*/
@@ -2255,6 +2276,14 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    #read-more-text {
+        display: block;
+    }
+
+    #toggleButton {
+        display: none;
+    }
+
     #users-gallery-image-container {
         display: flex;
         justify-content: flex-start;
@@ -2313,38 +2342,37 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         margin-top: 10px;
 
     }
-    
-    #big-screen-container {
-        
-     
-    }
-    #layers1{
-      
+
+    #big-screen-container {}
+
+    #layers1 {
+
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
 
-      padding: 10px;
+        padding: 10px;
 
     }
-    #layers2{
+
+    #layers2 {
         margin: 22px;
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
         padding: 10px;
 
 
-        
+
     }
-    #layers3{
-      
-      margin: 30px;
-      padding: 10px;
+
+    #layers3 {
+
+        margin: 30px;
+        padding: 10px;
 
 
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
-        
-    }
-    #big-screen-container {
 
     }
+
+    #big-screen-container {}
 
     #big-scren-both-part-container {
         display: flex;
@@ -2771,9 +2799,9 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
     /*highlight*/
     .highlighted-column {
-      
+
         margin-top: 5px;
-     
+
         text-align: center;
         flex: 1;
     }
@@ -2801,7 +2829,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     .highlighted-column img {
-        height: 250px;
+        height: 300px;
         margin: 10px;
         margin-left: 5px;
         width: 70%;
@@ -3582,6 +3610,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         flex-direction: row;
         gap: 5;
     }
+
     /*Hero*/
     #hero {
         box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
@@ -4012,11 +4041,13 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         margin-top: 30px;
         flex: 1;
     }
-    #big-screen-container-wild-life{
+
+    #big-screen-container-wild-life {
         display: flex;
-       
+
         flex-direction: row;
     }
+
     #spotted-form-section {
         display: flex;
         flex-wrap: wrap;
@@ -4025,6 +4056,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         margin: 5px;
         width: 50%;
     }
+
     #wildlife-container {
         display: flex;
         flex-wrap: wrap;
@@ -4032,6 +4064,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         align-self: flex-start;
         margin-top: 30px;
     }
+
     .highlighted-column h2 {
         color: #333;
         margin-top: 10px;
@@ -4040,6 +4073,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         border-top: 1px solid gold;
 
     }
+
     #title-credits-container {
         display: flex;
         flex-direction: row;
@@ -4049,12 +4083,14 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         border-bottom: 1px solid gold;
         border-right: 1px solid gold;
     }
+
     #big-scren-both-part-container {
         display: flex;
         flex-direction: column;
         margin-bottom: 100px;
         flex: 1;
     }
+
     #user-description {
         margin-top: 5px;
         margin-bottom: 5px;
@@ -4063,10 +4099,12 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         font-weight: 100;
         color: #333;
     }
+
     iframe {
         height: 414.75px;
         max-width: 100%;
     }
+
     #lover-part-inner-container {
         width: 100%;
         display: flex;
@@ -4075,174 +4113,187 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         margin-left: 0px;
         margin-top: 10px;
     }
-    #lower-part-container {
-        display: flex;
-        width: 100%;
-        padding-top: 200px;
-        margin-top: 5px;
-        flex-direction: column;
-        gap: 2px;
-    }
-    .highlighted-column {
-        margin-right: 10px;
-        background-color: rgba(246, 194, 169, 0.3);
-        margin-top: 5px;
-        border-radius: 8px;
-        text-align: center;
-        flex: 1;
-    }
-    #users-gallery-image-container {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-direction: column;
-        padding-top: 210px;
-        flex: 1;
-        flex-wrap: wrap;
-        margin-right: 10px;
-        background-color: rgba(2, 51, 1, 0.3);
-
-    }
-    #autumn-gallery-header-title {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: center;
-        margin-top: 0px;
-        margin-bottom: 10px;
-        align-self: flex-start;
-        width: 100%;
-        font-weight: 400;
-        font-size: 3rem;
-        padding: 5px 5px;
-        color: rgb(2, 0, 0);
-        padding-right: 0px;
-    }
-
-    #autumn-gallery-header-title-container {
-        display: flex;
-        
-        flex-direction: row;
-        align-items: center;
-        margin-top: 0px;
-        font-weight: 400;
-        font-size: 35px;
-        padding-right: 0px;
-        background-color: rgba(2, 51, 1, 0.3);
-
-    }
-    .about-np-section {
-        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.2);
-        overflow: hidden;
-         padding-top: 0px; 
-        margin-top: 0px;
-        width: 100%;
-    }
-    .about-np-circle {
-        width: 100%;
-        height: 625px;
-        border-radius: 0%;
-        overflow: hidden;
-        border-bottom: 2px solid #333;
-        padding-bottom: 0px;
-        margin-bottom: 0px;
-    }
-    .about-np-circle img {
-        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
-
-    }
-    .about-np-description {
-        font-size: 1.5rem;
-        font-weight: 400;
-        color: #555;
-        shape-outside: circle(50%);
-        margin-right: 20px;
-        margin: 20px;
-    }
-    #hero {
-        flex: 1;
-        margin: 20px;
-        height: 1213px;
-        box-shadow: 0 4px 8px rgba(7, 44, 4, 0.2);
-
-    }
-
-    #large-screen-upper-part {
-     display: flex;
-     background-color: rgba(12, 246, 8, 0.3);
-
-    }
-
-    #ways-to-explore-title {
-        padding: 5px;
-        margin-top: 50px;
-        background-color: rgba(12, 246, 8, 0.3);
-        left: 1279px;
-        width: 20%;
-        position: absolute;
-        font-size: 1.5rem;
-        margin-top: -40px;
-    }
-
-    #upper-part-container {
-        width: 50%;
-        gap: 0px;
-    }
-
-    #lower-part-container {
-        display: flex;
-        width: 50%;
-        flex: 1;
-        flex-direction: row;
-    }
-
-    #big-scren-both-part-container {
-        display: flex;
-        flex-direction: row;
-        margin-top: 100px;
-        flex: 1;
-    }
-    #toggle-label {
-        display: flex;
-        background-color: rgba(12, 246, 8, 0.0);
-
-    }
-    .about-np-section {
-        box-shadow: rgba(193, 166, 166, 0.2) 0px 0px 0px;
-        overflow: hidden;
-        padding-top: 20px;
-        margin: 20px;
-        width: 50%;
-        background-color: rgba(12, 246, 8, 0.0);
-
-    }
-    #toggle-checkbox:checked~#toggle-label #about-np-title p {
-        color: #333;
-        background-color: rgba(12, 246, 8, 0.0);
-        margin-top: 20px;
-    }
-    #toggle-checkbox:checked~#toggle-label #about-np-title h3 {
-        color: #333;
-        background-color: rgba(12, 246, 8, 0.0);
-    }
     
-    
+#lower-part-container {
+    flex: 1;
+    display: flex;
+    width: 50%;
+    padding-top: 200px;
+    margin-top: 5px;
+    flex-direction: row;
+    gap: 2px;
+    background-color: rgba(65, 4, 248, 0.3);
+}
 
-    #toggle-checkbox:checked~#toggle-label #about-np-title {
-        color: #333;
-        background-color: rgba(12, 246, 8, 0.0);
-        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
-    }
-    #about-np-text {
-        background-color: rgba(12, 246, 8, 0.0);
-font-weight: 600;
-        display: block;
-    }
-    h1 {
-        font-size: 3em;
-    }
+.highlighted-column {
+    margin-right: 10px;
+    background-color: rgba(246, 194, 169, 0.3);
+    margin-top: 5px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+}
 
-    p {
-        font-size: 1.6em;
-    }
+#users-gallery-image-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 210px;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    background-color: rgba(2, 51, 1, 0.3);
+
+}
+
+#autumn-gallery-header-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    align-self: flex-start;
+    width: 100%;
+    font-weight: 400;
+    font-size: 3rem;
+    padding: 5px 5px;
+    color: rgb(2, 0, 0);
+    padding-right: 0px;
+}
+
+#autumn-gallery-header-title-container {
+    display: flex;
+
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 35px;
+    padding-right: 0px;
+    background-color: rgba(2, 51, 1, 0.3);
+
+}
+
+.about-np-section {
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.2);
+    overflow: hidden;
+    padding-top: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.about-np-circle {
+    width: 100%;
+    height: 625px;
+    border-radius: 0%;
+    overflow: hidden;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.about-np-circle img {
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
+
+}
+
+.about-np-description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #555;
+    shape-outside: circle(50%);
+    margin-right: 20px;
+    margin: 20px;
+}
+
+#hero {
+    flex: 1;
+    margin: 20px;
+    height: 1213px;
+    box-shadow: 0 4px 8px rgba(7, 44, 4, 0.2);
+
+}
+
+#large-screen-upper-part {
+    display: flex;
+    background-color: rgba(12, 246, 8, 0.3);
+
+}
+
+#ways-to-explore-title {
+    padding: 5px;
+    margin-top: 50px;
+    background-color: rgba(12, 246, 8, 0.3);
+    left: 1279px;
+    width: 20%;
+    position: absolute;
+    font-size: 1.5rem;
+    margin-top: -40px;
+}
+
+#upper-part-container {
+    width: 50%;
+    gap: 0px;
+}
+
+
+#big-scren-both-part-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    flex: 1;
+}
+
+#toggle-label {
+    display: flex;
+    background-color: rgba(12, 246, 8, 0.0);
+
+}
+
+.about-np-section {
+    box-shadow: rgba(193, 166, 166, 0.2) 0px 0px 0px;
+    overflow: hidden;
+    padding-top: 20px;
+    margin: 20px;
+    width: 50%;
+    background-color: rgba(12, 246, 8, 0.0);
+
+}
+
+#toggle-checkbox:checked~#toggle-label #about-np-title p {
+    color: #333;
+    background-color: rgba(12, 246, 8, 0.0);
+    margin-top: 20px;
+}
+
+#toggle-checkbox:checked~#toggle-label #about-np-title h3 {
+    color: #333;
+    background-color: rgba(12, 246, 8, 0.0);
+}
+
+
+
+#toggle-checkbox:checked~#toggle-label #about-np-title {
+    color: #333;
+    background-color: rgba(12, 246, 8, 0.0);
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
+}
+
+#about-np-text {
+    background-color: rgba(12, 246, 8, 0.0);
+    font-weight: 600;
+    display: block;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+p {
+    font-size: 1.6em;
+}
+
+
 }
