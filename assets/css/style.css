@@ -1230,45 +1230,78 @@ iframe {
 }
 
 .highlighted-column img {
-    height: 200px;
+    max-height: 200px; /* Set a maximum height for the image */
     width: 100%;
-    float: left;
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* Increase the margin to provide space */
     border: 1px solid gray;
-    object-fit: fill;
+    object-fit: cover; /* Use 'cover' to maintain aspect ratio and cover the container */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     margin-right: 5px;
     margin-top: 10px;
-}
+  }
 
-.highlighted-column {
-    margin-top: 50px;
+  .highlighted-column {
+    margin-top: 20px; /* Reduce the top margin for better spacing */
     background-color: rgba(246, 194, 169, 0.3);
-
     text-align: start;
     flex: 1;
-    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.0);
+    box-shadow: 0 4px 8px rgba(101, 64, 64, 0.2); /* Add a slight shadow for depth */
+    padding: 20px; /* Add padding for better spacing inside the container */
+  }
+  
 
-}
-
-#highlight-over-title {
-    width: 60%;
-    padding-right: 10px;
-    text-align: right;
-    /* Align to the right */
-    color: rgba(0, 0, 0, 0.6);
-    /* Set your desired color with an alpha value */
-    background-color: rgba(0, 0, 0, 0.3);
-    /* Set your desired color with an alpha value */
+  #highlight-over-title {
+    width: 100%; /* Utilize the full width for better responsiveness */
+    text-align: left; /* Align to the left for consistency with other text */
+    color: rgba(0, 0, 0, 0.8); /* Adjust the text color for better visibility */
+    background-color: rgba(0, 0, 0, 0.1); /* Adjust the background color for a subtle effect */
     margin: 0;
-    /* Reset default margin for precise alignment */
+    padding: 10px; /* Add padding for better spacing */
+    border-top-left-radius: 5px; /* Add border-radius for a rounded top-left corner */
+  }
+  
+
+  .highlighted-column p {
+    color: #333; /* Darken the text color for better readability */
+    text-align: justify; /* Justify the text for a cleaner appearance */
+    margin-bottom: 10px; /* Add margin-bottom for better spacing between paragraphs */
+  }
+
+  #read-more-checkbox {
+    display: none;
+    visibility: hidden;
+}
+#read-more-text {
+    display: none;
 }
 
-.highlighted-column p {
-    color: #666;
-    text-align: start;
-    padding: 5px;
+#read-more-checkbox:checked + #read-more-text {
+    display: block;
+}
+
+#toggleButton {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+
+#toggleButton:hover {
+    color: darkblue;
+}
+#toggleButton::after {
+    content: "Read More..";
+}
+#toggle-checkbox:checked~#toggle-label #about-np-title h2::before {
+    content: "Close";
+    color: #333;
+    text-decoration: underline;
+
+
+}
+#read-more-checkbox:checked ~ #toggleButton::after {
+    content: "Close";
+   
 }
 
 /* Footer */
@@ -3995,7 +4028,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #wildlife-container {
         display: flex;
         flex-wrap: wrap;
-        width: 50%;
+        width: 100%;
         align-self: flex-start;
         margin-top: 30px;
     }
