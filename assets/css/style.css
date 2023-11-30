@@ -145,6 +145,7 @@ a {
 }
 
 #spotted-form-section {
+ 
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -482,10 +483,10 @@ iframe {
         border-bottom: 0.2rem solid gold;
         border-top: 0.2rem solid gold;
         padding: 10px 0 5px 10px;
-        color: white;
-        background-color: rgba(0, 0, 0, 0.9);
+        color: #333;
+       
         width: 100%;
-        max-height: 70px;
+
         display: flex;
         justify-content: start;
     
@@ -558,6 +559,7 @@ iframe {
 
 
 }
+
 
 /*Icons styling*/
 .fa-glasses:before {
@@ -960,8 +962,8 @@ iframe {
     border-top: 0.4rem solid gold;
 
     padding: 10px 0 5px 10px;
-    color:white;
-    background-color:rgba(0, 0, 0, 0.9) ;
+    color: #333;;
+
     width: 100%;
     max-height: 70px;
     display: flex;
@@ -1234,7 +1236,7 @@ iframe {
 #weather-icon {
     font-size: 2rem;
     color: #f39c12;
-    /* FontAwesome sun color */
+  
 }
 
 #weather-section #rangers-icon {
@@ -1242,7 +1244,7 @@ iframe {
     width: 2rem;
     display: flex;
     align-self: center;
-    /* FontAwesome sun color */
+
 }
 
 #weather-title {
@@ -1688,36 +1690,56 @@ input[type="submit"] {
 }
 
 .spotted-form {
-    background: url(../images/spotted-form-background.jpg) no-repeat center center/cover;
 
     margin-top: 20px;
     border-bottom: 1px solid #ddd;
     width: 100%;
-    background-color: rgba(188, 92, 14, 0.3);
+
     box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
+    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px; 
+
+
+   
 }
-
+.spotted-form img {
+    max-width: 100%; /* Ensure images don't exceed their original size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners for a more aesthetic look */
+    margin-bottom: 10px; /* Add some spacing between the image and the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 .spotted-form p {
-    background-color: rgba(34, 188, 14, 0.3);
+   
+    border-top-right-radius: 10px; 
+    border-top-left-radius: 10px; 
 
-    padding: 10px;
+    padding: 5px;
+    font-size: 1rem;
+    line-height: 2.5ex;
+    height: 13ex;
+    overflow: hidden;
+   text-align: start;
     margin-bottom: 10px;
-    color: white;
+    color:#333;
    
 }
 
 .spotted-form h3,
 .spotted-form h5 {
+
     background-color: rgba(187, 154, 127, 0.3);
     width: 100%;
     padding-left: 10px;
     margin-bottom: 5px;
-    color: white;
+    color: #333;
     margin: 0;
 }
 
 /*
-FB KILLARNEY NP https://scontent.fdub6-1.fna.fbcdn.net/v/t1.6435-9/34756926_355818744822668_2150123811641491456_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_ohc=BjSQD80sVDQAX9IrBFz&_nc_ht=scontent.fdub6-1.fna&oh=00_AfD5qcS8HsqWMUsP_IyCuv21P_isyHIgdpoj_kQOBYyJQQ&oe=6586EFC9
+FB KILLARNEY NP
+<a href="https://www.freepik.com/free-photo/pink-phalaenopsis-orchid-flower_1191302.htm#query=wild%20orchid&position=42&from_view=search&track=ais&uuid=6eceb235-3451-42ae-8c8f-3c0d9ab8f01e">Image by aopsan</a> on Freepik 
+https://scontent.fdub6-1.fna.fbcdn.net/v/t1.6435-9/34756926_355818744822668_2150123811641491456_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_ohc=BjSQD80sVDQAX9IrBFz&_nc_ht=scontent.fdub6-1.fna&oh=00_AfD5qcS8HsqWMUsP_IyCuv21P_isyHIgdpoj_kQOBYyJQQ&oe=6586EFC9
 <a href="https://www.freepik.com/free-ai-image/driving-through-mountains-summer-adventure-awaits-ahead-generated-by-ai_42180452.htm#fromView=search&term=spy+nature&page=1&position=27&track=ais_ai_generated&regularType=ai&uuid=6150836d-846b-44f4-bb1b-7eb3a559ac8e">Image By vecstock</a>
 <a href="https://www.freepik.com/free-vector/binoculars-telescopes-flat-vector-illustrations-set_45256116.htm#query=binoculars&from_query=binocle&position=2&from_view=search&track=sph&uuid=f2961282-c299-4275-bcae-f59af513953a">Image by Verazinha</a> on Freepik
 <a href="https://www.freepik.com/free-ai-image/black-white-mountain-background_47997122.htm#fromView=search&term=national+parks+logo&page=1&position=0&track=ais_ai_generated&regularType=ai&uuid=bc801c06-5ab9-45b3-9ad0-265c945954e6">Image By freepik</a>
@@ -1744,7 +1766,7 @@ Image by <a href="https://www.freepik.com/free-vector/logo-template_33601695.htm
 <a href="https://www.freepik.com/free-vector/forest-animals-color-set-with-isolated-images-small-big-wild-animals-with-flowers-leaves-vector-illustration_26762879.htm#page=2&query=animals%20pictograms&position=6&from_view=search&track=ais">Image by macrovector</a> on Freepik
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
 Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-background_18999571.htm#page=2&query=autumn&position=26&from_view=search&track=sph&uuid=f30418b3-15a1-4b35-90b4-f716a04edec8#position=26&page=2&query=autumn">Freepik</a>
-
+<a href="https://www.freepik.com/free-photo/papilio-machaon-with-its-vibrant-colors_13901656.htm#query=butterfly&position=16&from_view=search&track=sph&uuid=65c74471-71fe-4686-84d3-d7a7dce7cd96">Image by wirestock</a> on Freepik
 Image by <a href="https://www.freepik.com/free-photo/wanderlust-nature-concept-with-beautiful-female-traveler_13605841.htm#page=2&query=view%20from%20bus%20window%20nature&position=33&from_view=search&track=ais&uuid=6eb7ab6e-b4e1-4eaf-aef1-3d5ad370dbd6">Freepik</a>
 <a href="https://www.freepik.com/free-ai-image/dock-lake-with-cloudy-sky-background_42130360.htm#fromView=search&term=deck+on+the+lake&page=1&position=1&track=ais_ai_generated&regularType=ai">Image By vecstock</a>
 Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_23441409.htm#query=rangers&position=4&from_view=search&track=sph&uuid=b86efef6-086a-457e-92bc-262554c2a8a6">Freepik</a>
@@ -2378,6 +2400,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         flex: 1;
     }
     #hidden-spotted-divs {
+        margin-top: -100px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -2388,7 +2411,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     
     #hidden-spotted-divs > * {
         flex: 0 0 calc(50% - 10px); /* Two columns with a 10px margin between them */
-        margin: 5px;
+        margin-top: 0px;
     }
    
 
@@ -2448,6 +2471,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
         display: flex;
         justify-content: center;
+        padding-bottom: 20px;
     }
 
     .half-screen-container {
@@ -2548,6 +2572,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         padding: 10px;
         font-family: 'Oswald', sans-serif;
         font-weight: 700;
+    
         font-style: italic;
     }
 
@@ -3981,10 +4006,9 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     #spotted-title h2 {
-        background-color: palevioletred;
         margin-top: 30px;
         width: 80%;
-        font-size: 5rem;
+        font-size: 3rem;
         padding-left: 5px;
     }
 
@@ -4157,6 +4181,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     #spotted-form-section {
+        background-color: rgba(120, 247, 228, 0.2);
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
