@@ -465,7 +465,7 @@ main {
 }
 
 iframe {
-    height: 97px;
+    height: 100%;
     width: 100%;
 }
 
@@ -1388,9 +1388,9 @@ iframe {
 /* Footer */
 
 footer{
-    background-color: rgba(0, 0, 0, 0.9);
-   border-bottom: 0.3rem solid gold;
-   border-top: 0.3rem solid gold;
+ color: #333;
+  
+   border-top: 0.1rem solid gold;
 
 }
 #footer-links {
@@ -1408,9 +1408,9 @@ footer{
 }
 
 #footer-links i {
-    font-size: 160%;
    
-    color: #ffffff;
+   
+    color: #333
 }
 
 
@@ -3351,7 +3351,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     iframe {
-        height: 97px;
+        height: 110px;
         max-width: 100%;
     }
 
@@ -3733,7 +3733,13 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 
 }
+@media screen and (min-width: 1401px){
+    #footer-links i {
+        color: #333;
+        font-size: 130%;
+    }
 
+}
 @media screen and (min-width: 1600px) {
 
     #lower-part-container {
@@ -3800,7 +3806,8 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #user-image img {
         width: 100%;
         height: auto;
-        border-radius: 8px;
+      padding: 5px;
+      box-shadow: 0 4px 8px rgba(101, 64, 64, 0.0);
 
     }
 
@@ -4234,10 +4241,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         color: #333;
     }
 
-    iframe {
-        height: 414.75px;
-        max-width: 100%;
-    }
+   
 
     #lover-part-inner-container {
         width: 100%;
@@ -4251,19 +4255,51 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 #lower-part-container {
     flex: 1;
     display: flex;
-    width: 50%;
-    padding-top: 200px;
-    margin-top: 5px;
+    width: 100%;
+    padding-top: 20px;
+    margin-top: 75px;
     flex-direction: row;
     gap: 2px;
-    background-color: rgba(65, 4, 248, 0.3);
+   
+}
+iframe {
+    height: 312px;
+    max-width: 100%;
+}
+.half-screen-container {
+    flex: 1;
+    margin-right: 5px;
+    min-width: 50%;
+    margin-top: 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.half-screen-container>div {
+    gap: 1px;
+    flex: 1;
+    min-width: 50%;
+    box-sizing: border-box;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#good-to-know-section {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
+    background-color: white;
+    margin-top: 0px;
+    flex-direction: column;
+}
 .highlighted-column {
     margin-right: 10px;
     background-color: rgba(246, 194, 169, 0.3);
     margin-top: 5px;
-    border-radius: 8px;
     text-align: center;
     flex: 1;
 }
@@ -4330,6 +4366,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 .about-np-circle img {
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
+   
 
 }
 
@@ -4339,7 +4376,8 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     color: #555;
     shape-outside: circle(50%);
     margin-right: 20px;
-    margin: 20px;
+    margin: 30px;
+  
 }
 
 #hero {
@@ -4358,24 +4396,27 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 #ways-to-explore-title {
     padding: 5px;
-    margin-top: 50px;
-    background-color: rgba(12, 246, 8, 0.3);
-    left: 1279px;
+    margin-top: 0px;
+    color: #333;
+margin-left: 5px;
     width: 20%;
+    
     position: absolute;
-    font-size: 1.5rem;
-    margin-top: -40px;
+    font-size: 2.5rem;
+    margin-top: -60px;
 }
 
 #upper-part-container {
-    width: 50%;
+    width: 100%;
     gap: 0px;
+    display: flex;
+ 
 }
 
 
 #big-scren-both-part-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 100px;
     flex: 1;
 }
@@ -4429,5 +4470,15 @@ p {
     font-size: 1.6em;
 }
 
+footer{
+    color: #333;
+   
+      border-top: 0.1rem solid gold;
+   
+   }
 
+   #footer-links i {
+    color: #333;
+    font-size: 100%;
+}
 }
