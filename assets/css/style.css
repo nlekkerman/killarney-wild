@@ -856,15 +856,20 @@ iframe {
 }
 
 #poem-div {
-    border: 2px solid #3498db;
+    border: 1px solid #3498db;
     border-radius: 8px;
     padding: 15px;
     margin: 10px 0;
-    background-color: rgba(236, 135, 198, 0.4);
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #poem-div h2 {
     color: #333;
+    text-align: center; /* Center aligns the text content of the body */
+    display: inline-block; /* Makes the H2 an inline block element */
+
 }
 
 #animal-paragraph {
@@ -1863,13 +1868,13 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 
     #poem-div {
-        border: 2px solid #3498db;
+        border: 1px solid #3498db;
         border-radius: 8px;
         padding: 15px;
-        background-color: rgba(236, 135, 198, 0.4);
-        width: 80%;
+       
+        width: 50%;
         position: relative;
-        margin-left: 75px;
+        margin-left: 175px;
         margin-bottom: 75px;
     }
     #wildlife-container {
@@ -2454,9 +2459,8 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         border: 2px solid #3498db;
         border-radius: 8px;
         padding: 15px;
-        background-color: rgba(236, 135, 198, 0.4);
-        width: 80%;
-        margin-left: 105px;
+        width: 30%;
+        margin-left: 495px;
         margin-bottom: 35px;
    
     }
@@ -3810,12 +3814,39 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 }
 
-@media screen and (min-width: 1401px) {
+@media screen and (min-width: 1400px) {
     #footer-links i {
         color: #333;
         font-size: 130%;
     }
 
+    #wildlife-container {
+        display: flex;
+        flex-direction: row;
+        
+    }
+    
+    #wildlife-container #wildlife-line-one,
+    #wildlife-container #wildlife-line-two {
+        order: 1;
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        margin-bottom: 20px; /* Add space between the two lines */
+    }
+    
+    .animal {
+        text-align: start;
+        width: 50%; /* Set the width to 50% */
+    }
+    
+    #poem-div {
+        text-align: start;
+        order: 2;
+        border: none;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       
+    }
 }
 
 @media screen and (min-width: 1600px) {
