@@ -145,7 +145,7 @@ a {
 }
 
 #spotted-form-section {
- 
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -479,17 +479,17 @@ iframe {
 }
 
 #spotted-title h2 {
-   
-        border-bottom: 0.2rem solid gold;
-        border-top: 0.2rem solid gold;
-        padding: 10px 0 5px 10px;
-        color: #333;
-       
-        width: 100%;
 
-        display: flex;
-        justify-content: start;
-    
+    border-bottom: 0.2rem solid gold;
+    border-top: 0.2rem solid gold;
+    padding: 10px 0 5px 10px;
+    color: #333;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+
 
 }
 
@@ -605,9 +605,10 @@ iframe {
     color: white;
     /* Set text color to contrast with the background */
 }
-#spotted-title{
+
+#spotted-title {
     width: 100%;
-   
+
 }
 
 #toggle-checkbox {
@@ -854,7 +855,23 @@ iframe {
 
 }
 
-#wildlife h2 {}
+#poem-div {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: rgba(236, 135, 198, 0.4);
+}
+
+#poem-div h2 {
+    color: #333;
+}
+
+#animal-paragraph {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
 #wild-life-title h2 p {
     font-size: 1rem;
@@ -957,12 +974,14 @@ iframe {
     margin-bottom: 80px;
 
 }
+
 #wild-life-title {
     border-bottom: 0.4rem solid gold;
     border-top: 0.4rem solid gold;
 
     padding: 10px 0 5px 10px;
-    color: #333;;
+    color: #333;
+    ;
 
     width: 100%;
     max-height: 70px;
@@ -970,11 +989,13 @@ iframe {
     align-items: center;
     justify-content: center;
 }
+
 #wildlife-line-one #animal-paragraph {
     padding: 5px;
     font-size: 1rem;
     line-height: 2.5ex;
-    height: 13ex; /* 2.5ex for each visible line */
+    height: 13ex;
+    /* 2.5ex for each visible line */
     overflow: hidden;
 
 }
@@ -983,7 +1004,8 @@ iframe {
     padding: 5px;
     font-size: 1rem;
     line-height: 2.5ex;
-    height: 13ex; /* 2.5ex for each visible line */
+    height: 13ex;
+    /* 2.5ex for each visible line */
     overflow: hidden;
 
 }
@@ -1236,7 +1258,7 @@ iframe {
 #weather-icon {
     font-size: 2rem;
     color: #f39c12;
-  
+
 }
 
 #weather-section #rangers-icon {
@@ -1292,7 +1314,7 @@ iframe {
     margin: 0;
     padding: 10px;
     border-top-left-radius: 5px;
-    
+
 }
 
 
@@ -1342,6 +1364,7 @@ iframe {
     content: "Close";
 
 }
+
 #more-spotted-checkbox {
     display: none;
     visibility: hidden;
@@ -1349,25 +1372,25 @@ iframe {
 
 #hidden-spotted-divs {
     display: none;
-  
+
 }
 
 #more-spotted-checkbox:checked+#hidden-spotted-divs {
     display: block;
 }
+
 #toggle-spotted-Button {
     padding: 5px;
     cursor: pointer;
- 
+
     text-decoration: underline;
     display: block;
     margin-left: 70%;
 
-   
+
 }
-#toggle-spotted-Button:hover {
-  
-}
+
+#toggle-spotted-Button:hover {}
 
 #toggle-spotted-Button::after {
     content: "See more...";
@@ -1376,7 +1399,7 @@ iframe {
 
 #more-spotted-checkbox:checked~#toggle-spotted-Button::after {
     content: "Close";
- 
+
 }
 
 
@@ -1385,31 +1408,35 @@ iframe {
 #big-screen-container {
     margin-bottom: 20px;
 }
+
 /* Footer */
 
-footer{
- color: #333;
-  
-   border-top: 0.1rem solid gold;
+footer {
+    color: #333;
+
+    border-top: 0.1rem solid gold;
 
 }
+
 #footer-links {
     text-align: center;
-   
+
     width: 100%;
     padding-top: 10px;
     z-index: 100;
     width: 80%;
     flex-shrink: 0;
     display: flex;
-    justify-content: space-between; /* Change to space-between */
+    justify-content: space-between;
+    /* Change to space-between */
     list-style-type: none;
-    margin: 0 auto; /* Center horizontally */
+    margin: 0 auto;
+    /* Center horizontally */
 }
 
 #footer-links i {
-   
-   
+
+
     color: #333
 }
 
@@ -1419,8 +1446,8 @@ footer{
 
 
 #impression-page-container {
-   
-background-color: white;
+
+    background-color: white;
 }
 
 #impression-form {
@@ -1432,7 +1459,7 @@ background-color: white;
     height: 100vh;
     color: #fff;
 
-   
+
     padding: 20px;
     flex: 1;
 }
@@ -1480,7 +1507,7 @@ input[type="submit"] {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
-  
+
 
 }
 
@@ -1696,33 +1723,39 @@ input[type="submit"] {
     width: 100%;
 
     box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
-    border-top-right-radius: 10px; 
-    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 
 
-   
+
 }
+
 .spotted-form img {
-    max-width: 100%; /* Ensure images don't exceed their original size */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 10px; /* Add rounded corners for a more aesthetic look */
-    margin-bottom: 10px; /* Add some spacing between the image and the text */
+    max-width: 100%;
+    /* Ensure images don't exceed their original size */
+    height: auto;
+    /* Maintain aspect ratio */
+    border-radius: 10px;
+    /* Add rounded corners for a more aesthetic look */
+    margin-bottom: 10px;
+    /* Add some spacing between the image and the text */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
 .spotted-form p {
-   
-    border-top-right-radius: 10px; 
-    border-top-left-radius: 10px; 
+
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 
     padding: 5px;
     font-size: 1rem;
     line-height: 2.5ex;
     height: 13ex;
     overflow: hidden;
-   text-align: start;
+    text-align: start;
     margin-bottom: 10px;
-    color:#333;
-   
+    color: #333;
+
 }
 
 .spotted-form h3,
@@ -1787,6 +1820,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         display: block;
         margin-left: 75%;
     }
+
     .highlighted-column img {
         height: 200px;
         width: 60%;
@@ -1824,9 +1858,38 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 }
 
 /* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
 
-   
+
+
+    #poem-div {
+        border: 2px solid #3498db;
+        border-radius: 8px;
+        padding: 15px;
+        background-color: rgba(236, 135, 198, 0.4);
+        width: 80%;
+        position: relative;
+        margin-left: 75px;
+        margin-bottom: 75px;
+    }
+    #wildlife-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    #poem-div h2 {
+        color: #333;
+        text-align: center;
+    }
+
+    #animal-paragraph {
+        color: #333;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
     #toggle-spotted-Button {
         padding: 5px;
         cursor: pointer;
@@ -1834,9 +1897,10 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         text-decoration: underline;
         display: block;
         margin-left: 640px;
-    
-       
+
+
     }
+
     #ways-to-explore-title {
         padding: 5px;
         margin-top: 20px;
@@ -2386,7 +2450,16 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
+    #poem-div {
+        border: 2px solid #3498db;
+        border-radius: 8px;
+        padding: 15px;
+        background-color: rgba(236, 135, 198, 0.4);
+        width: 80%;
+        margin-left: 105px;
+        margin-bottom: 35px;
+   
+    }
     #impression-form {
         margin-top: 2px;
         display: flex;
@@ -2394,11 +2467,12 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         align-items: center;
         justify-content: center;
         height: 100vh;
-    
+
         color: #fff;
         padding: 20px;
         flex: 1;
     }
+
     #hidden-spotted-divs {
         margin-top: -100px;
         display: flex;
@@ -2406,14 +2480,15 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         justify-content: space-between;
         align-items: flex-end;
         margin: 5px;
-      
+
     }
-    
-    #hidden-spotted-divs > * {
-        flex: 0 0 calc(50% - 10px); /* Two columns with a 10px margin between them */
+
+    #hidden-spotted-divs>* {
+        flex: 0 0 calc(50% - 10px);
+        /* Two columns with a 10px margin between them */
         margin-top: 0px;
     }
-   
+
 
     #toggle-spotted-Button {
         padding: 5px;
@@ -2422,9 +2497,10 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         text-decoration: underline;
         display: none;
         margin-left: 20px;
-    
-       
+
+
     }
+
     #read-more-text {
         display: block;
     }
@@ -2572,7 +2648,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         padding: 10px;
         font-family: 'Oswald', sans-serif;
         font-weight: 700;
-    
+
         font-style: italic;
     }
 
@@ -3733,13 +3809,15 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 
 }
-@media screen and (min-width: 1401px){
+
+@media screen and (min-width: 1401px) {
     #footer-links i {
         color: #333;
         font-size: 130%;
     }
 
 }
+
 @media screen and (min-width: 1600px) {
 
     #lower-part-container {
@@ -3806,8 +3884,8 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #user-image img {
         width: 100%;
         height: auto;
-      padding: 5px;
-      box-shadow: 0 4px 8px rgba(101, 64, 64, 0.0);
+        padding: 5px;
+        box-shadow: 0 4px 8px rgba(101, 64, 64, 0.0);
 
     }
 
@@ -4241,7 +4319,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         color: #333;
     }
 
-   
+
 
     #lover-part-inner-container {
         width: 100%;
@@ -4251,234 +4329,238 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         margin-left: 0px;
         margin-top: 10px;
     }
-    
-#lower-part-container {
-    flex: 1;
-    display: flex;
-    width: 100%;
-    padding-top: 20px;
-    margin-top: 75px;
-    flex-direction: row;
-    gap: 2px;
-   
-}
-iframe {
-    height: 312px;
-    max-width: 100%;
-}
-.half-screen-container {
-    flex: 1;
-    margin-right: 5px;
-    min-width: 50%;
-    margin-top: 0px;
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-}
-.half-screen-container>div {
-    gap: 1px;
-    flex: 1;
-    min-width: 50%;
-    box-sizing: border-box;
-    border: 1px solid white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
-#good-to-know-section {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
-    background-color: white;
-    margin-top: 0px;
-    flex-direction: column;
-}
-.highlighted-column {
-    margin-right: 10px;
-    background-color: rgba(246, 194, 169, 0.3);
-    margin-top: 5px;
-    text-align: center;
-    flex: 1;
-}
+    #lower-part-container {
+        flex: 1;
+        display: flex;
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 75px;
+        flex-direction: row;
+        gap: 2px;
 
-#users-gallery-image-container {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
-    padding-top: 210px;
-    flex: 1;
-    flex-wrap: wrap;
-    margin-right: 10px;
-    background-color: rgba(2, 51, 1, 0.3);
+    }
 
-}
+    iframe {
+        height: 312px;
+        max-width: 100%;
+    }
 
-#autumn-gallery-header-title {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 0px;
-    margin-bottom: 10px;
-    align-self: flex-start;
-    width: 100%;
-    font-weight: 400;
-    font-size: 3rem;
-    padding: 5px 5px;
-    color: rgb(2, 0, 0);
-    padding-right: 0px;
-}
+    .half-screen-container {
+        flex: 1;
+        margin-right: 5px;
+        min-width: 50%;
+        margin-top: 0px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+    }
 
-#autumn-gallery-header-title-container {
-    display: flex;
+    .half-screen-container>div {
+        gap: 1px;
+        flex: 1;
+        min-width: 50%;
+        box-sizing: border-box;
+        border: 1px solid white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-    flex-direction: row;
-    align-items: center;
-    margin-top: 0px;
-    font-weight: 400;
-    font-size: 35px;
-    padding-right: 0px;
-    background-color: rgba(2, 51, 1, 0.3);
+    #good-to-know-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
+        background-color: white;
+        margin-top: 0px;
+        flex-direction: column;
+    }
 
-}
+    .highlighted-column {
+        margin-right: 10px;
+        background-color: rgba(246, 194, 169, 0.3);
+        margin-top: 5px;
+        text-align: center;
+        flex: 1;
+    }
 
-.about-np-section {
-    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.2);
-    overflow: hidden;
-    padding-top: 0px;
-    margin-top: 0px;
-    width: 100%;
-}
+    #users-gallery-image-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 45px;
+        flex: 1;
+        flex-wrap: wrap;
+        margin-right: 10px;
+        background-color: rgba(2, 51, 1, 0.3);
 
-.about-np-circle {
-    width: 100%;
-    height: 625px;
-    border-radius: 0%;
-    overflow: hidden;
-    border-bottom: 2px solid #333;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
+    }
 
-.about-np-circle img {
-    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
-   
+    #autumn-gallery-header-title {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        align-self: flex-start;
+        width: 100%;
+        font-weight: 400;
+        font-size: 3rem;
+        padding: 5px 5px;
+        color: rgb(2, 0, 0);
+        padding-right: 0px;
+    }
 
-}
+    #autumn-gallery-header-title-container {
+        display: flex;
 
-.about-np-description {
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #555;
-    shape-outside: circle(50%);
-    margin-right: 20px;
-    margin: 30px;
-  
-}
+        flex-direction: row;
+        align-items: center;
+        margin-top: 0px;
+        font-weight: 400;
+        font-size: 35px;
+        padding-right: 0px;
+        background-color: rgba(2, 51, 1, 0.3);
 
-#hero {
-    flex: 1;
-    margin: 20px;
-    height: 1213px;
-    box-shadow: 0 4px 8px rgba(7, 44, 4, 0.2);
+    }
 
-}
+    .about-np-section {
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.2);
+        overflow: hidden;
+        padding-top: 0px;
+        margin-top: 0px;
+        width: 100%;
+    }
 
-#large-screen-upper-part {
-    display: flex;
-    background-color: rgba(12, 246, 8, 0.3);
+    .about-np-circle {
+        width: 100%;
+        height: 625px;
+        border-radius: 0%;
+        overflow: hidden;
+        border-bottom: 2px solid #333;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
 
-}
-
-#ways-to-explore-title {
-    padding: 5px;
-    margin-top: 0px;
-    color: #333;
-margin-left: 5px;
-    width: 20%;
-    
-    position: absolute;
-    font-size: 2.5rem;
-    margin-top: -60px;
-}
-
-#upper-part-container {
-    width: 100%;
-    gap: 0px;
-    display: flex;
- 
-}
+    .about-np-circle img {
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
 
 
-#big-scren-both-part-container {
-    display: flex;
-    flex-direction: column;
-    margin-top: 100px;
-    flex: 1;
-}
+    }
 
-#toggle-label {
-    display: flex;
-    background-color: rgba(12, 246, 8, 0.0);
+    .about-np-description {
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #555;
+        shape-outside: circle(50%);
+        margin-right: 20px;
+        margin: 30px;
 
-}
+    }
 
-.about-np-section {
-    box-shadow: rgba(193, 166, 166, 0.2) 0px 0px 0px;
-    overflow: hidden;
-    padding-top: 20px;
-    margin: 20px;
-    width: 50%;
-    background-color: rgba(12, 246, 8, 0.0);
+    #hero {
+        flex: 1;
+        margin: 20px;
+        height: 1213px;
+        box-shadow: 0 4px 8px rgba(7, 44, 4, 0.2);
 
-}
+    }
 
-#toggle-checkbox:checked~#toggle-label #about-np-title p {
-    color: #333;
-    background-color: rgba(12, 246, 8, 0.0);
-    margin-top: 20px;
-}
+    #large-screen-upper-part {
+        display: flex;
+        background-color: rgba(12, 246, 8, 0.3);
 
-#toggle-checkbox:checked~#toggle-label #about-np-title h3 {
-    color: #333;
-    background-color: rgba(12, 246, 8, 0.0);
-}
+    }
+
+    #ways-to-explore-title {
+        padding: 5px;
+        margin-top: 0px;
+        color: #333;
+        margin-left: 5px;
+        width: 20%;
+
+        position: absolute;
+        font-size: 2.5rem;
+        margin-top: -60px;
+    }
+
+    #upper-part-container {
+        width: 100%;
+        gap: 0px;
+        display: flex;
+
+    }
+
+
+    #big-scren-both-part-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+        flex: 1;
+    }
+
+    #toggle-label {
+        display: flex;
+        background-color: rgba(12, 246, 8, 0.0);
+
+    }
+
+    .about-np-section {
+        box-shadow: rgba(193, 166, 166, 0.2) 0px 0px 0px;
+        overflow: hidden;
+        padding-top: 20px;
+        margin: 20px;
+        width: 50%;
+        background-color: rgba(12, 246, 8, 0.0);
+
+    }
+
+    #toggle-checkbox:checked~#toggle-label #about-np-title p {
+        color: #333;
+        background-color: rgba(12, 246, 8, 0.0);
+        margin-top: 20px;
+    }
+
+    #toggle-checkbox:checked~#toggle-label #about-np-title h3 {
+        color: #333;
+        background-color: rgba(12, 246, 8, 0.0);
+    }
 
 
 
-#toggle-checkbox:checked~#toggle-label #about-np-title {
-    color: #333;
-    background-color: rgba(12, 246, 8, 0.0);
-    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
-}
+    #toggle-checkbox:checked~#toggle-label #about-np-title {
+        color: #333;
+        background-color: rgba(12, 246, 8, 0.0);
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
+    }
 
-#about-np-text {
-    background-color: rgba(12, 246, 8, 0.0);
-    font-weight: 600;
-    display: block;
-}
+    #about-np-text {
+        background-color: rgba(12, 246, 8, 0.0);
+        font-weight: 600;
+        display: block;
+    }
 
-h1 {
-    font-size: 3em;
-}
+    h1 {
+        font-size: 3em;
+    }
 
-p {
-    font-size: 1.6em;
-}
+    p {
+        font-size: 1.6em;
+    }
 
-footer{
-    color: #333;
-   
-      border-top: 0.1rem solid gold;
-   
-   }
+    footer {
+        color: #333;
 
-   #footer-links i {
-    color: #333;
-    font-size: 100%;
-}
+        border-top: 0.1rem solid gold;
+
+    }
+
+    #footer-links i {
+        color: #333;
+        font-size: 100%;
+    }
 }
