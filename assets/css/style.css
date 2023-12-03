@@ -1478,7 +1478,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+   
     color: #fff;
 
 
@@ -1532,13 +1532,79 @@ input[type="submit"] {
 
 
 }
+/* Hide the input initially */
+#toggle-input {
+    display: none;
+  }
+  
+  #toggle-label-imp {
+    position: relative;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    cursor: pointer;
+    padding: 10px;
+    user-select: none;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the ::before pseudo-element to create the appearance of a toggle switch */
+  #toggle-label-imp::before {
+    content: 'Write Impression';
+    position: relative;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    top: 0;
+    left: 0;
+    color: #333;
+    height: 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Style the ::after pseudo-element to add the text 'Close' */
+  #toggle-label-imp::after {
+    content: 'Close';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #333;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Change the background color of the ::before pseudo-element when the checkbox is checked */
+  #toggle-input:checked + #toggle-label-imp::before {
+    color: #333;
+    content: ''; /* Change content to an empty string when checked */
+    background-color: #2196F3; /* Background color when checked */
+  }
+  
+  /* Show the ::after pseudo-element when checkbox is checked */
+  #toggle-input:checked + #toggle-label-imp::after {
+    opacity: 1; /* Make the text visible */
+  }
+  
+  /* Hide the form initially */
+  #input-for-forms {
+    display: none;
+  }
+  
+  /* Show form when checkbox is checked */
+  #toggle-input:checked + #toggle-label-imp + #input-for-forms {
+    display: block;
+  }
+  
 
 .impression {
-    background: url('../images/close-up-park-ranger-woods.jpg') no-repeat center center/cover;
 
     margin-bottom: 20px;
-    border-left: 1px solid white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border-left: 1px solid lightcoral;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 
 
 }
@@ -1556,19 +1622,22 @@ input[type="submit"] {
     color: wheat;
     padding-left: 5px;
     max-width: 100%;
-    background-color: rgba(1, 9, 5, 0.5);
+    background-color: rgba(1, 9, 5, 0.9);
 }
 
 .impression h5 {
     padding-left: 5px;
-    color: white;
+    color: rgb(33, 2, 2);
 }
 
 .impression p {
-    padding-left: 5px;
+    padding: 5px;
     margin: 10px 0;
-    font-weight: 600;
-    background-color: rgba(198, 80, 80, 0.4);
+    font-weight: 500;
+   color: #333;
+    font-size: 1rem;
+    line-height: 2.5ex;
+    height: 13ex;
 
 }
 
@@ -1714,10 +1783,38 @@ input[type="submit"]:hover {
     color: #ffffff;
     font-weight: 600;
 }
+#impression-form h2 {
+    font-size: 24px;
+    color: #333; /* Choose your desired text color */
+    margin-bottom: 10px;
+    width: 100%;
+    color: #ffffff;
+    padding: 20px;
+   text-align: center;
+    background: url(../images/form-background-img.jpg) no-repeat center center/cover;
+}
+#toggleForm {
+    display: none;
+}
 
+.toggle-label {
+    cursor: pointer;
+    color: #333;
+    text-decoration: underline;
+    align-self: flex-end;
+}
+
+#input-for-forms {
+    display: none;
+}
+
+#toggleForm:checked + h2 + .toggle-label + #input-for-forms {
+    display: block;
+}
 form {
     display: flex;
     flex-direction: column;
+   
 }
 
 label {
@@ -3167,12 +3264,12 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #impressions-section {
         color: white;
         padding: 20px;
-        border-radius: 8px;
+        border-radius: 2px;
         display: flex;
         flex-wrap: wrap;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
         margin-top: 20px;
-        background-color: rgba(214, 69, 69, 0.2);
+       flex: 1;
 
     }
 
@@ -3186,7 +3283,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
     #impression-page-container {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     #impression-form {
