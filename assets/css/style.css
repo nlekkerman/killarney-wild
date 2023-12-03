@@ -834,13 +834,6 @@ iframe {
 
 
 
-
-
-
-
-
-
-
 /*wild life styles */
 
 #wildlife {
@@ -856,19 +849,22 @@ iframe {
 }
 
 #poem-div {
-    border: 1px solid #3498db;
+    box-shadow: 0 4px 8px rgba(250, 250, 248, 0.5);
+
     border-radius: 8px;
     padding: 15px;
-    margin: 10px 0;
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
-    
+
 }
 
 #poem-div h2 {
     color: #333;
-    text-align: center; /* Center aligns the text content of the body */
-    display: inline-block; /* Makes the H2 an inline block element */
+    text-align: center;
+    /* Center aligns the text content of the body */
+    display: inline-block;
+    /* Makes the H2 an inline block element */
 
 }
 
@@ -876,6 +872,15 @@ iframe {
     color: #333;
     font-size: 16px;
     line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+#animal-paragraph-ode {
+    color: #333;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
 }
 
 #wild-life-title h2 p {
@@ -1414,6 +1419,18 @@ iframe {
     margin-bottom: 20px;
 }
 
+#spotted-paragraph {
+    text-align: center;
+    /* You can change 'center' to 'left' or 'right' as needed */
+
+    background-color: rgba(224, 215, 215, 0.9);
+    width: 30%;
+    margin: 0 auto;
+    /* Set top and bottom margins to 0, and left and right margins to auto */
+    margin-bottom: 20px;
+
+}
+
 /* Footer */
 
 footer {
@@ -1868,15 +1885,16 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 
     #poem-div {
-        border: 1px solid #3498db;
+        box-shadow: 0 4px 8px rgba(250, 250, 248, 0.5);
+
         border-radius: 8px;
         padding: 15px;
-       
+
         width: 50%;
-        position: relative;
-        margin-left: 175px;
+        margin: 10px auto;
         margin-bottom: 75px;
     }
+
     #wildlife-container {
         display: flex;
         flex-wrap: wrap;
@@ -2456,14 +2474,15 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #poem-div {
-        border: 2px solid #3498db;
+        box-shadow: 0 4px 8px rgba(250, 250, 248, 0.3);
         border-radius: 8px;
         padding: 15px;
         width: 30%;
-        margin-left: 495px;
+        margin: 10px auto;
         margin-bottom: 35px;
-   
+
     }
+
     #impression-form {
         margin-top: 2px;
         display: flex;
@@ -3823,29 +3842,31 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #wildlife-container {
         display: flex;
         flex-direction: row;
-        
+
     }
-    
+
     #wildlife-container #wildlife-line-one,
     #wildlife-container #wildlife-line-two {
         order: 1;
         display: flex;
         width: 50%;
         justify-content: space-around;
-        margin-bottom: 20px; /* Add space between the two lines */
+        margin-bottom: 20px;
+        /* Add space between the two lines */
     }
-    
+
     .animal {
         text-align: start;
-        width: 50%; /* Set the width to 50% */
+        width: 50%;
+        /* Set the width to 50% */
     }
-    
+
     #poem-div {
         text-align: start;
         order: 2;
         border: none;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-       
+
     }
 }
 
@@ -4280,7 +4301,12 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 
 @media only screen and (min-width: 1801px) {
-
+    #animal-paragraph-ode {
+        color: #333;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        font-weight: 700;
+    }
     #wildlife {
         display: flex;
         flex-direction: column;
