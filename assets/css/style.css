@@ -1890,6 +1890,9 @@ input[type="submit"] {
 
 /*
 FB KILLARNEY NP
+<a href="https://www.freepik.com/free-photo/selective-focus-shot-magnificent-swans-swimming-pond-near-boat_11503009.htm#query=swan&position=8&from_view=search&track=sph&uuid=d542fe82-15e7-411b-a175-6337a74f97e0">Image by wirestock</a> on Freepik
+<a href="https://www.freepik.com/free-photo/closeup-blue-damselflies-leaf-garden-sunlight_10990893.htm#query=dragonfly&position=5&from_view=search&track=sph&uuid=01c71d94-b717-4712-bcb7-06970520236a">Image by wirestock</a> on Freepik
+<a href="https://www.freepik.com/free-photo/shallow-focus-fox-forest_29175175.htm#query=fox&position=11&from_view=search&track=sph&uuid=ec1b788c-d87e-4bd4-aa97-1761330fde6b">Image by wirestock</a> on Freepik
 <a href="https://www.freepik.com/free-photo/pink-phalaenopsis-orchid-flower_1191302.htm#query=wild%20orchid&position=42&from_view=search&track=ais&uuid=6eceb235-3451-42ae-8c8f-3c0d9ab8f01e">Image by aopsan</a> on Freepik 
 https://scontent.fdub6-1.fna.fbcdn.net/v/t1.6435-9/34756926_355818744822668_2150123811641491456_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=7a1959&_nc_ohc=BjSQD80sVDQAX9IrBFz&_nc_ht=scontent.fdub6-1.fna&oh=00_AfD5qcS8HsqWMUsP_IyCuv21P_isyHIgdpoj_kQOBYyJQQ&oe=6586EFC9
 <a href="https://www.freepik.com/free-ai-image/driving-through-mountains-summer-adventure-awaits-ahead-generated-by-ai_42180452.htm#fromView=search&term=spy+nature&page=1&position=27&track=ais_ai_generated&regularType=ai&uuid=6150836d-846b-44f4-bb1b-7eb3a559ac8e">Image By vecstock</a>
@@ -1916,6 +1919,7 @@ Image by <a href="https://www.freepik.com/free-vector/logo-template_33601695.htm
 <a href="https://www.freepik.com/free-ai-image/abstract-creative-3d-sphere-with-vegetation_72442070.htm#fromView=search&term=fern&page=1&position=32&track=ais_ai_generated&regularType=ai">Image By freepik</a>
 <a href="https://www.freepik.com/free-ai-image/standing-backpacker-mountain-peak-achieving-success-generated-by-ai_43018009.htm#fromView=search&term=explore&page=1&position=3&track=ais_ai_generated&regularType=ai">Image By stockgiu</a>
 <a href="https://www.freepik.com/free-vector/forest-animals-color-set-with-isolated-images-small-big-wild-animals-with-flowers-leaves-vector-illustration_26762879.htm#page=2&query=animals%20pictograms&position=6&from_view=search&track=ais">Image by macrovector</a> on Freepik
+<a href="https://www.freepik.com/free-photo/closeup-selective-focus-shot-wild-mushroom-with-water-drops-it-growing-forest_11183221.htm#query=glowing%20mushrooms&position=41&from_view=search&track=ais&uuid=9a61896e-2af8-456c-9e7b-39b7ea322723">Image by wirestock</a> on Freepik
 <a href="https://www.freepik.com/free-photo/heron-everglades_28944507.htm#query=heron&position=0&from_view=search&track=sph">Image by kamchatka</a> on Freepik
 Image by <a href="https://www.freepik.com/free-vector/hand-drawn-flat-autumn-background_18999571.htm#page=2&query=autumn&position=26&from_view=search&track=sph&uuid=f30418b3-15a1-4b35-90b4-f716a04edec8#position=26&page=2&query=autumn">Freepik</a>
 <a href="https://www.freepik.com/free-photo/papilio-machaon-with-its-vibrant-colors_13901656.htm#query=butterfly&position=16&from_view=search&track=sph&uuid=65c74471-71fe-4686-84d3-d7a7dce7cd96">Image by wirestock</a> on Freepik
@@ -1934,7 +1938,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #toggle-spotted-Button {
         padding: 5px;
         cursor: pointer;
-        color: rgb(250, 250, 254);
+        color: rgb(1, 1, 8);
         text-decoration: underline;
         display: block;
         margin-left: 75%;
@@ -2027,7 +2031,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #toggle-spotted-Button {
         padding: 5px;
         cursor: pointer;
-        color: rgb(250, 250, 254);
+       
         text-decoration: underline;
         display: block;
         margin-left: 640px;
@@ -2166,19 +2170,19 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         cursor: pointer;
     }
 
-    .spotted-form {
-        margin-top: 20pxd;
-        border-bottom: 1px solid #ddd;
-        width: 100%;
-        background-color: rgba(188, 92, 14, 0.3);
-        padding: 5px;
-        box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
-    }
+   
 
     .spotted-form p {
-        padding: 10px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 5px;
+        font-size: 1rem;
+        line-height: 2.5ex;
+        height: 9ex;
+        overflow: hidden;
+        text-align: start;
         margin-bottom: 10px;
-        color: white;
+        color: #333;
     }
 
     .spotted-form h3,
@@ -2636,7 +2640,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     #hidden-spotted-divs>* {
-        flex: 0 0 calc(50% - 10px);
+        flex: 0 0 calc(25% - 10px);
         /* Two columns with a 10px margin between them */
         margin-top: 0px;
     }
@@ -2645,7 +2649,6 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     #toggle-spotted-Button {
         padding: 5px;
         cursor: pointer;
-        color: rgb(250, 250, 254);
         text-decoration: underline;
         display: none;
         margin-left: 20px;
@@ -3103,10 +3106,11 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     }
 
     .spotted-form {
+        flex: 0 0 calc(50% - 10px);
         margin-top: 20px;
         border-bottom: 1px solid #ddd;
         width: 100%;
-        background-color: rgba(188, 92, 14, 0.3);
+    
         padding: 5px;
         box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
     }
@@ -3114,7 +3118,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
     .spotted-form p {
         padding: 10px;
         margin-bottom: 10px;
-        color: white;
+        color: #333;
     }
 
     .spotted-form h3,
@@ -3123,7 +3127,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         width: 100%;
         padding-left: 10px;
         margin-bottom: 5px;
-        color: white;
+        color: #333;
         margin: 0;
     }
 
@@ -3696,6 +3700,40 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 /* Media query: larger screens (1200px and up) */
 @media screen and (min-width: 1201px) {
+    #spotted-form-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 5px;
+        flex-direction: row;
+        width: 100%;
+    }
+    
+    .spotted-form {
+        flex: 0 0 calc(50% - 10px);
+        margin-top: 20px;
+        border-bottom: 1px solid #ddd;
+        width: 100%;
+        padding: 5px;
+        box-shadow: 0 0 10px rgba(179, 11, 11, 0.1);
+    }
+
+    .spotted-form p {
+        padding: 10px;
+        margin-bottom: 10px;
+        color:#333;
+    }
+
+    .spotted-form h3,
+    .spotted-form h5 {
+        background-color: rgba(187, 154, 127, 0.3);
+        width: 100%;
+        padding-left: 10px;
+        margin-bottom: 5px;
+     
+        margin: 0;
+    }
     .tours-info-container {
         width: 100%;
         margin-top: 10px;
@@ -4526,16 +4564,39 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
         flex-direction: row;
     }
-
+    .spotted-form p {
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+        padding: 5px;
+        font-size: 1.5rem;
+        line-height: 2.5ex;
+        height: 9ex;
+        overflow: hidden;
+        text-align: start;
+        margin-bottom: 10px;
+        color: #333;
+    }
+    .spotted-form h3{
+        font-size: 2rem;
+    }
+    .spotted-form h5 {
+        background-color: rgba(187, 154, 127, 0.3);
+        width: 100%;
+        font-size: 1.1rem;
+        padding-left: 10px;
+        margin-bottom: 5px;
+     
+        margin: 0;
+    }
     #spotted-form-section {
-        background-color: rgba(120, 247, 228, 0.2);
+       
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-items: flex-start;
         margin: 5px;
         flex-direction: row;
-        width: 50%;
+        width: 100%;
     }
 
     #wildlife-container {
