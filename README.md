@@ -25,6 +25,22 @@
 - **Engaging Stories**: Dive into weekly features that unravel captivating tales of wildlife and nature in Killarney National Park. Each week brings new and fascinating narratives.
 ![Screenshot](./assets/images/highlighted-screen.jpg)
 
+### Photo Contest Showcase
+
+- **User Contributions**: Explore the stunning visuals captured by our community in the Autumn Photo Contest. Witness the beauty of Killarney through the lenses of fellow nature enthusiasts, showcasing the park's diverse landscapes and wildlife.
+![Screenshot](./assets/images/photo-contest-screen.jpg)
+
+### Essential Information (Goot to know)
+
+- **Book Your Tours**: Easily plan your visit by booking bus and boat tours through our provided links. Discover the wonders of Killarney with expert guides.
+- **Weather Updates**: Stay informed about the current weather in Killarney with real-time temperature updates. Enjoy your outdoor experience comfortably.
+
+![Screenshot](./assets/images/photo-contest-screen.jpg)
+
+- **Emergency Contacts**: Save essential contact numbers for NP Rangers and Mountain Rescue. Your safety is our priority.
+- **Map Your Location**: Explore Killarney National Park efficiently with our interactive map. Locate points of interest and navigate with ease.
+
+
 ### Impressions Section
 
 - **Heartfelt Entries**: Read genuine and heartfelt impressions from visitors who have experienced the enchanting landscapes of Killarney National Park.
