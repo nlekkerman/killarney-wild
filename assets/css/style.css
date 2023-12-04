@@ -152,13 +152,21 @@ a {
     align-items: flex-start;
     margin: 5px;
 }
+#spotted-link-paragraph {
+    text-align: center;
+    align-items: center;
+}
 
-.spotted-link {
+#spotted-link-paragraph p {
+ background-color: rgba(122, 234, 323, 0.3);
+}
+.spotted-link  {
     text-decoration: none;
     color: #0056b3;
     font-size: 19px;
     text-decoration: underline;
     transition: color 0.3s ease;
+    text-align: center;
 }
 
 a:hover {
@@ -2705,39 +2713,9 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         flex: 1;
         margin-left: 0px;
         margin-top: 10px;
-
-    }
-
-    #big-screen-container {}
-
-    #layers1 {
-
-        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
-
-        padding: 10px;
-
-    }
-
-    #layers2 {
-        margin: 22px;
-        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
-        padding: 10px;
+ }
 
 
-
-    }
-
-    #layers3 {
-
-        margin: 30px;
-        padding: 10px;
-
-
-        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.5);
-
-    }
-
-    #big-screen-container {}
 
     #big-scren-both-part-container {
         display: flex;
@@ -3693,6 +3671,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         flex-direction: row;
         width: 100%;
     }
+   
     
     .spotted-form {
         flex: 0 0 calc(50% - 10px);
@@ -4458,12 +4437,12 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         padding-top: 20px;
         margin: 10px 0;
         font-weight: 600;
-        font-size: 2rem;
+        font-size: 1.3rem;
     }
 
     .impression h5 {
         margin-top: 20px;
-        font-size: 2rem;
+        font-size: 1.2rem;
         padding-left: 5px;
         text-align: start;
         color: #333;
@@ -4473,7 +4452,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         color: wheat;
         margin-top: 20px;
     padding-left: 10px;
-        font-size: 3rem;
+        font-size: 2rem;
        
         max-width: 100%;
         background-color: rgba(1, 9, 5, 0.5);
@@ -4528,6 +4507,8 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
 
 
 @media only screen and (min-width: 1801px) {
+
+    
     #animal-paragraph-ode {
         color: #333;
         font-size: 1.5rem;
@@ -4554,7 +4535,7 @@ Image by <a href="https://www.freepik.com/free-photo/close-up-park-ranger-woods_
         padding: 5px;
         font-size: 1.5rem;
         line-height: 2.5ex;
-        height: 9ex;
+        height: 10ex;
         overflow: hidden;
         text-align: start;
         margin-bottom: 10px;

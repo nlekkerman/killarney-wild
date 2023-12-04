@@ -55,11 +55,13 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 ### Highlights
 
 - **Engaging Stories**: Dive into weekly features that unravel captivating tales of wildlife and nature in Killarney National Park. Each week brings new and fascinating narratives.
+
 ![Screenshot](./assets/images/highlighted-screen.jpg)
 
 ### Photo Contest Showcase
 
 - **User Contributions**: Explore the stunning visuals captured by our community in the Autumn Photo Contest. Witness the beauty of Killarney through the lenses of fellow nature enthusiasts, showcasing the park's diverse landscapes and wildlife.
+
 ![Screenshot](./assets/images/photo-contest-screen.jpg)
 
 ### Essential Information (Good to know)
