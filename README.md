@@ -1,4 +1,35 @@
 
+# Welcome to Killarney Wild
+
+Explore the untamed beauty of Killarney National Park, Ireland, with Killarney Wild. Immerse yourself in captivating imagery, discover the diverse wildlife, and stay informed with essential information for a seamless experience. Join us in celebrating nature, conservation, and the enchanting stories that unfold in this natural haven.
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Goals](#goals)
+- [Features](#features)
+- [Usage](#usage)
+- [License](#license)
+
+
+
+## Goals for External Users
+
+- **Community Building:** Create a welcoming space for users to share and discuss their wildlife experiences, fostering a sense of community among nature enthusiasts.
+
+- **Interactive Learning:** Provide a platform for users to learn more about wildlife, conservation, and the natural beauty of Killarney National Park through interactive content.
+
+- **User-Generated Content:** Encourage users to contribute their wildlife stories, photographs, and insights, showcasing the diverse experiences and perspectives within the community.
+
+## Goals for Owners
+
+- **Platform Enhancement:** Continuously improve and expand platform features to offer a seamless and enjoyable experience for users, keeping them engaged and motivated to contribute.
+
+- **Conservation Impact:** Work towards leveraging the platform's influence to support local conservation initiatives, turning the community's passion into meaningful contributions for environmental preservation.
+
+- **Strategic Partnerships:** Explore and establish partnerships with relevant organizations and stakeholders to enhance the platform's reach and impact, creating a broader network for nature lovers.
+
+
 
 ## Features
 
@@ -36,7 +67,7 @@
 - **Book Your Tours**: Easily plan your visit by booking bus and boat tours through our provided links. Discover the wonders of Killarney with expert guides.
 - **Weather Updates**: Stay informed about the current weather in Killarney with real-time temperature updates. Enjoy your outdoor experience comfortably.
 
-![Screenshot](./assets/images/photo-contest-screen.jpg)
+![Screenshot](./assets/images/good-to-know-screen.jpg)
 
 - **Emergency Contacts**: Save essential contact numbers for NP Rangers and Mountain Rescue. Your safety is our priority.
 - **Map Your Location**: Explore Killarney National Park efficiently with our interactive map. Locate points of interest and navigate with ease.
