@@ -17,6 +17,7 @@
 ![Screenshot](./assets/images/about-np-toggle-checked.jpg)
 
 - **Nature's Wonders**: Embark on a journey through Killarney National Park's ancient woodlands and discover rare species. Click "Close" to hide the details.
+
 ![Screenshot](./assets/images/about-np-unchecked-toggle.jpg)
 
 
