@@ -62,7 +62,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 - **User Contributions**: Explore the stunning visuals captured by our community in the Autumn Photo Contest. Witness the beauty of Killarney through the lenses of fellow nature enthusiasts, showcasing the park's diverse landscapes and wildlife.
 ![Screenshot](./assets/images/photo-contest-screen.jpg)
 
-### Essential Information (Goot to know)
+### Essential Information (Good to know)
 
 - **Book Your Tours**: Easily plan your visit by booking bus and boat tours through our provided links. Discover the wonders of Killarney with expert guides.
 - **Weather Updates**: Stay informed about the current weather in Killarney with real-time temperature updates. Enjoy your outdoor experience comfortably.
@@ -170,6 +170,8 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 - [Fern Image](https://www.freepik.com/free-ai-image/abstract-creative-3d-sphere-with-vegetation_72442070.htm#fromView=search&term=fern&page=1&position=32&track=ais_ai_generated&regularType=ai) by freepik on Freepik
 - [Backpacker Image](https://www.freepik.com/free-ai-image/standing-backpacker-mountain-peak-achieving-success-generated-by-ai_43018009.htm#fromView=search&term=explore&page=1&position=3&track=ais_ai_generated&regularType=ai) by stockgiu on Freepik
 - [Mushroom Image](https://www.freepik.com/free-photo/closeup-selective-focus-shot-wild-mushroom-with-water-drops-it-growing-forest_11183221.htm#query=glowing%20mushrooms&position=41&from_view=search&track=ais&uuid=9a61896e-2af8-456c-9e7b-39b7ea322723) by wirestock on Freepik
-- [Butterfly Image](https://www.freepik.com/free-photo/papilio-machaon-with-its-vibrant-colors_13901656.htm#query=butterfly&position=16&from_view=search&track=sph&uuid=65c74471-71fe-4686-84d
+- [Butterfly Image] (https://www.freepik.com/free-photo/papilio-machaon-with-its-vibrant-colors_13901656.htm#query=butterfly&position=16&from_view=search&track=sph&uuid=65c74471-71fe-4686-84d
 
-
+**Acknowledgments:**  
+- Special thanks to CHAT-gpt for assistance with textual content and speeding up the coding process.  
+- Additional credits to Code Institute's Love Running App for their inspiration in developing the Love Nature platform, and footer section  part code.
