@@ -1,5 +1,55 @@
 
-![Screenshot](./assets/images/about-np-img.jpg)
+
+## Features
+
+### Hero Section
+
+- **Striking Imagery**: Immerse yourself in the beauty of Killarney National Park through captivating image showcased in the hero section. 
+
+- **Inviting Taglines**: Engaging taglines invite visitors to "Go wild in Kerry" and explore the "National Park Killarney." ![Screenshot](./assets/images/hero-screen-shot.jpg)
+
+
+
+### About National Park Killarney
+
+![Screenshot](./assets/images/about-np-toggle-checked.jpg)
+![Screenshot](./assets/images/about-np-unchecked-toggle.jpg)
+
+### Impressions Section
+
+- **Heartfelt Entries**: Read genuine and heartfelt impressions from visitors who have experienced the enchanting landscapes of Killarney National Park.
+
+- **Global Perspectives**: Impressions come from visitors worldwide, offering diverse perspectives and experiences from places like New York, Toronto, Sydney, Seoul, Rome, and more.
+
+- **Ode to Friendship**: A special section featuring a poetic "Ode to Friendship," celebrating the unique bond between humans and nature.
+
+### Impression Form
+
+- **User Contributions**: Contribute your own impressions and become part of the Killarney Wild community by sharing your name, email, country, city, and your unique impression of Killarney National Park.
+
+- **Interactive Toggle**: Use the interactive toggle to reveal and hide the impression submission form, providing a clean and user-friendly interface.
+
+- **Submission Validation**: Ensure all required fields are filled out with submission validation for name, email, country, city, and impression.
+
+### Navigation
+
+- **Responsive Design**: The website is designed to be responsive, ensuring a seamless and visually appealing experience across various devices and screen sizes.
+
+- **Accessible Navigation**: The navigation menu is accessible and user-friendly, allowing visitors to easily explore different sections of the website.
+
+### Social Media Integration
+
+- **Social Links in Footer**: Connect with the Killarney Wild community through social media links in the footer, providing easy access to the Facebook, Twitter, YouTube, and Instagram pages.
+
+- **FontAwesome Icons**: Stylish and recognizable FontAwesome icons enhance the visual appeal of social media links.
+
+### General
+
+- **Favicon**: A custom favicon adds a professional touch to the website, making it easily identifiable in browser tabs.
+
+- **Stylesheet Integration**: The website features a well-organized and visually appealing stylesheet, enhancing the overall design and user experience.
+
+
 
 # Future Features
 
