@@ -1,5 +1,5 @@
 
-![Screenshot](../assets/images/about-np-img.jpg)
+![Screenshot](./assets/images/about-np-img.jpg)
 
 # Future Features
 
