@@ -4,7 +4,7 @@
 
 ### Hero Section
 
-- **Striking Imagery**: Immerse yourself in the beauty of Killarney National Park through captivating image showcased in the hero section. 
+ - **Striking Imagery**: Explore the beauty of Killarney National Park with captivating images featured in the hero section.
 
 - **Inviting Taglines**: Engaging taglines invite visitors to "Go wild in Kerry" and explore the "National Park Killarney." ![Screenshot](./assets/images/hero-screen-shot.jpg)
 
@@ -12,8 +12,18 @@
 
 ### About National Park Killarney
 
+- **Biodiversity Showcase**: Uncover the rich biodiversity of Killarney National Park amid ancient woodlands, featuring rare species. Read more for an immersive experience.
+
 ![Screenshot](./assets/images/about-np-toggle-checked.jpg)
+
+- **Nature's Wonders**: Embark on a journey through Killarney National Park's ancient woodlands and discover rare species. Click "Close" to hide the details.
 ![Screenshot](./assets/images/about-np-unchecked-toggle.jpg)
+
+
+### Highlights
+
+- **Engaging Stories**: Dive into weekly features that unravel captivating tales of wildlife and nature in Killarney National Park. Each week brings new and fascinating narratives.
+![Screenshot](./assets/images/highlighted-screen.jpg)
 
 ### Impressions Section
 
