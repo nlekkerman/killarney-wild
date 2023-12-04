@@ -174,4 +174,4 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 **Acknowledgments:**  
 - Special thanks to CHAT-gpt for assistance with textual content and speeding up the coding process.  
-- Additional credits to Code Institute's Love Running App for their inspiration in developing the Love Nature platform, and footer section  part code.
+- Additional credits to Code Institute's Love Running App for their inspiration in developing the Killarney Wild, and footer section  part code.
