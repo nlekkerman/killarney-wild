@@ -501,7 +501,6 @@ iframe {
     position: relative;
     width: 100%;
     height: 100%;
-    box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
     flex-direction: column;
     margin: 0 auto;
     display: flex;
@@ -513,14 +512,16 @@ iframe {
 #spotted-title {
     width: 100%;
 }
-
 #toggle-checkbox {
     display: none;
 }
 
+
 #toggle-label {
+   
     display: flex;
-    background: url("../images/vegetation-img.jpg")no-repeat center center/cover;
+    justify-content: flex-end; /* Align the content to the far right */
+    padding: 0 10px; /* Add some padding for spacing */
 }
 
 #about-np-text {
@@ -538,59 +539,38 @@ iframe {
     display: block;
 }
 
-#toggle-checkbox:checked~#toggle-label #about-np-title h2::before {
+#toggle-checkbox:checked~#toggle-label::before {
     content: "Close";
-    color: #333;
+    color:blue;
     text-decoration: underline;
-}
-
-#toggle-checkbox:checked~#about-np-title::before {
     background: white;
     display: inline-block;
 }
 
-#toggle-checkbox:checked~#toggle-label #about-np-title h3 {
-    color: #333;
-    background: white;
-}
-
-#toggle-checkbox:checked~#toggle-label #about-np-title p {
-    color: #333;
-    background: white;
-}
-
+#toggle-checkbox:checked~#toggle-label #about-np-title h3,
+#toggle-checkbox:checked~#toggle-label #about-np-title p,
 #toggle-checkbox:checked~#toggle-label #about-np-title {
     color: #333;
     background: white;
     box-shadow: 0 4px 8px rgba(193, 166, 166, 0.0);
 }
 
-#toggle-checkbox:not(:checked)~#toggle-label #about-np-title h2::before {
+#toggle-checkbox:not(:checked)~#toggle-label::before {
     content: "Read more..";
 }
+
 
 #about-np-title h3 {
     font-size: 2rem;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    color: whitesmoke;
-}
-
-#about-np-title h2 {
-    font-size: 0.7rem;
-    font-family: 'Oswald', sans-serif;
-    font-weight: 400;
-    bottom: 0;
-    align-self: flex-end;
-    padding-left: 5px;
-    color: whitesmoke;
-    padding-right: 10px;
+    color: #333;
 }
 
 #about-np-title p {
     display: flex;
     font-size: 1rem;
-    color: whitesmoke;
+    color:#333;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
