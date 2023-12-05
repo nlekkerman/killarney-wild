@@ -3531,10 +3531,11 @@ input[type="submit"] {
 
     #ways-to-explore-title {
         padding: 5px;
-        margin-top: -100px;
+        margin-top: -80px;
         background-color: rgba(2, 51, 1, 0.3);
         left: 0;
         width: 30%;
+       
         padding-left: 30px;
         font-size: 3.5rem;
     }
@@ -3557,6 +3558,7 @@ input[type="submit"] {
 
     #iframe {
         border: 0;
+        height: 314px;
     }
 
     .explore-item {
@@ -3683,6 +3685,7 @@ input[type="submit"] {
     #lower-part-container {
         display: flex;
         width: 100%;
+        margin-top: 100px;
         flex: 1;
         flex-direction: row;
 
