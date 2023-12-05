@@ -5,12 +5,29 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Goals](#goals)
-- [Features](#features)
-- [Usage](#usage)
-- [License](#license)
-
+- [Welcome to Killarney Wild](#welcome-to-killarney-wild)
+  - [Table of Contents](#table-of-contents)
+  - [Goals for External Users](#goals-for-external-users)
+  - [Goals for Owners](#goals-for-owners)
+  - [Features](#features)
+    - [Hero Section](#hero-section)
+    - [About National Park Killarney](#about-national-park-killarney)
+    - [Highlights](#highlights)
+    - [Photo Contest Showcase](#photo-contest-showcase)
+    - [Essential Information (Good to know)](#essential-information-good-to-know)
+    - [Impressions Section](#impressions-section)
+    - [Impression Form](#impression-form)
+    - [Navigation](#navigation)
+    - [Social Media Integration](#social-media-integration)
+    - [General](#general)
+- [Future Features](#future-features)
+  - [Project Technologies](#project-technologies)
+  - [Development](#development)
+    - [GitHub Repository](#github-repository)
+    - [Installation](#installation)
+  - [Credits](#credits)
+    - [Code and Content](#code-and-content)
+    - [Images](#images)
 
 
 ## Goals for External Users
@@ -49,27 +66,27 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 - **Nature's Wonders**: Embark on a journey through Killarney National Park's ancient woodlands and discover rare species. Click "Close" to hide the details.
 
-![Screenshot](./assets/images/about-np-unchecked-toggle.jpg)
+![Screenshot](./assets/images/screenshots/about-np-unchecked-toggle.jpg)
 
 
 ### Highlights
 
 - **Engaging Stories**: Dive into weekly features that unravel captivating tales of wildlife and nature in Killarney National Park. Each week brings new and fascinating narratives.
 
-![Screenshot](./assets/images/highlighted-screen.jpg)
+![Screenshot](./assets/images/screenshots/highlighted-screen.jpg)
 
 ### Photo Contest Showcase
 
 - **User Contributions**: Explore the stunning visuals captured by our community in the Autumn Photo Contest. Witness the beauty of Killarney through the lenses of fellow nature enthusiasts, showcasing the park's diverse landscapes and wildlife.
 
-![Screenshot](./assets/images/photo-contest-screen.jpg)
+![Screenshot](./assets/images/screenshots/photo-contest-screen.jpg)
 
 ### Essential Information (Good to know)
 
 - **Book Your Tours**: Easily plan your visit by booking bus and boat tours through our provided links. Discover the wonders of Killarney with expert guides.
 - **Weather Updates**: Stay informed about the current weather in Killarney with real-time temperature updates. Enjoy your outdoor experience comfortably.
 
-![Screenshot](./assets/images/good-to-know-screen.jpg)
+![Screenshot](./assets/images/screenshots/good-to-know-screen.jpg)
 
 - **Emergency Contacts**: Save essential contact numbers for NP Rangers and Mountain Rescue. Your safety is our priority.
 - **Map Your Location**: Explore Killarney National Park efficiently with our interactive map. Locate points of interest and navigate with ease.
@@ -153,7 +170,60 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 20. **Visitor Feedback Surveys:** Gather insights for improvement. Periodically conduct visitor feedback surveys to understand user experiences and implement enhancements accordingly.
 
+## Project Technologies
+
+- [Welcome to Killarney Wild](#welcome-to-killarney-wild)
+  - [Table of Contents](#table-of-contents)
+  - [Goals for External Users](#goals-for-external-users)
+  - [Goals for Owners](#goals-for-owners)
+  - [Features](#features)
+    - [Hero Section](#hero-section)
+    - [About National Park Killarney](#about-national-park-killarney)
+    - [Highlights](#highlights)
+    - [Photo Contest Showcase](#photo-contest-showcase)
+    - [Essential Information (Good to know)](#essential-information-good-to-know)
+    - [Impressions Section](#impressions-section)
+    - [Impression Form](#impression-form)
+    - [Navigation](#navigation)
+    - [Social Media Integration](#social-media-integration)
+    - [General](#general)
+- [Future Features](#future-features)
+  - [Project Technologies](#project-technologies)
+  - [Development](#development)
+    - [GitHub Repository](#github-repository)
+    - [Installation](#installation)
+  - [Credits](#credits)
+    - [Code and Content](#code-and-content)
+    - [Images](#images)
+
+
+## Development
+
+### GitHub Repository
+
+The source code for Killarney Wild is hosted on GitHub. You can find the repository at:
+
+[https://github.com/nlekkerman/killarney-wild](https://github.com/nlekkerman/killarney-wild)
+
+Feel free to explore the codebase, open issues, and submit pull requests.
+
+### Installation
+
+To install Killarney Wild, follow these steps:
+
+```bash
+npm install killarney-wild
+
+
 ## Credits
+
+### Code and Content
+- The header and footer of this application include code directly copied and refactored from Code Institute's "Love Running" app.
+
+[Code Institute](https://www.codeinstitute.net/) - Explore their courses and resources.
+[Code Academy](https://www.codecademy.com/) - Enhance your coding skills with their interactive learning platform.
+
+
 
 ### Images
 - [Swan Image](https://www.freepik.com/free-photo/selective-focus-shot-magnificent-swans-swimming-pond-near-boat_11503009.htm#query=swan&position=8&from_view=search&track=sph&uuid=d542fe82-15e7-411b-a175-6337a74f97e0) by wirestock on Freepik
@@ -172,7 +242,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 - [Fern Image](https://www.freepik.com/free-ai-image/abstract-creative-3d-sphere-with-vegetation_72442070.htm#fromView=search&term=fern&page=1&position=32&track=ais_ai_generated&regularType=ai) by freepik on Freepik
 - [Backpacker Image](https://www.freepik.com/free-ai-image/standing-backpacker-mountain-peak-achieving-success-generated-by-ai_43018009.htm#fromView=search&term=explore&page=1&position=3&track=ais_ai_generated&regularType=ai) by stockgiu on Freepik
 - [Mushroom Image](https://www.freepik.com/free-photo/closeup-selective-focus-shot-wild-mushroom-with-water-drops-it-growing-forest_11183221.htm#query=glowing%20mushrooms&position=41&from_view=search&track=ais&uuid=9a61896e-2af8-456c-9e7b-39b7ea322723) by wirestock on Freepik
-- [Butterfly Image] (https://www.freepik.com/free-photo/papilio-machaon-with-its-vibrant-colors_13901656.htm#query=butterfly&position=16&from_view=search&track=sph&uuid=65c74471-71fe-4686-84d
+- [Butterfly Image](https://www.freepik.com/free-photo/papilio-machaon-with-its-vibrant-colors_13901656.htm#query=butterfly&position=16&from_view=search&track=sph&uuid=65c74471-71fe-4686-84d) by wirestock on freepik
 
 **Acknowledgments:**  
 - Special thanks to CHAT-gpt for assistance with textual content and speeding up the coding process.  
