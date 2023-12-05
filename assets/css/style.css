@@ -64,7 +64,7 @@ header {
     z-index: 100;
     width: 100%;
     position: relative;
-    box-shadow: 0 1px px #3a3a3a;
+    box-shadow: 0 1px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -150,7 +150,7 @@ a {
 }
 
 #spotted-link-paragraph p {
-    background-color: rgba(122, 234, 323, 0.3);
+    background-color: rgba(122, 234, 223, 0.3);
 }
 
 .spotted-link {
@@ -413,7 +413,7 @@ iframe {
 }
 
 #spotted-title p {
-    background-color: rgba(122, 234, 323, 0.3);
+    background-color: rgba(122, 234, 223, 0.3);
     width: 100%;
     padding-left: 5px;
 }
@@ -462,7 +462,7 @@ iframe {
     margin-top: 5px;
     color: white;
     font-size: 1rem;
-    padding: 5;
+    padding: 5px;
     font-weight: 700;
     text-align: center;
 }
@@ -1470,6 +1470,7 @@ input[type="submit"]:hover {
 
 #spotted-form-page-container {
     display: flex;
+    height: 95vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -1480,6 +1481,7 @@ input[type="submit"]:hover {
 #spotted-form {
     background-color: rgba(187, 154, 127, 0.5);
     display: flex;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -1900,7 +1902,7 @@ input[type="submit"] {
 
     /*about NP Killarney*/
     .about-np-section {
-        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.);
+        box-shadow: 0 4px 8px rgba(193, 166, 166, 0.1);
     }
 
     #about-np-title {
@@ -2269,7 +2271,7 @@ input[type="submit"] {
     }
 
     #spotted-title p {
-        background-color: rgba(122, 234, 323, 0.3);
+        background-color: rgba(122, 234, 223, 0.3);
         width: 100%;
         color: yellow;
         text-align: center;
@@ -3268,7 +3270,7 @@ input[type="submit"] {
         width: 100%;
         margin-top: 70px;
         flex-direction: row;
-        gap: 5;
+        gap: 5px;
     }
 
     #lover-part-inner-container {
@@ -3310,7 +3312,6 @@ input[type="submit"] {
     .about-np-description {
         font-size: 1.2rem;
         color: #555;
-        shape-outside: circle(50%);
         margin-right: 20px;
     }
 
@@ -3474,7 +3475,7 @@ input[type="submit"] {
         width: 100%;
         margin-top: 20px;
         flex-direction: row;
-        gap: 5;
+        gap: 5px;
     }
 
     /*Hero*/
@@ -4156,7 +4157,6 @@ input[type="submit"] {
         font-size: 1.5rem;
         font-weight: 400;
         color: #555;
-        shape-outside: circle(50%);
         margin-right: 20px;
         margin: 30px;
     }
