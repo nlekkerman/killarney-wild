@@ -639,7 +639,7 @@ iframe {
     color: #333;
 }
 
-#user-description {
+.user-description {
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 12px;
@@ -991,7 +991,7 @@ iframe {
 }
 
 /*weather section*/
-#weather-section {
+.weather-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1018,8 +1018,12 @@ iframe {
     height: 95px;
     z-index: 100;
 }
+#ranger-section p{
+    color: white;
+    text-decoration: none;
+} 
 
-#rescue-section {
+.rescue-section  {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1032,26 +1036,35 @@ iframe {
     height: 95px;
     z-index: 100;
 }
+#rescue-icon {
+    font-size: 2rem;
+    color: #f39c12;
+}
 
+#ranger-icon {
+    font-size: 2rem;
+    color: #f39c12;
+}
 #weather-icon {
     font-size: 2rem;
     color: #f39c12;
 }
 
-#weather-section #rangers-icon {
-    width: 2rem;
+.rangers-icon {
+    text-align: center;
+    width: 1rem;
     display: flex;
     align-self: center;
 }
 
-#weather-title {
+.weather-title {
     margin-bottom: 5px;
     font-weight: 300;
     color: white;
     font-size: 1rem;
 }
 
-#weather-temperature {
+.weather-temperature {
     color: white;
     margin-top: 5px;
     font-size: 0.7rem;
