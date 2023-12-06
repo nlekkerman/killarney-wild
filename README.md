@@ -3,25 +3,54 @@
 
 Explore the untamed beauty of Killarney National Park, Ireland, with Killarney Wild. Immerse yourself in captivating imagery, discover the diverse wildlife, and stay informed with essential information for a seamless experience. Join us in celebrating nature, conservation, and the enchanting stories that unfold in this natural haven.
 
-## Table of Contents
-
-- [Welcome to Killarney Wild](#welcome-to-killarney-wild)
-  - [Table of Contents](#table-of-contents)
+- [Introduction](#introduction)
+- [Goals](#goals)
   - [Goals for External Users](#goals-for-external-users)
+    - [Community Building](#community-building)
+    - [Interactive Learning](#interactive-learning)
+    - [User-Generated Content](#user-generated-content)
   - [Goals for Owners](#goals-for-owners)
-  - [Features](#features)
-    - [Hero Section](#hero-section)
-    - [About National Park Killarney](#about-national-park-killarney)
-    - [Highlights](#highlights)
-    - [Photo Contest Showcase](#photo-contest-showcase)
-    - [Essential Information (Good to know)](#essential-information-good-to-know)
-    - [Impressions Section](#impressions-section)
-    - [Impression Form](#impression-form)
-    - [Navigation](#navigation)
-    - [Social Media Integration](#social-media-integration)
-    - [General](#general)
+    - [Platform Enhancement](#platform-enhancement)
+    - [Conservation Impact](#conservation-impact)
+    - [Strategic Partnerships](#strategic-partnerships)
+- [Features](#features)
+  - [Hero Section](#hero-section)
+  - [About National Park Killarney](#about-national-park-killarney)
+  - [Highlights](#highlights)
+  - [Photo Contest Showcase](#photo-contest-showcase)
+  - [Essential Information (Good to know)](#essential-information-good-to-know)
+  - [Impressions Section](#impressions-section)
+  - [Impression Form](#impression-form)
+  - [Navigation](#navigation)
+  - [Social Media Integration](#social-media-integration)
+  - [General](#general)
 - [Future Features](#future-features)
-  - [Project Technologies](#project-technologies)
+  - [Weather Forecast Display](#weather-forecast-display)
+  - [User-Generated Content](#user-generated-content)
+  - [Interactive Map](#interactive-map)
+  - [Autumn Photo Contest](#autumn-photo-contest)
+  - [Enhanced Accessibility](#enhanced-accessibility)
+  - [Educational Content](#educational-content)
+  - [Wildlife Tracking](#wildlife-tracking)
+  - [Virtual Tours](#virtual-tours)
+  - [Mobile App Integration](#mobile-app-integration)
+  - [Live Webcams](#live-webcams)
+  - [Nature Soundscape](#nature-soundscape)
+  - [Guided Tours Booking](#guided-tours-booking)
+  - [Seasonal Events Calendar](#seasonal-events-calendar)
+  - [Local Business Partnerships](#local-business-partnerships)
+  - [Community Forum](#community-forum)
+  - [Conservation Initiatives](#conservation-initiatives)
+  - [Nature Photography Workshops](#nature-photography-workshops)
+  - [Camping Resources](#camping-resources)
+  - [Social Media Integration](#social-media-integration)
+  - [Visitor Feedback Surveys](#visitor-feedback-surveys)
+- [Project Technologies](#project-technologies)
+  - [Development Tools](#development-tools)
+  - [Artificial Intelligence](#artificial-intelligence)
+  - [Design and Graphics](#design-and-graphics)
+  - [Web Technologies](#web-technologies)
+  - [Validation](#validation)
   - [Development](#development)
     - [GitHub Repository](#github-repository)
     - [Installation](#installation)
@@ -29,6 +58,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
     - [Code and Content](#code-and-content)
     - [Images](#images)
 
+  # Goals
 
 ## Goals for External Users
 
@@ -170,31 +200,33 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 20. **Visitor Feedback Surveys:** Gather insights for improvement. Periodically conduct visitor feedback surveys to understand user experiences and implement enhancements accordingly.
 
-## Project Technologies
+# Project Technologies
 
-- [Welcome to Killarney Wild](#welcome-to-killarney-wild)
-  - [Table of Contents](#table-of-contents)
-  - [Goals for External Users](#goals-for-external-users)
-  - [Goals for Owners](#goals-for-owners)
-  - [Features](#features)
-    - [Hero Section](#hero-section)
-    - [About National Park Killarney](#about-national-park-killarney)
-    - [Highlights](#highlights)
-    - [Photo Contest Showcase](#photo-contest-showcase)
-    - [Essential Information (Good to know)](#essential-information-good-to-know)
-    - [Impressions Section](#impressions-section)
-    - [Impression Form](#impression-form)
-    - [Navigation](#navigation)
-    - [Social Media Integration](#social-media-integration)
-    - [General](#general)
-- [Future Features](#future-features)
-  - [Project Technologies](#project-technologies)
-  - [Development](#development)
-    - [GitHub Repository](#github-repository)
-    - [Installation](#installation)
-  - [Credits](#credits)
-    - [Code and Content](#code-and-content)
-    - [Images](#images)
+## Development Tools
+
+- Visual Studio (VS)
+- Git
+- GitHub
+
+## Artificial Intelligence
+
+- ChatGPT
+
+## Design and Graphics
+
+- Adobe Photoshop
+- Windows Paint
+
+## Web Technologies
+
+- HTML
+- CSS
+
+## Validation
+
+- [W3C HTML Validator](https://validator.w3.org/)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+
 
 
 # Development
