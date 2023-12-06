@@ -85,7 +85,7 @@ The header of this project features a prominent logo representing the app and th
 
 ### Logo
 
-![App Logo](/assets/images/logo-img.jpg)
+![App Logo](/assets/images/screenshots/logo-img-screen.jpg)
 
 ### App Name
 
@@ -115,36 +115,22 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 ![Desktop Header](/assets/images/screenshots/navigation-links-desktop.png)
 
-### Navigation Features
-
-- **Responsive Design:**
-- **Toggle for Small Screens:** The navigation system includes a toggle functionality specifically tailored for smaller screens, providing an optimal user experience on mobile devices.
-
-  - **Tablet and Larger Screens:** Navigation links are visible without the need for a toggle on   screens with a width of 768 pixels or more.
-  
-- **Accessible Links:**
-  - **Home:** Navigate back to the home page for an overview of the entire project.
-  - **Wildlife:** Explore the diverse wildlife captured in this project.
-  - **Impressions:** Discover captivating impressions captured in this project.
-  - **Spotted:** Explore a curated collection of spotted items or sightings.
 
 
 ### Hero Section
 
  - **Striking Imagery**: Explore the beauty of Killarney National Park with captivating images featured in the hero section.
 
-- **Inviting Taglines**: Engaging taglines invite visitors to "Go wild in Kerry" and explore the "National Park Killarney." ![Screenshot](./assets/images/hero-screen-shot.jpg)
+"National Park Killarney." ![Screenshot](./assets/images/hero-screen-shot.jpg)
+
+- **Inviting Taglines**: Engaging taglines invite visitors to "Go wild in Kerry" and explore the more.
 
 
 ### About National Park Killarney
 
-- **Biodiversity Showcase**: Uncover the rich biodiversity of Killarney National Park amid ancient woodlands, featuring rare species. Read more for an immersive experience.
+- **Biodiversity Showcase**: Uncover the rich biodiversity of Killarney National Park amid ancient woodlands, featuring rare species. Click "Read more" for an immersive experience and click "Close" to hide the details.
 
-![Screenshot](./assets/images/about-np-toggle-checked.jpg)
-
-- **Nature's Wonders**: Embark on a journey through Killarney National Park's ancient woodlands and discover rare species. Click "Close" to hide the details.
-
-![Screenshot](./assets/images/screenshots/about-np-unchecked-toggle.jpg)
+![Screenshot](./assets/images/screenshots/about-np-unchecked-toggle.jpg)![Screenshot](./assets/images/about-np-toggle-checked.jpg)
 
 
 ### Highlights
