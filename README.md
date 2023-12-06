@@ -111,7 +111,7 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 #### Mobile View
 
-![Mobile Header](/assets/images/screenshots/nav-toogle-mobile-screen.png)
+![Mobile Header](/assets/images/screenshots/nav-toogle-mobile-screen.png) ![Mobile Header](/assets/images/screenshots/nav-toggle-active.jpg)
 
 #### Desktop View
 
