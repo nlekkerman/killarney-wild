@@ -79,6 +79,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 
 # Features
+## Home Page
 
 ## Header
 The header of this project features a prominent logo representing the app and the app's name for easy recognition. The logo is strategically placed at the top of the page, providing a visual anchor. The app's name, "Killarney Wild," is displayed below the logo on large screens.
@@ -121,7 +122,9 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
  - **Striking Imagery**: Explore the beauty of Killarney National Park with captivating images featured in the hero section.
 
-"National Park Killarney." ![Screenshot](./assets/images/hero-screen-shot.jpg)
+"National Park Killarney." 
+
+![Screenshot](./assets/images/hero-screen-shot.jpg)
 
 - **Inviting Taglines**: Engaging taglines invite visitors to "Go wild in Kerry" and explore the more.
 
@@ -130,7 +133,7 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 - **Biodiversity Showcase**: Uncover the rich biodiversity of Killarney National Park amid ancient woodlands, featuring rare species. Click "Read more" for an immersive experience and click "Close" to hide the details.
 
-![Screenshot](./assets/images/screenshots/about-np-unchecked-toggle.jpg)!  [Screenshot](./assets/images/about-np-toggle-checked.jpg)
+![Screenshot](./assets/images/screenshots/about-np-unchecked-toggle.jpg) ![Screenshot](./assets/images/about-np-toggle-checked.jpg)
 
 
 ### Highlights
@@ -179,15 +182,12 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 - **Submission Validation**: Ensure all required fields are filled out with submission validation for name, email, country, city, and impression.
 
-### Navigation
-
-- **Responsive Design**: The website is designed to be responsive, ensuring a seamless and visually appealing experience across various devices and screen sizes.
-
-- **Accessible Navigation**: The navigation menu is accessible and user-friendly, allowing visitors to easily explore different sections of the website.
 
 ### Social Media Integration
 
-- **Social Links in Footer**: Connect with the Killarney Wild community through social media links in the footer, providing easy access to the Facebook, Twitter, YouTube, and Instagram pages.
+- **Social Links in Footer**: Connect with community through social media links in the footer, providing easy access to the Facebook, Twitter, YouTube, and Instagram pages.
+
+![Screenshot](./assets/images/screenshots/footer-screenshot.png) 
 
 - **FontAwesome Icons**: Stylish and recognizable FontAwesome icons enhance the visual appeal of social media links.
 
@@ -266,7 +266,8 @@ On large screens, the app name is positioned below the logo, and the navigation 
 ## Validation
 
 - [W3C HTML Validator](https://validator.w3.org/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator)
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
+- [amiresponsive](https://amiresponsive.co.uk/)
 
 
 
