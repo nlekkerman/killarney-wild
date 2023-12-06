@@ -309,6 +309,7 @@ The project has been tested on various devices and browsers to ensure responsive
   ![Screenshot](./assets/images/screenshots/s21-screen-home.jpg) ![Screenshot](./assets/images/screenshots/s21-wildlife.jpg) ![Screenshot](./assets/images/screenshots/s21-impression.jpg) ![Screenshot](./assets/images/screenshots/s21-spotted.jpg) ![Screenshot](./assets/images/screenshots/s21-spotted-form.jpg)
 
 - **Samsung Galaxy A52:** 
+
  ![Screenshot](./assets/images/screenshots/a-52-home.jpg) ![Screenshot](./assets/images/screenshots/a-52-wildlife.jpg) ![Screenshot](./assets/images/screenshots/a-52-impressions.jpg) ![Screenshot](./assets/images/screenshots/a-52-spotted.jpg) 
 
 - **Huawei Nova 8i:** 
