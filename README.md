@@ -143,11 +143,11 @@ On large screens, the app name is positioned below the logo, and the navigation 
 - **Active Toggle:** The toggle is currently expanded, revealing the extended text. Users can collapse it by clicking the "Read More" summary.
 
 
-  ![Screenshot](./assets/images/screenshots/highlighted-screen.jpg)
+  ![Screenshot](./assets/images/screenshots/highlighted-toggle-active.jpg)
 
 - **Inactive Toggle:** The toggle is collapsed, showing a summary of the engaging stories. Users can expand it by clicking the "Read More" summary.
 
-![Screenshot](./assets/images/screenshots/highlighted-screen.jpg)
+![Screenshot](./assets/images/screenshots/hi)
 
 ### Photo Contest Showcase
 
@@ -166,7 +166,7 @@ On large screens, the app name is positioned below the logo, and the navigation 
 - **Map Your Location**: Explore Killarney National Park efficiently with our interactive map. Locate points of interest and navigate with ease.
 
 
-### Impressions Section
+### Impressions 
 
 - **Heartfelt Entries**: Read genuine and heartfelt impressions from visitors who have experienced the enchanting landscapes of Killarney National Park.
 
@@ -174,11 +174,17 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 - **Ode to Friendship**: A special section featuring a poetic "Ode to Friendship," celebrating the unique bond between humans and nature.
 
-### Impression Form
+### Impression Form Features
 
 - **User Contributions**: Contribute your own impressions and become part of the Killarney Wild community by sharing your name, email, country, city, and your unique impression of Killarney National Park.
 
+![Screenshot](./assets/images/screenshots/impressions-screen.png) 
+
+
 - **Interactive Toggle**: Use the interactive toggle to reveal and hide the impression submission form, providing a clean and user-friendly interface.
+
+![Screenshot](./assets/images/screenshots/impressions-form.png) 
+
 
 - **Submission Validation**: Ensure all required fields are filled out with submission validation for name, email, country, city, and impression.
 
