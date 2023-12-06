@@ -19,11 +19,11 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
   - [Highlights](#highlights)
   - [Photo Contest Showcase](#photo-contest-showcase)
   - [Essential Information (Good to know)](#essential-information-good-to-know)
-  - [Impressions Section](#impressions-section)
-  - [Impression Form](#impression-form)
-  - [Navigation](#navigation)
-  - [Social Media Integration](#social-media-integration)
-  - [General](#general)
+- [Impressions](#impressions)
+- [Impression Form Features](#impression-form-features)
+- [Navigation](#navigation)
+- [Social Media Integration](#social-media-integration)
+- [General](#general)
 - [Future Features](#future-features)
   - [Weather Forecast Display](#weather-forecast-display)
   - [User-Generated Content](#user-generated-content)
@@ -43,21 +43,24 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
   - [Conservation Initiatives](#conservation-initiatives)
   - [Nature Photography Workshops](#nature-photography-workshops)
   - [Camping Resources](#camping-resources)
-  - [Social Media Integration](#social-media-integration)
-  - [Visitor Feedback Surveys](#visitor-feedback-surveys)
+- [Social Media Integration(footer)](#social-media-integration-(footer))
+- [Visitor Feedback Surveys](#visitor-feedback-surveys)
 - [Project Technologies](#project-technologies)
   - [Development Tools](#development-tools)
   - [Artificial Intelligence](#artificial-intelligence)
   - [Design and Graphics](#design-and-graphics)
   - [Web Technologies](#web-technologies)
-  - [Testing](#Testing)
-  - [Validation](#validation)
-  - [Development](#development)
+- [Testing](#Testing)
+- [Validation](#validation)
+- [Development](#development)
     - [GitHub Repository](#github-repository)
     - [Installation](#installation)
-  - [Credits](#credits)
+- [Deployment](#deployment)
+- [Credits](#credits)
     - [Code and Content](#code-and-content)
     - [Images](#images)
+- [Acknowledgments](#Acknowledgments)
+    Acknowledgments
 
   # Goals
 
@@ -190,7 +193,7 @@ On large screens, the app name is positioned below the logo, and the navigation 
 - **Submission Validation**: Ensure all required fields are filled out with submission validation for name, email, country, city, and impression.
 
 
-### Social Media Integration
+### Social Media Integration(footer):
 
 - **Social Links in Footer**: Connect with community through social media links in the footer, providing easy access to the Facebook, Twitter, YouTube, and Instagram pages.
 
@@ -446,5 +449,6 @@ Now you have the Killarney Wild project cloned to your local machine, and you ca
 
 **Acknowledgments:**  
 - Special thanks to CHAT-gpt for assistance with textual content and speeding up the coding process.  
+- Special thanks to my mentor mr Brian O'Hare and my classmates and slack community for help.  
 - Additional credits to Code Institute's Love Running App for their inspiration in developing the Killarney Wild.
 
