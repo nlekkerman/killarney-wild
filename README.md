@@ -197,9 +197,9 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
     - [Images](#images)
 
 
-## Development
+# Development
 
-### GitHub Repository
+## GitHub Repository
 
 The source code for Killarney Wild is hosted on GitHub. You can find the repository at:
 
@@ -213,34 +213,34 @@ Feel free to explore the codebase, open issues, and submit pull requests.
 
 Follow these steps to clone the Killarney Wild repository using Visual Studio:
 
- **Open Visual Studio:**
+ -Open Visual Studio:
    On the start window, select "Clone a repository."
 
- **Enter Repository URL:**
+ -Enter Repository URL:
    In the "Clone a Repository" window, enter the repository URL: `https://github.com/nlekkerman/killarney-wild.git`
 
- **Choose Local Directory:**
+ -Choose Local Directory:
    Choose a directory on your local machine where you want to clone the repository.
 
- **Click "Clone":**
+ -Click "Clone":
    Click the "Clone" button.
 
- **Open Cloned Project:**
+ -Open Cloned Project:
    Once the cloning process is complete, open the cloned project in Visual Studio.
 
 Now you have the Killarney Wild project cloned to your local machine, and you can explore, modify, and run it from within Visual Studio. 
 
 # Cloning with Terminal or Command Prompt
 
-**Open a terminal or command prompt.**
-  Navigate to Local Directory 
-  cd path/to/your/directory
+-Open a terminal or command prompt.
+   Navigate to Local Directory 
+   cd path/to/your/directory
 
-**Clone Repository**
+-Clone Repository
   Run the following command to clone the Killarney Wild repository from GitHub:
   git clone https://github.com/nlekkerman/killarney-wild.git
 
-**Navigate to Cloned Project**
+-Navigate to Cloned Project
   cd killarney-wild 
 
   Now you have the Killarney Wild project cloned to your local machine, and you can explore, modify, and run it from the terminal.
