@@ -262,12 +262,23 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 - HTML
 - CSS
+- [amiresponsive](https://amiresponsive.co.uk/)
 
 ## Validation
 
-- [W3C HTML Validator](https://validator.w3.org/)
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/)
-- [amiresponsive](https://amiresponsive.co.uk/)
+-Validated HTML with Validator V3 and CSS with V3C
+
+- [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnlekkerman.github.io%2Fkillarney-wild%2F) 
+
+![Screenshot](./assets/images/screenshots/validator-impression.png) ![Screenshot](./assets/images/screenshots/validator-index.html.png) ![Screenshot](./assets/images/screenshots/validator-spoted-html.png) ![Screenshot](./assets/images/screenshots/validator-spotted-form.jpg) ![Screenshot](./assets/images/screenshots/validator-wildlife.png) 
+
+
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnlekkerman.github.io%2Fkillarney-wild%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+![Screenshot](./assets/images/screenshots/validator-css.png) 
+
+
+
 
 
 
