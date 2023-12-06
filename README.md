@@ -147,7 +147,7 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 - **Inactive Toggle:** The toggle is collapsed, showing a summary of the engaging stories. Users can expand it by clicking the "Read More" summary.
 
-![Screenshot](./assets/images/screenshots/hi)
+![Screenshot](./assets/images/screenshots/highlighted-screen.jpg)
 
 ### Photo Contest Showcase
 
