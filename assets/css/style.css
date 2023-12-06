@@ -689,7 +689,6 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    margin-top: 30px;
     background-size: 100px;
 }
 
@@ -805,8 +804,8 @@ text-align: end;
 }
 
 #wild-life-title {
-    border-bottom: 0.4rem solid gold;
-    border-top: 0.4rem solid gold;
+    border-bottom: 0.2rem solid gold;
+    border-top: 0.2rem solid gold;
     padding: 10px 0 5px 10px;
     color: #333;
     width: 100%;
