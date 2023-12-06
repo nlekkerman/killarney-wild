@@ -78,7 +78,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 
 
-## Features
+# Features
 
 ### Hero Section
 
@@ -116,8 +116,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 - **Book Your Tours**: Easily plan your visit by booking bus and boat tours through our provided links. Discover the wonders of Killarney with expert guides.
 - **Weather Updates**: Stay informed about the current weather in Killarney with real-time temperature updates. Enjoy your outdoor experience comfortably.
 
-![Screenshot](./assets/images/screenshots/good-to-know-screen.jpg) ![Screenshot](./assets/images/screenshots/good-to-know-screen.jpg)
-
+![Screenshot](./assets/images/screenshots/good-to-know-screen.jpg) 
 
 - **Emergency Contacts**: Save essential contact numbers for NP Rangers and Mountain Rescue. Your safety is our priority.
 - **Map Your Location**: Explore Killarney National Park efficiently with our interactive map. Locate points of interest and navigate with ease.

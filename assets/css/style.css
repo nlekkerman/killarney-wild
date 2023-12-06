@@ -1507,7 +1507,7 @@ input[type="submit"]:hover {
     color: #ffffff;
     padding: 20px;
     text-align: center;
-    background: url(../images/form-background-img.jpg) no-repeat center center/cover;
+    background: url('../images/form-background-img.jpg') no-repeat center center/cover;
 }
 
 #toggleForm {
