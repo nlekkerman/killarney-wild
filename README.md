@@ -318,6 +318,9 @@ The project has been tested on various devices and browsers to ensure responsive
  ![Screenshot](./assets/images/screenshots/huawei-home.jpg) ![Screenshot](./assets/images/screenshots/huawei-wildlife.jpg) ![Screenshot](./assets/images/screenshots/huawei-impressions.jpg) ![Screenshot](./assets/images/screenshots/huawei-spotted.jpg) 
 
 - **Samsung Tablet SM-500:** 
+
+![Screenshot](./assets/images/screenshots/tablet-home.jpg) ![Screenshot](./assets/images/screenshots/tablet-wildlife.jpg) ![Screenshot](./assets/images/screenshots/tablet-impression.jpg) ![Screenshot](./assets/images/screenshots/tablet-spotted.jpg) ![Screenshot](./assets/images/screenshots/tablet-spotted-form.jpg)
+
 - **Acer Nitro 5:** 
 - **Large Desktop Monitor:** 
 
