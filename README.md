@@ -62,7 +62,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 - **Biodiversity Showcase**: Uncover the rich biodiversity of Killarney National Park amid ancient woodlands, featuring rare species. Read more for an immersive experience.
 
-![Screenshot](./assets/images/screenshots/screenshot-full.png)
+![Screenshot](./assets/images/about-np-toggle-checked.jpg)
 
 - **Nature's Wonders**: Embark on a journey through Killarney National Park's ancient woodlands and discover rare species. Click "Close" to hide the details.
 
