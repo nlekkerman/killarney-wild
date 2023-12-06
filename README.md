@@ -209,11 +209,41 @@ Feel free to explore the codebase, open issues, and submit pull requests.
 
 ### Installation
 
-To install Killarney Wild, follow these steps:
+# Cloning Killarney Wild Repository in Visual Studio
 
-```bash
-npm install killarney-wild
+Follow these steps to clone the Killarney Wild repository using Visual Studio:
 
+ **Open Visual Studio:**
+   On the start window, select "Clone a repository."
+
+ **Enter Repository URL:**
+   In the "Clone a Repository" window, enter the repository URL: `https://github.com/nlekkerman/killarney-wild.git`
+
+ **Choose Local Directory:**
+   Choose a directory on your local machine where you want to clone the repository.
+
+ **Click "Clone":**
+   Click the "Clone" button.
+
+ **Open Cloned Project:**
+   Once the cloning process is complete, open the cloned project in Visual Studio.
+
+Now you have the Killarney Wild project cloned to your local machine, and you can explore, modify, and run it from within Visual Studio. 
+
+# Cloning with Terminal or Command Prompt
+
+**Open a terminal or command prompt.**
+  Navigate to Local Directory 
+  cd path/to/your/directory
+
+**Clone Repository**
+  Run the following command to clone the Killarney Wild repository from GitHub:
+  git clone https://github.com/nlekkerman/killarney-wild.git
+
+**Navigate to Cloned Project**
+  cd killarney-wild 
+
+  Now you have the Killarney Wild project cloned to your local machine, and you can explore, modify, and run it from the terminal.
 
 ## Credits
 
@@ -222,8 +252,6 @@ npm install killarney-wild
 
 [Code Institute](https://www.codeinstitute.net/) - Explore their courses and resources.
 [Code Academy](https://www.codecademy.com/) - Enhance your coding skills with their interactive learning platform.
-
-
 
 ### Images
 - [Swan Image](https://www.freepik.com/free-photo/selective-focus-shot-magnificent-swans-swimming-pond-near-boat_11503009.htm#query=swan&position=8&from_view=search&track=sph&uuid=d542fe82-15e7-411b-a175-6337a74f97e0) by wirestock on Freepik
