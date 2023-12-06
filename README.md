@@ -286,7 +286,7 @@ The project has been tested on various devices and browsers to ensure responsive
 
 - **Google Chrome**
 
-![Screenshot](./assets/images/screenshots/chrome-home.png) ![Screenshot](./assets/images/screenshots/impressions-form.png) ![Screenshot](./assets/images/screenshots/chrome-spotted.png) ![Screenshot](./assets/images/screenshots/chrome-wildlife.png) 
+![Screenshot](./assets/images/screenshots/chrome-home.png) ![Screenshot](./assets/images/screenshots/chrome-impressions.png) ![Screenshot](./assets/images/screenshots/chrome-spotted.png) ![Screenshot](./assets/images/screenshots/chrome-wildlife.png) 
 
 
 [Link to am I responsive](https://ui.dev/amiresponsive?url=https://nlekkerman.github.io/killarney-wild/)
@@ -298,10 +298,22 @@ The project has been tested on various devices and browsers to ensure responsive
 
 ### Test Results:
 
-- **Samsung Galaxy S21:** [Describe the testing results and any specific observations.]
-- **Samsung Galaxy A52:** [Describe the testing results and any specific observations.]
-- **Huawei Nova 8i:** [Describe the testing results and any specific observations.]
-- **Samsung Laptop:** [Describe the testing results and any specific observations.]
+### Results for All Devices are the Same
+
+ - **Verified that all links functioned properly.** 
+  - **Confirmed that links set to open in new tabs opened as intended.** 
+  - **Colors displayed vibrantly on the device's AMOLED screen.**
+
+#### Samsung Galaxy S21:
+ 
+  ![Screenshot](./assets/images/screenshots/s21-screen-home.jpg) ![Screenshot](./assets/images/screenshots/s21-wildlife.jpg) ![Screenshot](./assets/images/screenshots/s21-impression.jpg) ![Screenshot](./assets/images/screenshots/s21-spotted.jpg) ![Screenshot](./assets/images/screenshots/s21-spotted-form.jpg)
+
+- **Samsung Galaxy A52:** 
+ ![Screenshot](./assets/images/screenshots/a-52-home.jpg) ![Screenshot](./assets/images/screenshots/a-52-wildlife.jpg) ![Screenshot](./assets/images/screenshots/a-52-impressions.jpg) ![Screenshot](./assets/images/screenshots/a-52-spotted.jpg) 
+
+- **Huawei Nova 8i:** 
+- **Samsung Tablet SM-500:** 
+- **Acer Nitro 5:** 
 - **Large Desktop Monitor:** [Describe the testing results and any specific observations.]
 
 
