@@ -4234,6 +4234,20 @@ input[type="submit"] {
 }
 
 @media only screen and (min-width: 2001px) {
+    #spotted-form {
+        background-color: rgba(187, 154, 127, 0.5);
+        display: flex;
+        margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 20px;
+        border-radius: 10px;
+        width: 80%;
+        max-width: 900px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
 
     .impression p {
         margin: 10px 0;
@@ -4251,4 +4265,5 @@ input[type="submit"] {
         background-color: rgba(1, 9, 5, 0.9);
         font-size: 2rem;
     }
+  
 }

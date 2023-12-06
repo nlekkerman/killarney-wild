@@ -80,12 +80,60 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 # Features
 
+## Header
+The header of this project features a prominent logo representing the app and the app's name for easy recognition. The logo is strategically placed at the top of the page, providing a visual anchor. The app's name, "Killarney Wild," is displayed below the logo on large screens.
+
+### Logo
+
+![App Logo](/assets/images/logo-img.jpg)
+
+### App Name
+
+**Killarney Wild**
+
+### Navigation
+
+The header also includes a navigation bar that seamlessly integrates with the overall design. The navigation bar contains links to different sections of the app, allowing users to navigate effortlessly. The navigation bar is responsive and adapts to various screen sizes, providing an optimal user experience.
+
+#### Navigation Links
+
+- **Home:** Navigate back to the home page for an overview of the entire app.
+- **Wildlife:** Explore the diverse wildlife captured in Killarney Wild.
+- **Impressions:** Discover captivating impressions captured in Killarney Wild.
+- **Spotted:** Explore a curated collection of spotted items or sightings.
+
+On large screens, the app name is positioned below the logo, and the navigation links are aligned to the right.
+
+### Examples
+
+
+#### Mobile View
+
+![Mobile Header](/assets/images/screenshots/nav-toogle-mobile-screen.png)
+
+#### Desktop View
+
+![Desktop Header](/assets/images/screenshots/navigation-links-desktop.png)
+
+### Navigation Features
+
+- **Responsive Design:**
+- **Toggle for Small Screens:** The navigation system includes a toggle functionality specifically tailored for smaller screens, providing an optimal user experience on mobile devices.
+
+  - **Tablet and Larger Screens:** Navigation links are visible without the need for a toggle on   screens with a width of 768 pixels or more.
+  
+- **Accessible Links:**
+  - **Home:** Navigate back to the home page for an overview of the entire project.
+  - **Wildlife:** Explore the diverse wildlife captured in this project.
+  - **Impressions:** Discover captivating impressions captured in this project.
+  - **Spotted:** Explore a curated collection of spotted items or sightings.
+
+
 ### Hero Section
 
  - **Striking Imagery**: Explore the beauty of Killarney National Park with captivating images featured in the hero section.
 
 - **Inviting Taglines**: Engaging taglines invite visitors to "Go wild in Kerry" and explore the "National Park Killarney." ![Screenshot](./assets/images/hero-screen-shot.jpg)
-
 
 
 ### About National Park Killarney
