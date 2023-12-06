@@ -284,17 +284,37 @@ On large screens, the app name is positioned below the logo, and the navigation 
 ![Screenshot](./assets/images/screenshots/validator-css.png) 
 
 
+# Deployment
 
+### Create a GitHub Repository:
 
+- **Created a new repo on GitHub from code institute tamplate** 
+[Code Institute Template](https://github.com/new?template_name=ci-full-template&template_owner=Code-Institute-Org)
 
+### Push Code to GitHub:
+
+- **Initialized a Git repository locally** 
+- **Added and committed HTML, CSS, and other relevant files** 
+- **Pushed the code to the GitHub repository** 
+
+### Enable GitHub Pages
+
+- **Went to the GitHub repository on the GitHub website**
+- **Clicked on the "Settings" tab**
+- **Scrolled down to the "GitHub Pages" section**
+- **Under "Source," selected the branch main for GitHub Pages**
+
+### Access Deployed Page:
+
+ [Deployed page  Killareny Wild is accessible at](https://nlekkerman.github.io/killarney-wild/)
 
 # Development
 
 ## GitHub Repository
 
-The source code for Killarney Wild is hosted on GitHub. You can find the repository at:
+The source code for Killarney Wild is on GitHub. You can find the repository at:
 
-[https://github.com/nlekkerman/killarney-wild](https://github.com/nlekkerman/killarney-wild)
+[Killarney Wild Repository](https://github.com/nlekkerman/killarney-wild)
 
 Feel free to explore the codebase, open issues, and submit pull requests.
 
