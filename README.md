@@ -313,9 +313,13 @@ The project has been tested on various devices and browsers to ensure responsive
  ![Screenshot](./assets/images/screenshots/a-52-home.jpg) ![Screenshot](./assets/images/screenshots/a-52-wildlife.jpg) ![Screenshot](./assets/images/screenshots/a-52-impressions.jpg) ![Screenshot](./assets/images/screenshots/a-52-spotted.jpg) 
 
 - **Huawei Nova 8i:** 
+
 - **Samsung Tablet SM-500:** 
 - **Acer Nitro 5:** 
-- **Large Desktop Monitor:** [Describe the testing results and any specific observations.]
+- **Large Desktop Monitor:** 
+
+![Screenshot](./assets/images/screenshots/4k-home.png) ![Screenshot](./assets/images/screenshots/4k-wildlife.png) ![Screenshot](./assets/images/screenshots/4k-impressions.png) ![Screenshot](./assets/images/screenshots/4k-spotted.png) ![Screenshot](./assets/images/screenshots/4k-spotted-form.png) 
+
 
 
 ## Validation
