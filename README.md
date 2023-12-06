@@ -79,7 +79,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 - **User Contributions**: Explore the stunning visuals captured by our community in the Autumn Photo Contest. Witness the beauty of Killarney through the lenses of fellow nature enthusiasts, showcasing the park's diverse landscapes and wildlife.
 
-![Screenshot](./assets/images/screenshots/screenshot-full.png)
+![Screenshot](./assets/images/screenshots/photo-contest-screen.jpg)
 
 ### Essential Information (Good to know)
 
