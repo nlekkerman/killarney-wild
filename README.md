@@ -62,7 +62,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
 
 - **Biodiversity Showcase**: Uncover the rich biodiversity of Killarney National Park amid ancient woodlands, featuring rare species. Read more for an immersive experience.
 
-![Screenshot](./assets/images/about-np-toggle-checked.jpg)
+![Screenshot](./assets/images/screenshots/screenshot-full.png)
 
 - **Nature's Wonders**: Embark on a journey through Killarney National Park's ancient woodlands and discover rare species. Click "Close" to hide the details.
 
@@ -207,9 +207,9 @@ The source code for Killarney Wild is hosted on GitHub. You can find the reposit
 
 Feel free to explore the codebase, open issues, and submit pull requests.
 
-### Installation
+# Installation
 
-# Cloning Killarney Wild Repository in Visual Studio
+## Cloning Killarney Wild Repository in Visual Studio
 
 Follow these steps to clone the Killarney Wild repository using Visual Studio:
 
@@ -230,7 +230,7 @@ Follow these steps to clone the Killarney Wild repository using Visual Studio:
 
 Now you have the Killarney Wild project cloned to your local machine, and you can explore, modify, and run it from within Visual Studio. 
 
-# Cloning with Terminal or Command Prompt
+## Cloning with Terminal or Command Prompt
 
 -Open a terminal or command prompt.
    Navigate to Local Directory 
@@ -245,15 +245,15 @@ Now you have the Killarney Wild project cloned to your local machine, and you ca
 
   Now you have the Killarney Wild project cloned to your local machine, and you can explore, modify, and run it from the terminal.
 
-## Credits
+# Credits
 
-### Code and Content
+## Code and Content
 - The header and footer of this application include code directly copied and refactored from Code Institute's "Love Running" app.
 
 [Code Institute](https://www.codeinstitute.net/) - Explore their courses and resources.
 [Code Academy](https://www.codecademy.com/) - Enhance your coding skills with their interactive learning platform.
 
-### Images
+## Images
 - [Swan Image](https://www.freepik.com/free-photo/selective-focus-shot-magnificent-swans-swimming-pond-near-boat_11503009.htm#query=swan&position=8&from_view=search&track=sph&uuid=d542fe82-15e7-411b-a175-6337a74f97e0) by wirestock on Freepik
 - [Dragonfly Image](https://www.freepik.com/free-photo/closeup-blue-damselflies-leaf-garden-sunlight_10990893.htm#query=dragonfly&position=5&from_view=search&track=sph&uuid=01c71d94-b717-4712-bcb7-06970520236a) by wirestock on Freepik
 - [Fox Image](https://www.freepik.com/free-photo/shallow-focus-fox-forest_29175175.htm#query=fox&position=11&from_view=search&track=sph&uuid=ec1b788c-d87e-4bd4-aa97-1761330fde6b) by wirestock on Freepik
