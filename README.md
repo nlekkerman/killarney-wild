@@ -270,6 +270,41 @@ On large screens, the app name is positioned below the logo, and the navigation 
 - CSS
 - [amiresponsive](https://amiresponsive.co.uk/)
 
+# Testing
+
+The project has been tested on various devices and browsers to ensure responsiveness and compatibility.
+
+## Devices Tested:
+
+1. **Samsung Galaxy S21**
+2. **Samsung Galaxy A52**
+3. **Huawei Nova 8i**
+4. **Samsung Tablet SM-500**
+5. **Large Desktop Monitor**
+
+## Browsers Tested:
+
+- **Google Chrome**
+
+![Screenshot](./assets/images/screenshots/chrome-home.png) ![Screenshot](./assets/images/screenshots/impressions-form.png) ![Screenshot](./assets/images/screenshots/chrome-spotted.png) ![Screenshot](./assets/images/screenshots/chrome-wildlife.png) 
+
+
+[Link to am I responsive](https://ui.dev/amiresponsive?url=https://nlekkerman.github.io/killarney-wild/)
+
+- **Mozilla Firefox**
+
+![Screenshot](./assets/images/screenshots/mozila-home.png) ![Screenshot](./assets/images/screenshots/mozila-impressions.png) ![Screenshot](./assets/images/screenshots/mozila-spotted.png) ![Screenshot](./assets/images/screenshots/mozila-wildlife.png) 
+
+
+### Test Results:
+
+- **Samsung Galaxy S21:** [Describe the testing results and any specific observations.]
+- **Samsung Galaxy A52:** [Describe the testing results and any specific observations.]
+- **Huawei Nova 8i:** [Describe the testing results and any specific observations.]
+- **Samsung Laptop:** [Describe the testing results and any specific observations.]
+- **Large Desktop Monitor:** [Describe the testing results and any specific observations.]
+
+
 ## Validation
 
 -Validated HTML with Validator V3 and CSS with V3C
@@ -306,7 +341,7 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 ### Access Deployed Page:
 
- [Deployed page  Killareny Wild is accessible at](https://nlekkerman.github.io/killarney-wild/)
+ [Deployed page  Killareny Wild is accessible here](https://nlekkerman.github.io/killarney-wild/)
 
 # Development
 
