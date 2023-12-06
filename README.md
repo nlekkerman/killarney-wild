@@ -50,6 +50,7 @@ Explore the untamed beauty of Killarney National Park, Ireland, with Killarney W
   - [Artificial Intelligence](#artificial-intelligence)
   - [Design and Graphics](#design-and-graphics)
   - [Web Technologies](#web-technologies)
+  - [Testing](#Testing)
   - [Validation](#validation)
   - [Development](#development)
     - [GitHub Repository](#github-repository)
@@ -314,6 +315,7 @@ The project has been tested on various devices and browsers to ensure responsive
 
 - **Huawei Nova 8i:** 
 
+ ![Screenshot](./assets/images/screenshots/huawei-home.jpg) ![Screenshot](./assets/images/screenshots/huawei-wildlife.jpg) ![Screenshot](./assets/images/screenshots/huawei-impressions.jpg) ![Screenshot](./assets/images/screenshots/huawei-spotted.jpg) 
 - **Samsung Tablet SM-500:** 
 - **Acer Nitro 5:** 
 - **Large Desktop Monitor:** 
