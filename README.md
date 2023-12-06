@@ -130,12 +130,19 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 - **Biodiversity Showcase**: Uncover the rich biodiversity of Killarney National Park amid ancient woodlands, featuring rare species. Click "Read more" for an immersive experience and click "Close" to hide the details.
 
-![Screenshot](./assets/images/screenshots/about-np-unchecked-toggle.jpg)![Screenshot](./assets/images/about-np-toggle-checked.jpg)
+![Screenshot](./assets/images/screenshots/about-np-unchecked-toggle.jpg)!  [Screenshot](./assets/images/about-np-toggle-checked.jpg)
 
 
 ### Highlights
 
-- **Engaging Stories**: Dive into weekly features that unravel captivating tales of wildlife and nature in Killarney National Park. Each week brings new and fascinating narratives.
+- **Engaging Stories**: Dive into weekly features that unravel captivating tales of wildlife and nature in Killarney National Park. Each week brings new and fascinating narratives.This section have  toggle for Read more.
+
+- **Active Toggle:** The toggle is currently expanded, revealing the extended text. Users can collapse it by clicking the "Read More" summary.
+
+
+  ![Screenshot](./assets/images/screenshots/highlighted-screen.jpg)
+
+- **Inactive Toggle:** The toggle is collapsed, showing a summary of the engaging stories. Users can expand it by clicking the "Read More" summary.
 
 ![Screenshot](./assets/images/screenshots/highlighted-screen.jpg)
 
@@ -340,4 +347,5 @@ Now you have the Killarney Wild project cloned to your local machine, and you ca
 
 **Acknowledgments:**  
 - Special thanks to CHAT-gpt for assistance with textual content and speeding up the coding process.  
-- Additional credits to Code Institute's Love Running App for their inspiration in developing the Killarney Wild, and footer section  part code.
+- Additional credits to Code Institute's Love Running App for their inspiration in developing the Killarney Wild.
+
