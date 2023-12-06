@@ -321,8 +321,11 @@ The project has been tested on various devices and browsers to ensure responsive
 
 ![Screenshot](./assets/images/screenshots/tablet-home.jpg) ![Screenshot](./assets/images/screenshots/tablet-wildlife.jpg) ![Screenshot](./assets/images/screenshots/tablet-impression.jpg) ![Screenshot](./assets/images/screenshots/tablet-spotted.jpg) ![Screenshot](./assets/images/screenshots/tablet-spotted-form.jpg)
 
-- **Acer Nitro 5:** 
-- **Large Desktop Monitor:** 
+- **Acer Nitro 5(complete viewport):** 
+
+![Screenshot](./assets/images/screenshots/acer-home.png) ![Screenshot](./assets/images/screenshots/acer-wildlife.png) ![Screenshot](./assets/images/screenshots/acer-impressions.png) ![Screenshot](./assets/images/screenshots/acer-spotted.png) ![Screenshot](./assets/images/screenshots/acer-spotted-form.png) 
+
+- **Large Desktop Monitor(complete viewport):** 
 
 ![Screenshot](./assets/images/screenshots/4k-home.png) ![Screenshot](./assets/images/screenshots/4k-wildlife.png) ![Screenshot](./assets/images/screenshots/4k-impressions.png) ![Screenshot](./assets/images/screenshots/4k-spotted.png) ![Screenshot](./assets/images/screenshots/4k-spotted-form.png) 
 
