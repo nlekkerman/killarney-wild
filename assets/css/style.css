@@ -18,6 +18,20 @@ body {
     margin: 0;
 }
 
+#audio-controls {
+    padding-top: 10px;
+    margin: 0px;
+    text-align: right;
+    /* Align the content to the right */
+}
+
+audio {
+    width: 5%;
+    height: 20px;
+    display: inline-block;
+    /* Display the audio element as an inline block */
+}
+
 /* Title styles*/
 h1 {
     font-family: 'Acme', sans-serif;
@@ -1648,6 +1662,18 @@ input[type="submit"] {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 767px) {
+
+    #audio-controls {
+        padding-top: 10px;
+         margin: 0px;
+         text-align: right; /* Align the content to the right */
+     }
+     
+     audio {
+         width: 100px;
+       height: 20px;
+         display: inline-block; /* Display the audio element as an inline block */
+     }
     .user-image {
         text-align: center;
         width: 100%;
@@ -2198,7 +2224,17 @@ input[type="submit"] {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-
+    #audio-controls {
+        padding-top: 10px;
+         margin: 0px;
+         text-align: right; /* Align the content to the right */
+     }
+     
+     audio {
+         width: 300px;
+       height: 20px;
+         display: inline-block; /* Display the audio element as an inline block */
+     }
     .impression {
         width: calc(20% - 20px);
         margin: 10px;
@@ -4137,7 +4173,7 @@ input[type="submit"] {
         display: flex;
         flex-direction: row;
         align-items: center;
-        margin-top: 0px;
+        margin-top: 30px;
         font-weight: 400;
         font-size: 35px;
         padding-right: 0px;

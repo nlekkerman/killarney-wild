@@ -120,6 +120,21 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 ![Desktop Header](/assets/images/screenshots/navigation-links-desktop.png)
 
+### Audio Player
+
+![Desktop Header](/assets/images/screenshots/audio-screen-features.png)
+
+- **Initialy hided as vertical ellipsis.**
+- When is open there is full control of audio player**
+
+- **Background Music:** Add an immersive experience with background music that complements your content.
+
+- **Sound Effects:** Enhance user interactions with relevant sound effects, providing feedback and engagement.
+
+
+- **User Control:** Allow users to control audio settings, such as volume and mute options, to tailor their experience.
+
+- **Accessibility:** Ensure inclusivity by providing transcripts or subtitles for audio content, benefiting users with visual impairments.
 
 
 ### Hero Section
@@ -267,6 +282,7 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 - Adobe Photoshop
 - Windows Paint
+- Ableton
 
 ## Web Technologies
 
@@ -446,6 +462,11 @@ Now you have the Killarney Wild project cloned to your local machine, and you ca
 - [Backpacker Image](https://www.freepik.com/free-ai-image/standing-backpacker-mountain-peak-achieving-success-generated-by-ai_43018009.htm#fromView=search&term=explore&page=1&position=3&track=ais_ai_generated&regularType=ai) by stockgiu on Freepik
 - [Mushroom Image](https://www.freepik.com/free-photo/closeup-selective-focus-shot-wild-mushroom-with-water-drops-it-growing-forest_11183221.htm#query=glowing%20mushrooms&position=41&from_view=search&track=ais&uuid=9a61896e-2af8-456c-9e7b-39b7ea322723) by wirestock on Freepik
 - [Butterfly Image](https://www.freepik.com/free-photo/papilio-machaon-with-its-vibrant-colors_13901656.htm#query=butterfly&position=16&from_view=search&track=sph&uuid=65c74471-71fe-4686-84d) by wirestock on freepik
+
+### Audio
+
+- **Original music by Lekkerman**
+  - Out of Delusion
 
 **Acknowledgments:**  
 - Special thanks to CHAT-gpt for assistance with textual content and speeding up the coding process.  
