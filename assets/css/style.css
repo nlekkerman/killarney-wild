@@ -511,16 +511,19 @@ iframe {
 #spotted-title {
     width: 100%;
 }
+
 #toggle-checkbox {
     display: none;
 }
 
 
 #toggle-label {
-   
+
     display: flex;
-    justify-content: flex-end; /* Align the content to the far right */
-    padding: 0 10px; /* Add some padding for spacing */
+    justify-content: flex-end;
+    /* Align the content to the far right */
+    padding: 0 10px;
+    /* Add some padding for spacing */
 }
 
 #about-np-text {
@@ -540,7 +543,7 @@ iframe {
 
 #toggle-checkbox:checked~#toggle-label::before {
     content: "Close";
-    color:blue;
+    color: blue;
     text-decoration: underline;
     background: white;
     display: inline-block;
@@ -569,7 +572,7 @@ iframe {
 #about-np-title p {
     display: flex;
     font-size: 1rem;
-    color:#333;
+    color: #333;
     padding: 10px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
@@ -626,11 +629,14 @@ iframe {
 .user-image {
     text-align: center;
     width: 100%;
-    height: 200px; /* Set a fixed height for the images */
+    height: 200px;
+    /* Set a fixed height for the images */
 
 }
 
-#user-one,#user-two,#user-three{
+#user-one,
+#user-two,
+#user-three {
     text-align: center;
 }
 
@@ -793,7 +799,7 @@ iframe {
 #title-credits-container p {
     color: #888;
     font-size: 0.5rem;
-text-align: end;
+    text-align: end;
     margin-right: 20px;
 }
 
@@ -1019,12 +1025,13 @@ text-align: end;
     height: 95px;
     z-index: 100;
 }
-#ranger-section p{
+
+#ranger-section p {
     color: white;
     text-decoration: none;
-} 
+}
 
-.rescue-section  {
+.rescue-section {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1037,6 +1044,7 @@ text-align: end;
     height: 95px;
     z-index: 100;
 }
+
 #rescue-icon {
     font-size: 2rem;
     color: #f39c12;
@@ -1046,6 +1054,7 @@ text-align: end;
     font-size: 2rem;
     color: #f39c12;
 }
+
 #weather-icon {
     font-size: 2rem;
     color: #f39c12;
@@ -1644,6 +1653,7 @@ input[type="submit"] {
         width: 100%;
         height: auto;
     }
+
     #user-two-thre-container {
         display: flex;
         flex-direction: row;
@@ -1651,7 +1661,7 @@ input[type="submit"] {
         gap: 5px;
     }
 
-   
+
     #user-two,
     #user-three {
         width: 50%;
@@ -1660,8 +1670,10 @@ input[type="submit"] {
     }
 
     #toggle-label {
-        display: none; /* Hide the label for screens wider than 768 pixels */
+        display: none;
+        /* Hide the label for screens wider than 768 pixels */
     }
+
     .impression {
         width: calc(50% - 20px);
         margin: 10px;
@@ -2186,7 +2198,7 @@ input[type="submit"] {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
-   
+
     .impression {
         width: calc(20% - 20px);
         margin: 10px;
@@ -3134,7 +3146,7 @@ input[type="submit"] {
 
 /* Media query: larger screens (1200px and up) */
 @media screen and (min-width: 1201px) {
-   
+
     #spotted-form-section {
         display: flex;
         flex-wrap: wrap;
@@ -3572,7 +3584,7 @@ input[type="submit"] {
         background-color: rgba(2, 51, 1, 0.3);
         left: 0;
         width: 30%;
-       
+
         padding-left: 30px;
         font-size: 3.5rem;
     }
@@ -4208,7 +4220,7 @@ input[type="submit"] {
         background-color: rgba(12, 246, 8, 0.0);
     }
 
-   
+
     #about-np-text {
         background-color: rgba(12, 246, 8, 0.0);
         font-weight: 600;
@@ -4266,5 +4278,5 @@ input[type="submit"] {
         background-color: rgba(1, 9, 5, 0.9);
         font-size: 2rem;
     }
-  
+
 }
