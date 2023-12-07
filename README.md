@@ -352,7 +352,7 @@ The project has been tested on various devices and browsers to ensure responsive
 
 ### Create a GitHub Repository:
 
-- **Created a new repo on GitHub from code institute tamplate** 
+- **Created a new repo on GitHub from code institute template** 
 [Code Institute Template](https://github.com/new?template_name=ci-full-template&template_owner=Code-Institute-Org)
 
 ### Push Code to GitHub:
