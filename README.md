@@ -266,6 +266,21 @@ On large screens, the app name is positioned below the logo, and the navigation 
 
 20. **Visitor Feedback Surveys:** Gather insights for improvement. Periodically conduct visitor feedback surveys to understand user experiences and implement enhancements accordingly.
 
+# Design and Color Palette
+
+## Colors
+
+-Gentle and calming tones dominate the palette, creating a serene visual atmosphere.
+
+
+- Background Color 1: `rgba(187, 154, 127, 0.3)`
+- Background Color 2: `rgba(107, 199, 241, 0.5)`
+- Text Color: `#333`
+
+## Shadows
+
+- Box Shadow: `0 4px 8px rgba(101, 64, 64, 0.7)`
+
 # Project Technologies
 
 ## Development Tools
